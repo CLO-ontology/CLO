@@ -1,0 +1,2722 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/clo/NCBITaxon_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/clo/NCBITaxon_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:NCBITaxon="http://purl.org/obo/owl/NCBITaxon#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/clo/NCBITaxon_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10026">
+        <rdfs:label xml:lang="en">Cricetinae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_337687"/>
+        <obo:IAO_0000111 xml:lang="en">Cricetinae</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">hamsters</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10028">
+        <rdfs:label xml:lang="en">Cricetulus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10026"/>
+        <obo:IAO_0000111 xml:lang="en">Cricetulus</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10029">
+        <rdfs:label xml:lang="en">Cricetulus griseus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10028"/>
+        <obo:IAO_0000118 xml:lang="en">Chinese hamster</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Chinese hamsters</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Cricetulus aureus</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Cricetulus griseus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">striped dwarf hamster</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10032">
+        <rdfs:label xml:lang="en">Cricetulus migratorius</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10028"/>
+        <obo:IAO_0000118 xml:lang="en">Armenian hamster</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Cricetulus migratorius</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">gray dwarf hamster</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">grey hamster</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10036">
+        <rdfs:label xml:lang="en">Mesocricetus auratus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10026"/>
+        <obo:IAO_0000111 xml:lang="en">Mesocricetus auratus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Syrian golden hamster</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Syrian golden hamsters</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Syrian hamster</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">golden hamster</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10044">
+        <rdfs:label xml:lang="en">Phodopus sungorus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10026"/>
+        <obo:IAO_0000118 xml:lang="en">Djungarian hamster</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Djungarian hamster also in use for Phodopus campbelli</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Dzhungarian hamster</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Phodopus sungorus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Siberian hamster</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">striped hairy-footed hamster</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10047">
+        <rdfs:label xml:lang="en">Meriones unguiculatus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10066"/>
+        <obo:IAO_0000111 xml:lang="en">Meriones unguiculatus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Mongolian gerbil</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Mongolian jird</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10066">
+        <rdfs:label xml:lang="en">Muridae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_337687"/>
+        <obo:IAO_0000111 xml:lang="en">Muridae</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090">
+        <rdfs:label xml:lang="en">Mus musculus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39107"/>
+        <obo:IAO_0000111 xml:lang="en">Mus musculus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">house mouse</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">mouse</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10116">
+        <rdfs:label xml:lang="en">Rattus norvegicus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39107"/>
+        <obo:IAO_0000118 xml:lang="en">Norway rat</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Rattus norvegicus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Rattus sp. strain Wistar</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">brown rat</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">rat</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">rats</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10141">
+        <rdfs:label xml:lang="en">Cavia porcellus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9989"/>
+        <obo:IAO_0000111 xml:lang="en">Cavia porcellus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">domestic guinea pig</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">guinea pig</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10239">
+        <rdfs:label xml:lang="en">Viruses</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000111 xml:lang="en">Viruses</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_104431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_104431">
+        <rdfs:label xml:lang="en">Obtectomera</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_37567"/>
+        <obo:IAO_0000111 xml:lang="en">Obtectomera</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_117565 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_117565">
+        <rdfs:label xml:lang="en">Hyperotreti</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_89593"/>
+        <obo:IAO_0000111 xml:lang="en">Hyperotreti</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_117571 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_117571">
+        <rdfs:label xml:lang="en">Euteleostomi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_89593"/>
+        <obo:IAO_0000111 xml:lang="en">Euteleostomi</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">bony vertebrates</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_119718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_119718">
+        <rdfs:label xml:lang="en">Haemulon sciurus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8112"/>
+        <obo:IAO_0000111 xml:lang="en">Haemulon sciurus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">bluestriped grunt</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_12480 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_12480">
+        <rdfs:label xml:lang="en">African green monkey polyomavirus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
+        <obo:IAO_0000111 xml:lang="en">African green monkey polyomavirus</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_13106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_13106">
+        <rdfs:label xml:lang="en">Lepomis macrochirus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8112"/>
+        <obo:IAO_0000111 xml:lang="en">Lepomis macrochirus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">bluegill</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">bluegill sunfish</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_13123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_13123">
+        <rdfs:label xml:lang="en">Lymantria dispar</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_37570"/>
+        <obo:IAO_0000111 xml:lang="en">Lymantria dispar</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">gypsy moth</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_13146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_13146">
+        <rdfs:label xml:lang="en">Melopsittacus undulatus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8825"/>
+        <obo:IAO_0000111 xml:lang="en">Melopsittacus undulatus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">budgerigar</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_169418 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_169418">
+        <rdfs:label xml:lang="en">Mustelinae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_379584"/>
+        <obo:IAO_0000111 xml:lang="en">Mustelinae</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_186625 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_186625">
+        <rdfs:label xml:lang="en">Clupeocephala</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_117571"/>
+        <obo:IAO_0000111 xml:lang="en">Clupeocephala</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_186626 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_186626">
+        <rdfs:label xml:lang="en">Otophysi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186634"/>
+        <obo:IAO_0000111 xml:lang="en">Otophysi</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_186634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_186634">
+        <rdfs:label xml:lang="en">Otocephala</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186625"/>
+        <obo:IAO_0000111 xml:lang="en">Otocephala</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_186839 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_186839">
+        <rdfs:label xml:lang="en">Neognathi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32447"/>
+        <obo:IAO_0000111 xml:lang="en">Neognathi</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_190117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_190117">
+        <rdfs:label xml:lang="en">Saimiri sciureus sciureus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9520"/>
+        <obo:IAO_0000111 xml:lang="en">Saimiri sciureus sciureus</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_197562 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_197562">
+        <rdfs:label xml:lang="en">Pancrustacea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6656"/>
+        <obo:IAO_0000111 xml:lang="en">Pancrustacea</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_207598 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_207598">
+        <rdfs:label xml:lang="en">Homo/Pan/Gorilla group</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9604"/>
+        <obo:IAO_0000111 xml:lang="en">Homo/Pan/Gorilla group</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_210642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_210642">
+        <rdfs:label xml:lang="en">Atilax paludinosus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9697"/>
+        <obo:IAO_0000111 xml:lang="en">Atilax paludinosus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">marsh mongoose</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2157">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_224313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_224313">
+        <rdfs:label xml:lang="en">Odontophoridae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8976"/>
+        <obo:IAO_0000118 xml:lang="en">American quails</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Odontophoridae</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2759 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2759">
+        <rdfs:label xml:lang="en">Eukaryota</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000111 xml:lang="en">Eukaryota</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">eucaryotes</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">eukaryotes</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_27592 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_27592">
+        <rdfs:label xml:lang="en">Bovinae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9895"/>
+        <obo:IAO_0000111 xml:lang="en">Bovinae</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_27778 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_27778">
+        <rdfs:label xml:lang="en">Ameiurus nebulosus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7996"/>
+        <obo:IAO_0000111 xml:lang="en">Ameiurus nebulosus</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_283036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_283036">
+        <rdfs:label xml:lang="en">Sander vitreus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8112"/>
+        <obo:IAO_0000111 xml:lang="en">Sander vitreus</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_28756 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28756">
+        <rdfs:label xml:lang="en">Fundulidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8087"/>
+        <obo:IAO_0000111 xml:lang="en">Fundulidae</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">topminnows</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_29074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_29074">
+        <rdfs:label xml:lang="en">Stenella plagiodon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9726"/>
+        <obo:IAO_0000111 xml:lang="en">Stenella plagiodon</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_30560 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_30560">
+        <rdfs:label xml:lang="en">Microchiroptera</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9397"/>
+        <obo:IAO_0000111 xml:lang="en">Microchiroptera</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_30724 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_30724">
+        <rdfs:label xml:lang="en">Clupea pallasii</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186634"/>
+        <obo:IAO_0000111 xml:lang="en">Clupea pallasii</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Pacific herring</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_31031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_31031">
+        <rdfs:label xml:lang="en">Tetraodontidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32485"/>
+        <obo:IAO_0000111 xml:lang="en">Tetraodontidae</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">puffer fishes</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">puffers</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_31032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_31032"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_31033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_31033">
+        <rdfs:label xml:lang="en">Takifugu rubripes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_31032"/>
+        <obo:IAO_0000111 xml:lang="en">Takifugu rubripes</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">torafugu</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_314145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_314145">
+        <rdfs:label xml:lang="en">Laurasiatheria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9347"/>
+        <obo:IAO_0000111 xml:lang="en">Laurasiatheria</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_314146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_314146">
+        <rdfs:label xml:lang="en">Euarchontoglires</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9347"/>
+        <obo:IAO_0000111 xml:lang="en">Euarchontoglires</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_314147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_314147">
+        <rdfs:label xml:lang="en">Glires</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_314146"/>
+        <obo:IAO_0000111 xml:lang="en">Glires</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Rodents and rabbits</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_314293 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_314293">
+        <rdfs:label xml:lang="en">Simiiformes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+        <obo:IAO_0000111 xml:lang="en">Simiiformes</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_314295 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_314295">
+        <rdfs:label xml:lang="en">Hominoidea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9526"/>
+        <obo:IAO_0000111 xml:lang="en">Hominoidea</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">apes</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32281">
+        <rdfs:label xml:lang="en">Drosophila [NCBITaxon:32281]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7215"/>
+        <obo:IAO_0000111 xml:lang="en">Drosophila [NCBITaxon:32281]</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32447 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32447">
+        <rdfs:label xml:lang="en">Euteleostei</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186625"/>
+        <obo:IAO_0000111 xml:lang="en">Euteleostei</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32485 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32485">
+        <rdfs:label xml:lang="en">Percomorpha</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186839"/>
+        <obo:IAO_0000111 xml:lang="en">Percomorpha</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32523 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32523">
+        <rdfs:label xml:lang="en">Tetrapoda</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_117571"/>
+        <obo:IAO_0000111 xml:lang="en">Tetrapoda</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">tetrapods</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32524 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32524">
+        <rdfs:label xml:lang="en">Amniota</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32523"/>
+        <obo:IAO_0000111 xml:lang="en">Amniota</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">amniotes</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32525 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32525">
+        <rdfs:label xml:lang="en">Theria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32524"/>
+        <obo:IAO_0000111 xml:lang="en">Theria</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32561 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32561">
+        <rdfs:label xml:lang="en">Sauria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8457"/>
+        <obo:IAO_0000111 xml:lang="en">Sauria</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">diapsids</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_33316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33316">
+        <rdfs:label xml:lang="en">Coelomata</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
+        <obo:IAO_0000111 xml:lang="en">Coelomata</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_33317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33317">
+        <rdfs:label xml:lang="en">Protostomia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33316"/>
+        <obo:IAO_0000111 xml:lang="en">Protostomia</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_33392 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33392">
+        <rdfs:label xml:lang="en">Endopterygota</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_197562"/>
+        <obo:IAO_0000111 xml:lang="en">Endopterygota</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_33553 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33553">
+        <rdfs:label xml:lang="en">Sciurognathi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9989"/>
+        <obo:IAO_0000111 xml:lang="en">Sciurognathi</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_33554 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33554">
+        <rdfs:label xml:lang="en">Carnivora</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_314145"/>
+        <obo:IAO_0000111 xml:lang="en">Carnivora</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">carnivores</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_337687 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_337687">
+        <rdfs:label xml:lang="en">Muroidea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33553"/>
+        <obo:IAO_0000111 xml:lang="en">Muroidea</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_34971 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_34971">
+        <rdfs:label xml:lang="en">Scleroglossa</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8509"/>
+        <obo:IAO_0000111 xml:lang="en">Scleroglossa</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_35497 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_35497">
+        <rdfs:label xml:lang="en">Suina</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91561"/>
+        <obo:IAO_0000111 xml:lang="en">Suina</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_35500 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_35500">
+        <rdfs:label xml:lang="en">Pecora</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91561"/>
+        <obo:IAO_0000111 xml:lang="en">Pecora</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_36231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_36231">
+        <rdfs:label xml:lang="en">Miopithecus talapoin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9528"/>
+        <obo:IAO_0000111 xml:lang="en">Miopithecus talapoin</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">talapoin</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_36237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_36237">
+        <rdfs:label xml:lang="en">Mus musculus x Rattus norvegicus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39107"/>
+        <obo:IAO_0000111 xml:lang="en">Mus musculus x Rattus norvegicus</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_37178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_37178">
+        <rdfs:label xml:lang="en">Hemitragus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9963"/>
+        <obo:IAO_0000111 xml:lang="en">Hemitragus</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_37567 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_37567">
+        <rdfs:label xml:lang="en">Ditrysia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7088"/>
+        <obo:IAO_0000111 xml:lang="en">Ditrysia</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_37569 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_37569">
+        <rdfs:label xml:lang="en">Bombycoidea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_104431"/>
+        <obo:IAO_0000111 xml:lang="en">Bombycoidea</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_37570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_37570">
+        <rdfs:label xml:lang="en">Noctuoidea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_104431"/>
+        <obo:IAO_0000111 xml:lang="en">Noctuoidea</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_379583 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_379583">
+        <rdfs:label xml:lang="en">Feliformia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33554"/>
+        <obo:IAO_0000111 xml:lang="en">Feliformia</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_379584 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_379584">
+        <rdfs:label xml:lang="en">Caniformia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33554"/>
+        <obo:IAO_0000111 xml:lang="en">Caniformia</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_38020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_38020">
+        <rdfs:label xml:lang="en">marmosets</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+        <obo:IAO_0000111 xml:lang="en">marmosets</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_39107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_39107">
+        <rdfs:label xml:lang="en">Murinae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10066"/>
+        <obo:IAO_0000111 xml:lang="en">Murinae</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_39432 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_39432">
+        <rdfs:label xml:lang="en">Saimiri boliviensis boliviensis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9520"/>
+        <obo:IAO_0000118 xml:lang="en">Bolivian squirrel monkey</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Saimiri boliviensis boliviensis</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_39560 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_39560">
+        <rdfs:label xml:lang="en">Cyprininae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7953"/>
+        <obo:IAO_0000111 xml:lang="en">Cyprininae</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_46259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_46259">
+        <rdfs:label xml:lang="en">Morone chrysops</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8112"/>
+        <obo:IAO_0000111 xml:lang="en">Morone chrysops</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">white bass</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_47767 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_47767">
+        <rdfs:label xml:lang="en">Agrotis segetum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7100"/>
+        <obo:IAO_0000111 xml:lang="en">Agrotis segetum</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">turnip moth</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_51655 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_51655">
+        <rdfs:label xml:lang="en">Plutella xylostella</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_37567"/>
+        <obo:IAO_0000111 xml:lang="en">Plutella xylostella</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">cabbage moth</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">diamondback moth</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_55040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_55040">
+        <rdfs:label xml:lang="en">Urocyon cinereoargenteus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9608"/>
+        <obo:IAO_0000111 xml:lang="en">Urocyon cinereoargenteus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">gray fox</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_55057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_55057">
+        <rdfs:label xml:lang="en">Mamestra brassicae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7100"/>
+        <obo:IAO_0000111 xml:lang="en">Mamestra brassicae</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">cabbage moth</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_55153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_55153">
+        <rdfs:label xml:lang="en">Sciuridae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33553"/>
+        <obo:IAO_0000111 xml:lang="en">Sciuridae</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_56594 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_56594">
+        <rdfs:label xml:lang="en">Estigmene acrea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_37570"/>
+        <obo:IAO_0000111 xml:lang="en">Estigmene acrea</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_59899 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_59899">
+        <rdfs:label xml:lang="en">Clarias batrachus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7995"/>
+        <obo:IAO_0000111 xml:lang="en">Clarias batrachus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">walking catfish</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_64152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_64152">
+        <rdfs:label xml:lang="en">Channa striata</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8111"/>
+        <obo:IAO_0000111 xml:lang="en">Channa striata</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6448 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6448">
+        <rdfs:label xml:lang="en">Gastropoda</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33317"/>
+        <obo:IAO_0000111 xml:lang="en">Gastropoda</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">gastropods</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_64678 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_64678">
+        <rdfs:label xml:lang="en">Callosciurus notatus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_55153"/>
+        <obo:IAO_0000111 xml:lang="en">Callosciurus notatus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">plantain squirrel</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6656 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6656">
+        <rdfs:label xml:lang="en">Arthropoda</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33317"/>
+        <obo:IAO_0000111 xml:lang="en">Arthropoda</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">arthropods</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6724 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6724">
+        <rdfs:label xml:lang="en">Astacoidea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_197562"/>
+        <obo:IAO_0000111 xml:lang="en">Astacoidea</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">crayfish</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6935 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6935">
+        <rdfs:label xml:lang="en">Ixodida</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6656"/>
+        <obo:IAO_0000111 xml:lang="en">Ixodida</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">ticks</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7088">
+        <rdfs:label xml:lang="en">Lepidoptera</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33392"/>
+        <obo:IAO_0000111 xml:lang="en">Lepidoptera</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">butterflies and moths</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">moths</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7091">
+        <rdfs:label xml:lang="en">Bombyx mori</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_37569"/>
+        <obo:IAO_0000111 xml:lang="en">Bombyx mori</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">domestic silkworm</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">silk moth</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">silkworm</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7100">
+        <rdfs:label xml:lang="en">Noctuidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_37570"/>
+        <obo:IAO_0000111 xml:lang="en">Noctuidae</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">noctuid moths</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">owlet moths</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7108">
+        <rdfs:label xml:lang="en">Spodoptera frugiperda</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7100"/>
+        <obo:IAO_0000111 xml:lang="en">Spodoptera frugiperda</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">fall armyworm</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7111">
+        <rdfs:label xml:lang="en">Trichoplusia ni</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7100"/>
+        <obo:IAO_0000111 xml:lang="en">Trichoplusia ni</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">cabbage looper</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_71110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_71110">
+        <rdfs:label xml:lang="en">Crossarchus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9697"/>
+        <obo:IAO_0000111 xml:lang="en">Crossarchus</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7118">
+        <rdfs:label xml:lang="en">Antheraea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_37569"/>
+        <obo:IAO_0000111 xml:lang="en">Antheraea</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7119">
+        <rdfs:label xml:lang="en">Antheraea pernyi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7118"/>
+        <obo:IAO_0000111 xml:lang="en">Antheraea pernyi</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Chinese oak silk moth</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Chinese oak silkmoth</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">oak silkmoth</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7147">
+        <rdfs:label xml:lang="en">Diptera</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33392"/>
+        <obo:IAO_0000111 xml:lang="en">Diptera</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">flies</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7157">
+        <rdfs:label xml:lang="en">Culicidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7147"/>
+        <obo:IAO_0000111 xml:lang="en">Culicidae</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">mosquitos</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7160">
+        <rdfs:label xml:lang="en">Aedes albopictus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7157"/>
+        <obo:IAO_0000111 xml:lang="en">Aedes albopictus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Asian tiger mosquito</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">forest day mosquito</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7215">
+        <rdfs:label xml:lang="en">Drosophila</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7147"/>
+        <obo:IAO_0000111 xml:lang="en">Drosophila</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">fruit flies</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7224">
+        <rdfs:label xml:lang="en">Drosophila hydei</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32281"/>
+        <obo:IAO_0000111 xml:lang="en">Drosophila hydei</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7227">
+        <rdfs:label xml:lang="en">Drosophila melanogaster</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7215"/>
+        <obo:IAO_0000111 xml:lang="en">Drosophila melanogaster</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">fruit fly</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7244">
+        <rdfs:label xml:lang="en">Drosophila virilis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32281"/>
+        <obo:IAO_0000111 xml:lang="en">Drosophila virilis</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_74940 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_74940">
+        <rdfs:label xml:lang="en">Oncorhynchus tshawytscha</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8016"/>
+        <obo:IAO_0000118 xml:lang="en">Chinook salmon</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Oncorhynchus tshawytscha</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">king salmon</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7953 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7953">
+        <rdfs:label xml:lang="en">Cyprinidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186626"/>
+        <obo:IAO_0000111 xml:lang="en">Cyprinidae</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7955 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7955">
+        <rdfs:label xml:lang="en">Danio rerio</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7953"/>
+        <obo:IAO_0000111 xml:lang="en">Danio rerio</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">zebra danio</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">zebra fish</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">zebrafish</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7957 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7957">
+        <rdfs:label xml:lang="en">Carassius auratus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39560"/>
+        <obo:IAO_0000111 xml:lang="en">Carassius auratus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">goldfish</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7962 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7962">
+        <rdfs:label xml:lang="en">Cyprinus carpio</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39560"/>
+        <obo:IAO_0000111 xml:lang="en">Cyprinus carpio</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">carp</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">common carp</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7995 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7995">
+        <rdfs:label xml:lang="en">Siluriformes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186626"/>
+        <obo:IAO_0000111 xml:lang="en">Siluriformes</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">catfishes</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7996 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7996">
+        <rdfs:label xml:lang="en">Ictaluridae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7995"/>
+        <obo:IAO_0000111 xml:lang="en">Ictaluridae</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">North American freshwater catfishes</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">bullhead catfishes</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7998 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7998">
+        <rdfs:label xml:lang="en">Ictalurus punctatus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7996"/>
+        <obo:IAO_0000111 xml:lang="en">Ictalurus punctatus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">channel catfish</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8010">
+        <rdfs:label xml:lang="en">Esox lucius</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186839"/>
+        <obo:IAO_0000111 xml:lang="en">Esox lucius</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">northern pike</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8015">
+        <rdfs:label xml:lang="en">Salmonidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32447"/>
+        <obo:IAO_0000111 xml:lang="en">Salmonidae</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">salmonids</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8016">
+        <rdfs:label xml:lang="en">Oncorhynchus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8015"/>
+        <obo:IAO_0000111 xml:lang="en">Oncorhynchus</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8018">
+        <rdfs:label xml:lang="en">Oncorhynchus keta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8016"/>
+        <obo:IAO_0000111 xml:lang="en">Oncorhynchus keta</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">chum salmon</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8019">
+        <rdfs:label xml:lang="en">Oncorhynchus kisutch</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8016"/>
+        <obo:IAO_0000111 xml:lang="en">Oncorhynchus kisutch</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">coho salmon</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8022">
+        <rdfs:label xml:lang="en">Oncorhynchus mykiss</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8016"/>
+        <obo:IAO_0000111 xml:lang="en">Oncorhynchus mykiss</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">rainbow trout</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8023">
+        <rdfs:label xml:lang="en">Oncorhynchus nerka</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8016"/>
+        <obo:IAO_0000111 xml:lang="en">Oncorhynchus nerka</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">sockeye salmon</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8030">
+        <rdfs:label xml:lang="en">Salmo salar</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8015"/>
+        <obo:IAO_0000118 xml:lang="en">Atlantic salmon</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Salmo salar</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8086">
+        <rdfs:label xml:lang="en">Xiphophorus xiphidium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8087"/>
+        <obo:IAO_0000111 xml:lang="en">Xiphophorus xiphidium</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8087">
+        <rdfs:label xml:lang="en">Cyprinodontoidei</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32485"/>
+        <obo:IAO_0000111 xml:lang="en">Cyprinodontoidei</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8111">
+        <rdfs:label xml:lang="en">Perciformes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32485"/>
+        <obo:IAO_0000111 xml:lang="en">Perciformes</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8112">
+        <rdfs:label xml:lang="en">Percoidei</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8111"/>
+        <obo:IAO_0000111 xml:lang="en">Percoidei</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8342 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8342">
+        <rdfs:label xml:lang="en">Anura</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32523"/>
+        <obo:IAO_0000111 xml:lang="en">Anura</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">anurans</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">frogs</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">frogs and toads</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8355 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8355">
+        <rdfs:label xml:lang="en">Xenopus laevis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8342"/>
+        <obo:IAO_0000118 xml:lang="en">African clawed frog</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Xenopus laevis</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">clawed frog</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8382 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8382">
+        <rdfs:label xml:lang="en">Bufonidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8416"/>
+        <obo:IAO_0000111 xml:lang="en">Bufonidae</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">true toads</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8383 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8383">
+        <rdfs:label xml:lang="en">Bufo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8382"/>
+        <obo:IAO_0000111 xml:lang="en">Bufo</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8400">
+        <rdfs:label xml:lang="en">Rana catesbeiana</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8416"/>
+        <obo:IAO_0000111 xml:lang="en">Rana catesbeiana</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">bullfrog</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">bullfrogs</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8416">
+        <rdfs:label xml:lang="en">Neobatrachia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8342"/>
+        <obo:IAO_0000111 xml:lang="en">Neobatrachia</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8457">
+        <rdfs:label xml:lang="en">Sauropsida</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32524"/>
+        <obo:IAO_0000111 xml:lang="en">Sauropsida</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">sauropsids</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8509 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8509">
+        <rdfs:label xml:lang="en">Squamata</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32561"/>
+        <obo:IAO_0000111 xml:lang="en">Squamata</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">squamates</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8516 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8516">
+        <rdfs:label xml:lang="en">Iguana</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8509"/>
+        <obo:IAO_0000111 xml:lang="en">Iguana</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8561 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8561">
+        <rdfs:label xml:lang="en">Gekkonidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_34971"/>
+        <obo:IAO_0000111 xml:lang="en">Gekkonidae</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">geckos</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_85610 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_85610">
+        <rdfs:label xml:lang="en">Terrapene</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8457"/>
+        <obo:IAO_0000111 xml:lang="en">Terrapene</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8707 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8707">
+        <rdfs:label xml:lang="en">Daboia russellii</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_34971"/>
+        <obo:IAO_0000111 xml:lang="en">Daboia russellii</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Russell&#39;s viper</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8825 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8825">
+        <rdfs:label xml:lang="en">Neognathae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32561"/>
+        <obo:IAO_0000111 xml:lang="en">Neognathae</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8830 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8830">
+        <rdfs:label xml:lang="en">Anatidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8825"/>
+        <obo:IAO_0000111 xml:lang="en">Anatidae</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">waterfowl</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8839 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8839">
+        <rdfs:label xml:lang="en">Anas platyrhynchos</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8830"/>
+        <obo:IAO_0000111 xml:lang="en">Anas platyrhynchos</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">duck</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">mallard</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">mallard duck</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">mallard ducks</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8842 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8842">
+        <rdfs:label xml:lang="en">Anser</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8830"/>
+        <obo:IAO_0000111 xml:lang="en">Anser</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">geese</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_89593 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_89593">
+        <rdfs:label xml:lang="en">Craniata</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33316"/>
+        <obo:IAO_0000111 xml:lang="en">Craniata</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8976 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8976">
+        <rdfs:label xml:lang="en">Galliformes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8825"/>
+        <obo:IAO_0000111 xml:lang="en">Galliformes</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9005">
+        <rdfs:label xml:lang="en">Phasianidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8976"/>
+        <obo:IAO_0000111 xml:lang="en">Phasianidae</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">turkeys</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9031">
+        <rdfs:label xml:lang="en">Gallus gallus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9072"/>
+        <obo:IAO_0000111 xml:lang="en">Gallus gallus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">bantam</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">chicken</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">chickens</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9072">
+        <rdfs:label xml:lang="en">Phasianinae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9005"/>
+        <obo:IAO_0000111 xml:lang="en">Phasianinae</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9090">
+        <rdfs:label xml:lang="en">Coturnix</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9072"/>
+        <obo:IAO_0000111 xml:lang="en">Coturnix</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9091">
+        <rdfs:label xml:lang="en">Coturnix coturnix</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9090"/>
+        <obo:IAO_0000111 xml:lang="en">Coturnix coturnix</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">common quail</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_90988 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_90988">
+        <rdfs:label xml:lang="en">Pimephales promelas</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7953"/>
+        <obo:IAO_0000111 xml:lang="en">Pimephales promelas</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_91561 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_91561">
+        <rdfs:label xml:lang="en">Cetartiodactyla</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_314145"/>
+        <obo:IAO_0000111 xml:lang="en">Cetartiodactyla</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">whales, hippos, ruminants, pigs, camels etc.</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9263">
+        <rdfs:label xml:lang="en">Metatheria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32525"/>
+        <obo:IAO_0000111 xml:lang="en">Metatheria</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">marsupials</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9265">
+        <rdfs:label xml:lang="en">Didelphidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9263"/>
+        <obo:IAO_0000118 xml:lang="en">American opossums</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Didelphidae</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">opossums</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9277">
+        <rdfs:label xml:lang="en">Dasyuridae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9263"/>
+        <obo:IAO_0000111 xml:lang="en">Dasyuridae</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9309">
+        <rdfs:label xml:lang="en">Potorous</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9263"/>
+        <obo:IAO_0000111 xml:lang="en">Potorous</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9347">
+        <rdfs:label xml:lang="en">Eutheria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32525"/>
+        <obo:IAO_0000111 xml:lang="en">Eutheria</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">eutherian mammals</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">placental mammals</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">placentals</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9348 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9348">
+        <rdfs:label xml:lang="en">Xenarthra</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9347"/>
+        <obo:IAO_0000111 xml:lang="en">Xenarthra</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9349 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9349">
+        <rdfs:label xml:lang="en">Myrmecophagidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9348"/>
+        <obo:IAO_0000111 xml:lang="en">Myrmecophagidae</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">anteaters</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9361 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9361">
+        <rdfs:label xml:lang="en">Dasypus novemcinctus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9348"/>
+        <obo:IAO_0000111 xml:lang="en">Dasypus novemcinctus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">nine-banded armadillo</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_93934 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_93934">
+        <rdfs:label xml:lang="en">Coturnix japonica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9090"/>
+        <obo:IAO_0000111 xml:lang="en">Coturnix japonica</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Japanese quail</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9397 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9397">
+        <rdfs:label xml:lang="en">Chiroptera</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_314145"/>
+        <obo:IAO_0000111 xml:lang="en">Chiroptera</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">bats</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9434 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9434">
+        <rdfs:label xml:lang="en">Myotis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_30560"/>
+        <obo:IAO_0000111 xml:lang="en">Myotis</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9436 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9436">
+        <rdfs:label xml:lang="en">Molossidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_30560"/>
+        <obo:IAO_0000111 xml:lang="en">Molossidae</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">free-tailed bats</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9443 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9443">
+        <rdfs:label xml:lang="en">Primates</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_314146"/>
+        <obo:IAO_0000111 xml:lang="en">Primates</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">primate</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9479 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9479">
+        <rdfs:label xml:lang="en">Platyrrhini</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_314293"/>
+        <obo:IAO_0000118 xml:lang="en">New World monkeys</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Platyrrhini</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">monkey</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">monkeys</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9481 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9481">
+        <rdfs:label xml:lang="en">Callithrix</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9498"/>
+        <obo:IAO_0000111 xml:lang="en">Callithrix</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9482 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9482">
+        <rdfs:label xml:lang="en">Callithrix argentata</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9481"/>
+        <obo:IAO_0000111 xml:lang="en">Callithrix argentata</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">black-tailed marmoset</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">silvery marmoset</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9483 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9483">
+        <rdfs:label xml:lang="en">Callithrix jacchus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9481"/>
+        <obo:IAO_0000111 xml:lang="en">Callithrix jacchus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">common marmoset</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">white ear-tufted marmoset</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">white-tufted-ear marmoset</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9498 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9498">
+        <rdfs:label xml:lang="en">Cebidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9479"/>
+        <obo:IAO_0000111 xml:lang="en">Cebidae</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9504 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9504">
+        <rdfs:label xml:lang="en">Aotus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9479"/>
+        <obo:IAO_0000111 xml:lang="en">Aotus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">night monkeys</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9520 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9520">
+        <rdfs:label xml:lang="en">Saimiri</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9498"/>
+        <obo:IAO_0000111 xml:lang="en">Saimiri</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">squirrel monkeys</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9526 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9526">
+        <rdfs:label xml:lang="en">Catarrhini</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_314293"/>
+        <obo:IAO_0000111 xml:lang="en">Catarrhini</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9527 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9527">
+        <rdfs:label xml:lang="en">Cercopithecidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9526"/>
+        <obo:IAO_0000111 xml:lang="en">Cercopithecidae</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Old World monkeys</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">monkey</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">monkeys</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9528 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9528">
+        <rdfs:label xml:lang="en">Cercopithecinae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9527"/>
+        <obo:IAO_0000111 xml:lang="en">Cercopithecinae</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9534 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9534">
+        <rdfs:label xml:lang="en">Chlorocebus aethiops</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9528"/>
+        <obo:IAO_0000118 xml:lang="en">African green monkey</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">African green monkeys</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Chlorocebus aethiops</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">green monkey</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">grivet</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">savanah monkey</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">vervet monkey</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9539 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9539">
+        <rdfs:label xml:lang="en">Macaca</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9528"/>
+        <obo:IAO_0000111 xml:lang="en">Macaca</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">macaques</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9541 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9541">
+        <rdfs:label xml:lang="en">Macaca fascicularis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9539"/>
+        <obo:IAO_0000111 xml:lang="en">Macaca fascicularis</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">crab eating macaque</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">crab-eating macaque</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">cynomolgus monkey</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">cynomolgus monkeys</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">long-tailed macaque</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9544 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9544">
+        <rdfs:label xml:lang="en">Macaca mulatta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9539"/>
+        <obo:IAO_0000111 xml:lang="en">Macaca mulatta</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">rhesus macaque</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">rhesus macaques</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">rhesus monkey</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">rhesus monkeys</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9554 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9554">
+        <rdfs:label xml:lang="en">Papio</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9528"/>
+        <obo:IAO_0000111 xml:lang="en">Papio</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">baboons</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9557 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9557">
+        <rdfs:label xml:lang="en">Papio hamadryas</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9554"/>
+        <obo:IAO_0000111 xml:lang="en">Papio hamadryas</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Papio hamadryas subsp.</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">baboon</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">hamadryas baboon</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">red baboon</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">western baboon</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9577">
+        <rdfs:label xml:lang="en">Hylobatidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_314295"/>
+        <obo:IAO_0000111 xml:lang="en">Hylobatidae</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">gibbons</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">lesser apes</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9592 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9592">
+        <rdfs:label xml:lang="en">Gorilla</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_207598"/>
+        <obo:IAO_0000111 xml:lang="en">Gorilla</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9596 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9596">
+        <rdfs:label xml:lang="en">Pan</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_207598"/>
+        <obo:IAO_0000111 xml:lang="en">Pan</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">chimpanzees</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9598 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9598">
+        <rdfs:label xml:lang="en">Pan troglodytes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9596"/>
+        <obo:IAO_0000111 xml:lang="en">Pan troglodytes</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">chimpanzee</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9600 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9600">
+        <rdfs:label xml:lang="en">Pongo pygmaeus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9604"/>
+        <obo:IAO_0000111 xml:lang="en">Pongo pygmaeus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">orang-utan</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">orangutan</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9601 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9601">
+        <rdfs:label xml:lang="en">Pongo pygmaeus abelii</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9600"/>
+        <obo:IAO_0000111 xml:lang="en">Pongo pygmaeus abelii</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Sumatran orangutan</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9604 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9604">
+        <rdfs:label xml:lang="en">Hominidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_314295"/>
+        <obo:IAO_0000111 xml:lang="en">Hominidae</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">great apes</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
+        <rdfs:label xml:lang="en">Homo sapiens</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_207598"/>
+        <obo:IAO_0000111 xml:lang="en">Homo sapiens</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">human</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">man</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9608 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9608">
+        <rdfs:label xml:lang="en">Canidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_379584"/>
+        <obo:IAO_0000111 xml:lang="en">Canidae</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">dog, coyote, wolf, fox</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9611 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9611">
+        <rdfs:label xml:lang="en">Canis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9608"/>
+        <obo:IAO_0000111 xml:lang="en">Canis</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9615 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9615">
+        <rdfs:label xml:lang="en">Canis familiaris</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9611"/>
+        <obo:IAO_0000111 xml:lang="en">Canis familiaris</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">dog</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">dogs</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9643 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9643">
+        <rdfs:label xml:lang="en">Ursus americanus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_379584"/>
+        <obo:IAO_0000118 xml:lang="en">American black bear</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Ursus americanus</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9654 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9654">
+        <rdfs:label xml:lang="en">Procyon lotor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_379584"/>
+        <obo:IAO_0000111 xml:lang="en">Procyon lotor</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">northern raccoon</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">raccoon</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9669 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9669">
+        <rdfs:label xml:lang="en">Mustela putorius furo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_169418"/>
+        <obo:IAO_0000111 xml:lang="en">Mustela putorius furo</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">black ferret</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">domestic ferret</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">ferret</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9685 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9685">
+        <rdfs:label xml:lang="en">Felis catus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_379583"/>
+        <obo:IAO_0000111 xml:lang="en">Felis catus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">cat</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">cats</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">domestic cat</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9697 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9697">
+        <rdfs:label xml:lang="en">Herpestidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_379583"/>
+        <obo:IAO_0000111 xml:lang="en">Herpestidae</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">mongooses</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9726 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9726">
+        <rdfs:label xml:lang="en">Delphinidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91561"/>
+        <obo:IAO_0000111 xml:lang="en">Delphinidae</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">marine dolphins</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9727">
+        <rdfs:label xml:lang="en">Delphinus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9726"/>
+        <obo:IAO_0000111 xml:lang="en">Delphinus</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9789 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9789">
+        <rdfs:label xml:lang="en">Equus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_314145"/>
+        <obo:IAO_0000111 xml:lang="en">Equus</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9790 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9790">
+        <rdfs:label xml:lang="en">Equus burchellii</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9789"/>
+        <obo:IAO_0000118 xml:lang="en">Burchell&#39;s zebra</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Equus burchellii</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">plains zebra</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9793 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9793">
+        <rdfs:label xml:lang="en">Equus asinus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9789"/>
+        <obo:IAO_0000118 xml:lang="en">African ass</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">African wild ass</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Equus asinus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Somali wild ass</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">ass</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">domestic ass</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">donkey</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9796 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9796">
+        <rdfs:label xml:lang="en">Equus caballus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9789"/>
+        <obo:IAO_0000111 xml:lang="en">Equus caballus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">domestic horse</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">equine</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">horse</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9823 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9823">
+        <rdfs:label xml:lang="en">Sus scrofa</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_35497"/>
+        <obo:IAO_0000111 xml:lang="en">Sus scrofa</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">pig</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">pigs</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">swine</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">wild boar</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9827 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9827">
+        <rdfs:label xml:lang="en">Tayassuidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_35497"/>
+        <obo:IAO_0000111 xml:lang="en">Tayassuidae</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">peccaries</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9837 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9837">
+        <rdfs:label xml:lang="en">Camelus bactrianus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91561"/>
+        <obo:IAO_0000118 xml:lang="en">Bactrian camel</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Camelus bactrianus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">camel</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">domestic Bactrian camel</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">two-humped camel</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9850 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9850">
+        <rdfs:label xml:lang="en">Cervidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_35500"/>
+        <obo:IAO_0000111 xml:lang="en">Cervidae</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">deer</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9862 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9862">
+        <rdfs:label xml:lang="en">Cervus unicolor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9850"/>
+        <obo:IAO_0000111 xml:lang="en">Cervus unicolor</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">sambar</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9873 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9873">
+        <rdfs:label xml:lang="en">Odocoileus hemionus columbianus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9850"/>
+        <obo:IAO_0000111 xml:lang="en">Odocoileus hemionus columbianus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">black-tailed deer</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9885 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9885">
+        <rdfs:label xml:lang="en">Muntiacus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9850"/>
+        <obo:IAO_0000111 xml:lang="en">Muntiacus</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9895 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9895">
+        <rdfs:label xml:lang="en">Bovidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_35500"/>
+        <obo:IAO_0000111 xml:lang="en">Bovidae</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9901 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9901">
+        <rdfs:label xml:lang="en">Bison bison</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_27592"/>
+        <obo:IAO_0000118 xml:lang="en">American bison</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Bison bison</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9913 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9913">
+        <rdfs:label xml:lang="en">Bos taurus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_27592"/>
+        <obo:IAO_0000111 xml:lang="en">Bos taurus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">bovine</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">cattle</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">cow</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">domestic cattle</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">domestic cow</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9925 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9925">
+        <rdfs:label xml:lang="en">Capra hircus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9963"/>
+        <obo:IAO_0000111 xml:lang="en">Capra hircus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">domestic goat</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">goat</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">goats</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9935 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9935">
+        <rdfs:label xml:lang="en">Ovis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9963"/>
+        <obo:IAO_0000111 xml:lang="en">Ovis</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9940 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9940">
+        <rdfs:label xml:lang="en">Ovis aries</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9935"/>
+        <obo:IAO_0000111 xml:lang="en">Ovis aries</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">domestic sheep</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">lambs</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">sheep</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">wild sheep</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9957 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9957">
+        <rdfs:label xml:lang="en">Oryx</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9895"/>
+        <obo:IAO_0000111 xml:lang="en">Oryx</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9963 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9963">
+        <rdfs:label xml:lang="en">Caprinae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9895"/>
+        <obo:IAO_0000111 xml:lang="en">Caprinae</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9969 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9969">
+        <rdfs:label xml:lang="en">Syncerus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_27592"/>
+        <obo:IAO_0000111 xml:lang="en">Syncerus</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9979 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9979">
+        <rdfs:label xml:lang="en">Leporidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_314147"/>
+        <obo:IAO_0000111 xml:lang="en">Leporidae</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">rabbits and hares</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9986 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9986">
+        <rdfs:label xml:lang="en">Oryctolagus cuniculus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9979"/>
+        <obo:IAO_0000118 xml:lang="en">European rabbit</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Japanese white rabbit</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">Oryctolagus cuniculus</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">domestic rabbit</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">rabbit</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">rabbits</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9987 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9987">
+        <rdfs:label xml:lang="en">Sylvilagus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9979"/>
+        <obo:IAO_0000111 xml:lang="en">Sylvilagus</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9989 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9989">
+        <rdfs:label xml:lang="en">Rodentia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_314147"/>
+        <obo:IAO_0000111 xml:lang="en">Rodentia</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">rodents</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9995 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9995">
+        <rdfs:label xml:lang="en">Marmota monax</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_55153"/>
+        <obo:IAO_0000111 xml:lang="en">Marmota monax</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">woodchuck</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">woodchucks</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

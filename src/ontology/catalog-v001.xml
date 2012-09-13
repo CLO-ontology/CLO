@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/clo/IAO_import.owl" uri="IAO_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/clo/PATO_import.owl" uri="PATO_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/clo/OBI_import.owl" uri="OBI_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/clo/NCBITaxon_import.owl" uri="NCBITaxon_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/clo/CL_import.owl" uri="CL_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/clo/UBERON_import.owl" uri="UBERON_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/clo/external_byhand.owl" uri="external_byhand.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/clo/cellline_import.owl" uri="cellline_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://www.obofoundry.org/ro/ro.owl" uri="external/ro.owl"/>
+    <group id="Folder Repository, directory=file:/C:/Program%20Files/Protege_4.2_beta/./, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base=""/>
+</catalog>

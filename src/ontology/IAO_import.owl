@@ -1,0 +1,378 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/clo/IAO_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/clo/IAO_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:snap="http://www.ifomis.org/bfo/1.1/snap#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:bfo="http://www.ifomis.org/bfo/1.1#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/clo/IAO_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <rdfs:label xml:lang="en">editor note</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obfoundry.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000113">
+        <rdfs:label xml:lang="en">in branch</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An annotation property indicating which module the terms belong to. This is currently experimental and not implemented yet.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">GROUP:OBI</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000277</obo:IAO_0000119>
+        <obo:IAO_0000111 xml:lang="en">in branch</obo:IAO_0000111>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <rdfs:label xml:lang="en">has curation status</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000281</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Bill Bug</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label xml:lang="en">term editor</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See http://code.google.com/p/information-artifact-ontology/issues/detail?id=115.</obo:IAO_0000116>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">term editor</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <rdfs:label xml:lang="en">alternative term</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">alternative term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+        <rdfs:label xml:lang="en">example of usage</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A phrase describing how a class name should be used. May also include other kinds of examples that facilitate immediate understanding of a class semantics, such as widely known prototypical subclasses or instances of the class. Although essential for high level terms, examples for low level terms (e.g., Affymetrix HU133 array) are not</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">example</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136">
+        <rdfs:label xml:lang="en">is about</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">Smith, Ceusters, Ruttenberg, 2000 years of philosophy</obo:IAO_0000119>
+        <obo:IAO_0000112 xml:lang="en">This document is about information artifacts and their representations</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">is_about is a (currently) primitive relation that relates an information artifact to an entity.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">person:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000142 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000142">
+        <rdfs:label xml:lang="en">mentions</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">7/6/2009 Alan Ruttenberg. P4 RC1 munges our GCI so remove it for now: mentions some entity equivalentTo has_part some (&#39;generically denotes&#39; some entity)</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">7/6/2009 Alan Ruttenberg: Add this relation following conversation with Jonathan Rees that N&amp;S GCI for is_about was too strong. Really it was simply sufficient. To effect this change we introduce this relation, which is subproperty of is_about, and have previous GCI use this relation &quot;mentions&quot; in it&#39;s (logical) definition</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">An information artifact IA mentions an entity E exactly when it has a component/part that denotes E</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Jonathan Rees</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Person: Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000001">
+        <rdfs:label xml:lang="en">conditional specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000349</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PlanAndPlannedProcess Branch</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">a directive information entity that specifies what should happen if the trigger condition is fulfilled</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">conditional specification</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000003">
+        <rdfs:label xml:lang="en">measurement unit label</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000009"/>
+        <obo:IAO_0000116 xml:lang="en">2009-03-16: review of this term done during during the OBI workshop winter 2009 and the current definition was considered acceptable for use in OBI. If there is a need to modify this definition please notify OBI.</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">A measurement unit label is as a label that is part of a scalar measurement datum and denotes a unit of measure.</obo:IAO_0000115>
+        <obo:IAO_0000112 xml:lang="en">Examples of measurement unit labels are liters, inches, weight per volume.</obo:IAO_0000112>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">measurement unit label</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000009">
+        <rdfs:label xml:lang="en">label</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">A label is a symbol that is part of some other datum and is used to either partially define  the denotation of that datum or to provide a means for identifying the datum as a member of the set of data with the same label</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">GROUP: IAO</obo:IAO_0000117>
+        <obo:IAO_0000116 xml:lang="en">http://www.golovchenko.org/cgi-bin/wnsearch?q=label#4n</obo:IAO_0000116>
+        <obo:IAO_0000111 xml:lang="en">label</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000013">
+        <rdfs:label xml:lang="en">journal article</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000088"/>
+        <obo:IAO_0000112 xml:lang="en">Examples are articles published in the journals, Nature and Science. The content can often be cited by reference to a paper based encoding, e.g.  Authors, Title of article, Journal name, date or year of publication, volume and page number.</obo:IAO_0000112>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000159</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">a report that is published in a journal</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">group:OBI</obo:IAO_0000119>
+        <obo:IAO_0000111 xml:lang="en">journal article</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">person:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">person:Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
+        <rdfs:label xml:lang="en">data item</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000116 xml:lang="en">2/2/2009 Alan and Bjoern discussing FACS run output data. This is a data item because it is about the cell population. Each element records an event and is typically further composed a set of measurment data items that record the fluorescent intensity stimulated by one of the lasers.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">2009-03-16: data item deliberatly ambiguous: we merged data set and datum to be one entity, not knowing how to define singular versus plural. So data item is more general than datum.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">2009-03-16: removed datum as alternative term as datum specifically refers to singular form, and is thus not an exact synonym.</obo:IAO_0000116>
+        <obo:IAO_0000112 xml:lang="en">Data items include counts of things, analyte concentrations, and statistical summaries.</obo:IAO_0000112>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Jonathan Rees</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">a data item is an information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">data</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">data item</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
+        <rdfs:label xml:lang="en">information content entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <obo:IAO_0000112 xml:lang="en">Examples of information content entites include journal articles, data, graphical layouts, and graphs.</obo:IAO_0000112>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000142</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">an information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">information content entity</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000032">
+        <rdfs:label xml:lang="en">scalar measurement datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000112 xml:lang="en">10 feet. 3 ml.</obo:IAO_0000112>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000116 xml:lang="en">Would write this as: has_part some &#39;measurement unit label&#39; and has_part some numeral and has_part exactly 2, except for the fact that this won&#39;t let us take advantage of OWL reasoning over the numbers. Instead use has measurment value property to represent the same. Use has measurement unit label (subproperty of has_part) so we can easily say that there is only one of them.</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">a scalar measurement datum is a measurement datum that is composed of two parts, numerals and a unit label.</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000033">
+        <rdfs:label xml:lang="en">directive information entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000116 xml:lang="en">8/6/2009 Alan Ruttenberg: Changed label from &quot;information entity about a realizable&quot; after discussions at ICBO</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">An information content entity whose concretizations indicate to their bearer how to realize them in a process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000116 xml:lang="en">Werner pushed back on calling it realizable information entity as it isn&#39;t realizable. However this name isn&#39;t right either. An example would be a recipe. The realizable entity would be a plan, but the information entity isn&#39;t about the plan, it, once concretized, *is* the plan. -Alan</obo:IAO_0000116>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000088">
+        <rdfs:label xml:lang="en">report</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+        <obo:IAO_0000116 xml:lang="en">2009-03-16: this was report of results with definition: A report is a narrative object that is a formal statement of the results of an investigation, or of any matter on which definite information is required, made by some person or body instructed or required to do so.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">2009-03-16: work has been done on this term during during the OBI workshop winter 2009 and the current definition was considered acceptable for use in OBI. If there is a need to modify this definition please notify OBI.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">2009-08-10 Alan Ruttenberg: Larry Hunter suggests that this be obsoleted and replaced by &#39;document&#39;. Alan restored as there are OBI dependencies and this merits further discussion</obo:IAO_0000116>
+        <obo:IAO_0000112 xml:lang="en">Examples of reports are gene lists and investigation reports. These are not published (journal) articles but may be included in a journal article.</obo:IAO_0000112>
+        <obo:IAO_0000119 xml:lang="en">GROUP: OBI</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000099</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">a document assembled by an author for the purpose of providing information for the audience. A report is the output of a documenting process and has the objective to be consumed by a specific audience. Topic of the report is on something that has completed. A report is not a single figure. Examples of reports are journal article, patent application, grant progress report, case report (not patient record)</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">disagreement about where reports go. alan: only some gene lists are reports. Is a report all the content of some document? The example of usage suggests that a report may be part of  some article. Term needs clarification</obo:IAO_0000116>
+        <obo:IAO_0000111 xml:lang="en">report</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000100">
+        <rdfs:label xml:lang="en">data set</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000116 xml:lang="en">2009/10/23 Alan Ruttenberg. The intention is that this term represent collections of like data. So this isn&#39;t for, e.g. the whole contents of a cel file, which includes parameters, metadata etc. This is more like java arrays of a certain rather specific type</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">A data item that is an aggregate of other data items of the same type that have something in common. Averages and distributions can be determined for data sets.</obo:IAO_0000115>
+        <obo:IAO_0000112 xml:lang="en">Intensity values in a CEL file or from multiple CEL files comprise a data set (as opposed to the CEL files themselves).</obo:IAO_0000112>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000042</obo:IAO_0000119>
+        <obo:IAO_0000111 xml:lang="en">data set</obo:IAO_0000111>
+        <obo:IAO_0000119 xml:lang="en">group:OBI</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">person:Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">person:Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000109">
+        <rdfs:label xml:lang="en">measurement datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000116 xml:lang="en">2/2/2009 is_specified_output of some assay?</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">A measurement datum is an information content entity that is a recording of the output of a measurement such as produced by a device.</obo:IAO_0000115>
+        <obo:IAO_0000112 xml:lang="en">Examples of measurement data are the recoding of the weight of a mouse as {40,mass,&quot;grams&quot;}, the recording of an observation of the behavior of the mouse {,process,&quot;agitated&quot;}, the recording of the expression level of a gene as measured through the process of microarray experiment {3.4,luminosity,}.</obo:IAO_0000112>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000305</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">group:OBI</obo:IAO_0000119>
+        <obo:IAO_0000111 xml:lang="en">measurement datum</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">person:Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000310">
+        <rdfs:label xml:lang="en">document</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of information content entities intended to be understood together as a whole</obo:IAO_0000115>
+        <obo:IAO_0000112 xml:lang="en">A journal article, patent application, laboratory notebook, or a book</obo:IAO_0000112>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Lawrence Hunter</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">document</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:Class>
+    
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+
