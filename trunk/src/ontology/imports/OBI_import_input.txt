@@ -1,0 +1,35 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/clo/OBI_import.owl
+
+[Source ontology]
+OBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OBI_0000245 #organization
+http://purl.obolibrary.org/obo/OBI_0100060 #cell culture
+http://purl.obolibrary.org/obo/OBI_0100026 #organism
+http://purl.obolibrary.org/obo/OBI_0100015 #anatomical entity
+
+http://purl.obolibrary.org/obo/OBI_0000295 #is__specified_input_of
+http://purl.obolibrary.org/obo/OBI_0000293 #has_specified_input
+http://purl.obolibrary.org/obo/OBI_0000293 #has_specified_input
+http://purl.obolibrary.org/obo/OBI_0000298 #has_quality
+http://purl.obolibrary.org/obo/OBI_0000299 #has_specified_output
+http://purl.obolibrary.org/obo/OBI_0000300 #is_realized_by
+http://purl.obolibrary.org/obo/OBI_0000306 #has_function
+http://purl.obolibrary.org/obo/OBI_0000308 #realizes
+http://purl.obolibrary.org/obo/OBI_0000316 #has_role
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://www.ifomis.org/bfo/1.1#Entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Branch extractions from source term URIs and target direct superclass URIs]
+
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
