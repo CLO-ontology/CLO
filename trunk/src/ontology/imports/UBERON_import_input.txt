@@ -2,8 +2,7 @@
 http://purl.obolibrary.org/obo/clo/UBERON_import.owl
 
 [Source ontology]
-http://purl.org/obo/owl/uberon
-fromEndpoint http://141.211.109.49:8890/sparql
+UBERON
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/UBERON_0001516 #abdominal aorta
@@ -234,7 +233,7 @@ http://purl.obolibrary.org/obo/UBERON_0003257 #endoderm of yolk sac
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/UBERON_0000105 #life cycle stage
-subClassOf http://www.ifomis.org/bfo/1.1/span#ProcessualEntity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015
 http://purl.obolibrary.org/obo/UBERON_0001149 #bare area of liver
 subClassOf http://purl.obolibrary.org/obo/OBI_0100015 #anatomical entity
 http://purl.obolibrary.org/obo/UBERON_0000464 #anatomical space
