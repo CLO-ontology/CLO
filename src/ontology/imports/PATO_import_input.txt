@@ -13,7 +13,7 @@ http://purl.obolibrary.org/obo/PATO_0001991 #immortal
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PATO_0001241 #physical object quality
-subClassOf http://www.ifomis.org/bfo/1.1/snap#Quality
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019
 
 
 [Source term retrieval setting]

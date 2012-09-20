@@ -63,7 +63,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_504568 #Salmoninae
 http://purl.obolibrary.org/obo/NCBITaxon_8022 #Oncorhynchus mykiss
 http://purl.obolibrary.org/obo/NCBITaxon_283036 #Sander vitreus
 http://purl.obolibrary.org/obo/NCBITaxon_55040 #Urocyon cinereoargenteus
-http://purl.org/obo/owl/NCBITaxon#NCBITaxon_CBITaxon:9627 #Vulpes vulpes
+http://purl.obolibrary.org/obo/NCBITaxon_9627 #Vulpes vulpes
 http://purl.obolibrary.org/obo/NCBITaxon_8416 #Neobatrachia
 http://purl.obolibrary.org/obo/NCBITaxon_204815 #Takifugu niphobles
 http://purl.obolibrary.org/obo/NCBITaxon_31033 #Takifugu rubripes

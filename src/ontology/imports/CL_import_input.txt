@@ -92,7 +92,7 @@ http://purl.obolibrary.org/obo/CL_0001034 #cell in vitro
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CL_0000000 #cell
-subClassOf http://www.ifomis.org/bfo/1.1/snap#MaterialEntity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
 
 [Source term retrieval setting]
 includeComputedIntermediates
