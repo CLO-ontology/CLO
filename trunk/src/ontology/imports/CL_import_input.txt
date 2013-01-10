@@ -14,7 +14,6 @@ http://purl.obolibrary.org/obo/CL_0000192 #smooth muscle cell
 http://purl.obolibrary.org/obo/CL_0000103 #bipolar neuron
 http://purl.obolibrary.org/obo/CL_0000265 #anterior like cell
 http://purl.obolibrary.org/obo/CL_0000236 #B cell
-http://purl.obolibrary.org/obo/CL_0000229 #lymphoblast
 http://purl.obolibrary.org/obo/CL_0000542 #lymphocyte
 http://purl.obolibrary.org/obo/CL_0000081 #blood cell
 http://purl.obolibrary.org/obo/CL_0000031 #neuroblast
@@ -63,7 +62,6 @@ http://purl.obolibrary.org/obo/CL_0000122 #stellate cell
 http://purl.obolibrary.org/obo/CL_0000651 #neck cell
 http://purl.obolibrary.org/obo/CL_0000187 #muscle cell
 http://purl.obolibrary.org/obo/CL_0000623 #natural killer cell
-http://purl.obolibrary.org/obo/CL_0000585 #null cell
 http://purl.obolibrary.org/obo/CL_0000134 #mesenchymal cell
 http://purl.obolibrary.org/obo/CL_0000453 #Langerhans cell
 http://purl.obolibrary.org/obo/CL_0000638 #acidophil cell
@@ -71,7 +69,6 @@ http://purl.obolibrary.org/obo/CL_0000476 #thyroid stimulating hormone secreting
 http://purl.obolibrary.org/obo/CL_0000113 #mononuclear phagocyte
 http://purl.obolibrary.org/obo/CL_0000829 #basophilic myeloblast
 http://purl.obolibrary.org/obo/CL_0000826 #pro-B cell
-http://purl.obolibrary.org/obo/CL_0000230 #T lymphoblast
 http://purl.obolibrary.org/obo/CL_0000581 #peritoneal macrophage
 http://purl.obolibrary.org/obo/CL_0000259 #aggregate cell
 http://purl.obolibrary.org/obo/CL_0000228 #multinucleate cell
@@ -83,12 +80,11 @@ http://purl.obolibrary.org/obo/CL_0000148 #melanocyte
 http://purl.obolibrary.org/obo/CL_0000017 #spermatocyte
 http://purl.obolibrary.org/obo/CL_0000178 #Leydig cell
 http://purl.obolibrary.org/obo/CL_0000216 #Sertoli cell
-http://purl.obolibrary.org/obo/CL_0000231 #B lymphoblast
 http://purl.obolibrary.org/obo/CL_0000010 #cell line cell
 http://purl.obolibrary.org/obo/CL_0000162 #parietal cell
 http://purl.obolibrary.org/obo/CL_0000578 #experimentally modified cell in vitro
 http://purl.obolibrary.org/obo/CL_0001034 #cell in vitro
-
+http://purl.obolibrary.org/obo/CL_0002076 #endo-epithelial cell
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CL_0000000 #cell
