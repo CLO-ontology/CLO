@@ -244,7 +244,7 @@ http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
 subClassOf http://purl.obolibrary.org/obo/OBI_0100015 #anatomical entity
 
 [Source term retrieval setting]
-includeComputedIntermediates
+includeAllIntermediates
 
 [Source annotation URIs]
 includeAllAxiomsRecursively
