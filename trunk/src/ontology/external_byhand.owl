@@ -3,14 +3,8 @@
 
 <!DOCTYPE rdf:RDF [
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
-    <!ENTITY CHEBI "http://purl.org/obo/owl/CHEBI#" >
-    <!ENTITY obo2 "http://purl.obolibrary.org/obo#" >
     <!ENTITY obo "http://purl.obolibrary.org/obo/" >
-    <!ENTITY OBO_REL "http://purl.org/obo/owl/OBO_REL#" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY snap "http://www.ifomis.org/bfo/1.1/snap#" >
-    <!ENTITY span "http://www.ifomis.org/bfo/1.1/span#" >
-    <!ENTITY ro "http://www.obofoundry.org/ro/ro.owl#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
 ]>
@@ -19,16 +13,10 @@
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/clo/external_byhand.owl#"
      xml:base="http://purl.obolibrary.org/obo/clo/external_byhand.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:snap="http://www.ifomis.org/bfo/1.1/snap#"
-     xmlns:ro="http://www.obofoundry.org/ro/ro.owl#"
-     xmlns:CHEBI="http://purl.org/obo/owl/CHEBI#"
-     xmlns:OBO_REL="http://purl.org/obo/owl/OBO_REL#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:obo2="http://purl.obolibrary.org/obo#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:span="http://www.ifomis.org/bfo/1.1/span#">
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/clo/external/external_byhand.owl"/>
     
 
