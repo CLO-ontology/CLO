@@ -8,7 +8,6 @@ OBI
 http://purl.obolibrary.org/obo/OBI_0000245 #organization
 http://purl.obolibrary.org/obo/OBI_0100060 #cell culture
 http://purl.obolibrary.org/obo/OBI_0100026 #organism
-http://purl.obolibrary.org/obo/OBI_0100015 #anatomical entity
 http://purl.obolibrary.org/obo/OBI_0000295 #is_specified_input_of
 http://purl.obolibrary.org/obo/OBI_0000293 #has_specified_input
 http://purl.obolibrary.org/obo/OBI_0000293 #has_specified_input
@@ -18,7 +17,6 @@ http://purl.obolibrary.org/obo/BFO_0000054 #is_realized_by
 http://purl.obolibrary.org/obo/BFO_0000085 #has_function
 http://purl.obolibrary.org/obo/BFO_0000055 #realizes
 http://purl.obolibrary.org/obo/BFO_0000087 #has_role
-
 http://purl.obolibrary.org/obo/OBI_0000867 #establishing a cancer cell line
 http://purl.obolibrary.org/obo/OBI_0000877 #cell line immortanlization
 http://purl.obolibrary.org/obo/OBI_0100056 #immortal cell line sample
@@ -38,4 +36,4 @@ includeAllIntermediates
 
 
 [Source annotation URIs]
-includeAllAxioms
+includeAllAxiomsRecursively
