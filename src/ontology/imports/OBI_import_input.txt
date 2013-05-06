@@ -24,6 +24,7 @@ http://purl.obolibrary.org/obo/OBI_0001873 #mortal cell line sample
 http://purl.obolibrary.org/obo/OBI_0001855 #cell line culture
 http://purl.obolibrary.org/obo/OBI_0001869 #immortal cell line culture
 http://purl.obolibrary.org/obo/OBI_0001860 #mortal cell line culture
+http://purl.obolibrary.org/obo/OBI_0600024 #maintaining cell culture
 
 
 [Top level source term URIs and target direct superclass URIs]
