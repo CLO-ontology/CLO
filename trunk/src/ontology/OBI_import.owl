@@ -18,14 +18,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <rdfs:label xml:lang="en">definition</rdfs:label>
-        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
-        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000293">
         <rdfs:label xml:lang="en">has_specified_input</rdfs:label>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8/17/09: specified inputs of one process are not necessarily specified inputs of a larger process that it is part of. This is in contrast to how &apos;has participant&apos; works.</obo:IAO_0000116>
@@ -38,6 +30,14 @@
         <obo:IAO_0000112 xml:lang="en">see is_input_of example_of_usage</obo:IAO_0000112>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
         <rdfs:label xml:lang="en">editor note</rdfs:label>
         <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
@@ -45,6 +45,14 @@
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <rdfs:label xml:lang="en">has curation status</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000281</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Bill Bug</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
         <rdfs:label xml:lang="en">imported from</rdfs:label>
@@ -55,21 +63,6 @@
         <obo:IAO_0000111 xml:lang="en">imported from</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
-        <rdfs:label xml:lang="en">has curation status</rdfs:label>
-        <obo:IAO_0000119 xml:lang="en">OBI_0000281</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Bill Bug</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232">
-        <rdfs:label xml:lang="en">curator note</rdfs:label>
-        <obo:IAO_0000115 xml:lang="en">An administrative note of use for a curator but of no use for a user</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">curator note</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
         <rdfs:label xml:lang="en">definition source</rdfs:label>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
@@ -79,13 +72,11 @@
         <obo:IAO_0000115 xml:lang="en">formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
-        <rdfs:label xml:lang="en">term editor</rdfs:label>
-        <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See http://code.google.com/p/information-artifact-ontology/issues/detail?id=115.</obo:IAO_0000116>
-        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">term editor</obo:IAO_0000111>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232">
+        <rdfs:label xml:lang="en">curator note</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An administrative note of use for a curator but of no use for a user</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">curator note</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299">
@@ -97,6 +88,15 @@
         <obo:IAO_0000115 xml:lang="en">A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label xml:lang="en">term editor</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See http://code.google.com/p/information-artifact-ontology/issues/detail?id=115.</obo:IAO_0000116>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">term editor</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
         <rdfs:label xml:lang="en">alternative term</rdfs:label>
@@ -592,6 +592,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CLO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000004"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000019"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000031"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000">
@@ -765,13 +789,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000007"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000116 xml:lang="en">2009-03-16: provenance: a term a plan was proposed for OBI (OBI_0000344) , edited by the PlanAndPlannedProcess branch. Original definition was &quot; a plan is a specification of a process that is realized by an actor to achieve the objective specified as part of the plan&quot;. It has been subsequently moved to IAO where the objective for which the original term was defined was satisfied with the definitionof this, different, term.</obo:IAO_0000116>
@@ -943,14 +967,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell lysis, production of a cloning vector, creating a buffer.</obo:IAO_0000112>
@@ -1062,13 +1086,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000867">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">establishing a cancer cell line</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100035"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001867"/>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></obo:IAO_0000119>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Establishment of HeLa immortal cell line</obo:IAO_0000112>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helen Parkinson</rdfs:comment>
@@ -1084,14 +1102,67 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000877">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell line immortalization</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001867"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001907"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A immortalizing genetic transformation of an existing population of cell line cells is required as part of this process, as are additional steps for  selecting and propagating the cells output form this process into a cell line.</rdfs:comment>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</obo:IAO_0000119>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Production of a cell line for the purposes of experimentation e.g. EBV transformation of PBMs</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an establishing cell line process whereby a mortal cell line is intentionally genetically modified to be capable of indefinite propagation and re-established as a new immortal cell line</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell line immortalization</obo:IAO_0000111>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is the planned process of experimentally creating a cell line which is capable of dividing indefinitely in vitro. Has specified output cell line</obo:IAO_0000115>
+        <obo:IAO_0000118>&apos;establishing immortal cell line through directed genetic modification&apos;</obo:IAO_0000118>
+        <obo:IAO_0000116>4-20-13 MHB: This class was repositioned as a child of &apos;establishing cell line&apos;, based on the existing definition (&quot;the planned process of experimentally creating a cell line which is capable of dividing indefinitely in vitro&quot;), and examples and other annotations indicating the intent to describe a process through which a new immortal cell line is established from an existing mortal cell line using genetic modification techniques.  The definition above was modified to clarify this perspective.</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001867 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001867">
+        <rdfs:label>establishing cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0600036"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111>establishing cell line</obo:IAO_0000111>
+        <obo:IAO_0000115>a process whereby a new type of cell line is created, either through passaging of a primary cell culture to relative genetic stability and compositional homogeneity, or through some experimental modification of an existing cell line to produce a new line with novel characteristics  (e.g. immortalization or some other stable genetic modification, or selection of some defined subset).
+
+</obo:IAO_0000115>
+        <obo:IAO_0000116>2013-4-20 MHB: For cases of initial establilshment of a line from a primary culture, successive passaging and/or selection processes can confer increasing degrees of genetic stability and compositional homogeneity as compared to the input primary culture. Historically, many texts consider the first passage as the clearest point to define the beginning of a line. However, in practice it is more often that case that more than one passage, and possibly additional selective techniques, may be required before a culture is deemed to have sufficient stability and homogeneity to be considered cell line. This is the view taken in OBI. Regardless, what is important is that some intentional, experimental step has been taken to establish a more homogenous and stable culture that can be characterized and  progatated over time.</obo:IAO_0000116>
+        <obo:IAO_0000119>PERSON:Matthew Brush</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001907 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001907">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immortalizing cell line transformation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000004"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a genetic transformation of a cell line cell with transgenic constructs intended to confer the capability for indefinite propagation in culture</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immortalizing cell line transformation</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
     </owl:Class>
     
 
@@ -1138,22 +1209,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0100035 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100035">
-        <rdfs:label xml:lang="en">immortal cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
-        <obo:IAO_0000119 xml:lang="en">GROUP: OBI Biomaterial Branch</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">PERSON: Bjoern Peters</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">a cell derived from a multicellular organism that has the potential to replicate indefinitely</obo:IAO_0000115>
-        <obo:IAO_0000112 xml:lang="en">a single Hela cell</obo:IAO_0000112>
-        <obo:IAO_0000111 xml:lang="en">immortal cell</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OBI_0100060 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100060">
@@ -1168,13 +1223,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000643"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000643"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A processed material comprised of a collection of cultured cells that has been continuously maintained together in culture and shares a common propagation history.</obo:IAO_0000115>
@@ -1183,6 +1238,9 @@
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The extent of a &apos;cultured cell population&apos; is restricted only in that all cell members must share a propagation history (ie be derived through a common lineage of passages from an initial culture). In being defined in this way, this class can be used to refer to the populations that researchers actually use in the practice of science - ie are the inputs to culturing, experimentation, and sharing. The cells in such populations will be a relatively uniform population as they have experienced similar selective pressures due to their continuous co-propagation. And this population will also have a single passage number, again owing to their common passaging history. Cultured cell populations represent only a collection of cells (ie do not include media, culture dishes, etc), and include populations of cultured unicellular organisms or cultured multicellular organism cells. They can exist under active culture, stored in a quiescent state for future use, or applied experimentally.</rdfs:comment>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cultured cell population</obo:IAO_0000111>
         <obo:IAO_0000116 xml:lang="en">2013-6-5 MHB: This OBI class was formerly called &apos;cell culture&apos;, but label changed and definition updated following CLO alignment efforts in spring 2013, during which the intent of this class was clarified to refer to portions of a culture or line rather than a complete cell culture or line.</obo:IAO_0000116>
+        <obo:IAO_0000112>A cultured cell population applied in an experiment: 293 cells expressing TrkA were serum-starved for 18 hours and then neurotrophins were added for 10 min before cell harvest (Lee, Ramee, et al. Regulation of cell survival by secreted proneurotrophins; Science 294.5548 (2001): 1945-1948). 
+
+A cultured cell population maintained in vitro: &apos;Rat cortical neurons from 15 day embryos are grown in dissociated cell culture and maintained in vitro for 8–12 weeks&apos; (Dichter, Marc A. Rat cortical neurons in cell culture: culture methods, cell morphology, electrophysiology, and synapse formation. Brain Research 149.2 (1978): 279-293).</obo:IAO_0000112>
         <obo:IAO_0000118>cell culture sample</obo:IAO_0000118>
     </owl:Class>
     
@@ -1199,6 +1257,31 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000806"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100060"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100060"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000079"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001912"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">PlanAndPlannedProcess Branch</obo:IAO_0000117>
         <obo:IAO_0000112 xml:lang="en">When harvesting blood from a human, isolating T cells, and then limited dilution cloning of the cells, the maintaining_cell_culture step comprises all steps after the initial dilution and plating of the cells into culture, e.g. placing the culture into an incubator, changing or adding media, and splitting a cell culture</obo:IAO_0000112>
@@ -1213,12 +1296,12 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0600036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0600036">
-        <rdfs:label xml:lang="en">establishing cell culture</rdfs:label>
+        <rdfs:label>establishing cell culture</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000456"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1229,8 +1312,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000456"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1239,12 +1322,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">PlanAndPlannedProcess Branch</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">establishing a cell culture is a process which results in creating an in vitro environment in which cells are sustained from input material containing cells. input: cell-containing material, output cell culture, part of cell culturing. Cells are originally plated at a certain concentration referred to as seeding density.</obo:IAO_0000115>
-        <obo:IAO_0000111 xml:lang="en">establishing cell culture</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000115>a process through which a new type of cell culture or cell line is created, either through the isolation and culture of one or more cells from a fresh source, or the deliberate experimental modification of an existing cell culture (e.g passaging a primary culture to become a secondary culture or line, or the immortalization or stable genetic modification of an existing culture or line).</obo:IAO_0000115>
+        <obo:IAO_0000111>&apos;establishing cell culture&apos;</obo:IAO_0000111>
+        <rdfs:comment>A &apos;cell culture&apos; as used here referes to a new lineage of cells in culture deriving from a single biological source.. New cultures are established through the initial isolation and culturing of cells from an organismal source, or through changes in an existing cell culture or line that result in a new culture with unique characteristics.  This can occur through the passaging/selection of a primary culture into a secondary culture or line, or experimental modifications of an existing cell culture or line such as an immortalization process or other stable genetic modification. This class covers establishment of cultures of either multicellular organism cells or unicellular organisms.</rdfs:comment>
+        <obo:IAO_0000119>PERSON:Matthew Brush</obo:IAO_0000119>
     </owl:Class>
     
 
