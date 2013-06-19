@@ -146,6 +146,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_9611 #Canis
 http://purl.obolibrary.org/obo/NCBITaxon_9995 #Marmota monax
 http://purl.obolibrary.org/obo/NCBITaxon_9790 #Equus burchellii
 http://purl.obolibrary.org/obo/NCBITaxon_7955 #Danio rerio
+http://purl.obolibrary.org/obo/NCBITaxon_8090 #Oryzias latipes
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCBITaxon_2 #Bacteria
