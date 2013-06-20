@@ -19,7 +19,8 @@ generate new classes
   
 [Annotations]
 # Note: Use comma to separate annotations
-'label' "{$columnA}", 
+'label' "{$columnA} cell", 
+'alternative term' "{$columnA}", 
 'alternative term' "{$columnB}", 
 'definition' "A {$columnD} that has the characteristics: {$columnC}", 
 'comment' "Derived from tissue: {$columnG} in animal: {$columnF}.", 
@@ -34,15 +35,15 @@ generate new classes
 [Superclasses]
 # Note: Use comma to separate classes 
 <http://purl.obolibrary.org/obo/{$columnE}>,
-'has role' some 'cell line repository role'
+'is in cell line repository' some 'RIKEN Cell Bank'
 
 [Terms used to define anntoations, equivalent classes and superclasses]
 # Note: One line per term
 AnnotationProperty: 
 Class:
-'cell line repository role': <http://purl.obolibrary.org/obo/CLO_0000005>
+'RIKEN Cell Bank': <http://purl.obolibrary.org/obo/CLO_0000173>
 ObjectProperty:
-'has role': <http://purl.obolibrary.org/obo/BFO_0000087>
+'is in cell line repository': <http://purl.obolibrary.org/obo/CLO_0000174>
 DataProperty:
 
 [Term URIs start with]
