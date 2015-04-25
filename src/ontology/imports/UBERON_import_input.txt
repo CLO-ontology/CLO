@@ -41,7 +41,6 @@ http://purl.obolibrary.org/obo/UBERON_0001886 #choroid plexus
 http://purl.obolibrary.org/obo/UBERON_0001851 #cortex
 http://purl.obolibrary.org/obo/UBERON_0001894 #diencephalon
 http://purl.obolibrary.org/obo/UBERON_0000045 #ganglion
-http://purl.obolibrary.org/obo/UBERON_0000322 #cerebral lobe
 http://purl.obolibrary.org/obo/UBERON_0001439 #compact bone
 http://purl.obolibrary.org/obo/UBERON_0000068 #embryo stage
 http://purl.obolibrary.org/obo/UBERON_0002502 #round window
@@ -116,7 +115,6 @@ http://purl.obolibrary.org/obo/UBERON_0001225 #cortex of kidney
 http://purl.obolibrary.org/obo/UBERON_0001232 #collecting duct of renal tubule
 http://purl.obolibrary.org/obo/UBERON_0004134 #proximal tubule
 http://purl.obolibrary.org/obo/UBERON_0000074 #renal glomerulus
-http://purl.obolibrary.org/obo/UBERON_0004191 #glomus
 http://purl.obolibrary.org/obo/UBERON_0000362 #renal medulla
 http://purl.obolibrary.org/obo/UBERON_0001231 #renal tubule
 http://purl.obolibrary.org/obo/UBERON_0001230 #glomerular capsule
@@ -230,21 +228,23 @@ http://purl.obolibrary.org/obo/UBERON_0002401 #visceral pleura
 http://purl.obolibrary.org/obo/UBERON_0000997 #vulva
 http://purl.obolibrary.org/obo/UBERON_0001040 #yolk sac
 http://purl.obolibrary.org/obo/UBERON_0003257 #endoderm of yolk sac
+http://purl.obolibrary.org/obo/UBERON_0012069 #epithelium-associated lymphoid tissue
+http://purl.obolibrary.org/obo/UBERON_0004905 # articulation
+
+# http://purl.obolibrary.org/obo/UBERON_0000322 #cerebral lobe - does not exist any more. 
+# http://purl.obolibrary.org/obo/UBERON_0004191 #glomus - does not exist any more.
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/UBERON_0000105 #life cycle stage
 subClassOf http://purl.obolibrary.org/obo/BFO_0000015
-http://purl.obolibrary.org/obo/UBERON_0001149 #bare area of liver
-subClassOf http://purl.obolibrary.org/obo/OBI_0100015 #anatomical entity
-http://purl.obolibrary.org/obo/UBERON_0000464 #anatomical space
-subClassOf http://purl.obolibrary.org/obo/OBI_0100015 #anatomical entity
-http://purl.obolibrary.org/obo/UBERON_0004458 #body cavity or lining
-subClassOf http://purl.obolibrary.org/obo/OBI_0100015 #anatomical entity
-http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
-subClassOf http://purl.obolibrary.org/obo/OBI_0100015 #anatomical entity
+
+http://purl.obolibrary.org/obo/UBERON_0001062 #anatomical entity
+subClassOf  http://purl.obolibrary.org/obo/BFO_0000004 #independent entity
+
+
 
 [Source term retrieval setting]
-includeAllIntermediates
+includeComputedIntermediates
 
 [Source annotation URIs]
-includeAllAxiomsRecursively
+includeAllAnnotationProperties

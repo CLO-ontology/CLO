@@ -1,0 +1,24 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/clo/RO_import.owl
+
+[Source ontology]
+RO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/BFO_0000050 # part of. Note this term has BFO_ prefix but it belongs to RO
+http://purl.obolibrary.org/obo/RO_0000087 #has role
+# http://purl.obolibrary.org/obo/RO_0000053 #bearer of 
+
+[Top level source term URIs and target direct superclass URIs]
+http://www.w3.org/2002/07/owl#topObjectProperty
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Branch extractions from source term URIs and target direct superclass URIs]
+
+
+[Source annotation URIs]
+includeAllAxioms
+
+# This file has not been implemented since the relations are there probably from another ontology like IAO.

@@ -37,7 +37,6 @@ http://purl.obolibrary.org/obo/CL_0000050 #megakaryocyte erythroid progenitor ce
 http://purl.obolibrary.org/obo/CL_0000809 #double-positive, alpha-beta thymocyte
 http://purl.obolibrary.org/obo/CL_0000226 #single nucleate cell
 http://purl.obolibrary.org/obo/CL_0000084 #T cell
-http://purl.obolibrary.org/obo/CL_0000254 #egg cell
 http://purl.obolibrary.org/obo/CL_0000036 #epithelial fate stem cell
 http://purl.obolibrary.org/obo/CL_0000152 #exocrine cell
 http://purl.obolibrary.org/obo/CL_0000083 #epithelial cell of pancreas
@@ -55,8 +54,6 @@ http://purl.obolibrary.org/obo/CL_0000068 #duct epithelial cell
 http://purl.obolibrary.org/obo/CL_0000186 #myofibroblast cell
 http://purl.obolibrary.org/obo/CL_0000111 #peripheral neuron
 http://purl.obolibrary.org/obo/CL_0000738 #leukocyte
-http://purl.obolibrary.org/obo/CL_0000220 #cell by lineage
-http://purl.obolibrary.org/obo/CL_0000668 #parenchymal cell
 http://purl.obolibrary.org/obo/CL_0000082 #epithelial cell of lung
 http://purl.obolibrary.org/obo/CL_0000122 #stellate cell
 http://purl.obolibrary.org/obo/CL_0000651 #neck cell
@@ -73,7 +70,6 @@ http://purl.obolibrary.org/obo/CL_0000581 #peritoneal macrophage
 http://purl.obolibrary.org/obo/CL_0000259 #aggregate cell
 http://purl.obolibrary.org/obo/CL_0000228 #multinucleate cell
 http://purl.obolibrary.org/obo/CL_0000817 #precursor B cell
-http://purl.obolibrary.org/obo/CL_0000363 #axial cell
 http://purl.obolibrary.org/obo/CL_0000218 #Schwann cell
 http://purl.obolibrary.org/obo/CL_0000188 #skeletal muscle cell
 http://purl.obolibrary.org/obo/CL_0000148 #melanocyte
@@ -86,8 +82,13 @@ http://purl.obolibrary.org/obo/CL_0000578 #experimentally modified cell in vitro
 http://purl.obolibrary.org/obo/CL_0001034 #cell in vitro
 http://purl.obolibrary.org/obo/CL_0002076 #endo-epithelial cell
 
+# http://purl.obolibrary.org/obo/CL_0000220 #cell by lineage  obsolete
+# http://purl.obolibrary.org/obo/CL_0000363 #axial cell obsolete
+# http://purl.obolibrary.org/obo/CL_0000254 #egg cell obsolete
+# http://purl.obolibrary.org/obo/CL_0000668 # parenchymal cell obsolete
+
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/CL_0000000 #cell
+http://purl.obolibrary.org/obo/CL_0000000 #cell type
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040
 
 [Source term retrieval setting]

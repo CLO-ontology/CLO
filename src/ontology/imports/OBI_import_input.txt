@@ -11,30 +11,41 @@ http://purl.obolibrary.org/obo/OBI_0100026 #organism
 http://purl.obolibrary.org/obo/OBI_0000295 #is_specified_input_of
 http://purl.obolibrary.org/obo/OBI_0000293 #has_specified_input
 http://purl.obolibrary.org/obo/OBI_0000293 #has_specified_input
-http://purl.obolibrary.org/obo/BFO_0000086 #has_quality
 http://purl.obolibrary.org/obo/OBI_0000299 #has_specified_output
-http://purl.obolibrary.org/obo/BFO_0000054 #is_realized_by
-http://purl.obolibrary.org/obo/BFO_0000085 #has_function
-http://purl.obolibrary.org/obo/BFO_0000055 #realizes
-http://purl.obolibrary.org/obo/BFO_0000087 #has_role
 http://purl.obolibrary.org/obo/OBI_0000867 #establishing a cancer cell line
 http://purl.obolibrary.org/obo/OBI_0000877 #cell line immortanlization
-http://purl.obolibrary.org/obo/OBI_0100056 #immortal cell line sample
-http://purl.obolibrary.org/obo/OBI_0001873 #mortal cell line sample
-http://purl.obolibrary.org/obo/OBI_0001855 #cell line culture
 http://purl.obolibrary.org/obo/OBI_0001869 #immortal cell line culture
-http://purl.obolibrary.org/obo/OBI_0001860 #mortal cell line culture
 http://purl.obolibrary.org/obo/OBI_0600024 #maintaining cell culture
+http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+http://purl.obolibrary.org/obo/OBI_0000047 #processed material
+http://purl.obolibrary.org/obo/OBI_0000094 #material process
+http://purl.obolibrary.org/obo/OBI_0000643 #has grain
 
+# http://purl.obolibrary.org/obo/OBI_0001873 #mortal cell line sample
+# http://purl.obolibrary.org/obo/OBI_0100056 #immortal cell line sample --obsolete
+# http://purl.obolibrary.org/obo/OBI_0001860 #mortal cell line culture  -- changed to another term label
+# http://purl.obolibrary.org/obo/OBI_0001855 #cell line culture  -- changed to another term label  Nimblegen
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/BFO_0000001
+
+http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015
+
+http://purl.obolibrary.org/obo/OBI_0100026 #organism
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+
+http://purl.obolibrary.org/obo/OBI_0000245 #organization
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+
+http://purl.obolibrary.org/obo/OBI_0000047 #processed material
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+
 
 [Source term retrieval setting]
-includeAllIntermediates
+includeComputedIntermediates
 
 [Branch extractions from source term URIs and target direct superclass URIs]
 
 
 [Source annotation URIs]
-includeAllAxiomsRecursively
+includeAllAnnotationProperties
