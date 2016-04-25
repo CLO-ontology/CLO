@@ -8,6 +8,7 @@ GO
 http://purl.obolibrary.org/obo/GO_0016049 # cell growth
 http://purl.obolibrary.org/obo/GO_0010467 # gene expression
 http://purl.obolibrary.org/obo/GO_0008150 # biological process 
+http://purl.obolibrary.org/obo/GO_0040011 # locomotion
 
 [Top level source term URIs and target direct superclass URIs]
 
