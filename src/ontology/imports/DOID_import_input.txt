@@ -71,6 +71,16 @@ http://purl.obolibrary.org/obo/DOID_0060060 # non-Hodgkin lymphoma
 # http://purl.obolibrary.org/obo/DOID_305 #carcinoma, already in CLO
 http://purl.obolibrary.org/obo/DOID_193 #reproductive system cancer
 http://purl.obolibrary.org/obo/DOID_1037 #lymphoblastic leukemia
+http://purl.obolibrary.org/obo/DOID_9952 #acute lymphocytic leukemia
+http://purl.obolibrary.org/obo/DOID_3748 #esophagus squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_9119 #acute myeloid leukemia
+http://purl.obolibrary.org/obo/DOID_8864 #acute monocytic leukemia
+http://purl.obolibrary.org/obo/DOID_10286 #prostate carcinoma
+http://purl.obolibrary.org/obo/DOID_1520 #colon carcinoma
+http://purl.obolibrary.org/obo/DOID_234 #colon adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_1749 #squamous Carcinoma
+http://purl.obolibrary.org/obo/DOID_1909 #malignant melanoma
+http://purl.obolibrary.org/obo/DOID_3007 #breast ductal carcinoma
 
 http://purl.obolibrary.org/obo/DOID_9173 #submandibular gland cancer
 
