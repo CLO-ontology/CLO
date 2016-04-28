@@ -1,0 +1,93 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/clo/DOID_import.owl
+
+[Source ontology]
+DOID
+
+[Low level source term URIs]
+
+http://purl.obolibrary.org/obo/DOID_0050686 #organ systm cancer
+
+http://purl.obolibrary.org/obo/DOID_4007 #bladder carcinoma
+http://purl.obolibrary.org/obo/DOID_11054 #urinary bladder cancer
+
+http://purl.obolibrary.org/obo/DOID_4905 #pancreatic carcinoma
+http://purl.obolibrary.org/obo/DOID_4074 #pancreas adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_1793 #pancreative cancer, pancreative neoplasm
+
+http://purl.obolibrary.org/obo/DOID_4450 #renal cell carcinoma
+http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma, kidney carcinoma
+http://purl.obolibrary.org/obo/DOID_263 #kidney cancer
+http://purl.obolibrary.org/obo/DOID_5974 #renal pelvis transitional cell carcinoma
+
+
+http://purl.obolibrary.org/obo/DOID_4515 #thyroid sarcoma 
+http://purl.obolibrary.org/obo/DOID_1781  #thyroid cancer
+
+http://purl.obolibrary.org/obo/DOID_1324 #lung cancer
+http://purl.obolibrary.org/obo/DOID_4556  #lung large cell carinoma
+http://purl.obolibrary.org/obo/DOID_5409 #lung small cell carcinoma
+http://purl.obolibrary.org/obo/DOID_3908 #non-small cell lung carcinoma
+http://purl.obolibrary.org/obo/DOID_5583 #lung giant cell carcinoma
+
+http://purl.obolibrary.org/obo/DOID_4897 #bile duct carcinoma
+http://purl.obolibrary.org/obo/DOID_4607 #biliary tract cancer
+
+http://purl.obolibrary.org/obo/DOID_5041 #esophageal cancer
+http://purl.obolibrary.org/obo/DOID_4914 #esophagus adenocarcinoma
+
+http://purl.obolibrary.org/obo/DOID_5076 #mixed glioma
+
+http://purl.obolibrary.org/obo/DOID_5303 #cervical clear cell adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_2893 #cervical carcinoma
+
+http://purl.obolibrary.org/obo/DOID_5557 #testicular germ cell cancer
+
+http://purl.obolibrary.org/obo/DOID_5517 #stomach carcinoma, gastric carcinoma
+http://purl.obolibrary.org/obo/DOID_3717 #gastric adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_5635 # gastric adenosquamous carcinoma
+
+http://purl.obolibrary.org/obo/DOID_0060083 #immune system cancer
+http://purl.obolibrary.org/obo/DOID_5603 #acute T cell leukemia
+http://purl.obolibrary.org/obo/DOID_715 #T cell leukemia
+http://purl.obolibrary.org/obo/DOID_10747 #lymphoid leukemia 
+http://purl.obolibrary.org/obo/DOID_707 #B-cell lymphoma, B-cell lymphocytic neoplasm
+http://purl.obolibrary.org/obo/DOID_0060061 #cutaneous T cell lymphoma
+http://purl.obolibrary.org/obo/DOID_5823 #pediatric lymphoma
+
+http://purl.obolibrary.org/obo/DOID_684 #hepatocellular carcinoma
+http://purl.obolibrary.org/obo/DOID_3571 #liver cancer
+
+http://purl.obolibrary.org/obo/DOID_769 #neuroblastoma
+http://purl.obolibrary.org/obo/DOID_3093 #nervous system cancer
+
+http://purl.obolibrary.org/obo/DOID_8602 #gum cancer
+http://purl.obolibrary.org/obo/DOID_8618 #oral cavity cancer
+
+http://purl.obolibrary.org/obo/DOID_3119 #gastrointestinal system cancer (note: this is in CLO already but appears in old hierarchy)
+
+http://purl.obolibrary.org/obo/DOID_0060060 # non-Hodgkin lymphoma
+
+# http://purl.obolibrary.org/obo/DOID_305 #carcinoma, already in CLO
+http://purl.obolibrary.org/obo/DOID_193 #reproductive system cancer
+http://purl.obolibrary.org/obo/DOID_1037 #lymphoblastic leukemia
+
+http://purl.obolibrary.org/obo/DOID_9173 #submandibular gland cancer
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/DOID_162 #cancer
+
+
+#http://purl.obolibrary.org/obo/DOID_4905 #pancreatic carcinoma
+#subClassOf http://purl.obolibrary.org/obo/DOID_3588 #pancreative neoplasm, which is already in CLO but unavailable any more.
+
+http://purl.obolibrary.org/obo/DOID_5076 #mixed glioma
+subClassOf http://purl.obolibrary.org/obo/DOID_3070 #malignant glioma
+
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+
+[Source annotation URIs]
+includeAllAnnotationProperties
