@@ -82,7 +82,36 @@ http://purl.obolibrary.org/obo/DOID_1749 #squamous Carcinoma
 http://purl.obolibrary.org/obo/DOID_1909 #malignant melanoma
 http://purl.obolibrary.org/obo/DOID_3007 #breast ductal carcinoma
 
+http://purl.obolibrary.org/obo/DOID_3959 #adrenal cortical adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_3069 #astrocytoma
+http://purl.obolibrary.org/obo/DOID_4006 #urinary bladder urothelial carcinoma
+http://purl.obolibrary.org/obo/DOID_3742 #bladder squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_3369 #Ewing sarcoma
+http://purl.obolibrary.org/obo/DOID_3458 #breast adenocarinoma
+http://purl.obolibrary.org/obo/DOID_3459 #breast carcinoma
+http://purl.obolibrary.org/obo/DOID_4680 #breast metaplastic carcinoma
+http://purl.obolibrary.org/obo/DOID_3744 #cervical squamous cell carcinoma
+
+http://purl.obolibrary.org/obo/DOID_3702 #cervical adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_3371 #chondrosarcoma
+http://purl.obolibrary.org/obo/DOID_3594 #choriocarcinoma
+http://purl.obolibrary.org/obo/DOID_2871 #endometrial carcinoma
+http://purl.obolibrary.org/obo/DOID_4226 #endometrial stromal sarcoma
+http://purl.obolibrary.org/obo/DOID_3355 #fibrosarcoma
+http://purl.obolibrary.org/obo/DOID_3962 #follicular thyroid carcinoma
 http://purl.obolibrary.org/obo/DOID_9173 #submandibular gland cancer
+http://purl.obolibrary.org/obo/DOID_3068 #glioblastoma multiforme
+http://purl.obolibrary.org/obo/DOID_5176 #renal Wilms' tumor
+http://purl.obolibrary.org/obo/DOID_3910 #lung adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_3907 #lung squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_3181 #oligodendroglioma
+http://purl.obolibrary.org/obo/DOID_3347 #osteosarcoma
+http://purl.obolibrary.org/obo/DOID_4001 #ovarian carcinoma
+http://purl.obolibrary.org/obo/DOID_3713 #ovary adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_3247 #rhabdomyosarcoma
+http://purl.obolibrary.org/obo/DOID_3151 #skin squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_3963 #thyroid carcinoma
+http://purl.obolibrary.org/obo/DOID_363 #uterine cancer
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/DOID_162 #cancer
