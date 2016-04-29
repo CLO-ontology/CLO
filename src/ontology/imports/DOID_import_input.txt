@@ -119,6 +119,43 @@ http://purl.obolibrary.org/obo/DOID_8675 #malignant lymphoma
 http://purl.obolibrary.org/obo/DOID_1612 #breast cancer	
 http://purl.obolibrary.org/obo/DOID_5675 #ductal carcinoma
 
+http://purl.obolibrary.org/obo/DOID_0050608 #Askin's tumor
+http://purl.obolibrary.org/obo/DOID_0050747 #lymphoplasmacytic lymphoma
+http://purl.obolibrary.org/obo/DOID_10534 #stomach cancer
+http://purl.obolibrary.org/obo/DOID_10540 #gastric lymphoma
+http://purl.obolibrary.org/obo/DOID_10816
+http://purl.obolibrary.org/obo/DOID_12603
+http://purl.obolibrary.org/obo/DOID_1294
+http://purl.obolibrary.org/obo/DOID_1790
+http://purl.obolibrary.org/obo/DOID_1996
+http://purl.obolibrary.org/obo/DOID_2101
+http://purl.obolibrary.org/obo/DOID_2526
+http://purl.obolibrary.org/obo/DOID_3039
+http://purl.obolibrary.org/obo/DOID_3098
+http://purl.obolibrary.org/obo/DOID_3368
+http://purl.obolibrary.org/obo/DOID_3382
+http://purl.obolibrary.org/obo/DOID_3516
+http://purl.obolibrary.org/obo/DOID_3603
+# http://purl.obolibrary.org/obo/DOID_3858 - not available
+http://purl.obolibrary.org/obo/DOID_3969
+http://purl.obolibrary.org/obo/DOID_4430
+http://purl.obolibrary.org/obo/DOID_4467
+http://purl.obolibrary.org/obo/DOID_4948
+http://purl.obolibrary.org/obo/DOID_5165
+http://purl.obolibrary.org/obo/DOID_5263
+http://purl.obolibrary.org/obo/DOID_5304
+http://purl.obolibrary.org/obo/DOID_5411
+http://purl.obolibrary.org/obo/DOID_5485
+http://purl.obolibrary.org/obo/DOID_5568
+http://purl.obolibrary.org/obo/DOID_5604
+http://purl.obolibrary.org/obo/DOID_5718
+http://purl.obolibrary.org/obo/DOID_6595
+http://purl.obolibrary.org/obo/DOID_8025
+http://purl.obolibrary.org/obo/DOID_8411
+http://purl.obolibrary.org/obo/DOID_8552
+http://purl.obolibrary.org/obo/DOID_8584
+http://purl.obolibrary.org/obo/DOID_8649 #tongue cancer
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/DOID_162 #cancer
