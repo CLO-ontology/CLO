@@ -67,6 +67,7 @@ http://purl.obolibrary.org/obo/DOID_8618 #oral cavity cancer
 http://purl.obolibrary.org/obo/DOID_3119 #gastrointestinal system cancer (note: this is in CLO already but appears in old hierarchy)
 
 http://purl.obolibrary.org/obo/DOID_0060060 # non-Hodgkin lymphoma
+http://purl.obolibrary.org/obo/DOID_8567 #Hodgkin lymphoma	
 
 # http://purl.obolibrary.org/obo/DOID_305 #carcinoma, already in CLO
 http://purl.obolibrary.org/obo/DOID_193 #reproductive system cancer
@@ -112,6 +113,12 @@ http://purl.obolibrary.org/obo/DOID_3247 #rhabdomyosarcoma
 http://purl.obolibrary.org/obo/DOID_3151 #skin squamous cell carcinoma
 http://purl.obolibrary.org/obo/DOID_3963 #thyroid carcinoma
 http://purl.obolibrary.org/obo/DOID_363 #uterine cancer
+
+http://purl.obolibrary.org/obo/DOID_1040 #chronic lymphocytic leukemia	
+http://purl.obolibrary.org/obo/DOID_8675 #malignant lymphoma	
+http://purl.obolibrary.org/obo/DOID_1612 #breast cancer	
+http://purl.obolibrary.org/obo/DOID_5675 #ductal carcinoma
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/DOID_162 #cancer
