@@ -230,6 +230,7 @@ http://purl.obolibrary.org/obo/UBERON_0001040 #yolk sac
 http://purl.obolibrary.org/obo/UBERON_0003257 #endoderm of yolk sac
 http://purl.obolibrary.org/obo/UBERON_0012069 #epithelium-associated lymphoid tissue
 http://purl.obolibrary.org/obo/UBERON_0004905 # articulation
+http://purl.obolibrary.org/obo/UBERON_0035820 # peritoneal sac
 
 # http://purl.obolibrary.org/obo/UBERON_0000322 #cerebral lobe - does not exist any more. 
 # http://purl.obolibrary.org/obo/UBERON_0004191 #glomus - does not exist any more.
