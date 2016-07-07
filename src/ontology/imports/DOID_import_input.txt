@@ -168,6 +168,14 @@ http://purl.obolibrary.org/obo/DOID_0060085 #organ system benign neoplasm
 
 # http://purl.obolibrary.org/obo/DOID_3116 #kidney benign neoplasm
 
+#for IEDB
+http://purl.obolibrary.org/obo/DOID_3008 # invasive ductal carcinoma
+http://purl.obolibrary.org/obo/DOID_7757 # childhood leukemia
+http://purl.obolibrary.org/obo/DOID_3008 # invasive ductal carcinoma
+http://purl.obolibrary.org/obo/DOID_3664 # mast cell neoplasm
+http://purl.obolibrary.org/obo/DOID_9538 # multiple myeloma
+http://purl.obolibrary.org/obo/DOID_5744 # ovary serous adenocarcinoma
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/DOID_4 #disease
