@@ -168,6 +168,8 @@ http://purl.obolibrary.org/obo/DOID_0060085 #organ system benign neoplasm
 
 # http://purl.obolibrary.org/obo/DOID_3116 #kidney benign neoplasm
 
+http://purl.obolibrary.org/obo/DOID_3308 # embryonal carcinoma
+
 #for IEDB
 http://purl.obolibrary.org/obo/DOID_3008 # invasive ductal carcinoma
 http://purl.obolibrary.org/obo/DOID_7757 # childhood leukemia
