@@ -178,6 +178,8 @@ http://purl.obolibrary.org/obo/DOID_3664 # mast cell neoplasm
 http://purl.obolibrary.org/obo/DOID_9538 # multiple myeloma
 http://purl.obolibrary.org/obo/DOID_5744 # ovary serous adenocarcinoma
 
+http://purl.obolibrary.org/obo/DOID_0050861 #colorectal adenocarcinoma
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/DOID_4 #disease
