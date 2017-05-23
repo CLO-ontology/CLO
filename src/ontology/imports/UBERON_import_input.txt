@@ -232,6 +232,8 @@ http://purl.obolibrary.org/obo/UBERON_0012069 #epithelium-associated lymphoid ti
 http://purl.obolibrary.org/obo/UBERON_0004905 # articulation
 http://purl.obolibrary.org/obo/UBERON_0035820 # peritoneal sac
 
+http://purl.obolibrary.org/obo/RO_0002489 #existence starts with
+
 # http://purl.obolibrary.org/obo/UBERON_0000322 #cerebral lobe - does not exist any more. 
 # http://purl.obolibrary.org/obo/UBERON_0004191 #glomus - does not exist any more.
 
