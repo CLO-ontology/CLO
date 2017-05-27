@@ -6,6 +6,12 @@ DOID
 
 [Low level source term URIs]
 
+http://purl.obolibrary.org/obo/DOID_345
+http://purl.obolibrary.org/obo/DOID_0080000
+http://purl.obolibrary.org/obo/DOID_10854
+http://purl.obolibrary.org/obo/DOID_0060118
+
+
 http://purl.obolibrary.org/obo/DOID_162 #cancer
 
 http://purl.obolibrary.org/obo/DOID_0050686 #organ systm cancer
@@ -179,6 +185,9 @@ http://purl.obolibrary.org/obo/DOID_9538 # multiple myeloma
 http://purl.obolibrary.org/obo/DOID_5744 # ovary serous adenocarcinoma
 
 http://purl.obolibrary.org/obo/DOID_0050861 #colorectal adenocarcinoma
+
+http://purl.obolibrary.org/obo/DOID_1749 #squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_8567 #Hodgkin's lymphoma
 
 
 [Top level source term URIs and target direct superclass URIs]
