@@ -1,12 +1,23 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/clo/PATO_import.owl#"
-     xml:base="http://purl.obolibrary.org/obo/clo/PATO_import.owl"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="&obo;clo/PATO_import.owl#"
+     xml:base="&obo;clo/PATO_import.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/clo/PATO_import.owl"/>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="&obo;clo/PATO_import.owl"/>
     
 
 
@@ -18,23 +29,38 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
-        <rdfs:label xml:lang="en">imported from</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
 
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;label"/>
     
 
 
@@ -51,98 +77,152 @@
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    <owl:Class rdf:about="&obo;BFO_0000019"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000011 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000011">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+    <owl:Class rdf:about="&obo;PATO_0000011">
+        <rdfs:label rdf:datatype="&xsd;string">age</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001241"/>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">age</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000047 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000047">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological sex</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological sex</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+    <owl:Class rdf:about="&obo;PATO_0000047">
+        <rdfs:label rdf:datatype="&xsd;string">biological sex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001995"/>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">biological sex</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000169 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000169">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viability</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viability</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+    <owl:Class rdf:about="&obo;PATO_0000169">
+        <rdfs:label rdf:datatype="&xsd;string">viability</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001995"/>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">viability</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000719 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000719">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viable</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000169"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viable</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+    <owl:Class rdf:about="&obo;PATO_0000719">
+        <rdfs:label rdf:datatype="&xsd;string">viable</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000169"/>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">viable</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001241 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001241">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical object quality</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical object quality</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+    <owl:Class rdf:about="&obo;PATO_0001241">
+        <rdfs:label rdf:datatype="&xsd;string">physical object quality</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000019"/>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">physical object quality</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001397 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001397">
+        <rdfs:label rdf:datatype="&xsd;string">cellular potency</rdfs:label>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">cellular potency</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001399 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001399">
+        <rdfs:label rdf:datatype="&xsd;string">totipotent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001397"/>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">totipotent</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001402 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001402">
+        <rdfs:label rdf:datatype="&xsd;string">multipotent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001397"/>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">multipotent</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001403 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001403">
+        <rdfs:label rdf:datatype="&xsd;string">pluripotent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001397"/>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">pluripotent</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001422 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001422">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dead</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000169"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dead</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+    <owl:Class rdf:about="&obo;PATO_0001422">
+        <rdfs:label rdf:datatype="&xsd;string">dead</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000169"/>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">dead</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001991 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001991">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immortal</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000169"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immortal</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+    <owl:Class rdf:about="&obo;PATO_0001991">
+        <rdfs:label rdf:datatype="&xsd;string">immortal</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000169"/>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">immortal</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001995 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001995">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organismal quality</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organismal quality</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+    <owl:Class rdf:about="&obo;PATO_0001995">
+        <rdfs:label rdf:datatype="&xsd;string">organismal quality</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001241"/>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">organismal quality</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002100 -->
+
+    <owl:Class rdf:about="&obo;PATO_0002100">
+        <rdfs:label rdf:datatype="&xsd;string">undifferentiated</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001397"/>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">undifferentiated</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
 

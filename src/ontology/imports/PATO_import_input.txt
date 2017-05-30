@@ -10,6 +10,12 @@ http://purl.obolibrary.org/obo/PATO_0001422 #dead
 http://purl.obolibrary.org/obo/PATO_0000719 #viable
 http://purl.obolibrary.org/obo/PATO_0000047 #biological sex
 http://purl.obolibrary.org/obo/PATO_0001991 #immortal 
+http://purl.obolibrary.org/obo/PATO_0001403 #pluripotent
+http://purl.obolibrary.org/obo/PATO_0001399 #totipotent
+http://purl.obolibrary.org/obo/PATO_0001402 #multipotent
+http://purl.obolibrary.org/obo/PATO_0002100 #undifferentiated
+http://purl.obolibrary.org/obo/PATO_0001397 #cellular potency
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PATO_0001241 #physical object quality
@@ -20,9 +26,4 @@ subClassOf http://purl.obolibrary.org/obo/BFO_0000019
 includeComputedIntermediates
 
 [Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-copyTo http://purl.obolibrary.org/obo/IAO_0000111
-http://www.geneontology.org/formats/oboInOwl#hasDefinition
-mapTo http://purl.obolibrary.org/obo/IAO_0000115
-http://www.geneontology.org/formats/oboInOwl#hasSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
+includeAllAnnotationProperties

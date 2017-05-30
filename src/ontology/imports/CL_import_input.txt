@@ -82,6 +82,9 @@ http://purl.obolibrary.org/obo/CL_0000578 #experimentally modified cell in vitro
 http://purl.obolibrary.org/obo/CL_0001034 #cell in vitro
 http://purl.obolibrary.org/obo/CL_0002076 #endo-epithelial cell
 
+http://purl.obolibrary.org/obo/PR_000018263 #amino acid chain
+http://purl.obolibrary.org/obo/GO_0005575 #cellular_component
+
 # http://purl.obolibrary.org/obo/CL_0000220 #cell by lineage  obsolete
 # http://purl.obolibrary.org/obo/CL_0000363 #axial cell obsolete
 # http://purl.obolibrary.org/obo/CL_0000254 #egg cell obsolete
@@ -91,11 +94,26 @@ http://purl.obolibrary.org/obo/CL_0002076 #endo-epithelial cell
 http://purl.obolibrary.org/obo/CL_0000000 #cell type
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040
 
+http://purl.obolibrary.org/obo/GO_0005575 #cellular_component
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 
+
+http://purl.obolibrary.org/obo/PR_000018263 
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 
+
 [Source term retrieval setting]
-includeComputedIntermediates
+includeAllIntermediates
 
 [Branch extractions from source term URIs and target direct superclass URIs]
 
 
 [Source annotation URIs]
-includeAllAnnotationProperties
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]
+
+
+#http://purl.obolibrary.org/obo/PATO_0000001 #quality
+#http://purl.obolibrary.org/obo/NCBITaxon_1 #root
+#http://purl.obolibrary.org/obo/NCBITaxon_131567 #cellular organisms
+
+
