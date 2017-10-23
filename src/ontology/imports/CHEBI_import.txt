@@ -5,15 +5,20 @@ http://purl.obolibrary.org/obo/clo/CHEBI_import.owl
 CHEBI
 
 [Low level source term URIs]
+http://purl.obolibrary.org/obo/CHEBI_24431 # chemical entity
 http://purl.obolibrary.org/obo/CHEBI_69136 #latrunculin A
 http://purl.obolibrary.org/obo/CHEBI_3815 #Collagen
 
 [Top level source term URIs and target direct superclass URIs]
+
+http://purl.obolibrary.org/obo/CHEBI_24431 # chemical entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+
 http://purl.obolibrary.org/obo/CHEBI_69136 #latrunculin A
-subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+subClassOf http://purl.obolibrary.org/obo/CHEBI_24431 # chemical entity
 
 http://purl.obolibrary.org/obo/CHEBI_3815 #Collagen
-subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+subClassOf http://purl.obolibrary.org/obo/CHEBI_24431 # chemical entity 
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -22,3 +27,8 @@ includeNoIntermediates
 includeAllAxioms
 
 [Source annotation URIs to be excluded]
+
+
+
+
+

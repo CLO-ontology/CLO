@@ -3,6 +3,7 @@
      xml:base="http://purl.obolibrary.org/obo/clo/CHEBI_import.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -19,31 +20,38 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/charge"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchi"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchikey"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/mass"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
-        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/formula"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/monoisotopicmass"/>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_alternative_id</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/smiles"/>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
     
 
@@ -95,12 +103,27 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:24431</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_3815 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3815">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Collagen</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4H6N2O3R2(C7H9N2O2R)n</oboInOwl:hasRelatedSynonym>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4H6N2O3R2(C7H9N2O2R)n</chebi:formula>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:9064-67-9</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:3815</oboInOwl:id>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Collagen</oboInOwl:hasExactSynonym>
@@ -116,20 +139,20 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_69136">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">latrunculin A</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(+)-latrunculin A</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(4R)-4-[(1R,4Z,8E,10Z,12S,15R,17R)-17-hydroxy-5,12-dimethyl-3-oxo-2,16-dioxabicyclo[13.3.1]nonadeca-4,8,10-trien-17-yl]-1,3-thiazolidin-2-one</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(4R)-4-[(1R,4Z,8E,10Z,12S,15R,17R)-17-hydroxy-5,12-dimethyl-3-oxo-2,16-dioxabicyclo[13.3.1]nonadeca-4,8,10-trien-17-yl]-1,3-thiazolidin-2-one</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">421.192</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">421.55000</oboInOwl:hasRelatedSynonym>
+        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
+        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">421.192</chebi:monoisotopicmass>
+        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">421.55000</chebi:mass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bicyclic macrolide natural product consisting of a 16-membered bicyclic lactone attached to the rare 2-thiazolidinone moiety. It is obtained from the Red Sea sponge Latrunculia magnifica and from the Fiji Islands sponge Cacospongia mycofijiensis. Latrunculin A inhibits actin polymerisation, microfilament organsation and microfilament-mediated processes.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C22H31NO5S</oboInOwl:hasRelatedSynonym>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C22H31NO5S</chebi:formula>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:76343-93-6</oboInOwl:hasDbXref>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:43626</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:69136</oboInOwl:id>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DDVBPZROPPMBLW-IZGXTMSKSA-N</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C22H31NO5S/c1-15-7-5-3-4-6-8-16(2)11-20(24)27-18-12-17(10-9-15)28-22(26,13-18)19-14-29-21(25)23-19/h3-5,7,11,15,17-19,26H,6,8-10,12-14H2,1-2H3,(H,23,25)/b4-3+,7-5-,16-11-/t15-,17-,18-,19+,22-/m1/s1</oboInOwl:hasRelatedSynonym>
+        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DDVBPZROPPMBLW-IZGXTMSKSA-N</chebi:inchikey>
+        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C22H31NO5S/c1-15-7-5-3-4-6-8-16(2)11-20(24)27-18-12-17(10-9-15)28-22(26,13-18)19-14-29-21(25)23-19/h3-5,7,11,15,17-19,26H,6,8-10,12-14H2,1-2H3,(H,23,25)/b4-3+,7-5-,16-11-/t15-,17-,18-,19+,22-/m1/s1</chebi:inchi>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LAT-A</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LATRUNCULIN A</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LatA</oboInOwl:hasRelatedSynonym>
@@ -146,7 +169,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:3556584</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:9250716</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys:4239363</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[H][C@]1(CSC(=O)N1)[C@@]1(O)C[C@H]2C[C@@H](CC[C@H](C)\C=C/C=C/CC\C(C)=C/C(=O)O2)O1</oboInOwl:hasRelatedSynonym>
+        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[H][C@]1(CSC(=O)N1)[C@@]1(O)C[C@H]2C[C@@H](CC[C@H](C)\C=C/C=C/CC\C(C)=C/C(=O)O2)O1</chebi:smiles>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
