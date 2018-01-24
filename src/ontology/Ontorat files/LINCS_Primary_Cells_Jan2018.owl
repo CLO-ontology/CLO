@@ -1,0 +1,1010 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ontorat_0000001.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ontorat_0000001.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ontorat_0000001.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0000178 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/CLO_0000178"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037333 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/CLO_0037333"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Literal -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#float -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#integer -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#nonNegativeInteger -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#string -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037302"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037322 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037322"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037323"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037325"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037326"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037328 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037328"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037329"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037331 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037331"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037332"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037400">
+        <rdfs:label>PromoCell cardiomyocytes Line A cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037325"/>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+        <obo:CLO_0000178>LPC-1001</obo:CLO_0000178>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell provider: PromoCell; Cell provider catalog number: PromoCell</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037401">
+        <rdfs:label>PromoCell cardiomyocytes Line B cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037325"/>
+        <obo:CLO_0000178>LPC-1002</obo:CLO_0000178>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell provider: PromoCell; Cell provider catalog number: PromoCell</rdfs:comment>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037402 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037402">
+        <rdfs:label>PromoCell cardiomyocytes Line D cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037325"/>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <obo:CLO_0000178>LPC-1003</obo:CLO_0000178>
+        <rdfs:comment>Cell provider: PromoCell; Cell provider catalog number: PromoCell</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037403">
+        <rdfs:label>PromoCell cardiomyocytes Line E cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037325"/>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell provider: PromoCell; Cell provider catalog number: PromoCell</rdfs:comment>
+        <obo:CLO_0000178>LPC-1004</obo:CLO_0000178>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037404 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037404">
+        <rdfs:label>PromoCell cardiomyocytes Line F cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037325"/>
+        <rdfs:comment>Cell provider: PromoCell; Cell provider catalog number: PromoCell</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <obo:CLO_0000178>LPC-1005</obo:CLO_0000178>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037405 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037405">
+        <rdfs:label>PromoCell cardiomyocytes Line G cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037325"/>
+        <rdfs:comment>Cell provider: PromoCell; Cell provider catalog number: PromoCell</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <obo:CLO_0000178>LPC-1006</obo:CLO_0000178>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037406">
+        <rdfs:label>N2586 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037322"/>
+        <obo:CLO_0000178>LPC-1007</obo:CLO_0000178>
+        <rdfs:comment>Cell provider: Cell Applications, Inc; Cell provider catalog number: Cell Applications, Inc</rdfs:comment>
+        <rdfs:comment>Cell center: HMS_LINCS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037407 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037407">
+        <rdfs:label>N2645 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037322"/>
+        <obo:CLO_0000178>LPC-1008</obo:CLO_0000178>
+        <rdfs:comment>Cell center: HMS_LINCS</rdfs:comment>
+        <rdfs:comment>Cell provider: Cell Applications, Inc; Cell provider catalog number: Cell Applications, Inc</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037408 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037408">
+        <rdfs:label>N2759 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037322"/>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <obo:CLO_0000178>LPC-1009</obo:CLO_0000178>
+        <rdfs:comment>Cell center: HMS_LINCS</rdfs:comment>
+        <rdfs:comment>Cell provider: Cell Applications, Inc; Cell provider catalog number: Cell Applications, Inc</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037409">
+        <rdfs:label>RA1869 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037322"/>
+        <obo:CLO_0000178>LPC-1010</obo:CLO_0000178>
+        <rdfs:comment>Cell center: HMS_LINCS</rdfs:comment>
+        <rdfs:comment>Cell provider: Cell Applications, Inc; Cell provider catalog number: Cell Applications, Inc</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037410 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037410">
+        <rdfs:label>RA1931 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037322"/>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <obo:CLO_0000178>LPC-1011</obo:CLO_0000178>
+        <rdfs:comment>Cell provider: Cell Applications, Inc; Cell provider catalog number: Cell Applications, Inc</rdfs:comment>
+        <rdfs:comment>Cell center: HMS_LINCS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037411 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037411">
+        <rdfs:label>RA2159 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037322"/>
+        <rdfs:comment>Cell provider: Cell Applications, Inc; Cell provider catalog number: Cell Applications, Inc</rdfs:comment>
+        <obo:CLO_0000178>LPC-1012</obo:CLO_0000178>
+        <rdfs:comment>Cell center: HMS_LINCS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037412 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037412">
+        <rdfs:label>RA2708 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037322"/>
+        <rdfs:comment>Cell provider: Cell Applications, Inc; Cell provider catalog number: Cell Applications, Inc</rdfs:comment>
+        <obo:CLO_0000178>LPC-1013</obo:CLO_0000178>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell center: HMS_LINCS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037413">
+        <rdfs:label>GM03814 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <obo:CLO_0000178>LPC-1014</obo:CLO_0000178>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+        <rdfs:comment>Cell provider: Coriell Cell Repository; Cell provider catalog number: Coriell Cell Repository</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <obo:CLO_0037333>Donor subject has two copies of the SMN2 and is heterozygous for deletion of exons 7 and 8 in the SMN1 gene</obo:CLO_0037333>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037414">
+        <rdfs:label>GM02183 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <obo:CLO_0000178>LPC-1015</obo:CLO_0000178>
+        <rdfs:comment>Cell provider: Coriell Cell Repository; Cell provider catalog number: Coriell Cell Repository</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+        <obo:CLO_0037333>Unclassified</obo:CLO_0037333>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037415 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037415">
+        <rdfs:label>ND30625 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+        <obo:CLO_0000178>LPC-1016</obo:CLO_0000178>
+        <rdfs:comment>Cell provider: Coriell Cell Repository; Cell provider catalog number: Coriell Cell Repository</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <obo:CLO_0037333>CAG length Allele 1 = 18; Allele 2 = 17</obo:CLO_0037333>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037416">
+        <rdfs:label>F09128 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <obo:CLO_0000178>LPC-1017</obo:CLO_0000178>
+        <obo:CLO_0037333>C9orf72; repeat number not indicated</obo:CLO_0037333>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell provider: Wasington University; Cell provider catalog number: Wasington University</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037417 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037417">
+        <rdfs:label>F09229 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <obo:CLO_0000178>LPC-1018</obo:CLO_0000178>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037418 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037418">
+        <rdfs:label>F10-330 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <obo:CLO_0037333>C9orf72; repeat number not indicated</obo:CLO_0037333>
+        <obo:CLO_0000178>LPC-1019</obo:CLO_0000178>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+        <rdfs:comment>Cell provider: Wasington University; Cell provider catalog number: Wasington University</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037419 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037419">
+        <rdfs:label>F09152 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <obo:CLO_0000178>LPC-1020</obo:CLO_0000178>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell provider: Wasington University; Cell provider catalog number: Wasington University</rdfs:comment>
+        <obo:CLO_0037333>C9orf72; repeat number not indicated</obo:CLO_0037333>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037420 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037420">
+        <rdfs:label>GM00232 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <obo:CLO_0037333>only one copy of the SMN2 gene; homozygous for deletion of exons 7 and 8 of the SMN1 gene</obo:CLO_0037333>
+        <rdfs:comment>Cell provider: Coriell Cell Repository; Cell provider catalog number: Coriell Cell Repository</rdfs:comment>
+        <obo:CLO_0000178>LPC-1021</obo:CLO_0000178>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037421 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037421">
+        <rdfs:label>83 Fibroblast cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <obo:CLO_0000178>LPC-1022</obo:CLO_0000178>
+        <rdfs:comment>Cell provider: Coriell Cell Repository; Cell provider catalog number: Coriell Cell Repository</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037422 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037422">
+        <rdfs:label>GM09677 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <obo:CLO_0037333>donor subject has 2 copies of the SMN2 gene and is homozygous for deletion of exons 7 and 8 of the SMN1 gene</obo:CLO_0037333>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+        <rdfs:comment>Cell provider: Coriell Cell Repository; Cell provider catalog number: Coriell Cell Repository</rdfs:comment>
+        <obo:CLO_0000178>LPC-1023</obo:CLO_0000178>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037423 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037423">
+        <rdfs:label>MSF01 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <obo:CLO_0000178>LPC-1024</obo:CLO_0000178>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell provider: ISMMS; Cell provider catalog number: ISMMS</rdfs:comment>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037424 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037424">
+        <rdfs:label>MSF02 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <rdfs:comment>Cell provider: ISMMS; Cell provider catalog number: ISMMS</rdfs:comment>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+        <obo:CLO_0000178>LPC-1025</obo:CLO_0000178>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037425 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037425">
+        <rdfs:label>MSF03 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+        <rdfs:comment>Cell provider: ISMMS; Cell provider catalog number: ISMMS</rdfs:comment>
+        <obo:CLO_0000178>LPC-1026</obo:CLO_0000178>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037426 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037426">
+        <rdfs:label>MSF04 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <rdfs:comment>Cell provider: ISMMS; Cell provider catalog number: ISMMS</rdfs:comment>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <obo:CLO_0000178>LPC-1027</obo:CLO_0000178>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037427 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037427">
+        <rdfs:label>MSF05 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <obo:CLO_0000178>LPC-1028</obo:CLO_0000178>
+        <rdfs:comment>Cell provider: ISMMS; Cell provider catalog number: ISMMS</rdfs:comment>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037428">
+        <rdfs:label>MSF06 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell provider: ISMMS; Cell provider catalog number: ISMMS</rdfs:comment>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+        <obo:CLO_0000178>LPC-1029</obo:CLO_0000178>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037429 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037429">
+        <rdfs:label>MSF07 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <obo:CLO_0000178>LPC-1030</obo:CLO_0000178>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell provider: ISMMS; Cell provider catalog number: ISMMS</rdfs:comment>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037430 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037430">
+        <rdfs:label>MSF08 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell provider: ISMMS; Cell provider catalog number: ISMMS</rdfs:comment>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+        <obo:CLO_0000178>LPC-1031</obo:CLO_0000178>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037431">
+        <rdfs:label>MSF09 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+        <rdfs:comment>Cell provider: ISMMS; Cell provider catalog number: ISMMS</rdfs:comment>
+        <obo:CLO_0000178>LPC-1032</obo:CLO_0000178>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037432 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037432">
+        <rdfs:label>MSF10 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell provider: ISMMS; Cell provider catalog number: ISMMS</rdfs:comment>
+        <obo:CLO_0000178>LPC-1033</obo:CLO_0000178>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037433 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037433">
+        <rdfs:label>MSF11 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <obo:CLO_0000178>LPC-1034</obo:CLO_0000178>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell provider: ISMMS; Cell provider catalog number: ISMMS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037434 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037434">
+        <rdfs:label>MSF12 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell provider: ISMMS; Cell provider catalog number: ISMMS</rdfs:comment>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+        <obo:CLO_0000178>LPC-1035</obo:CLO_0000178>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037435 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037435">
+        <rdfs:label>MSF13 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <obo:CLO_0000178>LPC-1036</obo:CLO_0000178>
+        <rdfs:comment>Cell provider: ISMMS; Cell provider catalog number: ISMMS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037436 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037436">
+        <rdfs:label>MSF14 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <obo:CLO_0000178>LPC-1037</obo:CLO_0000178>
+        <rdfs:comment>Cell provider: ISMMS; Cell provider catalog number: ISMMS</rdfs:comment>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037437 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037437">
+        <rdfs:label>MSF15 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <obo:CLO_0000178>LPC-1038</obo:CLO_0000178>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+        <rdfs:comment>Cell provider: ISMMS; Cell provider catalog number: ISMMS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037438 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037438">
+        <rdfs:label>MSF16 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <rdfs:comment>Cell provider: ISMMS; Cell provider catalog number: ISMMS</rdfs:comment>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <obo:CLO_0000178>LPC-1039</obo:CLO_0000178>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037439">
+        <rdfs:label>MSF17 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+        <rdfs:comment>Cell provider: ISMMS; Cell provider catalog number: ISMMS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <obo:CLO_0000178>LPC-1040</obo:CLO_0000178>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037440 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037440">
+        <rdfs:label>MSF18 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+        <obo:CLO_0000178>LPC-1041</obo:CLO_0000178>
+        <rdfs:comment>Cell provider: ISMMS; Cell provider catalog number: ISMMS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037441 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037441">
+        <rdfs:label>MSF19 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+        <obo:CLO_0000178>LPC-1042</obo:CLO_0000178>
+        <rdfs:comment>Cell provider: ISMMS; Cell provider catalog number: ISMMS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037442 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037442">
+        <rdfs:label>MSF20 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+        <obo:CLO_0000178>LPC-1043</obo:CLO_0000178>
+        <rdfs:comment>Cell provider: ISMMS; Cell provider catalog number: ISMMS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037443 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037443">
+        <rdfs:label>GM05400 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+        <rdfs:comment>Cell provider: Coriell Cell Repository; Cell provider catalog number: Coriell Cell Repository</rdfs:comment>
+        <obo:CLO_0000178>LPC-1044</obo:CLO_0000178>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037444 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037444">
+        <rdfs:label>F09129 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037302"/>
+        <obo:CLO_0037333>C9orf72; repeat number not indicated</obo:CLO_0037333>
+        <obo:CLO_0000178>LPC-1045</obo:CLO_0000178>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell provider: Wasington University; Cell provider catalog number: Wasington University</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037445 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037445">
+        <rdfs:label>GM10684 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037331"/>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+        <rdfs:comment>Cell provider: Coriell Cell Repository; Cell provider catalog number: Coriell Cell Repository</rdfs:comment>
+        <obo:CLO_0000178>LPC-1046</obo:CLO_0000178>
+        <obo:CLO_0037333>donor subject is homozygous for a deletion of exons 7 and 8 in the SMN1 gene and has 2 copies of the SMN2 gene</obo:CLO_0037333>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037446">
+        <rdfs:label>LPC-1047 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037323"/>
+        <rdfs:comment>Cell center: Broad</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <obo:CLO_0000178>LPC-1047</obo:CLO_0000178>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037447 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037447">
+        <rdfs:label>CC-2561 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037332"/>
+        <obo:CLO_0000178>LPC-1048</obo:CLO_0000178>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell provider: Lonza; Cell provider catalog number: Lonza</rdfs:comment>
+        <rdfs:comment>Cell center: Broad</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037448 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037448">
+        <rdfs:label>CC-2561 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037332"/>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell provider: Lonza; Cell provider catalog number: Lonza</rdfs:comment>
+        <obo:CLO_0000178>LPC-1049</obo:CLO_0000178>
+        <rdfs:comment>Cell center: Broad</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037449 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037449">
+        <rdfs:label>CC-2580 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037328"/>
+        <rdfs:comment>Cell provider: Lonza; Cell provider catalog number: Lonza</rdfs:comment>
+        <rdfs:comment>Cell center: Broad</rdfs:comment>
+        <obo:CLO_0000178>LPC-1050</obo:CLO_0000178>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037450 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037450">
+        <rdfs:label>LPC-1051 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037329"/>
+        <obo:CLO_0000178>LPC-1051</obo:CLO_0000178>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell provider: CellzDirect; Cell provider catalog number: CellzDirect</rdfs:comment>
+        <rdfs:comment>Cell center: Broad</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037451 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037451">
+        <rdfs:label>2M-101D cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037326"/>
+        <rdfs:comment>Cell provider: Lonza; Cell provider catalog number: Lonza</rdfs:comment>
+        <obo:CLO_0000178>LPC-1052</obo:CLO_0000178>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell center: Broad</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037452 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037452">
+        <rdfs:label>HPA-v cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037323"/>
+        <rdfs:comment>Cell center: Broad</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell provider: Sciencell; Cell provider catalog number: Sciencell</rdfs:comment>
+        <obo:CLO_0000178>LPC-1053</obo:CLO_0000178>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037453 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037453">
+        <rdfs:label>W14-C146 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000001"/>
+        <obo:CLO_0037333>ALS-Sporadic</obo:CLO_0037333>
+        <obo:CLO_0000178>LPC-1054</obo:CLO_0000178>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037454 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037454">
+        <rdfs:label>F13-C004 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000001"/>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+        <obo:CLO_0000178>LPC-1055</obo:CLO_0000178>
+        <obo:CLO_0037333>ALS-SOD1</obo:CLO_0037333>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037455 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037455">
+        <rdfs:label>W15-C166 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000001"/>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+        <obo:CLO_0000178>LPC-1056</obo:CLO_0000178>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <obo:CLO_0037333>ALS-Sporadic</obo:CLO_0037333>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037456 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037456">
+        <rdfs:label>SAB-701-022 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000001"/>
+        <obo:CLO_0000178>LPC-1057</obo:CLO_0000178>
+        <obo:CLO_0037333>ALS-SOD1</obo:CLO_0037333>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037457">
+        <rdfs:label>W14-C138 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000001"/>
+        <obo:CLO_0037333>ALS-Sporadic</obo:CLO_0037333>
+        <obo:CLO_0000178>LPC-1058</obo:CLO_0000178>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037458">
+        <rdfs:label>W14-C152 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000001"/>
+        <obo:CLO_0000178>LPC-1059</obo:CLO_0000178>
+        <obo:CLO_0037333>ALS-Sporadic</obo:CLO_0037333>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037459 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037459">
+        <rdfs:label>PWS-711-011 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000001"/>
+        <obo:CLO_0000178>LPC-1060</obo:CLO_0000178>
+        <obo:CLO_0037333>ALS-SOD1</obo:CLO_0037333>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000001"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.1.2018) http://owlapi.sourceforge.net -->
+
