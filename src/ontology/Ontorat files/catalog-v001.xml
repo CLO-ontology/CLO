@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ontorat_0000002.owl" uri="LINCS_iPS_Jan2018.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1516799568416" name="http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="LINCS_Primary_Cells_Jan2018.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1516807743487" name="duplicate:http://purl.obolibrary.org/obo/ontorat_0000002.owl" uri="LINCS_iPS_Jan2018.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1516807743487" name="duplicate:http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="LINCS_Primary_Cells_Jan2018.owl"/>
     </group>
 </catalog>

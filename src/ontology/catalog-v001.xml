@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="Ontorat%20files/LINCS_Primary_Cells_Jan2018.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ontorat_0000002.owl" uri="Ontorat%20files/LINCS_iPS_Jan2018.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/clo/DOID_import.owl" uri="DOID_import.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/clo/BFO_import.owl" uri="BFO_import.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/clo/GO_import.owl" uri="GO_import.owl"/>
