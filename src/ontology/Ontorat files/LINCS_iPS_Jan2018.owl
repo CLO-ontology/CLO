@@ -1,12 +1,23 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ontorat_0000002.owl#"
-     xml:base="http://purl.obolibrary.org/obo/ontorat_0000002.owl"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="&obo;ontorat_0000002.owl#"
+     xml:base="&obo;ontorat_0000002.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ontorat_0000002.owl"/>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="&obo;ontorat_0000002.owl"/>
     
 
 
@@ -23,85 +34,85 @@
 
     <!-- http://purl.obolibrary.org/obo/CLO_0000178 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/CLO_0000178"/>
+    <owl:AnnotationProperty rdf:about="&obo;CLO_0000178"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037333 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/CLO_0037333"/>
+    <owl:AnnotationProperty rdf:about="&obo;CLO_0037333"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037334 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/CLO_0037334"/>
+    <owl:AnnotationProperty rdf:about="&obo;CLO_0037334"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000111"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000112"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000114"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000116"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000117"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000118"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000119"/>
     
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
 
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:AnnotationProperty rdf:about="&rdfs;comment"/>
     
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="&rdfs;label"/>
     
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
 
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <owl:AnnotationProperty rdf:about="&rdfs;seeAlso"/>
     
 
 
@@ -118,37 +129,37 @@
 
     <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
 
-    <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+    <rdfs:Datatype rdf:about="&rdf;PlainLiteral"/>
     
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#Literal -->
 
-    <rdfs:Datatype rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:Datatype rdf:about="&rdfs;Literal"/>
     
 
 
     <!-- http://www.w3.org/2001/XMLSchema#float -->
 
-    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:Datatype rdf:about="&xsd;float"/>
     
 
 
     <!-- http://www.w3.org/2001/XMLSchema#integer -->
 
-    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:Datatype rdf:about="&xsd;integer"/>
     
 
 
     <!-- http://www.w3.org/2001/XMLSchema#nonNegativeInteger -->
 
-    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <rdfs:Datatype rdf:about="&xsd;nonNegativeInteger"/>
     
 
 
     <!-- http://www.w3.org/2001/XMLSchema#string -->
 
-    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:Datatype rdf:about="&xsd;string"/>
     
 
 
@@ -165,7 +176,7 @@
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037209 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLO_0037209"/>
+    <owl:ObjectProperty rdf:about="&obo;CLO_0037209"/>
     
 
 
@@ -182,182 +193,176 @@
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037224 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037224"/>
+    <owl:Class rdf:about="&obo;CLO_0037224"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037320 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037320"/>
+    <owl:Class rdf:about="&obo;CLO_0037320"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037413 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037413"/>
+    <owl:Class rdf:about="&obo;CLO_0037413"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037414 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037414"/>
+    <owl:Class rdf:about="&obo;CLO_0037414"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037415 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037415"/>
+    <owl:Class rdf:about="&obo;CLO_0037415"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037416 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037416"/>
+    <owl:Class rdf:about="&obo;CLO_0037416"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037417 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037417"/>
+    <owl:Class rdf:about="&obo;CLO_0037417"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037418 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037418"/>
+    <owl:Class rdf:about="&obo;CLO_0037418"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037419 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037419"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0037420 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037420"/>
+    <owl:Class rdf:about="&obo;CLO_0037419"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037421 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037421"/>
+    <owl:Class rdf:about="&obo;CLO_0037421"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037422 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037422"/>
+    <owl:Class rdf:about="&obo;CLO_0037422"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037423 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037423"/>
+    <owl:Class rdf:about="&obo;CLO_0037423"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037424 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037424"/>
+    <owl:Class rdf:about="&obo;CLO_0037424"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037425 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037425"/>
+    <owl:Class rdf:about="&obo;CLO_0037425"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037427 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037427"/>
+    <owl:Class rdf:about="&obo;CLO_0037427"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037428 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037428"/>
+    <owl:Class rdf:about="&obo;CLO_0037428"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037430 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037430"/>
+    <owl:Class rdf:about="&obo;CLO_0037430"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037431 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037431"/>
+    <owl:Class rdf:about="&obo;CLO_0037431"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037432 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037432"/>
+    <owl:Class rdf:about="&obo;CLO_0037432"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037443 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037443"/>
+    <owl:Class rdf:about="&obo;CLO_0037443"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037453 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037453"/>
+    <owl:Class rdf:about="&obo;CLO_0037453"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037454 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037454"/>
+    <owl:Class rdf:about="&obo;CLO_0037454"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037455 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037455"/>
+    <owl:Class rdf:about="&obo;CLO_0037455"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037456 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037456"/>
+    <owl:Class rdf:about="&obo;CLO_0037456"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037457 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037457"/>
+    <owl:Class rdf:about="&obo;CLO_0037457"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037458 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037458"/>
+    <owl:Class rdf:about="&obo;CLO_0037458"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037500 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037500">
+    <owl:Class rdf:about="&obo;CLO_0037500">
         <rdfs:label>CS14iCTR-n6 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037320"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037320"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037413"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037413"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
         <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
         <obo:CLO_0000178>LSC-1002</obo:CLO_0000178>
-        <obo:CLO_0037334>mTeSR1, Growth Factor Reduced Matrigel</obo:CLO_0037334>
         <obo:CLO_0037333>Donor subject has two copies of the SMN2 and is heterozygous for deletion of exons 7 and 8 in the SMN1 gene</obo:CLO_0037333>
+        <obo:CLO_0037334>mTeSR1, Growth Factor Reduced Matrigel</obo:CLO_0037334>
         <rdfs:comment>Cell provider: Cedars-Sinai Stem Cell Core Laboratory; Cell provider catalog number: CS14iCTR-n6</rdfs:comment>
     </owl:Class>
     
@@ -365,62 +370,62 @@
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037501 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037501">
+    <owl:Class rdf:about="&obo;CLO_0037501">
         <rdfs:label>CS83iCTR-33n1 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037320"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037320"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037414"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037414"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
-        <obo:CLO_0000178>LSC-1003</obo:CLO_0000178>
-        <obo:CLO_0037333>Unclassified</obo:CLO_0037333>
         <rdfs:comment>Cell provider: Cedars-Sinai Stem Cell Core Laboratory; Cell provider catalog number: CS83iCTR-33n1</rdfs:comment>
-        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
         <obo:CLO_0037334>mTeSR1, Growth Factor Reduced Matrigel</obo:CLO_0037334>
+        <obo:CLO_0000178>LSC-1003</obo:CLO_0000178>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <obo:CLO_0037333>Unclassified</obo:CLO_0037333>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037502 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037502">
+    <owl:Class rdf:about="&obo;CLO_0037502">
         <rdfs:label>CS25iCTR-18n2 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037320"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037320"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037415"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037415"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:CLO_0037333>CAG length Allele 1 = 18; Allele 2 = 17</obo:CLO_0037333>
-        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
-        <obo:CLO_0037334>mTeSR1, Growth Factor Reduced Matrigel</obo:CLO_0037334>
-        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
         <obo:CLO_0000178>LSC-1004</obo:CLO_0000178>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+        <obo:CLO_0037333>CAG length Allele 1 = 18; Allele 2 = 17</obo:CLO_0037333>
         <rdfs:comment>Cell provider: Cedars-Sinai Stem Cell Core Laboratory; Cell provider catalog number: CS25iCTR-18n2</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <obo:CLO_0037334>mTeSR1, Growth Factor Reduced Matrigel</obo:CLO_0037334>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037503 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037503">
+    <owl:Class rdf:about="&obo;CLO_0037503">
         <rdfs:label>CS28iALS-n2A cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037320"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037320"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037416"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037416"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:CLO_0037334>mTeSR1, Growth Factor Reduced Matrigel</obo:CLO_0037334>
-        <rdfs:comment>Cell provider: Cedars-Sinai Stem Cell Core Laboratory; Cell provider catalog number: CS28iALS-n2A</rdfs:comment>
+        <obo:CLO_0037333>C9orf72; repeat number not indicated</obo:CLO_0037333>
         <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
         <obo:CLO_0000178>LSC-1005</obo:CLO_0000178>
-        <obo:CLO_0037333>C9orf72; repeat number not indicated</obo:CLO_0037333>
+        <obo:CLO_0037334>mTeSR1, Growth Factor Reduced Matrigel</obo:CLO_0037334>
+        <rdfs:comment>Cell provider: Cedars-Sinai Stem Cell Core Laboratory; Cell provider catalog number: CS28iALS-n2A</rdfs:comment>
         <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
     </owl:Class>
     
@@ -428,104 +433,98 @@
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037504 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037504">
+    <owl:Class rdf:about="&obo;CLO_0037504">
         <rdfs:label>CS29iALS-n1N cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037320"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037320"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037417"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037417"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Cell provider: Cedars-Sinai Stem Cell Core Laboratory; Cell provider catalog number: CS29iALS-n1N</rdfs:comment>
-        <obo:CLO_0037334>mTeSR1, Growth Factor Reduced Matrigel</obo:CLO_0037334>
-        <obo:CLO_0000178>LSC-1006</obo:CLO_0000178>
-        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
         <obo:CLO_0037333>C9orf72; repeat number not indicated</obo:CLO_0037333>
         <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+        <obo:CLO_0037334>mTeSR1, Growth Factor Reduced Matrigel</obo:CLO_0037334>
+        <rdfs:comment>Cell provider: Cedars-Sinai Stem Cell Core Laboratory; Cell provider catalog number: CS29iALS-n1N</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <obo:CLO_0000178>LSC-1006</obo:CLO_0000178>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037505 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037505">
+    <owl:Class rdf:about="&obo;CLO_0037505">
         <rdfs:label>CS30iALS-n1N cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037320"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037320"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037418"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037418"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Cell provider: Cedars-Sinai Stem Cell Core Laboratory; Cell provider catalog number: CS30iALS-n1N</rdfs:comment>
-        <obo:CLO_0037333>C9orf72; repeat number not indicated</obo:CLO_0037333>
-        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
-        <obo:CLO_0037334>mTeSR1, Growth Factor Reduced Matrigel</obo:CLO_0037334>
-        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
         <obo:CLO_0000178>LSC-1007</obo:CLO_0000178>
+        <obo:CLO_0037334>mTeSR1, Growth Factor Reduced Matrigel</obo:CLO_0037334>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+        <obo:CLO_0037333>C9orf72; repeat number not indicated</obo:CLO_0037333>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell provider: Cedars-Sinai Stem Cell Core Laboratory; Cell provider catalog number: CS30iALS-n1N</rdfs:comment>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037506 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037506">
+    <owl:Class rdf:about="&obo;CLO_0037506">
         <rdfs:label>CS52iALS-n6A cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037320"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037320"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037419"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037419"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Cell provider: Cedars-Sinai Stem Cell Core Laboratory; Cell provider catalog number: CS52iALS-n6A</rdfs:comment>
         <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
-        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+        <rdfs:comment>Cell provider: Cedars-Sinai Stem Cell Core Laboratory; Cell provider catalog number: CS52iALS-n6A</rdfs:comment>
+        <obo:CLO_0000178>LSC-1008</obo:CLO_0000178>
         <obo:CLO_0037333>C9orf72; repeat number not indicated</obo:CLO_0037333>
         <obo:CLO_0037334>mTeSR1, Growth Factor Reduced Matrigel</obo:CLO_0037334>
-        <obo:CLO_0000178>LSC-1008</obo:CLO_0000178>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037507 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037507">
+    <owl:Class rdf:about="&obo;CLO_0037507">
         <rdfs:label>CS32iSMA-n3 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037320"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037420"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:CLO_0000178>LSC-1009</obo:CLO_0000178>
-        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
-        <rdfs:comment>Cell provider: Cedars-Sinai Stem Cell Core Laboratory; Cell provider catalog number: CS32iSMA-n3</rdfs:comment>
-        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
-        <obo:CLO_0037333>only one copy of the SMN2 gene; homozygous for deletion of exons 7 and 8 of the SMN1 gene</obo:CLO_0037333>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037320"/>
         <obo:CLO_0037334>mTeSR1, Growth Factor Reduced Matrigel</obo:CLO_0037334>
+        <obo:CLO_0037333>only one copy of the SMN2 gene; homozygous for deletion of exons 7 and 8 of the SMN1 gene</obo:CLO_0037333>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+        <obo:CLO_0000178>LSC-1009</obo:CLO_0000178>
+        <rdfs:comment>Cell provider: Cedars-Sinai Stem Cell Core Laboratory; Cell provider catalog number: CS32iSMA-n3</rdfs:comment>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037508 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037508">
+    <owl:Class rdf:about="&obo;CLO_0037508">
         <rdfs:label>CS83iSMA-n5 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037320"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037320"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037421"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037421"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
-        <obo:CLO_0037334>mTeSR1, Growth Factor Reduced Matrigel</obo:CLO_0037334>
-        <obo:CLO_0000178>LSC-1011</obo:CLO_0000178>
         <rdfs:comment>Cell provider: Cedars-Sinai Stem Cell Core Laboratory; Cell provider catalog number: CS83iSMA-n5</rdfs:comment>
+        <obo:CLO_0037334>mTeSR1, Growth Factor Reduced Matrigel</obo:CLO_0037334>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
         <obo:CLO_0037333>Unknown</obo:CLO_0037333>
+        <obo:CLO_0000178>LSC-1011</obo:CLO_0000178>
         <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
     </owl:Class>
     
@@ -533,39 +532,39 @@
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037509 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037509">
+    <owl:Class rdf:about="&obo;CLO_0037509">
         <rdfs:label>CS77iSMA-n5 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037320"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037320"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037422"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037422"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>Cell provider: Cedars-Sinai Stem Cell Core Laboratory; Cell provider catalog number: CS77iSMA-n5</rdfs:comment>
-        <obo:CLO_0037333>donor subject has 2 copies of the SMN2 gene and is homozygous for deletion of exons 7 and 8 of the SMN1 gene</obo:CLO_0037333>
-        <obo:CLO_0037334>mTeSR1, Growth Factor Reduced Matrigel</obo:CLO_0037334>
         <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
         <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
         <obo:CLO_0000178>LSC-1012</obo:CLO_0000178>
+        <obo:CLO_0037333>donor subject has 2 copies of the SMN2 gene and is homozygous for deletion of exons 7 and 8 of the SMN1 gene</obo:CLO_0037333>
+        <obo:CLO_0037334>mTeSR1, Growth Factor Reduced Matrigel</obo:CLO_0037334>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037510 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037510">
+    <owl:Class rdf:about="&obo;CLO_0037510">
         <rdfs:label>MSN01-3 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037320"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037320"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037423"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037423"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:CLO_0037333>none/healthy</obo:CLO_0037333>
-        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
         <obo:CLO_0037334>human pluripotent stem cell medium, includign mTeSR</obo:CLO_0037334>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <obo:CLO_0037333>none/healthy</obo:CLO_0037333>
         <rdfs:comment>Cell center: DToxS</rdfs:comment>
         <obo:CLO_0000178>LSC-1013</obo:CLO_0000178>
     </owl:Class>
@@ -574,39 +573,39 @@
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037511 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037511">
+    <owl:Class rdf:about="&obo;CLO_0037511">
         <rdfs:label>MSN03-7 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037320"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037320"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037425"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037425"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:CLO_0000178>LSC-1014</obo:CLO_0000178>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
         <obo:CLO_0037334>human pluripotent stem cell medium, includign mTeSR</obo:CLO_0037334>
         <rdfs:comment>Cell center: DToxS</rdfs:comment>
         <obo:CLO_0037333>none/healthy</obo:CLO_0037333>
-        <obo:CLO_0000178>LSC-1014</obo:CLO_0000178>
-        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037512 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037512">
+    <owl:Class rdf:about="&obo;CLO_0037512">
         <rdfs:label>MSN05-1 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037320"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037320"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037427"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037427"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
-        <rdfs:comment>Cell center: DToxS</rdfs:comment>
         <obo:CLO_0037334>human pluripotent stem cell medium, includign mTeSR</obo:CLO_0037334>
         <obo:CLO_0037333>none/healthy</obo:CLO_0037333>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
         <obo:CLO_0000178>LSC-1015</obo:CLO_0000178>
     </owl:Class>
     
@@ -614,78 +613,78 @@
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037513 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037513">
+    <owl:Class rdf:about="&obo;CLO_0037513">
         <rdfs:label>MSN06-7 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037320"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037320"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037428"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037428"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:CLO_0037334>human pluripotent stem cell medium, includign mTeSR</obo:CLO_0037334>
         <obo:CLO_0037333>none/healthy</obo:CLO_0037333>
         <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
-        <obo:CLO_0000178>LSC-1016</obo:CLO_0000178>
-        <obo:CLO_0037334>human pluripotent stem cell medium, includign mTeSR</obo:CLO_0037334>
         <rdfs:comment>Cell center: DToxS</rdfs:comment>
+        <obo:CLO_0000178>LSC-1016</obo:CLO_0000178>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037514 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037514">
+    <owl:Class rdf:about="&obo;CLO_0037514">
         <rdfs:label>MSN02-4 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037320"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037320"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037424"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037424"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:CLO_0037333>none/healthy</obo:CLO_0037333>
         <obo:CLO_0037334>human pluripotent stem cell medium, includign mTeSR</obo:CLO_0037334>
+        <obo:CLO_0037333>none/healthy</obo:CLO_0037333>
         <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
-        <obo:CLO_0000178>LSC-1017</obo:CLO_0000178>
         <rdfs:comment>Cell center: DToxS</rdfs:comment>
+        <obo:CLO_0000178>LSC-1017</obo:CLO_0000178>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037515 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037515">
+    <owl:Class rdf:about="&obo;CLO_0037515">
         <rdfs:label>MSN08-13 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037320"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037320"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037430"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037430"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLO_0037334>human pluripotent stem cell medium, includign mTeSR</obo:CLO_0037334>
         <obo:CLO_0000178>LSC-1018</obo:CLO_0000178>
+        <rdfs:comment>Cell center: DToxS</rdfs:comment>
         <obo:CLO_0037333>none/healthy</obo:CLO_0037333>
         <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
-        <rdfs:comment>Cell center: DToxS</rdfs:comment>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037516 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037516">
+    <owl:Class rdf:about="&obo;CLO_0037516">
         <rdfs:label>MSN09-4 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037320"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037320"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037431"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037431"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:CLO_0037334>human pluripotent stem cell medium, includign mTeSR</obo:CLO_0037334>
         <rdfs:comment>Cell center: DToxS</rdfs:comment>
         <obo:CLO_0037333>none/healthy</obo:CLO_0037333>
-        <obo:CLO_0037334>human pluripotent stem cell medium, includign mTeSR</obo:CLO_0037334>
         <obo:CLO_0000178>LSC-1019</obo:CLO_0000178>
         <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
     </owl:Class>
@@ -694,63 +693,63 @@
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037517 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037517">
+    <owl:Class rdf:about="&obo;CLO_0037517">
         <rdfs:label>MSN10-1 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037320"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037320"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037432"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037432"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:CLO_0000178>LSC-1020</obo:CLO_0000178>
+        <obo:CLO_0037334>human pluripotent stem cell medium, includign mTeSR</obo:CLO_0037334>
         <obo:CLO_0037333>none/healthy</obo:CLO_0037333>
         <rdfs:comment>Cell center: DToxS</rdfs:comment>
         <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
-        <obo:CLO_0000178>LSC-1020</obo:CLO_0000178>
-        <obo:CLO_0037334>human pluripotent stem cell medium, includign mTeSR</obo:CLO_0037334>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037518 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037518">
+    <owl:Class rdf:about="&obo;CLO_0037518">
         <rdfs:label>FIBRNPC cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037224"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037224"/>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
         <obo:CLO_0000178>LSC-1021</obo:CLO_0000178>
         <rdfs:comment>Cell center: BROAD_T</rdfs:comment>
-        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037519 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037519">
+    <owl:Class rdf:about="&obo;CLO_0037519">
         <rdfs:label>CS14isALS-Tn16 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037224"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037224"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037453"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037453"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
         <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
         <obo:CLO_0000178>LSC-1022</obo:CLO_0000178>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037520 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037520">
+    <owl:Class rdf:about="&obo;CLO_0037520">
         <rdfs:label>CS04iALS-SOD1H44Rn3 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037224"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037224"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037454"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037454"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
@@ -762,31 +761,31 @@
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037521 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037521">
+    <owl:Class rdf:about="&obo;CLO_0037521">
         <rdfs:label>CS00iCTR-n2 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037320"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037320"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037443"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037443"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
         <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
         <obo:CLO_0000178>LSC-1024</obo:CLO_0000178>
-        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037522 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037522">
+    <owl:Class rdf:about="&obo;CLO_0037522">
         <rdfs:label>CS29iALS-C9n1 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037320"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037320"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037417"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037417"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLO_0000178>LSC-1025</obo:CLO_0000178>
@@ -798,125 +797,125 @@
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037523 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037523">
+    <owl:Class rdf:about="&obo;CLO_0037523">
         <rdfs:label>CS30iALS-C9n1 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037320"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037320"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037418"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037418"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
-        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
         <obo:CLO_0000178>LSC-1026</obo:CLO_0000178>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037524 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037524">
+    <owl:Class rdf:about="&obo;CLO_0037524">
         <rdfs:label>CS166isALS-Tn2 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037224"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037224"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037455"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037455"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
-        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
         <obo:CLO_0000178>LSC-1027</obo:CLO_0000178>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037525 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037525">
+    <owl:Class rdf:about="&obo;CLO_0037525">
         <rdfs:label>CS22iALS-SOD1I113Tn2 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037224"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037224"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037456"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037456"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:CLO_0000178>LSC-1028</obo:CLO_0000178>
-        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
         <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <obo:CLO_0000178>LSC-1028</obo:CLO_0000178>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037526 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037526">
+    <owl:Class rdf:about="&obo;CLO_0037526">
         <rdfs:label>CS138isALS-Tn1 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037224"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037224"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037457"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037457"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
-        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
         <obo:CLO_0000178>LSC-1029</obo:CLO_0000178>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037527 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037527">
+    <owl:Class rdf:about="&obo;CLO_0037527">
         <rdfs:label>CS152isALS-Tn2 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037224"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037224"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037458"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037458"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:CLO_0000178>LSC-1030</obo:CLO_0000178>
-        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
         <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <obo:CLO_0000178>LSC-1030</obo:CLO_0000178>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037528 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037528">
+    <owl:Class rdf:about="&obo;CLO_0037528">
         <rdfs:label>CS28iALS-C9n2 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037320"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037320"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037416"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037416"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
-        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
         <obo:CLO_0000178>LSC-1031</obo:CLO_0000178>
+        <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037529 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037529">
+    <owl:Class rdf:about="&obo;CLO_0037529">
         <rdfs:label>CS52iALS-C9n6 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037320"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037320"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037419"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037419"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
         <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
         <obo:CLO_0000178>LSC-1032</obo:CLO_0000178>
     </owl:Class>
     
@@ -924,22 +923,22 @@
 
     <!-- http://purl.obolibrary.org/obo/CLO_0037530 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037530">
+    <owl:Class rdf:about="&obo;CLO_0037530">
         <rdfs:label>CS11iALS-SOD1I113Tn10 cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037224"/>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037224"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0037454"/>
+                <owl:onProperty rdf:resource="&obo;CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0037454"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
         <obo:CLO_0000178>LSC-1033</obo:CLO_0000178>
+        <rdfs:comment>Cell center: NeuroLINCS</rdfs:comment>
         <obo:IAO_0000117>Daniel Cooper, Oliver He</obo:IAO_0000117>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.4.1.2018) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
 
