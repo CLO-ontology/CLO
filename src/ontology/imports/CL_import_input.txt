@@ -91,6 +91,7 @@ http://purl.obolibrary.org/obo/GO_0005575 #cellular_component
 http://purl.obolibrary.org/obo/CL_2000001 #peripheral blood mononuclear cell (PBMC)	
 http://purl.obolibrary.org/obo/CL_0000784 #plasmacytoid dendritic cell	
 http://purl.obolibrary.org/obo/CL_0000782 #myeloid dendritic cell
+http://purl.obolibrary.org/obo/CL_0000840 #immature conventional dendritic cell
 
 # http://purl.obolibrary.org/obo/CL_0000220 #cell by lineage  obsolete
 # http://purl.obolibrary.org/obo/CL_0000363 #axial cell obsolete
