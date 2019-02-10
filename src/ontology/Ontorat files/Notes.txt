@@ -1,0 +1,4 @@
+Notes:
+
+On 2/10/2019, I merged two OWL files in the "Ontorat files" folder to clo.owl. -- Oliver He
+ 
