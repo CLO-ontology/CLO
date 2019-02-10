@@ -1,0 +1,253 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/clo/UBERON_import.owl
+
+[Source ontology]
+UBERON
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/UBERON_0001516 #abdominal aorta
+http://purl.obolibrary.org/obo/UBERON_0001269 #acetabular part of hip bone
+http://purl.obolibrary.org/obo/UBERON_0001235 #adrenal cortex
+http://purl.obolibrary.org/obo/UBERON_0000446 #septum of telencephalon
+http://purl.obolibrary.org/obo/UBERON_0002369 #adrenal gland
+http://purl.obolibrary.org/obo/UBERON_0000305 #amnion
+http://purl.obolibrary.org/obo/UBERON_0000007 #pituitary gland
+http://purl.obolibrary.org/obo/UBERON_0002607 #superior rostral sulcus
+http://purl.obolibrary.org/obo/UBERON_0000947 #aorta
+http://purl.obolibrary.org/obo/UBERON_0004851 #aorta endothelium
+http://purl.obolibrary.org/obo/UBERON_0001515 #thoracic aorta
+http://purl.obolibrary.org/obo/UBERON_0001013 #adipose tissue
+http://purl.obolibrary.org/obo/UBERON_0001035 #socket
+http://purl.obolibrary.org/obo/UBERON_0002358 #peritoneum
+http://purl.obolibrary.org/obo/UBERON_0000038 #follicular fluid
+http://purl.obolibrary.org/obo/UBERON_0000029 #lymph node
+http://purl.obolibrary.org/obo/UBERON_0001097 #axillary lymph node
+http://purl.obolibrary.org/obo/UBERON_0000483 #epithelium
+http://purl.obolibrary.org/obo/UBERON_0002049 #vasculature
+http://purl.obolibrary.org/obo/UBERON_0003718 #muscle spindle
+http://purl.obolibrary.org/obo/UBERON_0002394 #bile duct
+http://purl.obolibrary.org/obo/UBERON_0001255 #urinary bladder
+http://purl.obolibrary.org/obo/UBERON_0001474 #bone
+http://purl.obolibrary.org/obo/UBERON_0004339 #calvaria
+http://purl.obolibrary.org/obo/UBERON_0002371 #bone marrow
+http://purl.obolibrary.org/obo/UBERON_0005630 #fetal membrane
+http://purl.obolibrary.org/obo/UBERON_0002384 #connective tissue
+http://purl.obolibrary.org/obo/UBERON_0000077 #mixed endoderm/mesoderm-derived structure
+http://purl.obolibrary.org/obo/UBERON_0002355 #pelvis
+http://purl.obolibrary.org/obo/UBERON_0000955 #brain
+http://purl.obolibrary.org/obo/UBERON_0002037 #cerebellum
+http://purl.obolibrary.org/obo/UBERON_0000956 #cerebral cortex
+http://purl.obolibrary.org/obo/UBERON_0001886 #choroid plexus
+http://purl.obolibrary.org/obo/UBERON_0001851 #cortex
+http://purl.obolibrary.org/obo/UBERON_0001894 #diencephalon
+http://purl.obolibrary.org/obo/UBERON_0000045 #ganglion
+http://purl.obolibrary.org/obo/UBERON_0001439 #compact bone
+http://purl.obolibrary.org/obo/UBERON_0000068 #embryo stage
+http://purl.obolibrary.org/obo/UBERON_0002502 #round window
+http://purl.obolibrary.org/obo/UBERON_0000310 #breast
+http://purl.obolibrary.org/obo/UBERON_0002030 #nipple
+http://purl.obolibrary.org/obo/UBERON_0002185 #bronchus
+http://purl.obolibrary.org/obo/UBERON_0003668 #synovial bursa
+http://purl.obolibrary.org/obo/UBERON_0002418 #cartilage
+http://purl.obolibrary.org/obo/UBERON_0000049 #spherical lensed eye
+http://purl.obolibrary.org/obo/UBERON_0000171 #respiration organ
+http://purl.obolibrary.org/obo/UBERON_0002534 #fin
+http://purl.obolibrary.org/obo/UBERON_0000936 #posterior commissure
+http://purl.obolibrary.org/obo/UBERON_0002100 #trunk
+http://purl.obolibrary.org/obo/UBERON_0001153 #cecum
+http://purl.obolibrary.org/obo/UBERON_0001017 #central nervous system
+http://purl.obolibrary.org/obo/UBERON_0002429 #cervical lymph node
+http://purl.obolibrary.org/obo/UBERON_0000477 #anatomical cluster
+http://purl.obolibrary.org/obo/UBERON_0002108 #small intestine
+http://purl.obolibrary.org/obo/UBERON_0000002 #uterine cervix
+http://purl.obolibrary.org/obo/UBERON_0003124 #chorion
+http://purl.obolibrary.org/obo/UBERON_0001155 #colon
+http://purl.obolibrary.org/obo/UBERON_0001811 #conjunctiva
+http://purl.obolibrary.org/obo/UBERON_0000934 #ventral nerve cord
+http://purl.obolibrary.org/obo/UBERON_0000964 #cornea
+http://purl.obolibrary.org/obo/UBERON_0002067 #dermis
+http://purl.obolibrary.org/obo/UBERON_0000044 #dorsal root ganglion
+http://purl.obolibrary.org/obo/UBERON_0001000 #vas deferens
+http://purl.obolibrary.org/obo/UBERON_0004224 #vas deferens smooth muscle
+http://purl.obolibrary.org/obo/UBERON_0002114 #duodenum
+http://purl.obolibrary.org/obo/UBERON_0000922 #embryo
+http://purl.obolibrary.org/obo/UBERON_0002107 #liver
+http://purl.obolibrary.org/obo/UBERON_0000458 #endocervix
+http://purl.obolibrary.org/obo/UBERON_0001295 #endometrium
+http://purl.obolibrary.org/obo/UBERON_0000948 #heart
+http://purl.obolibrary.org/obo/UBERON_0001986 #endothelium
+http://purl.obolibrary.org/obo/UBERON_0001917 #endothelium of artery
+http://purl.obolibrary.org/obo/UBERON_0002009 #pulmonary nerve plexus
+http://purl.obolibrary.org/obo/UBERON_0001003 #epidermis
+http://purl.obolibrary.org/obo/UBERON_0002424 #oral epithelium
+http://purl.obolibrary.org/obo/UBERON_0001695 #squamous part of temporal bone
+http://purl.obolibrary.org/obo/UBERON_0001043 #esophagus
+http://purl.obolibrary.org/obo/UBERON_0001264 #pancreas
+http://purl.obolibrary.org/obo/UBERON_0000970 #eye
+http://purl.obolibrary.org/obo/UBERON_0001776 #choroid
+http://purl.obolibrary.org/obo/UBERON_0000965 #lens
+http://purl.obolibrary.org/obo/UBERON_0000966 #retina
+http://purl.obolibrary.org/obo/UBERON_0003889 #fallopian tube
+http://purl.obolibrary.org/obo/UBERON_0002060 #femoral artery
+http://purl.obolibrary.org/obo/UBERON_0000323 #fetus
+http://purl.obolibrary.org/obo/UBERON_0000211 #ligament
+http://purl.obolibrary.org/obo/UBERON_0001332 #prepuce of penis
+http://purl.obolibrary.org/obo/UBERON_0002351 #sinuatrial node
+http://purl.obolibrary.org/obo/UBERON_0002535 #gill
+http://purl.obolibrary.org/obo/UBERON_0001828 #gingiva
+http://purl.obolibrary.org/obo/UBERON_0003891 #stroma
+http://purl.obolibrary.org/obo/UBERON_0001949 #gingival epithelium
+http://purl.obolibrary.org/obo/UBERON_0000479 #portion of tissue
+http://purl.obolibrary.org/obo/UBERON_0000991 #gonad
+http://purl.obolibrary.org/obo/UBERON_0002349 #myocardium
+http://purl.obolibrary.org/obo/UBERON_0001954 #hippocampus
+http://purl.obolibrary.org/obo/UBERON_0002113 #kidney
+http://purl.obolibrary.org/obo/UBERON_0002687 #area x
+http://purl.obolibrary.org/obo/UBERON_0002116 #ileum
+http://purl.obolibrary.org/obo/UBERON_0005609 #iliac artery
+http://purl.obolibrary.org/obo/UBERON_0005610 #iliac vein
+http://purl.obolibrary.org/obo/UBERON_0001542 #inguinal lymph node
+http://purl.obolibrary.org/obo/UBERON_0000160 #intestine
+http://purl.obolibrary.org/obo/UBERON_0001073 #ileocecal junction
+http://purl.obolibrary.org/obo/UBERON_0002439 #myenteric nerve plexus
+http://purl.obolibrary.org/obo/UBERON_0002115 #jejunum
+http://purl.obolibrary.org/obo/UBERON_0001225 #cortex of kidney
+http://purl.obolibrary.org/obo/UBERON_0001232 #collecting duct of renal tubule
+http://purl.obolibrary.org/obo/UBERON_0004134 #proximal tubule
+http://purl.obolibrary.org/obo/UBERON_0000074 #renal glomerulus
+http://purl.obolibrary.org/obo/UBERON_0000362 #renal medulla
+http://purl.obolibrary.org/obo/UBERON_0001231 #renal tubule
+http://purl.obolibrary.org/obo/UBERON_0001230 #glomerular capsule
+http://purl.obolibrary.org/obo/UBERON_0000178 #blood
+http://purl.obolibrary.org/obo/UBERON_0002548 #larva
+http://purl.obolibrary.org/obo/UBERON_0001737 #larynx
+http://purl.obolibrary.org/obo/UBERON_0001115 #left lobe of liver
+http://purl.obolibrary.org/obo/UBERON_0000170 #pair of lungs
+http://purl.obolibrary.org/obo/UBERON_0002186 #bronchiole
+http://purl.obolibrary.org/obo/UBERON_0000444 #lymphoid follicle
+http://purl.obolibrary.org/obo/UBERON_0004708 #limb/fin
+http://purl.obolibrary.org/obo/UBERON_0000175 #pleural effusion
+http://purl.obolibrary.org/obo/UBERON_0002391 #lymph
+http://purl.obolibrary.org/obo/UBERON_0004548 #left eye
+http://purl.obolibrary.org/obo/UBERON_0002106 #spleen
+http://purl.obolibrary.org/obo/UBERON_0002370 #thymus
+http://purl.obolibrary.org/obo/UBERON_0001744 #lymphoid tissue
+http://purl.obolibrary.org/obo/UBERON_0000062 #organ
+http://purl.obolibrary.org/obo/UBERON_0001911 #mammary gland
+http://purl.obolibrary.org/obo/UBERON_0003244 #epithelium of mammary gland
+http://purl.obolibrary.org/obo/UBERON_0002509 #mesenteric lymph node
+http://purl.obolibrary.org/obo/UBERON_0001170 #mesentery of small intestine
+http://purl.obolibrary.org/obo/UBERON_0000080 #mesonephros
+http://purl.obolibrary.org/obo/UBERON_0001136 #mesothelium
+http://purl.obolibrary.org/obo/UBERON_0001733 #soft palate
+http://purl.obolibrary.org/obo/UBERON_0000014 #zone of skin
+http://purl.obolibrary.org/obo/UBERON_0000473 #testis
+http://purl.obolibrary.org/obo/UBERON_0000992 #ovary
+http://purl.obolibrary.org/obo/UBERON_0000165 #mouth
+http://purl.obolibrary.org/obo/UBERON_0001015 #musculature
+http://purl.obolibrary.org/obo/UBERON_0000059 #large intestine
+http://purl.obolibrary.org/obo/UBERON_0001706 #nasal septum
+http://purl.obolibrary.org/obo/UBERON_0001762 #nasal concha
+http://purl.obolibrary.org/obo/UBERON_0000344 #mucosa
+http://purl.obolibrary.org/obo/UBERON_0000402 #nasal vestibule
+http://purl.obolibrary.org/obo/UBERON_0001016 #nervous system
+http://purl.obolibrary.org/obo/UBERON_0000125 #neural nucleus
+http://purl.obolibrary.org/obo/UBERON_0003902 #retinal neural layer
+http://purl.obolibrary.org/obo/UBERON_0003688 #omentum
+http://purl.obolibrary.org/obo/UBERON_0000167 #oral cavity
+http://purl.obolibrary.org/obo/UBERON_0001716 #palate
+http://purl.obolibrary.org/obo/UBERON_0000006 #islet of Langerhans
+http://purl.obolibrary.org/obo/UBERON_0001044 #salivary gland
+http://purl.obolibrary.org/obo/UBERON_0001831 #parotid gland
+http://purl.obolibrary.org/obo/UBERON_0000060 #anatomical wall
+http://purl.obolibrary.org/obo/UBERON_0000152 #pelvic fin
+http://purl.obolibrary.org/obo/UBERON_0002409 #pericardial fluid
+http://purl.obolibrary.org/obo/UBERON_0001042 #pharynx
+http://purl.obolibrary.org/obo/UBERON_0001987 #placenta
+http://purl.obolibrary.org/obo/UBERON_0000977 #pleura
+http://purl.obolibrary.org/obo/UBERON_0002239 #floating rib
+http://purl.obolibrary.org/obo/UBERON_0000470 #cell part
+http://purl.obolibrary.org/obo/UBERON_0004198 #comma-shaped body
+http://purl.obolibrary.org/obo/UBERON_0000379 #tracheal mucosa
+http://purl.obolibrary.org/obo/UBERON_0002367 #prostate gland
+http://purl.obolibrary.org/obo/UBERON_0000428 #prostate epithelium
+http://purl.obolibrary.org/obo/UBERON_0002012 #pulmonary artery
+http://purl.obolibrary.org/obo/UBERON_0005317 #pulmonary artery endothelial tube
+http://purl.obolibrary.org/obo/UBERON_0002016 #pulmonary vein
+http://purl.obolibrary.org/obo/UBERON_0000070 #pupal stage
+http://purl.obolibrary.org/obo/UBERON_0001052 #rectum
+http://purl.obolibrary.org/obo/UBERON_0001245 #anus
+http://purl.obolibrary.org/obo/UBERON_0001222 #right ureter
+http://purl.obolibrary.org/obo/UBERON_0001837 #duct of salivary gland
+http://purl.obolibrary.org/obo/UBERON_0001459 #skin of external ear
+http://purl.obolibrary.org/obo/UBERON_0000403 #scalp
+http://purl.obolibrary.org/obo/UBERON_0001902 #epithelium of small intestine
+http://purl.obolibrary.org/obo/UBERON_0000012 #somatic nervous system
+http://purl.obolibrary.org/obo/UBERON_0002240 #spinal cord
+http://purl.obolibrary.org/obo/UBERON_0000329 #hair root
+http://purl.obolibrary.org/obo/UBERON_0000975 #vertebrate sternum
+http://purl.obolibrary.org/obo/UBERON_0000945 #stomach
+http://purl.obolibrary.org/obo/UBERON_0002072 #hypodermis
+http://purl.obolibrary.org/obo/UBERON_0002190 #subcutaneous adipose tissue
+http://purl.obolibrary.org/obo/UBERON_0001611 #sublingual artery
+http://purl.obolibrary.org/obo/UBERON_0002520 #submandibular lymph node
+http://purl.obolibrary.org/obo/UBERON_0001736 #submandibular gland
+http://purl.obolibrary.org/obo/UBERON_0001149 #bare area of liver
+http://purl.obolibrary.org/obo/UBERON_0001654 #supra-orbital vein
+http://purl.obolibrary.org/obo/UBERON_0002018 #synovial membrane
+http://purl.obolibrary.org/obo/UBERON_0000021 #cutaneous appendage
+http://purl.obolibrary.org/obo/UBERON_0002415 #tail
+http://purl.obolibrary.org/obo/UBERON_0000076 #external ectoderm
+http://purl.obolibrary.org/obo/UBERON_0001037 #hair
+http://purl.obolibrary.org/obo/UBERON_0000119 #cell layer
+http://purl.obolibrary.org/obo/UBERON_0001452 #medial cuneiform bone
+http://purl.obolibrary.org/obo/UBERON_0001631 #thoracic duct
+http://purl.obolibrary.org/obo/UBERON_0002046 #thyroid gland
+http://purl.obolibrary.org/obo/UBERON_0005159 #pyramid of medulla oblongata
+http://purl.obolibrary.org/obo/UBERON_0001992 #papillary layer of dermis
+http://purl.obolibrary.org/obo/UBERON_0001723 #tongue
+http://purl.obolibrary.org/obo/UBERON_0002372 #tonsil
+http://purl.obolibrary.org/obo/UBERON_0003126 #trachea
+http://purl.obolibrary.org/obo/UBERON_0003038 #thoracic spinal cord
+http://purl.obolibrary.org/obo/UBERON_0002331 #umbilical cord
+http://purl.obolibrary.org/obo/UBERON_0002066 #umbilical vein
+http://purl.obolibrary.org/obo/UBERON_0001919 #endothelium of vein
+http://purl.obolibrary.org/obo/UBERON_0001310 #umbilical artery
+http://purl.obolibrary.org/obo/UBERON_0000468 #multi-cellular organism
+http://purl.obolibrary.org/obo/UBERON_0002397 #maxilla
+http://purl.obolibrary.org/obo/UBERON_0000376 #hindlimb stylopod
+http://purl.obolibrary.org/obo/UBERON_0000056 #ureter
+http://purl.obolibrary.org/obo/UBERON_0000365 #urothelium
+http://purl.obolibrary.org/obo/UBERON_0000057 #urethra
+http://purl.obolibrary.org/obo/UBERON_0000995 #uterus
+http://purl.obolibrary.org/obo/UBERON_0000996 #vagina
+http://purl.obolibrary.org/obo/UBERON_0004983 #mucosa of vagina
+http://purl.obolibrary.org/obo/UBERON_0002440 #inferior cervical ganglion
+http://purl.obolibrary.org/obo/UBERON_0001130 #vertebral column
+http://purl.obolibrary.org/obo/UBERON_0002401 #visceral pleura
+http://purl.obolibrary.org/obo/UBERON_0000997 #vulva
+http://purl.obolibrary.org/obo/UBERON_0001040 #yolk sac
+http://purl.obolibrary.org/obo/UBERON_0003257 #endoderm of yolk sac
+http://purl.obolibrary.org/obo/UBERON_0012069 #epithelium-associated lymphoid tissue
+http://purl.obolibrary.org/obo/UBERON_0004905 # articulation
+http://purl.obolibrary.org/obo/UBERON_0035820 # peritoneal sac
+
+http://purl.obolibrary.org/obo/RO_0002489 #existence starts with
+
+# http://purl.obolibrary.org/obo/UBERON_0000322 #cerebral lobe - does not exist any more. 
+# http://purl.obolibrary.org/obo/UBERON_0004191 #glomus - does not exist any more.
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/UBERON_0000105 #life cycle stage
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015
+
+http://purl.obolibrary.org/obo/UBERON_0001062 #anatomical entity
+subClassOf  http://purl.obolibrary.org/obo/BFO_0000004 #independent entity
+
+
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties

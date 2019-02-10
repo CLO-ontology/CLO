@@ -1,0 +1,129 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/clo/CL_import.owl
+
+[Source ontology]
+CL
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CL_0000115 #endothelial cell
+http://purl.obolibrary.org/obo/CL_0000000 #cell
+http://purl.obolibrary.org/obo/CL_0000066 #epithelial cell
+http://purl.obolibrary.org/obo/CL_0000398 #polygonal cell
+http://purl.obolibrary.org/obo/CL_0000057 #fibroblast
+http://purl.obolibrary.org/obo/CL_0000192 #smooth muscle cell
+http://purl.obolibrary.org/obo/CL_0000103 #bipolar neuron
+http://purl.obolibrary.org/obo/CL_0000265 #anterior like cell
+http://purl.obolibrary.org/obo/CL_0000236 #B cell
+http://purl.obolibrary.org/obo/CL_0000542 #lymphocyte
+http://purl.obolibrary.org/obo/CL_0000081 #blood cell
+http://purl.obolibrary.org/obo/CL_0000031 #neuroblast
+http://purl.obolibrary.org/obo/CL_0000765 #erythroblast
+http://purl.obolibrary.org/obo/CL_0000235 #macrophage
+http://purl.obolibrary.org/obo/CL_0000097 #mast cell
+http://purl.obolibrary.org/obo/CL_0000576 #monocyte
+http://purl.obolibrary.org/obo/CL_0000835 #myeloblast
+http://purl.obolibrary.org/obo/CL_0000034 #stem cell
+http://purl.obolibrary.org/obo/CL_0000499 #stromal cell
+http://purl.obolibrary.org/obo/CL_0000062 #osteoblast
+http://purl.obolibrary.org/obo/CL_0000540 #neuron
+http://purl.obolibrary.org/obo/CL_0000125 #glial cell
+http://purl.obolibrary.org/obo/CL_0000127 #astrocyte
+http://purl.obolibrary.org/obo/CL_0000451 #dendritic cell
+http://purl.obolibrary.org/obo/CL_0000129 #microglial cell
+http://purl.obolibrary.org/obo/CL_0000047 #neuronal stem cell
+http://purl.obolibrary.org/obo/CL_0000732 #amoeboid cell
+http://purl.obolibrary.org/obo/CL_0000362 #epidermal cell
+http://purl.obolibrary.org/obo/CL_0000050 #megakaryocyte erythroid progenitor cell
+http://purl.obolibrary.org/obo/CL_0000809 #double-positive, alpha-beta thymocyte
+http://purl.obolibrary.org/obo/CL_0000226 #single nucleate cell
+http://purl.obolibrary.org/obo/CL_0000084 #T cell
+http://purl.obolibrary.org/obo/CL_0000036 #epithelial fate stem cell
+http://purl.obolibrary.org/obo/CL_0000152 #exocrine cell
+http://purl.obolibrary.org/obo/CL_0000083 #epithelial cell of pancreas
+http://purl.obolibrary.org/obo/CL_0000529 #pigmented epithelial cell
+http://purl.obolibrary.org/obo/CL_0000988 #hematopoietic cell
+http://purl.obolibrary.org/obo/CL_0000056 #myoblast
+http://purl.obolibrary.org/obo/CL_0000912 #helper T cell
+http://purl.obolibrary.org/obo/CL_0000902 #induced T-regulatory cell
+http://purl.obolibrary.org/obo/CL_0000621 #fusion competent myoblast
+http://purl.obolibrary.org/obo/CL_0000351 #trophoblast cell
+http://purl.obolibrary.org/obo/CL_0000646 #basal cell
+http://purl.obolibrary.org/obo/CL_0000312 #keratinocyte
+http://purl.obolibrary.org/obo/CL_0000749 #ON-bipolar cell
+http://purl.obolibrary.org/obo/CL_0000068 #duct epithelial cell
+http://purl.obolibrary.org/obo/CL_0000186 #myofibroblast cell
+http://purl.obolibrary.org/obo/CL_0000111 #peripheral neuron
+http://purl.obolibrary.org/obo/CL_0000738 #leukocyte
+http://purl.obolibrary.org/obo/CL_0000082 #epithelial cell of lung
+http://purl.obolibrary.org/obo/CL_0000122 #stellate cell
+http://purl.obolibrary.org/obo/CL_0000651 #neck cell
+http://purl.obolibrary.org/obo/CL_0000187 #muscle cell
+http://purl.obolibrary.org/obo/CL_0000623 #natural killer cell
+http://purl.obolibrary.org/obo/CL_0000134 #mesenchymal cell
+http://purl.obolibrary.org/obo/CL_0000453 #Langerhans cell
+http://purl.obolibrary.org/obo/CL_0000638 #acidophil cell
+http://purl.obolibrary.org/obo/CL_0000476 #thyroid stimulating hormone secreting cell
+http://purl.obolibrary.org/obo/CL_0000113 #mononuclear phagocyte
+http://purl.obolibrary.org/obo/CL_0000829 #basophilic myeloblast
+http://purl.obolibrary.org/obo/CL_0000826 #pro-B cell
+http://purl.obolibrary.org/obo/CL_0000581 #peritoneal macrophage
+http://purl.obolibrary.org/obo/CL_0000259 #aggregate cell
+http://purl.obolibrary.org/obo/CL_0000228 #multinucleate cell
+http://purl.obolibrary.org/obo/CL_0000817 #precursor B cell
+http://purl.obolibrary.org/obo/CL_0000218 #Schwann cell
+http://purl.obolibrary.org/obo/CL_0000188 #skeletal muscle cell
+http://purl.obolibrary.org/obo/CL_0000148 #melanocyte
+http://purl.obolibrary.org/obo/CL_0000017 #spermatocyte
+http://purl.obolibrary.org/obo/CL_0000178 #Leydig cell
+http://purl.obolibrary.org/obo/CL_0000216 #Sertoli cell
+http://purl.obolibrary.org/obo/CL_0000010 #cell line cell
+http://purl.obolibrary.org/obo/CL_0000162 #parietal cell
+http://purl.obolibrary.org/obo/CL_0000578 #experimentally modified cell in vitro
+http://purl.obolibrary.org/obo/CL_0001034 #cell in vitro
+http://purl.obolibrary.org/obo/CL_0002076 #endo-epithelial cell
+http://purl.obolibrary.org/obo/CL_0000214 #synovial cell
+http://purl.obolibrary.org/obo/CL_0000746 #cardiac muscle cell; cardiomyocyte
+http://purl.obolibrary.org/obo/CL_0000136 #fat cell; adipocyte; adipose cell
+
+http://purl.obolibrary.org/obo/PR_000018263 #amino acid chain
+http://purl.obolibrary.org/obo/GO_0005575 #cellular_component
+
+http://purl.obolibrary.org/obo/CL_2000001 #peripheral blood mononuclear cell (PBMC)	
+http://purl.obolibrary.org/obo/CL_0000784 #plasmacytoid dendritic cell	
+http://purl.obolibrary.org/obo/CL_0000782 #myeloid dendritic cell
+http://purl.obolibrary.org/obo/CL_0000840 #immature conventional dendritic cell
+
+http://purl.obolibrary.org/obo/CL_1001608 #foreskin fibroblast
+
+# http://purl.obolibrary.org/obo/CL_0000220 #cell by lineage  obsolete
+# http://purl.obolibrary.org/obo/CL_0000363 #axial cell obsolete
+# http://purl.obolibrary.org/obo/CL_0000254 #egg cell obsolete
+# http://purl.obolibrary.org/obo/CL_0000668 # parenchymal cell obsolete
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CL_0000000 #cell type
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+
+http://purl.obolibrary.org/obo/GO_0005575 #cellular_component
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 
+
+http://purl.obolibrary.org/obo/PR_000018263 
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Branch extractions from source term URIs and target direct superclass URIs]
+
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]
+
+
+#http://purl.obolibrary.org/obo/PATO_0000001 #quality
+#http://purl.obolibrary.org/obo/NCBITaxon_1 #root
+#http://purl.obolibrary.org/obo/NCBITaxon_131567 #cellular organisms
+
+
