@@ -211,8 +211,8 @@
 <http://purl.obolibrary.org/obo/CLO_0000292>	"An immortal cell line cell that derives from larynx."	
 <http://purl.obolibrary.org/obo/CLO_0008117>		
 <http://purl.obolibrary.org/obo/CLO_0051571>	"A immortal mouse B cell line cell that has the characteristics: Mouse cell line derived from B cell leukemia. TKG0435 (Deposited from Tohoku Univ.)."	
-<http://purl.obolibrary.org/obo/CLO_0002021>		
 <http://purl.obolibrary.org/obo/DOID_5304>		
+<http://purl.obolibrary.org/obo/CLO_0002021>		
 <http://purl.obolibrary.org/obo/CLO_0000604>	"An immortal tongue-derived cell line cell that derives from bullfrog."	
 <http://purl.obolibrary.org/obo/CLO_0005008>		
 <http://purl.obolibrary.org/obo/CLO_0007669>		
@@ -362,8 +362,8 @@
 <http://purl.obolibrary.org/obo/CLO_0008862>		
 <http://purl.obolibrary.org/obo/CLO_0009094>		
 <http://purl.obolibrary.org/obo/CLO_0008995>		
-<http://purl.obolibrary.org/obo/CLO_0051013>	"A immortal human blood cell line cell that has the characteristics: Human B cells transformed by Epstein-Barr virus. RCB2541 is derived from the same patient. TKG0611(Deposited from Tohoku Univ.)."	
 <http://purl.obolibrary.org/obo/CLO_0000331>	"An immortal smooth muscle cell line cell that derives from iliac vein."	
+<http://purl.obolibrary.org/obo/CLO_0051013>	"A immortal human blood cell line cell that has the characteristics: Human B cells transformed by Epstein-Barr virus. RCB2541 is derived from the same patient. TKG0611(Deposited from Tohoku Univ.)."	
 <http://purl.obolibrary.org/obo/CLO_0006203>		
 <http://purl.obolibrary.org/obo/CLO_0000144>	"a immortal epithelial cell line that is derived from meso-epithelial cell"	
 <http://purl.obolibrary.org/obo/CLO_0002281>		
@@ -735,8 +735,8 @@
 <http://purl.obolibrary.org/obo/CLO_0004417>		
 <http://purl.obolibrary.org/obo/CLO_0002892>		
 <http://purl.obolibrary.org/obo/CLO_0050593>	"A immortal mouse embryo-derived cell line cell that has the characteristics: Cell line producing retrovirus to express the mouse calcineurin."	
-<http://purl.obolibrary.org/obo/CLO_0000337>	"An immortal endothelial cell line cell that derives from organism part."	
 <http://purl.obolibrary.org/obo/CLO_0006943>		
+<http://purl.obolibrary.org/obo/CLO_0000337>	"An immortal endothelial cell line cell that derives from organism part."	
 <http://purl.obolibrary.org/obo/CLO_0007041>		
 <http://purl.obolibrary.org/obo/CLO_0001439>		
 <http://purl.obolibrary.org/obo/CLO_0007174>		
@@ -1544,8 +1544,8 @@
 <http://purl.obolibrary.org/obo/CLO_0002529>		
 <http://purl.obolibrary.org/obo/CLO_0050869>	"A immortal human spleen-derived cell line cell that has the characteristics: Human cell line derived from splenic B cell lymphoma."	
 <http://purl.obolibrary.org/obo/CLO_0007550>		
-<http://purl.obolibrary.org/obo/CL_0000809>		
 <http://purl.obolibrary.org/obo/CLO_0001584>		
+<http://purl.obolibrary.org/obo/CL_0000809>		
 <http://purl.obolibrary.org/obo/CLO_0050863>	"A immortal cattle kidney-derived cell line cell that has the characteristics: Very flat and thin kidney epithelial cell"	
 <http://purl.obolibrary.org/obo/CLO_0006223>		
 <http://purl.obolibrary.org/obo/CLO_0001451>		
@@ -3087,8 +3087,8 @@
 <http://purl.obolibrary.org/obo/CLO_0051366>	"A immortal human B cell line cell that has the characteristics: Human B lymphocytes transformed by Epstein-Barr Virus."	
 <http://purl.obolibrary.org/obo/CLO_0009344>		
 <http://purl.obolibrary.org/obo/CLO_0009477>		
-<http://purl.obolibrary.org/obo/CLO_0009343>		
 <http://purl.obolibrary.org/obo/CLO_0037346>	"HEK293 cells expressing E1A adenovirus gene, enabling viral promoter expression"	
+<http://purl.obolibrary.org/obo/CLO_0009343>		
 <http://purl.obolibrary.org/obo/CLO_0009210>		
 <http://purl.obolibrary.org/obo/CLO_0050232>	"A immortal connective tissue cell line cell that has the characteristics: Thymidine kinase defective L cell"	
 <http://purl.obolibrary.org/obo/CLO_0003991>		
@@ -3168,8 +3168,8 @@
 <http://purl.obolibrary.org/obo/CLO_0006683>		
 <http://purl.obolibrary.org/obo/CLO_0007881>		
 <http://purl.obolibrary.org/obo/CLO_0005481>		
-<http://purl.obolibrary.org/obo/CLO_0037146>		
 <http://purl.obolibrary.org/obo/CL_0000476>		
+<http://purl.obolibrary.org/obo/CLO_0037146>		
 <http://purl.obolibrary.org/obo/CLO_0009537>		
 <http://purl.obolibrary.org/obo/CLO_0037013>		
 <http://purl.obolibrary.org/obo/CLO_0037279>		
@@ -3200,8 +3200,8 @@
 <http://purl.obolibrary.org/obo/CLO_0007008>		
 <http://purl.obolibrary.org/obo/CLO_0006909>		
 <http://purl.obolibrary.org/obo/CLO_0003086>		
-<http://purl.obolibrary.org/obo/DOID_1294>		
 <http://purl.obolibrary.org/obo/CLO_0005483>		
+<http://purl.obolibrary.org/obo/DOID_1294>		
 <http://purl.obolibrary.org/obo/CLO_0006681>		
 <http://purl.obolibrary.org/obo/CLO_0051083>	"A immortal human B cell line cell that has the characteristics: Human B lymphocytes transformed by Epstein-Barr Virus. This B cell lines derived from Mongoloid Minority Groups in South America."	
 <http://purl.obolibrary.org/obo/CLO_0001780>		
@@ -4079,8 +4079,8 @@
 <http://purl.obolibrary.org/obo/CLO_0009678>		
 <http://purl.obolibrary.org/obo/CLO_0003094>		
 <http://purl.obolibrary.org/obo/CLO_0004519>		
-<http://purl.obolibrary.org/obo/CLO_0009412>		
 <http://purl.obolibrary.org/obo/CLO_0000213>	"An immortal cell line cell that derives from mixed endoderm/mesoderm-derived structure."	
+<http://purl.obolibrary.org/obo/CLO_0009412>		
 <http://purl.obolibrary.org/obo/CLO_0037263>		
 <http://purl.obolibrary.org/obo/CLO_0009545>		
 <http://purl.obolibrary.org/obo/CL_0000351>		
@@ -4584,8 +4584,8 @@
 <http://purl.obolibrary.org/obo/CLO_0002118>		
 <http://purl.obolibrary.org/obo/CLO_0004646>		
 <http://purl.obolibrary.org/obo/CLO_0001535>		
-<http://purl.obolibrary.org/obo/CLO_0000383>	"An immortal cell line cell that derives from adrenal cortex."	
 <http://purl.obolibrary.org/obo/CLO_0001668>		
+<http://purl.obolibrary.org/obo/CLO_0000383>	"An immortal cell line cell that derives from adrenal cortex."	
 <http://purl.obolibrary.org/obo/CLO_0001402>		
 <http://purl.obolibrary.org/obo/CLO_0007272>		
 <http://purl.obolibrary.org/obo/CLO_0003316>		
@@ -4650,9 +4650,9 @@
 <http://purl.obolibrary.org/obo/CLO_0004512>		
 <http://purl.obolibrary.org/obo/CLO_0004645>		
 <http://purl.obolibrary.org/obo/CLO_0007140>		
-<http://purl.obolibrary.org/obo/CL_0000835>		
 <http://purl.obolibrary.org/obo/CLO_0009670>		
 <http://purl.obolibrary.org/obo/CLO_0001405>		
+<http://purl.obolibrary.org/obo/CL_0000835>		
 <http://purl.obolibrary.org/obo/CLO_0001538>		
 <http://purl.obolibrary.org/obo/CLO_0005710>		
 <http://purl.obolibrary.org/obo/CLO_0007273>		
@@ -4712,9 +4712,9 @@
 <http://purl.obolibrary.org/obo/CLO_0004175>		
 <http://purl.obolibrary.org/obo/CLO_0007772>		
 <http://purl.obolibrary.org/obo/CLO_0005372>		
+<http://purl.obolibrary.org/obo/CL_0000234>		
 <http://purl.obolibrary.org/obo/CLO_0037255>		
 <http://purl.obolibrary.org/obo/CLO_0009428>		
-<http://purl.obolibrary.org/obo/CL_0000234>		
 <http://purl.obolibrary.org/obo/CLO_0002613>		
 <http://purl.obolibrary.org/obo/CLO_0037122>		
 <http://purl.obolibrary.org/obo/CLO_0050533>	"A immortal mouse embryo-derived cell line cell that has the characteristics: Mouse teratoma-derived cell line. Parent cell line of ATDC5."	
@@ -5372,8 +5372,8 @@
 <http://purl.obolibrary.org/obo/CLO_0003326>		
 <http://purl.obolibrary.org/obo/CLO_0005854>		
 <http://purl.obolibrary.org/obo/CLO_0005987>		
-<http://purl.obolibrary.org/obo/DOID_8692>		
 <http://purl.obolibrary.org/obo/CLO_0008350>		
+<http://purl.obolibrary.org/obo/DOID_8692>		
 <http://purl.obolibrary.org/obo/CLO_0008483>		
 <http://purl.obolibrary.org/obo/CLO_0006086>		
 <http://purl.obolibrary.org/obo/CLO_0037248>		
@@ -6538,8 +6538,8 @@
 <http://purl.obolibrary.org/obo/CLO_0007967>		
 <http://purl.obolibrary.org/obo/CLO_0000305>	"An immortal cell line cell that derives from rectum."	
 <http://purl.obolibrary.org/obo/CLO_0008065>		
-<http://purl.obolibrary.org/obo/CLO_0002452>		
 <http://purl.obolibrary.org/obo/CLO_0000272>	"An immortal plasma cell line cell that derives from organism part."	
+<http://purl.obolibrary.org/obo/CLO_0002452>		
 <http://purl.obolibrary.org/obo/CLO_0002585>		
 <http://purl.obolibrary.org/obo/CLO_0004982>		
 <http://purl.obolibrary.org/obo/CL_0000732>		
@@ -7065,8 +7065,8 @@
 <http://purl.obolibrary.org/obo/CLO_0002208>		
 <http://purl.obolibrary.org/obo/CLO_0007101>		
 <http://purl.obolibrary.org/obo/CLO_0004738>		
-<http://purl.obolibrary.org/obo/CL_0000398>		
 <http://purl.obolibrary.org/obo/CL_0000265>		
+<http://purl.obolibrary.org/obo/CL_0000398>		
 <http://purl.obolibrary.org/obo/CLO_0009897>		
 <http://purl.obolibrary.org/obo/CLO_0050176>	"A immortal mouse cell line cell that has the characteristics: Myeloma"	
 <http://purl.obolibrary.org/obo/CLO_0050601>	"A immortal mouse embryo-derived cell line cell that has the characteristics: Cell line producing retrovirus to express human secretin receptor and blasticidin S deaminase gene."	
@@ -7583,8 +7583,8 @@
 <http://purl.obolibrary.org/obo/CLO_0007490>		
 <http://purl.obolibrary.org/obo/CLO_0001753>		
 <http://purl.obolibrary.org/obo/CLO_0005095>		
-<http://purl.obolibrary.org/obo/CLO_0001886>		
 <http://purl.obolibrary.org/obo/CL_0000749>		
+<http://purl.obolibrary.org/obo/CLO_0001886>		
 <http://purl.obolibrary.org/obo/CLO_0008916>		
 <http://purl.obolibrary.org/obo/CLO_0001620>		
 <http://purl.obolibrary.org/obo/CLO_0000999>	"An immortal organism part-derived fibroblast cell line cell that derives from cat."	
@@ -7927,8 +7927,8 @@
 <http://purl.obolibrary.org/obo/GO_0030154>		
 <http://purl.obolibrary.org/obo/CLO_0008095>		
 <http://purl.obolibrary.org/obo/CLO_0000346>	"An immortal fibroblast cell line cell that derives from cervix."	
-<http://purl.obolibrary.org/obo/CLO_0051253>	"A immortal human B cell line cell that has the characteristics: Human B lymphocytes transformed by Epstein-Barr Virus. HLA A*24:02, B*52:01 B*54:01, C*01:02  C*12:02, DRB1*04:05 DRB1*15:02, DQB1*04:01 DQB1*06:01, DPB1*05:01 DPB1*09:01"	
 <http://purl.obolibrary.org/obo/CL_0002419>		
+<http://purl.obolibrary.org/obo/CLO_0051253>	"A immortal human B cell line cell that has the characteristics: Human B lymphocytes transformed by Epstein-Barr Virus. HLA A*24:02, B*52:01 B*54:01, C*01:02  C*12:02, DRB1*04:05 DRB1*15:02, DQB1*04:01 DQB1*06:01, DPB1*05:01 DPB1*09:01"	
 <http://purl.obolibrary.org/obo/CLO_0005201>		
 <http://purl.obolibrary.org/obo/CLO_0007864>		
 <http://purl.obolibrary.org/obo/CLO_0007731>		
@@ -8849,8 +8849,8 @@
 <http://purl.obolibrary.org/obo/CLO_0007601>		
 <http://purl.obolibrary.org/obo/CL_0000765>		
 <http://purl.obolibrary.org/obo/CLO_0051139>	"A immortal human B cell line cell that has the characteristics: Human B lymphocytes transformed by Epstein-Barr Virus. This B cell lines derived from Mongoloid Minority Groups in South America."	
-<http://purl.obolibrary.org/obo/CLO_0004008>		
 <http://purl.obolibrary.org/obo/DOID_5485>		
+<http://purl.obolibrary.org/obo/CLO_0004008>		
 <http://purl.obolibrary.org/obo/CLO_0001519>		
 <http://purl.obolibrary.org/obo/CLO_0007734>		
 <http://purl.obolibrary.org/obo/CLO_0001291>		
@@ -8999,8 +8999,8 @@
 <http://purl.obolibrary.org/obo/CLO_0007388>		
 <http://purl.obolibrary.org/obo/CLO_0007255>		
 <http://purl.obolibrary.org/obo/CLO_0037324>		
-<http://purl.obolibrary.org/obo/CLO_0007122>		
 <http://purl.obolibrary.org/obo/DOID_363>		
+<http://purl.obolibrary.org/obo/CLO_0007122>		
 <http://purl.obolibrary.org/obo/CLO_0004624>		
 <http://purl.obolibrary.org/obo/CLO_0002229>		
 <http://purl.obolibrary.org/obo/CLO_0007121>		
@@ -9101,8 +9101,8 @@
 <http://purl.obolibrary.org/obo/CLO_0004886>		
 <http://purl.obolibrary.org/obo/CLO_0037320>		
 <http://purl.obolibrary.org/obo/CLO_0001779>		
-<http://purl.obolibrary.org/obo/CLO_0000348>	"An immortal cell line cell that derives from abdominal cavity."	
 <http://purl.obolibrary.org/obo/CLO_0000005>	"a role that inheres in a cell line repository organization."	
+<http://purl.obolibrary.org/obo/CLO_0000348>	"An immortal cell line cell that derives from abdominal cavity."	
 <http://purl.obolibrary.org/obo/CLO_0005951>		
 <http://purl.obolibrary.org/obo/CLO_0001513>		
 <http://purl.obolibrary.org/obo/CLO_0001646>		
@@ -9552,8 +9552,8 @@
 <http://purl.obolibrary.org/obo/CLO_0000059>	"a cell line that is derived from secretory cell"	
 <http://purl.obolibrary.org/obo/CLO_0007086>		
 <http://purl.obolibrary.org/obo/CLO_0051123>	"A immortal human B cell line cell that has the characteristics: Human B lymphocytes transformed by Epstein-Barr Virus. This B cell lines derived from Mongoloid Minority Groups in South America."	
-<http://purl.obolibrary.org/obo/CL_0002078>		
 <http://purl.obolibrary.org/obo/CLO_0000992>	"An immortal skin-derived cell line cell that derives from Cottontail rabbit."	
+<http://purl.obolibrary.org/obo/CL_0002078>		
 <http://purl.obolibrary.org/obo/CLO_0000989>	"An immortal cell line cell that derives from long-tailed macaque."	
 <http://purl.obolibrary.org/obo/CLO_0050327>	"A mouse x mouse hybridoma cell line cell that has the characteristics: Hybridoma producing a monoclonal antibody against Broad bean wilt virus 2 22-kDa coat protein."	
 <http://purl.obolibrary.org/obo/CLO_0000070>	"a immortal endocrine cell line cell that is derived from neuroendocrine cell"	
@@ -9704,8 +9704,8 @@
 <http://purl.obolibrary.org/obo/CLO_0051129>	"A immortal human B cell line cell that has the characteristics: Human B lymphocytes transformed by Epstein-Barr Virus. This B cell lines derived from Mongoloid Minority Groups in South America."	
 <http://purl.obolibrary.org/obo/CLO_0005785>		
 <http://purl.obolibrary.org/obo/CLO_0001703>		
-<http://purl.obolibrary.org/obo/CL_0000646>		
 <http://purl.obolibrary.org/obo/CLO_0050137>	"A immortal human cell line cell that has the characteristics: Human cell line derived from malignant melanoma. Cell growth is slow."	
+<http://purl.obolibrary.org/obo/CL_0000646>		
 <http://purl.obolibrary.org/obo/CLO_0003124>		
 <http://purl.obolibrary.org/obo/CLO_0005652>		
 <http://purl.obolibrary.org/obo/CLO_0003257>		
@@ -9767,8 +9767,8 @@
 <http://purl.obolibrary.org/obo/CLO_0006371>		
 <http://purl.obolibrary.org/obo/CLO_0007927>		
 <http://purl.obolibrary.org/obo/CLO_0002412>		
-<http://purl.obolibrary.org/obo/CLO_0037311>		
 <http://purl.obolibrary.org/obo/DOID_5165>		
+<http://purl.obolibrary.org/obo/CLO_0037311>		
 <http://purl.obolibrary.org/obo/CLO_0006729>		
 <http://purl.obolibrary.org/obo/CLO_0037444>		
 <http://purl.obolibrary.org/obo/CLO_0002545>		
@@ -9796,8 +9796,8 @@
 <http://purl.obolibrary.org/obo/CLO_0037312>		
 <http://purl.obolibrary.org/obo/CLO_0009359>		
 <http://purl.obolibrary.org/obo/CLO_0037445>		
-<http://purl.obolibrary.org/obo/CLO_0009226>		
 <http://purl.obolibrary.org/obo/CL_0000165>		
+<http://purl.obolibrary.org/obo/CLO_0009226>		
 <http://purl.obolibrary.org/obo/CLO_0005170>		
 <http://purl.obolibrary.org/obo/CLO_0003875>		
 <http://purl.obolibrary.org/obo/CLO_0000652>	"An immortal B cell line cell that derives from human."	
@@ -10318,8 +10318,8 @@
 <http://purl.obolibrary.org/obo/CLO_0037308>		
 <http://purl.obolibrary.org/obo/CLO_0009804>	"An immortal arm-derived fibroblast cell line cell that derives from patas monkey."	
 <http://purl.obolibrary.org/obo/CLO_0007801>		
-<http://purl.obolibrary.org/obo/CLO_0008298>		
 <http://purl.obolibrary.org/obo/CLO_0000271>	"An immortal cell line cell that derives from eye."	
+<http://purl.obolibrary.org/obo/CLO_0008298>		
 <http://purl.obolibrary.org/obo/CLO_0008032>		
 <http://purl.obolibrary.org/obo/CLO_0002681>		
 <http://purl.obolibrary.org/obo/CLO_0051507>	"A immortal chicken B cell line cell that has the characteristics: Subline of DT40 cell line, lacking Rad18 expression."	
@@ -10398,8 +10398,8 @@
 <http://purl.obolibrary.org/obo/CLO_0005400>		
 <http://purl.obolibrary.org/obo/CLO_0007094>		
 <http://purl.obolibrary.org/obo/CLO_0000229>	"An immortal cell line cell that derives from septum of telencephalon."	
-<http://purl.obolibrary.org/obo/CLO_0002906>		
 <http://purl.obolibrary.org/obo/CLO_0000326>	"An immortal epithelial cell line cell that derives from eye structure."	
+<http://purl.obolibrary.org/obo/CLO_0002906>		
 <http://purl.obolibrary.org/obo/CLO_0003005>		
 <http://purl.obolibrary.org/obo/CLO_0003138>		
 <http://purl.obolibrary.org/obo/CLO_0005799>		
@@ -10447,8 +10447,8 @@
 <http://purl.obolibrary.org/obo/CLO_0051117>	"A immortal human B cell line cell that has the characteristics: Human B lymphocytes transformed by Epstein-Barr Virus. This B cell lines derived from Mongoloid Minority Groups in South America."	
 <http://purl.obolibrary.org/obo/CLO_0001848>		
 <http://purl.obolibrary.org/obo/CLO_0007930>		
-<http://purl.obolibrary.org/obo/CLO_0006998>		
 <http://purl.obolibrary.org/obo/CLO_0000389>	"An immortal epithelial cell line cell that derives from retina structure."	
+<http://purl.obolibrary.org/obo/CLO_0006998>		
 <http://purl.obolibrary.org/obo/CLO_0001715>		
 <http://purl.obolibrary.org/obo/CLO_0007096>		
 <http://purl.obolibrary.org/obo/CLO_0000396>	"An immortal organism part-derived fibroblast cell line cell that derives from human."	
@@ -11310,8 +11310,8 @@
 <http://purl.obolibrary.org/obo/CLO_0000893>	"An immortal arm-derived cell line cell that derives from human."	
 <http://purl.obolibrary.org/obo/CLO_0002915>		
 <http://purl.obolibrary.org/obo/CLO_0009115>		
-<http://purl.obolibrary.org/obo/CLO_0000286>	"An immortal cell line cell that derives from abdominal aorta."	
 <http://purl.obolibrary.org/obo/CLO_0006261>		
+<http://purl.obolibrary.org/obo/CLO_0000286>	"An immortal cell line cell that derives from abdominal aorta."	
 <http://purl.obolibrary.org/obo/CLO_0007819>		
 <http://purl.obolibrary.org/obo/CLO_0006394>		
 <http://purl.obolibrary.org/obo/CLO_0004965>		
@@ -11353,8 +11353,8 @@
 <http://purl.obolibrary.org/obo/CLO_0002303>		
 <http://purl.obolibrary.org/obo/CLO_0051106>	"A immortal human B cell line cell that has the characteristics: Human B lymphocytes transformed by Epstein-Barr Virus. This B cell lines derived from Mongoloid Minority Groups in South America."	
 <http://purl.obolibrary.org/obo/CLO_0002569>		
-<http://purl.obolibrary.org/obo/CL_0000186>		
 <http://purl.obolibrary.org/obo/CLO_0000642>	"An immortal kidney-derived cell line cell that derives from Syrian golden hamster."	
+<http://purl.obolibrary.org/obo/CL_0000186>		
 <http://purl.obolibrary.org/obo/CLO_0000136>	"a immortal squamous epithelial cell line that is derived from stratified squamous epithelial cell"	
 <http://purl.obolibrary.org/obo/CLO_0007590>		
 <http://purl.obolibrary.org/obo/CLO_0050856>	"A immortal human liver-derived cell line cell that has the characteristics: hepatocellular carcinoma. Produce alpha-fetoprotein, albumin, etc. Back up of ECA2870. Almost equal to RCB0459, but the restriction is a. <a href='http://www.brc.riken.jp/lab/cell/english/hep_g2.shtml'>Information</a>"	
@@ -11363,8 +11363,8 @@
 <http://purl.obolibrary.org/obo/CLO_0003634>		
 <http://purl.obolibrary.org/obo/CLO_0006396>		
 <http://purl.obolibrary.org/obo/CLO_0003767>		
-<http://purl.obolibrary.org/obo/CLO_0003501>		
 <http://purl.obolibrary.org/obo/CLO_0001980>		
+<http://purl.obolibrary.org/obo/CLO_0003501>		
 <http://purl.obolibrary.org/obo/CLO_0001108>		
 <http://purl.obolibrary.org/obo/CLO_0009117>		
 <http://purl.obolibrary.org/obo/CLO_0004830>		
@@ -11998,8 +11998,8 @@
 <http://purl.obolibrary.org/obo/CLO_0008057>		
 <http://purl.obolibrary.org/obo/CLO_0007824>		
 <http://purl.obolibrary.org/obo/CLO_0008055>		
-<http://purl.obolibrary.org/obo/CLO_0037418>		
 <http://purl.obolibrary.org/obo/CLO_0000795>	"An immortal skin-derived fibroblast cell line cell that derives from cotton-top tamarin."	
+<http://purl.obolibrary.org/obo/CLO_0037418>		
 <http://purl.obolibrary.org/obo/CLO_0008188>		
 <http://purl.obolibrary.org/obo/CLO_0007957>		
 <http://purl.obolibrary.org/obo/CLO_0002571>		
@@ -12119,9 +12119,9 @@
 <http://purl.obolibrary.org/obo/CLO_0050582>	"A immortal mouse embryo-derived cell line cell that has the characteristics: Producer of MoMLV-derived retrovirus including mouse c-src cDNA with ts mutation."	
 <http://purl.obolibrary.org/obo/CLO_0006273>		
 <http://purl.obolibrary.org/obo/CLO_0006140>		
-<http://purl.obolibrary.org/obo/DOID_5263>		
 <http://purl.obolibrary.org/obo/CLO_0000969>	"An immortal trachea-derived cell line cell that derives from cattle."	
 <http://purl.obolibrary.org/obo/CLO_0005076>		
+<http://purl.obolibrary.org/obo/DOID_5263>		
 <http://purl.obolibrary.org/obo/CLO_0004977>		
 <http://purl.obolibrary.org/obo/CLO_0004844>		
 <http://purl.obolibrary.org/obo/CLO_0004711>		
