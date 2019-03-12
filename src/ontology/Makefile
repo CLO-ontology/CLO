@@ -33,8 +33,11 @@ all: sparql_test all_reports release
 release: $(ONT)-base.owl
 	cp $^ $(RELEASEDIR)
 
-$(ONT)-base.owl: $(SRC)
+OTHER_SRC = CLO-NICR.owl cellline_import.owl
+
+$(ONT)-base.owl: $(SRC) $(OTHER_SRC)
 	$(ROBOT) remove --input $< --select imports \
+		merge $(patsubst %, -i %, $(OTHER_SRC)) \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
 
 # Full: The full artefacts with imports merged, reasoned

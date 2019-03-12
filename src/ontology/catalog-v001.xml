@@ -2,6 +2,9 @@
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="Ontorat%20files/Tox21_cells.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/CLO-NICR.owl" uri="CLO-NICR.owl"/>
+		<uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/clo-foreign.owl" uri="clo-foreign.owl"/>
+		<uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/CLO-NICR-foreign.owl" uri="clo-foreign.owl"/>
+		<uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/cellline_import-foreign.owl" uri="clo-foreign.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/clo/DOID_import.owl" uri="imports/DOID_import.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/clo/BFO_import.owl" uri="imports/BFO_import.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/clo/GO_import.owl" uri="imports/GO_import.owl"/>
