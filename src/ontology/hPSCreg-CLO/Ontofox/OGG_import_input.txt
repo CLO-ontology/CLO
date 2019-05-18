@@ -1,0 +1,33 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/clo/hPSCreg_CLO/OGG_imports.owl
+
+[Source ontology]
+OGG
+
+[Low level source term URIs]
+
+http://purl.obolibrary.org/obo/OGG_3000001499
+http://purl.obolibrary.org/obo/OGG_3000002629
+http://purl.obolibrary.org/obo/OGG_3000003172
+http://purl.obolibrary.org/obo/OGG_3000004036
+http://purl.obolibrary.org/obo/OGG_3000004762
+http://purl.obolibrary.org/obo/OGG_3000005460
+http://purl.obolibrary.org/obo/OGG_3000005925
+http://purl.obolibrary.org/obo/OGG_3000006272
+http://purl.obolibrary.org/obo/OGG_3000006622
+http://purl.obolibrary.org/obo/OGG_3000006653
+http://purl.obolibrary.org/obo/OGG_3000006927
+http://purl.obolibrary.org/obo/OGG_3000029110
+http://purl.obolibrary.org/obo/OGG_3000054209
+http://purl.obolibrary.org/obo/OGG_3000120892 
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OGG_0000000002 #gene
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/clo/hPSCreg_CLO/UBERON_imports.owl" uri="imports/UBERON_imports.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/clo/hPSCreg_CLO/OGG_imports.owl" uri="imports/OGG_imports.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/clo/hPSCreg_CLO/CL_imports.owl" uri="imports/CL_imports.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/clo/hPSCreg_CLO/DOID_imports.owl" uri="imports/DOID_imports.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/clo/hPSCreg_CLO/CLO_imports.owl" uri="imports/CLO_imports.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1558223366641" name="http://purl.obolibrary.org/obo/clo/hPSCreg_CLO/CLO_imports.owl" uri="imports/CLO_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1558223366641" name="http://purl.obolibrary.org/obo/clo/hPSCreg_CLO/CL_imports.owl" uri="imports/CL_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1558223366641" name="http://purl.obolibrary.org/obo/clo/hPSCreg_CLO/DOID_imports.owl" uri="imports/DOID_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1558223366641" name="http://purl.obolibrary.org/obo/clo/hPSCreg_CLO/OGG_imports.owl" uri="imports/OGG_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1558223366641" name="http://purl.obolibrary.org/obo/clo/hPSCreg_CLO/UBERON_imports.owl" uri="imports/UBERON_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1558223366641" name="http://www.semanticweb.org/root/ontologies/2019/4/hPSCreg" uri="hPSCreg_CLO.owl"/>
+    </group>
+</catalog>

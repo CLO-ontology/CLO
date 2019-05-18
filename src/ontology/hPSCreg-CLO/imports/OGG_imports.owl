@@ -1,0 +1,706 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/clo/hPSCreg_CLO/OGG_imports.owl#"
+     xml:base="http://purl.obolibrary.org/obo/clo/hPSCreg_CLO/OGG_imports.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/clo/hPSCreg_CLO/OGG_imports.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000017">
+        <rdfs:label xml:lang="en">chromosome ID of gene</rdfs:label>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000115>A chromosome ID where a gene is located.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000015">
+        <rdfs:label xml:lang="en">organism NCBITaxon ID</rdfs:label>
+        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
+        <obo:IAO_0000115>The NCBITaxon ontology ID of an organism.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000018">
+        <rdfs:label xml:lang="en">type of gene</rdfs:label>
+        <obo:IAO_0000115>an annotation property that specifies the type of a gene</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000019">
+        <rdfs:label xml:lang="en">nomenclature status</rdfs:label>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000115>an annotation property that specifies a nomenclature status</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <rdfs:label xml:lang="en">editor note</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obfoundry.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <rdfs:label xml:lang="en">has curation status</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000281</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Bill Bug</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label xml:lang="en">term editor</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See http://code.google.com/p/information-artifact-ontology/issues/detail?id=115.</obo:IAO_0000116>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">term editor</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <rdfs:label xml:lang="en">alternative term</rdfs:label>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000007">
+        <rdfs:label xml:lang="en">NCBI LocusTag</rdfs:label>
+        <obo:IAO_0000115>the NCBI LocusTag name of a gene </obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000008">
+        <rdfs:label xml:lang="en">gene map location</rdfs:label>
+        <obo:IAO_0000115>the map location of a gene</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000009">
+        <rdfs:label xml:lang="en">modification date</rdfs:label>
+        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
+        <obo:IAO_0000115>a date of content modification</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000029">
+        <rdfs:label xml:lang="en">has GO association</rdfs:label>
+        <obo:IAO_0000115>an annotation property that shows the GO information associated with a specific gene. </obo:IAO_0000115>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000004">
+        <rdfs:label xml:lang="en">symbol from nomenclature authority</rdfs:label>
+        <obo:IAO_0000115>the symbol assigned by the nomenclature authority</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000005">
+        <rdfs:label xml:lang="en">full name from nomenclature authority</rdfs:label>
+        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
+        <obo:IAO_0000115>the full name assigned by the nomenclature authority</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000006">
+        <rdfs:label xml:lang="en">NCBI GeneID</rdfs:label>
+        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
+        <obo:IAO_0000115>A GeneID in the NCBI Gene database </obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000030">
+        <rdfs:label xml:lang="en">has PubMed association</rdfs:label>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000115>An annotation property that represents a gene&#39;s association with PubMed publication(s). </obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_0000000002">
+        <rdfs:label xml:lang="en">gene</rdfs:label>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/books/NBK21640/</obo:IAO_0000119>
+        <obo:IAO_0000115>A gene is a material entity that represents the entire DNA sequence required for synthesis of a functional protein or RNA molecule. </obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_2000002759 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_2000002759">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene of Eukaryota</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
+        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2759</obo:OGG_0000000015>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene of an organism of Eukaryota</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yue Liu, Bin Zhao, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_2000009606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_2000009606">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene of Homo sapiens</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2000002759"/>
+        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9606</obo:OGG_0000000015>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene of an organism of Homo sapiens</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yue Liu, Bin Zhao, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_2060009606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_2060009606">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding gene of Homo sapiens</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2000009606"/>
+        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9606</obo:OGG_0000000015>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene of Homo sapiens that has a protein-coding gene disposition</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000001499 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000001499">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTNNB1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060009606"/>
+        <obo:OGG_0000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1499</obo:OGG_0000000006>
+        <obo:OGG_0000000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20140408</obo:OGG_0000000009>
+        <obo:OGG_0000000017 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</obo:OGG_0000000017>
+        <obo:OGG_0000000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3p21</obo:OGG_0000000008>
+        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9606</obo:OGG_0000000015>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTNNB</obo:IAO_0000118>
+        <obo:OGG_0000000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTNNB1</obo:OGG_0000000004>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensembl:ENSG00000168036</oboInOwl:hasDbXref>
+        <obo:OGG_0000000029 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_0000122 (EC: IBA); GO_0000578 (EC: IBA); GO_0000922 (EC: IEA); GO_0001102 (EC: IPI, PMID: 19443654); GO_0001569 (EC: IBA); GO_0001569 (EC: IC); GO_0001658 (EC: IBA); GO_0001701 (EC: IEA); GO_0001702 (EC: IBA); GO_0001708 (EC: IEA); GO_0001711 (EC: IBA); GO_0001764 (EC: IEA); GO_0001837 (EC: TAS, PMID: 14679171); GO_0001840 (EC: IEA); GO_0001889 (EC: IBA); GO_0002052 (EC: IEA); GO_0002053 (EC: IEA); GO_0002089 (EC: IEA); GO_0003136 (EC: IBA); GO_0003266 (EC: IEA); GO_0003337 (EC: IBA); GO_0003682 (EC: IEA); GO_0003690 (EC: IEA); GO_0003700 (EC: IEA); GO_0003713 (EC: IDA, PMID: 11751639); GO_0003713 (EC: IMP, PMID: 12949260); GO_0004871 (EC: NAS, PMID: 10192393); GO_0005198 (EC: IBA); GO_0005515 (EC: IPI, PMID: 10773885); GO_0005634 (EC: IDA, PMID: 10980594); GO_0005654 (EC: TAS); GO_0005667 (EC: IDA, PMID: 11751639); GO_0005737 (EC: IDA, PMID: 11793365); GO_0005813 (EC: IDA, PMID: 18086858); GO_0005829 (EC: IDA, PMID: 10980594); GO_0005829 (EC: TAS); GO_0005886 (EC: IDA); GO_0005911 (EC: IDA, PMID: 19151727); GO_0005912 (EC: IDA, PMID: 16858403); GO_0005913 (EC: IDA, PMID: 10403777); GO_0005915 (EC: IBA); GO_0005916 (EC: IBA); GO_0005938 (EC: IDA, PMID: 19038973); GO_0006351 (EC: IEA); GO_0006915 (EC: TAS); GO_0006921 (EC: TAS); GO_0007016 (EC: IBA); GO_0007155 (EC: IMP, PMID: 19101069); GO_0007160 (EC: IBA); GO_0007398 (EC: IBA); GO_0007403 (EC: IBA); GO_0007494 (EC: IEA); GO_0008022 (EC: IPI, PMID: 10773885); GO_0008134 (EC: IPI); GO_0008134 (EC: TAS, PMID: 16344550); GO_0008285 (EC: IDA, PMID: 12970740); GO_0009898 (EC: IBA); GO_0009948 (EC: IEA); GO_0009950 (EC: IBA); GO_0009954 (EC: IBA); GO_0010909 (EC: IMP, PMID: 15853773); GO_0014010 (EC: IBA); GO_0016020 (EC: ISS); GO_0016055 (EC: IDA, PMID: 10644691); GO_0016323 (EC: IEA); GO_0016328 (EC: IDA, PMID: 12072559); GO_0016337 (EC: IMP, PMID: 18593713); GO_0016342 (EC: IDA, PMID: 18593713); GO_0019899 (EC: IPI, PMID: 18356165); GO_0019900 (EC: IPI, PMID: 8638126); GO_0019901 (EC: IBA); GO_0019903 (EC: IPI, PMID: 16574648); GO_0021819 (EC: IEA); GO_0022009 (EC: IBA); GO_0030018 (EC: IBA); GO_0030027 (EC: IBA); GO_0030054 (EC: IDA, PMID: 19038973); GO_0030054 (EC: TAS, PMID: 17047063); GO_0030057 (EC: IBA); GO_0030316 (EC: IEA); GO_0030326 (EC: IBA); GO_0030331 (EC: IPI, PMID: 15304487); GO_0030521 (EC: NAS, PMID: 15572661); GO_0030539 (EC: IBA); GO_0030877 (EC: IDA, PMID: 16188939); GO_0030902 (EC: IBA); GO_0030997 (EC: IDA, PMID: 18086858); GO_0031016 (EC: IBA); GO_0031069 (EC: IBA); GO_0031528 (EC: IBA); GO_0031641 (EC: IEA); GO_0032331 (EC: IBA); GO_0032355 (EC: IDA, PMID: 15304487); GO_0032403 (EC: IEA); GO_0032481 (EC: TAS); GO_0032993 (EC: IDA, PMID: 10825188); GO_0033077 (EC: IBA); GO_0033234 (EC: IDA); GO_0034097 (EC: IEA); GO_0034333 (EC: IMP); GO_0034394 (EC: IMP); GO_0034750 (EC: IEA); GO_0035050 (EC: IEA); GO_0035112 (EC: IEA); GO_0035115 (EC: IEA); GO_0035116 (EC: IEA); GO_0035255 (EC: IEA); GO_0035257 (EC: IPI, PMID: 12799378); GO_0035257 (EC: TAS, PMID: 16344550); GO_0035315 (EC: TAS, PMID: 19251162); GO_0036023 (EC: ISS); GO_0042129 (EC: IBA); GO_0042475 (EC: IBA); GO_0042493 (EC: IEP, PMID: 18291362); GO_0042692 (EC: TAS); GO_0042733 (EC: IEA); GO_0043065 (EC: IDA, PMID: 12970740); GO_0043123 (EC: IBA); GO_0043198 (EC: IBA); GO_0043410 (EC: IBA); GO_0043587 (EC: IBA); GO_0044212 (EC: IDA, PMID: 18193033); GO_0044325 (EC: IPI, PMID: 19996314); GO_0044334 (EC: IMP, PMID: 17072303); GO_0044336 (EC: IMP, PMID: 12154096); GO_0045087 (EC: TAS); GO_0045177 (EC: IEA); GO_0045202 (EC: IBA); GO_0045294 (EC: IPI, PMID: 7650039); GO_0045296 (EC: IPI, PMID: 12734196); GO_0045445 (EC: IEA); GO_0045453 (EC: IEA); GO_0045603 (EC: IEA); GO_0045669 (EC: IBA); GO_0045671 (EC: IBA); GO_0045743 (EC: IBA); GO_0045765 (EC: TAS, PMID: 18756595); GO_0045892 (EC: IMP, PMID: 19653274); GO_0045893 (EC: IDA, PMID: 12970740); GO_0045893 (EC: IMP, PMID: 12949260); GO_0045944 (EC: IDA, PMID: 11751639); GO_0045944 (EC: IMP, PMID: 15592430); GO_0046332 (EC: IPI, PMID: 18593713); GO_0046686 (EC: IEA); GO_0048145 (EC: TAS, PMID: 16858403); GO_0048262 (EC: IBA); GO_0048469 (EC: IEA); GO_0048471 (EC: IDA, PMID: 19038973); GO_0048489 (EC: IBA); GO_0048538 (EC: IBA); GO_0048599 (EC: IBA); GO_0048617 (EC: IBA); GO_0048660 (EC: IMP, PMID: 17122440); GO_0048715 (EC: IEA); GO_0050681 (EC: NAS, PMID: 15572661); GO_0050808 (EC: IBA); GO_0051145 (EC: IBA); GO_0051149 (EC: TAS); GO_0051291 (EC: IEA); GO_0060066 (EC: IEA); GO_0060070 (EC: IDA, PMID: 12937339); GO_0060440 (EC: IBA); GO_0060441 (EC: IEA); GO_0060479 (EC: IBA); GO_0060484 (EC: IBA); GO_0060492 (EC: IBA); GO_0060742 (EC: IEA); GO_0060769 (EC: IBA); GO_0060789 (EC: IBA); GO_0060916 (EC: IBA); GO_0061047 (EC: IBA); GO_0061154 (EC: IMP); GO_0061198 (EC: IEA); GO_0061324 (EC: ISS); GO_0070062 (EC: IDA, PMID: 19199708); GO_0070369 (EC: IDA, PMID: 9065401); GO_0070411 (EC: IPI, PMID: 18593713); GO_0070412 (EC: IPI); GO_0070491 (EC: IEA); GO_0070602 (EC: IMP); GO_0071260 (EC: IEA); GO_0071363 (EC: IMP, PMID: 16858403); GO_0071681 (EC: IDA, PMID: 10868478); GO_0071944 (EC: IDA, PMID: 19038973); GO_0072033 (EC: IBA); GO_0072053 (EC: IBA); GO_0072054 (EC: IBA); GO_0072079 (EC: IBA); GO_0072182 (EC: ISS); GO_0090279 (EC: IDA, PMID: 19996314); GO_2000008 (EC: IDA, PMID: 19996314); GO_2000017 (EC: IEA); GO_2001234 (EC: IEA)</obo:OGG_0000000029>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HGNC:2514</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPRD:00286</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIM:116806</oboInOwl:hasDbXref>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MRD19</obo:IAO_0000118>
+        <obo:OGG_0000000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OK/SW-cl.35</obo:OGG_0000000007>
+        <obo:OGG_0000000019 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official from a nomenclature committee</obo:OGG_0000000019>
+        <obo:OGG_0000000030 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 7542250; 7642713; 7650039; 7702605; 7706414; 7736793; 7806582; 7829088; 7876318; 7890674; 7954478; 8227214; 8259519; 8638126; 8663237; 8757136; 8838805; 9054423; 9065401; 9065402; 9110993; 9139698; 9214391; 9233779; 9245795; 9286858; 9294210; 9312064; 9348292; 9405455; 9419974; 9434630; 9482734; 9500465; 9512503; 9521872; 9535896; 9545347; 9566905; 9601641; 9632714; 9734785; 9738936; 9751710; 9762469; 9819408; 9823329; 9843967; 9852041; 9927029; 9971746; 9990852; 10021369; 10023660; 10026156; 10029089; 10037471; 10074433; 10092585; 10187801; 10192393; 10207020; 10228155; 10321728; 10330181; 10330403; 10341227; 10381631; 10391090; 10398436; 10403777; 10435629; 10462524; 10477752; 10488109; 10491393; 10545404; 10620020; 10635315; 10644691; 10655994; 10666372; 10679188; 10681592; 10706604; 10713156; 10748026; 10753743; 10769211; 10772923; 10773885; 10801826; 10806215; 10816572; 10825188; 10837025; 10861224; 10862698; 10868478; 10873669; 10890911; 10896949; 10898789; 10910767; 10947987; 10951583; 10958684; 10966653; 10980594; 10980707; 10987273; 11035789; 11050151; 11080149; 11080158; 11113628; 11136230; 11136974; 11152665; 11157977; 11166179; 11168528; 11179419; 11226248; 11245482; 11251183; 11254878; 11266540; 11274246; 11279024; 11309300; 11348595; 11389839; 11389840; 11401320; 11483589; 11526121; 11527961; 11532957; 11533658; 11590244; 11703283; 11707392; 11712088; 11713475; 11713476; 11716761; 11734550; 11744694; 11747475; 11751639; 11790773; 11792709; 11793365; 11795941; 11818547; 11819825; 11821434; 11826105; 11831984; 11834740; 11835406; 11836379; 11836555; 11839663; 11856748; 11857309; 11877440; 11889072; 11893906; 11916967; 11920497; 11921277; 11929826; 11930117; 11939410; 11940574; 11950845; 11953860; 11955436; 11955446; 11957146; 11960376; 11967263; 11972058; 11973335; 11983685; 12000714; 12000790; 12003790; 12019147; 12027456; 12037680; 12045208; 12051714; 12052822; 12060769; 12061792; 12070348; 12072559; 12077367; 12095414; 12107263; 12111402; 12114015; 12124804; 12127563; 12130512; 12151522; 12154096; 12169098; 12183361; 12189238; 12209953; 12209999; 12219004; 12235125; 12297048; 12297051; 12297840; 12370829; 12377785; 12384561; 12389996; 12398896; 12408824; 12408825; 12413882; 12417602; 12420223; 12421363; 12432063; 12438242; 12446675; 12452049; 12464179; 12466281; 12477932; 12478897; 12482967; 12501215; 12515622; 12531901; 12532436; 12532469; 12554773; 12556497; 12556519; 12571228; 12575848; 12587534; 12588987; 12589056; 12592400; 12603528; 12604612; 12606575; 12606944; 12618757; 12628243; 12634428; 12639940; 12640114; 12657632; 12657639; 12679314; 12692418; 12694354; 12695331; 12700239; 12708483; 12712206; 12727872; 12729800; 12734196; 12737446; 12748295; 12750561; 12771132; 12799378; 12800191; 12805222; 12808048; 12810642; 12820959; 12821935; 12824925; 12830000; 12839684; 12857869; 12861022; 12874278; 12883680; 12907143; 12917489; 12920240; 12927518; 12937339; 12944908; 12949260; 12952940; 12969793; 12970740; 12972427; 14516475; 14520463; 14561767; 14563838; 14567991; 14593076; 14595118; 14600025; 14625392; 14633602; 14637149; 14660579; 14679171; 14702039; 14706341; 14706645; 14742711; 14766232; 14960280; 14977843; 14985333; 14993280; 15003504; 15023525; 15060161; 15064706; 15077166; 15082903; 15102686; 15110721; 15111320; 15123239; 15126105; 15138556; 15149841; 15158448; 15163629; 15190077; 15194432; 15215241; 15221004; 15231748; 15239100; 15254684; 15256534; 15279902; 15289833; 15294866; 15304487; 15327767; 15327768; 15327769; 15331612; 15355978; 15381698; 15381903; 15455387; 15489334; 15492040; 15492215; 15500294; 15514031; 15520370; 15523694; 15525529; 15542433; 15557107; 15572661; 15572674; 15574752; 15588985; 15591320; 15592430; 15654359; 15660698; 15665104; 15668893; 15670774; 15684397; 15694380; 15695815; 15696778; 15698401; 15728254; 15729346; 15735679; 15735746; 15737630; 15768032; 15781969; 15782138; 15790758; 15791567; 15806138; 15811349; 15817486; 15829968; 15829978; 15832407; 15837931; 15843474; 15853773; 15888491; 15896469; 15899904; 15905404; 15916880; 15923648; 15927956; 15958533; 15972952; 15987741; 16007074; 16012954; 16014379; 16038041; 16039586; 16082250; 16084063; 16085715; 16114033; 16124054; 16125672; 16126725; 16132582; 16133456; 16163548; 16188939; 16196087; 16199882; 16204054; 16204248; 16212417; 16230076; 16239965; 16254206; 16291872; 16306047; 16311123; 16328013; 16329837; 16343437; 16344550; 16344560; 16356174; 16371504; 16378715; 16378739; 16382042; 16407829; 16428447; 16442529; 16462762; 16465411; 16474376; 16476742; 16496348; 16501564; 16507986; 16510874; 16510875; 16513652; 16565090; 16569639; 16574648; 16616828; 16621789; 16622255; 16628468; 16630820; 16644723; 16678101; 16688229; 16696969; 16699503; 16707106; 16712787; 16717102; 16724116; 16730693; 16753179; 16756720; 16760136; 16772034; 16778892; 16786128; 16798748; 16815294; 16830381; 16843107; 16849322; 16858403; 16865250; 16890161; 16890162; 16927799; 16930546; 16931570; 16942611; 16945989; 16952352; 16953230; 16990252; 17008323; 17018282; 17030184; 17047063; 17050667; 17052462; 17053147; 17057644; 17072303; 17072306; 17081983; 17090192; 17090604; 17121828; 17122440; 17128412; 17129455; 17143299; 17160944; 17168211; 17172473; 17203186; 17208333; 17219201; 17220478; 17220880; 17229887; 17240357; 17241872; 17242406; 17259169; 17283121; 17283138; 17284619; 17289029; 17341890; 17353931; 17360711; 17383052; 17393110; 17393422; 17412698; 17429067; 17454753; 17466258; 17487982; 17502350; 17504383; 17505512; 17507638; 17510365; 17510384; 17513457; 17522055; 17526942; 17551084; 17558858; 17576040; 17579030; 17592150; 17595165; 17601350; 17601559; 17621269; 17637758; 17638895; 17641414; 17663505; 17668445; 17673525; 17676996; 17679465; 17693578; 17710160; 17721184; 17724465; 17764657; 17785436; 17851558; 17852416; 17854061; 17854394; 17875931; 17903198; 17905526; 17908501; 17914096; 17927853; 17927863; 17927878; 17949810; 17950943; 17952864; 17954973; 17956661; 17956664; 17962810; 17976063; 17977597; 17979146; 17979184; 17982235; 17983802; 17983804; 17992121; 17996206; 18006828; 18006853; 18008331; 18029348; 18044981; 18048388; 18059161; 18059173; 18077326; 18078131; 18078366; 18086858; 18087039; 18161931; 18165946; 18193033; 18199649; 18206728; 18215130; 18218837; 18223684; 18223693; 18242184; 18256147; 18258596; 18276111; 18281465; 18282277; 18284543; 18285264; 18287330; 18288545; 18291362; 18295959; 18296023; 18308950; 18309246; 18311776; 18313840; 18315906; 18316097; 18316596; 18320359; 18330089; 18330950; 18334222; 18335551; 18339854; 18347063; 18354482; 18356165; 18376386; 18378692; 18382662; 18384130; 18385740; 18391483; 18397460; 18419788; 18422699; 18439914; 18445113; 18445773; 18455580; 18456656; 18459111; 18460581; 18464243; 18466996; 18485479; 18486530; 18490349; 18490442; 18500270; 18515080; 18538736; 18540944; 18541010; 18552505; 18553167; 18560386; 18563180; 18566211; 18573912; 18579517; 18586027; 18591935; 18592156; 18593713; 18593907; 18593917; 18606139; 18609711; 18611862; 18615589; 18618575; 18619646; 18632669; 18632682; 18632848; 18636547; 18646694; 18647815; 18650423; 18653765; 18655368; 18667832; 18674869; 18676680; 18676739; 18685493; 18686607; 18720004; 18720887; 18756595; 18772112; 18787224; 18799618; 18806787; 18807072; 18813944; 18832571; 18835279; 18837082; 18842495; 18851830; 18932285; 18939887; 18949017; 18949395; 18958538; 18977241; 18979195; 18987336; 18992635; 19000719; 19001871; 19003969; 19018094; 19024596; 19038973; 19040205; 19053519; 19060929; 19061640; 19061838; 19064572; 19066453; 19074834; 19082443; 19085831; 19094982; 19100874; 19101069; 19101658; 19101982; 19104148; 19106159; 19107203; 19107227; 19118778; 19121846; 19124064; 19124205; 19124717; 19124718; 19126678; 19131506; 19131971; 19137020; 19137776; 19141611; 19144919; 19145675; 19148501; 19150432; 19151727; 19153669; 19166851; 19167335; 19169765; 19170196; 19175984; 19184060; 19187541; 19197950; 19199708; 19222307; 19234195; 19238201; 19240121; 19244247; 19244345; 19247180; 19251162; 19273195; 19274078; 19276972; 19290490; 19298008; 19298526; 19303159; 19303846; 19304756; 19323978; 19324500; 19328798; 19329935; 19339270; 19351817; 19369584; 19372141; 19379556; 19383367; 19384065; 19389926; 19396152; 19401692; 19407222; 19413886; 19421142; 19423540; 19433865; 19435525; 19440933; 19443654; 19448414; 19448422; 19448592; 19453261; 19457867; 19461076; 19462446; 19475529; 19479054; 19481539; 19487278; 19492080; 19495794; 19498322; 19520846; 19526105; 19534622; 19536331; 19545383; 19556239; 19563778; 19576224; 19582367; 19607815; 19608668; 19609729; 19620634; 19625176; 19628668; 19633358; 19633924; 19635198; 19639172; 19644051; 19650189; 19651607; 19652203; 19653274; 19661031; 19661437; 19664078; 19667122; 19679059; 19679347; 19688824; 19690176; 19692168; 19693690; 19703516; 19703993; 19704056; 19706825; 19711366; 19726098; 19727391; 19728763; 19729480; 19745699; 19751190; 19755524; 19756656; 19777185; 19778269; 19780202; 19781444; 19784072; 19801982; 19810105; 19820688; 19826421; 19846673; 19850036; 19857041; 19887615; 19888426; 19898427; 19898734; 19900369; 19912361; 19913121; 19915524; 19923077; 19924227; 19931509; 19940019; 19941816; 19952356; 19956716; 19958059; 19961258; 19966299; 19966865; 19966869; 19967550; 19996288; 19996314; 20008139; 20012522; 20019092; 20020146; 20026641; 20028853; 20032304; 20033368; 20042714; 20056651; 20061390; 20074550; 20079187; 20086044; 20093106; 20096688; 20097766; 20112731; 20122174; 20123964; 20126258; 20126544; 20128690; 20129645; 20137080; 20143187; 20181957; 20193114; 20195621; 20197769; 20208143; 20210255; 20215423; 20224040; 20227366; 20232357; 20233054; 20236250; 20236666; 20302655; 20332102; 20332116; 20347502; 20348951; 20367250; 20369480; 20372837; 20395444; 20399743; 20406964; 20409609; 20412773; 20419129; 20428811; 20438785; 20439735; 20446815; 20454507; 20459822; 20460486; 20474081; 20491588; 20503246; 20505989; 20508033; 20514474; 20519433; 20519507; 20527231; 20529814; 20529828; 20531388; 20532534; 20533307; 20544848; 20550535; 20561405; 20571128; 20572881; 20580720; 20581239; 20589835; 20596253; 20596624; 20603076; 20603606; 20613673; 20615089; 20625999; 20628086; 20631314; 20631633; 20634891; 20639865; 20644561; 20646434; 20646651; 20660612; 20679491; 20693983; 20696077; 20705583; 20717765; 20736306; 20813688; 20818428; 20837771; 20840015; 20840677; 20840813; 20840866; 20856206; 20862283; 20870744; 20874444; 20886225; 20933443; 20937153; 20937768; 20943078; 20950152; 20959480; 20963515; 20972266; 20974860; 21030215; 21031436; 21047397; 21050342; 21056029; 21057570; 21061181; 21073496; 21076461; 21080917; 21084400; 21108734; 21115917; 21118991; 21122409; 21139048; 21145461; 21151392; 21165564; 21173432; 21179427; 21189258; 21195420; 21196339; 21207157; 21215703; 21225227; 21239045; 21240516; 21254927; 21259057; 21284870; 21292023; 21297666; 21297984; 21299429; 21299609; 21303971; 21317931; 21323417; 21325624; 21331989; 21336184; 21344156; 21350711; 21352379; 21354309; 21355306; 21357396; 21362399; 21368895; 21369691; 21378377; 21383695; 21384147; 21385933; 21391741; 21411632; 21422242; 21447180; 21448924; 21454805; 21457159; 21466614; 21479203; 21494638; 21502434; 21505183; 21506126; 21521850; 21524889; 21527747; 21531001; 21532622; 21538055; 21545903; 21562161; 21565795; 21569306; 21575861; 21577209; 21584489; 21602666; 21610149; 21612684; 21613219; 21617231; 21622533; 21625458; 21638320; 21643019; 21649463; 21661417; 21664290; 21665151; 21670201; 21671177; 21677537; 21678082; 21691299; 21704588; 21726809; 21743491; 21744004; 21747169; 21757651; 21761366; 21764279; 21769465; 21775056; 21781302; 21781452; 21781455; 21792768; 21803632; 21807967; 21821917; 21822311; 21822615; 21832049; 21836063; 21841793; 21849806; 21852086; 21852538; 21858114; 21858154; 21860425; 21875946; 21880956; 21881488; 21881870; 21884207; 21884214; 21890473; 21894439; 21901162; 21906983; 21908588; 21928230; 21935866; 21949247; 21949397; 21952639; 21963094; 21963849; 21965288; 21975680; 21980461; 21986938; 21987572; 21992464; 21993766; 21994129; 21999200; 22007144; 22014042; 22014044; 22017875; 22020335; 22022540; 22023520; 22024040; 22028615; 22034877; 22041457; 22049531; 22053859; 22053931; 22056988; 22080244; 22080605; 22081130; 22083140; 22083958; 22086512; 22093097; 22095489; 22095947; 22099930; 22100495; 22110128; 22110662; 22115830; 22126602; 22133004; 22135721; 22139084; 22142772; 22152854; 22154485; 22155184; 22156527; 22158051; 22158061; 22166221; 22174153; 22180573; 22187462; 22194818; 22198706; 22199277; 22202456; 22209340; 22211293; 22213192; 22221700; 22230368; 22231735; 22232518; 22234184; 22234612; 22241478; 22246236; 22276175; 22281980; 22287118; 22298898; 22298956; 22300273; 22303878; 22304920; 22307379; 22328737; 22333550; 22337891; 22350414; 22369945; 22372443; 22383975; 22391162; 22392736; 22392999; 22406377; 22407433; 22415718; 22425263; 22427053; 22438981; 22454041; 22455883; 22456437; 22458737; 22459450; 22460269; 22466651; 22469663; 22475572; 22494971; 22504420; 22505738; 22507326; 22509309; 22509369; 22516360; 22524844; 22526905; 22535304; 22540002; 22544606; 22550094; 22560296; 22576020; 22576689; 22579815; 22609776; 22613727; 22613765; 22614067; 22622416; 22630347; 22647378; 22653977; 22665063; 22668871; 22674979; 22682247; 22685558; 22692453; 22699938; 22702043; 22704062; 22705350; 22713211; 22715382; 22721621; 22723415; 22728435; 22730322; 22734943; 22739727; 22751121; 22766303; 22766794; 22773696; 22777005; 22800756; 22805760; 22815287; 22823957; 22848100; 22855334; 22864797; 22865883; 22905262; 22908324; 22912335; 22914623; 22915253; 22918686; 22919265; 22938416; 22944692; 22945641; 22946055; 22952611; 22955108; 22956765; 22958082; 23009572; 23020601; 23029025; 23030478; 23032819; 23042269; 23056515; 23065461; 23067217; 23068095; 23068607; 23086933; 23094073; 23099107; 23114888; 23117548; 23138978; 23142810; 23152409; 23159080; 23168683; 23174221; 23208497; 23211630; 23216017; 23220849; 23221384; 23222438; 23233089; 23235344; 23240619; 23243000; 23243217; 23245941; 23246962; 23252868; 23261982; 23268410; 23269799; 23273980; 23274133; 23275444; 23280187; 23292837; 23295859; 23301872; 23302090; 23307470; 23316072; 23317545; 23321667; 23325790; 23333633; 23337059; 23339186; 23349466; 23349811; 23355201; 23375645; 23405266; 23409032; 23437103; 23447569; 23452984; 23483729; 23489693; 23490077; 23499736; 23516071; 23516639; 23525311; 23539445; 23559415; 23559584; 23576562; 23578392; 23582741; 23583404; 23583669; 23592333; 23598517; 23602568; 23603171; 23613467; 23629955; 23640056; 23661344; 23667531; 23671189; 23671587; 23677639; 23690607; 23691015; 23704310; 23707389; 23717499; 23718855; 23727580; 23743566; 23744067; 23767917; 23784889; 23785285; 23787212; 23790492; 23796566; 23811937; 23826417; 23836524; 23840677; 23840886; 23844214; 23844215; 23887712; 23900566; 23913621; 23936352; 23950177; 23954158; 23959799; 23967107; 23983127; 23999248; 24003087; 24011952; 24019458; 24021281; 24042437; 24055345; 24061522; 24071572; 24096034; 24123033; 24127488; 24129577; 24145651; 24157255; 24158438; 24182564; 24255178; 24261884; 24276407; 24317174; 24342833; 24355586; 24413733; 24449884; 24469040; 24501426</obo:OGG_0000000030>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vega:OTTHUMG00000131393</oboInOwl:hasDbXref>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">armadillo</obo:IAO_0000118>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">catenin (cadherin-associated protein), beta 1, 88kDa</dc:description>
+        <obo:OGG_0000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">catenin (cadherin-associated protein), beta 1, 88kDa</obo:OGG_0000000005>
+        <obo:OGG_0000000018 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</obo:OGG_0000000018>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000002629 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000002629">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060009606"/>
+        <obo:OGG_0000000017 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</obo:OGG_0000000017>
+        <obo:OGG_0000000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1q21</obo:OGG_0000000008>
+        <obo:OGG_0000000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20140408</obo:OGG_0000000009>
+        <obo:OGG_0000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2629</obo:OGG_0000000006>
+        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9606</obo:OGG_0000000015>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensembl:ENSG00000177628</oboInOwl:hasDbXref>
+        <obo:OGG_0000000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBA</obo:OGG_0000000004>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBA1</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCB</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GLUC</obo:IAO_0000118>
+        <obo:OGG_0000000029 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_0004348 (EC: IDA, PMID: 19279011); GO_0005102 (EC: ISS, PMID: 18022370); GO_0005515 (EC: IPI); GO_0005765 (EC: IDA, PMID: 17897319); GO_0005765 (EC: ISS, PMID: 18022370); GO_0005765 (EC: TAS); GO_0005975 (EC: IEA); GO_0006665 (EC: TAS); GO_0006680 (EC: IMP, PMID: 19279011); GO_0006687 (EC: TAS); GO_0008219 (EC: IEA); GO_0009268 (EC: IEA); GO_0023021 (EC: IMP, PMID: 19279008); GO_0032715 (EC: IDA, PMID: 19279008); GO_0033561 (EC: IEA); GO_0033574 (EC: IEA); GO_0035307 (EC: IMP, PMID: 19279008); GO_0043202 (EC: ISS, PMID: 18022370); GO_0043407 (EC: IMP, PMID: 19279008); GO_0043589 (EC: IEA); GO_0043627 (EC: IEA); GO_0044281 (EC: TAS); GO_0046512 (EC: IMP, PMID: 19279011); GO_0046513 (EC: IMP, PMID: 19279011); GO_0050728 (EC: IC, PMID: 19279008); GO_0051384 (EC: IEA); GO_0071356 (EC: IMP, PMID: 19279008); GO_0097066 (EC: IEA)</obo:OGG_0000000029>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HGNC:4177</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPRD:06973</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIM:606463</oboInOwl:hasDbXref>
+        <obo:OGG_0000000019 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official from a nomenclature committee</obo:OGG_0000000019>
+        <obo:OGG_0000000030 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 1572652; 1594045; 1698821; 1899336; 1972019; 1974409; 2295698; 2438102; 2914709; 3001061; 3353383; 3359914; 3456607; 3472750; 3547401; 3687939; 3863141; 3864160; 4003396; 6091633; 6455062; 6816512; 6885065; 7613473; 7627184; 7627192; 7916532; 8076951; 8112750; 8118460; 8188616; 8294033; 8432537; 8694790; 8780099; 8790604; 8829654; 8829663; 8889578; 8889591; 8907609; 8937765; 9040001; 9061570; 9153297; 9182788; 9217217; 9225972; 9279145; 9331372; 9516376; 9554454; 9554746; 9637431; 9650766; 9683600; 9705233; 9851895; 10079102; 10340647; 10352942; 10360404; 10447266; 10527671; 10649495; 10744424; 11584048; 11708865; 11933202; 12048121; 12107439; 12173027; 12359135; 12360742; 12360744; 12434014; 12477932; 12482401; 12587096; 12667141; 12754519; 12792654; 12803123; 12972024; 14728994; 14757764; 14994233; 15146461; 15322500; 15489334; 15517591; 15517592; 15525722; 15591280; 15610510; 15857183; 15954102; 15967693; 15982918; 16086325; 16148263; 16223608; 16329099; 16344560; 16476943; 16781064; 16790605; 16830265; 16861620; 16981045; 16996765; 17187079; 17427031; 17462935; 17574891; 17620502; 17689991; 17702778; 17703984; 17713797; 17875915; 17897319; 17996473; 18022370; 18030725; 18074383; 18078074; 18160183; 18178337; 18264947; 18313951; 18332251; 18338393; 18429048; 18434642; 18541113; 18562733; 18586535; 18586596; 18619939; 18674488; 18829375; 18852351; 18979180; 18987351; 19224617; 19260119; 19279008; 19279011; 19286695; 19332698; 19383421; 19394250; 19425057; 19433656; 19433657; 19458969; 19459886; 19460752; 19527940; 19578116; 19846850; 19882201; 19913121; 19945510; 19953087; 20004703; 20053430; 20131388; 20148966; 20177787; 20182943; 20223112; 20301387; 20301402; 20301446; 20425034; 20528910; 20580583; 20628086; 20643691; 20700730; 20729108; 20816920; 20947659; 20971030; 20980259; 20980263; 21087600; 21098288; 21221911; 21242499; 21338444; 21569768; 21621439; 21633851; 21653695; 21674799; 21700325; 21723784; 21734182; 21742527; 21745757; 21831682; 21856586; 21889374; 21915911; 21963094; 22001711; 22021190; 22160715; 22167193; 22173904; 22192918; 22220748; 22227325; 22268729; 22282650; 22344629; 22352271; 22387070; 22427207; 22442429; 22451204; 22493294; 22542428; 22658918; 22659419; 22797727; 22803570; 22812582; 22935721; 22968580; 23034917; 23035075; 23062841; 23079555; 23151436; 23225227; 23227814; 23255161; 23413260; 23418083; 23426826; 23434032; 23490118; 23580063; 23588557; 23635853; 23639447; 23699752; 23719189; 24070323; 24351928</obo:OGG_0000000030>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vega:OTTHUMG00000035841</oboInOwl:hasDbXref>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
+        <obo:OGG_0000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucosidase, beta, acid</obo:OGG_0000000005>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucosidase, beta, acid</dc:description>
+        <obo:OGG_0000000018 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</obo:OGG_0000000018>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000003172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000003172">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HNF4A</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060009606"/>
+        <obo:OGG_0000000017 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20</obo:OGG_0000000017>
+        <obo:OGG_0000000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20140408</obo:OGG_0000000009>
+        <obo:OGG_0000000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20q13.12</obo:OGG_0000000008>
+        <obo:OGG_0000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3172</obo:OGG_0000000006>
+        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9606</obo:OGG_0000000015>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensembl:ENSG00000101076</oboInOwl:hasDbXref>
+        <obo:OGG_0000000029 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_0001077 (EC: ISS); GO_0001102 (EC: ISS); GO_0003677 (EC: IDA, PMID: 10551874); GO_0003700 (EC: IDA, PMID: 10330009); GO_0003705 (EC: IEA); GO_0003707 (EC: IEA); GO_0004879 (EC: IEA); GO_0005102 (EC: IDA, PMID: 12220494); GO_0005504 (EC: IDA, PMID: 12220494); GO_0005515 (EC: IPI, PMID: 16488887); GO_0005634 (EC: IDA, PMID: 14563941); GO_0005654 (EC: TAS); GO_0005737 (EC: IDA, PMID: 14563941); GO_0006357 (EC: IDA, PMID: 10330009); GO_0006357 (EC: IMP, PMID: 18163890); GO_0006367 (EC: TAS); GO_0006591 (EC: IMP, PMID: 17827783); GO_0006629 (EC: IEA); GO_0006805 (EC: IMP, PMID: 17827783); GO_0007548 (EC: IEA); GO_0007596 (EC: IDA, PMID: 12911579); GO_0008270 (EC: IEA); GO_0008285 (EC: IMP, PMID: 18163890); GO_0009749 (EC: ISS); GO_0010467 (EC: TAS); GO_0010470 (EC: IEA); GO_0019216 (EC: IDA, PMID: 10551874); GO_0023019 (EC: IEA); GO_0030308 (EC: IMP, PMID: 18163890); GO_0031018 (EC: TAS); GO_0042593 (EC: ISS); GO_0042803 (EC: IDA, PMID: 12220494); GO_0043565 (EC: IEA); GO_0044212 (EC: IDA, PMID: 16488887); GO_0045893 (EC: IDA, PMID: 16488887); GO_0045944 (EC: IDA, PMID: 7615825); GO_0045944 (EC: IMP, PMID: 17827783); GO_0050796 (EC: ISS); GO_0055088 (EC: IMP, PMID: 17827783); GO_0055091 (EC: ISS); GO_0060395 (EC: IEA); GO_0060398 (EC: NAS, PMID: 17991764); GO_0070328 (EC: ISS); GO_2000189 (EC: ISS)</obo:OGG_0000000029>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HGNC:5024</oboInOwl:hasDbXref>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HNF4</obo:IAO_0000118>
+        <obo:OGG_0000000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HNF4A</obo:OGG_0000000004>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HNF4a7</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HNF4a8</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HNF4a9</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HNF4alpha</obo:IAO_0000118>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPRD:02612</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIM:600281</oboInOwl:hasDbXref>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MODY</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MODY1</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NR2A1</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NR2A21</obo:IAO_0000118>
+        <obo:OGG_0000000019 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official from a nomenclature committee</obo:OGG_0000000019>
+        <obo:OGG_0000000030 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 1899928; 7568236; 7615825; 7651430; 7926813; 8622695; 8945471; 8964514; 9048927; 9115274; 9243109; 9267996; 9294105; 9313765; 9371825; 9434765; 9449683; 9717844; 9792714; 9792724; 9795230; 9812974; 10085149; 10330009; 10551874; 10594021; 10609119; 10652338; 10737800; 10786636; 10882110; 10995777; 11229886; 11549316; 11590126; 11717395; 11733490; 11741883; 11772903; 11780052; 11811951; 11818510; 11834723; 11916906; 11994285; 12036449; 12050210; 12083813; 12086970; 12089346; 12101254; 12110948; 12133007; 12203996; 12205093; 12220494; 12235114; 12413008; 12477932; 12504020; 12519792; 12522137; 12544512; 12551987; 12627330; 12631740; 12669197; 12697672; 12701690; 12740371; 12829997; 12855700; 12911579; 12944908; 14551916; 14563941; 14654354; 14702039; 14722127; 14988562; 15047632; 15047633; 15123688; 15194767; 15281001; 15322103; 15337761; 15342556; 15358161; 15470081; 15504983; 15519277; 15520459; 15547294; 15561969; 15604093; 15616580; 15651981; 15660729; 15728204; 15734869; 15735891; 15735892; 15744310; 15752752; 15793260; 15794920; 15796896; 15826954; 15830177; 15831710; 15919766; 15928245; 15933212; 15983230; 16007190; 16051671; 16186411; 16223942; 16338932; 16351573; 16488887; 16502298; 16523192; 16562587; 16584384; 16644680; 16712791; 16731855; 16731861; 16752173; 16771709; 16804065; 16838170; 16873704; 16882880; 16883527; 16893891; 16929032; 16936201; 16946562; 16955255; 16978381; 16980607; 17007050; 17022998; 17052457; 17259399; 17264800; 17291450; 17300672; 17317687; 17327436; 17343826; 17344191; 17353931; 17393984; 17403900; 17407387; 17464991; 17466274; 17563455; 17574576; 17576804; 17601994; 17636037; 17764444; 17785436; 17805472; 17827402; 17827783; 17876342; 17885207; 17891372; 17894829; 17895379; 17920062; 17923767; 17932483; 17958743; 17965524; 17991764; 17992261; 18028455; 18029348; 18056193; 18162503; 18163890; 18184923; 18199540; 18234786; 18268044; 18305369; 18305375; 18332101; 18346225; 18356407; 18391435; 18395097; 18426912; 18498634; 18513187; 18513302; 18552123; 18561282; 18602983; 18654034; 18660489; 18666237; 18728231; 18765665; 18805788; 18811724; 18829458; 18844932; 18988528; 19048623; 19060906; 19115260; 19147806; 19154258; 19179483; 19188435; 19228875; 19228884; 19302415; 19336534; 19353766; 19389810; 19406499; 19435525; 19454287; 19467232; 19549071; 19563409; 19575803; 19578796; 19651776; 19740748; 19748811; 19761587; 19805548; 19846556; 19913121; 19915572; 19924231; 19934400; 19948975; 19966299; 20003313; 20079163; 20086032; 20158877; 20164212; 20167659; 20211142; 20301549; 20308432; 20361036; 20371703; 20375098; 20379614; 20384434; 20463007; 20516075; 20546279; 20558840; 20576917; 20622021; 20628086; 20670916; 20682687; 20684663; 20686565; 20705777; 20714348; 20735474; 20863361; 20871093; 20878384; 20926756; 20931292; 20976847; 21047794; 21062274; 21062980; 21292004; 21300955; 21352552; 21384409; 21442235; 21493011; 21494118; 21618351; 21633728; 21646355; 21683639; 21708125; 21725089; 21733563; 21744425; 21760481; 21799848; 21814221; 21831733; 21852396; 21874001; 21922456; 21983932; 21988832; 22009745; 22060211; 22068426; 22140441; 22153071; 22155889; 22158537; 22197810; 22240483; 22282358; 22308320; 22333269; 22357705; 22383578; 22432108; 22505616; 22628013; 22791717; 22802087; 22902540; 22914433; 22939635; 22952853; 22960426; 23038264; 23052196; 23108025; 23128233; 23268925; 23292115; 23307400; 23348805; 23628799; 23652628; 23775631; 23803251; 23874642; 23878349</obo:OGG_0000000030>
+        <obo:OGG_0000000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RP5-1013A22.1</obo:OGG_0000000007>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TCF</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TCF14</obo:IAO_0000118>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vega:OTTHUMG00000032531</oboInOwl:hasDbXref>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
+        <obo:OGG_0000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocyte nuclear factor 4, alpha</obo:OGG_0000000005>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocyte nuclear factor 4, alpha</dc:description>
+        <obo:OGG_0000000018 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</obo:OGG_0000000018>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000004036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000004036">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LRP2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060009606"/>
+        <obo:OGG_0000000017 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</obo:OGG_0000000017>
+        <obo:OGG_0000000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20140408</obo:OGG_0000000009>
+        <obo:OGG_0000000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2q31.1</obo:OGG_0000000008>
+        <obo:OGG_0000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4036</obo:OGG_0000000006>
+        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9606</obo:OGG_0000000015>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DBS</obo:IAO_0000118>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensembl:ENSG00000081479</oboInOwl:hasDbXref>
+        <obo:OGG_0000000029 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_0001523 (EC: TAS); GO_0005509 (EC: IEA); GO_0005515 (EC: IPI, PMID: 14528014); GO_0005764 (EC: TAS, PMID: 7768901); GO_0005765 (EC: IDA, PMID: 17897319); GO_0005768 (EC: IEA); GO_0005783 (EC: IEA); GO_0005794 (EC: IEA); GO_0005886 (EC: TAS); GO_0005905 (EC: IEA); GO_0006486 (EC: TAS, PMID: 2786251); GO_0006629 (EC: TAS, PMID: 7768901); GO_0006897 (EC: TAS, PMID: 7768901); GO_0006898 (EC: IEA); GO_0007603 (EC: TAS); GO_0008202 (EC: TAS); GO_0008283 (EC: IEA); GO_0016021 (EC: IEA); GO_0016324 (EC: ISS); GO_0017124 (EC: IEA); GO_0030139 (EC: IEA); GO_0030900 (EC: IEA); GO_0031526 (EC: IEA); GO_0042359 (EC: TAS); GO_0043235 (EC: IDA); GO_0044281 (EC: TAS); GO_0070062 (EC: IDA, PMID: 19056867)</obo:OGG_0000000029>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GP330</obo:IAO_0000118>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HGNC:6694</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPRD:02509</oboInOwl:hasDbXref>
+        <obo:OGG_0000000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LRP2</obo:OGG_0000000004>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIM:600073</oboInOwl:hasDbXref>
+        <obo:OGG_0000000019 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official from a nomenclature committee</obo:OGG_0000000019>
+        <obo:OGG_0000000030 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 1382088; 2786251; 7512726; 7579068; 7657789; 7686151; 7768901; 7775583; 7959795; 8187828; 8344937; 8706697; 8710893; 8898021; 9071320; 9228033; 9334227; 9492085; 9655248; 9727058; 9773776; 9837937; 10073957; 10203351; 10330424; 10364184; 10753646; 10769163; 10772929; 10827173; 10982792; 11095640; 11158855; 11274227; 11278724; 11421580; 11595644; 11717447; 11912251; 11994745; 12107412; 12169628; 12508107; 12707383; 12713445; 12723989; 12768436; 12879166; 14528014; 14657389; 15134832; 15583024; 15670845; 15951480; 16174284; 16344560; 16713569; 16828734; 16908842; 17260971; 17457342; 17474147; 17555532; 17632512; 17897319; 17979745; 18070591; 18174661; 18448595; 18559602; 18685438; 18791690; 19056867; 19913121; 19940034; 20031551; 20038220; 20052685; 20139978; 20301732; 20379614; 20468071; 20628086; 20800603; 20971101; 21079607; 21104416; 21595846; 22170372; 22174918; 22437417; 22565184; 22578327; 22649097; 23274376; 23275343; 23673647; 23909735; 24197071</obo:OGG_0000000030>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vega:OTTHUMG00000132179</oboInOwl:hasDbXref>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
+        <obo:OGG_0000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low density lipoprotein receptor-related protein 2</obo:OGG_0000000005>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low density lipoprotein receptor-related protein 2</dc:description>
+        <obo:OGG_0000000018 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</obo:OGG_0000000018>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000004762 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000004762">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NEUROG1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060009606"/>
+        <obo:OGG_0000000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20140408</obo:OGG_0000000009>
+        <obo:OGG_0000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4762</obo:OGG_0000000006>
+        <obo:OGG_0000000017 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</obo:OGG_0000000017>
+        <obo:OGG_0000000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5q23-q31</obo:OGG_0000000008>
+        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9606</obo:OGG_0000000015>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AKA</obo:IAO_0000118>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensembl:ENSG00000181965</oboInOwl:hasDbXref>
+        <obo:OGG_0000000029 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_0000989 (EC: ISS); GO_0003677 (EC: ISS); GO_0003682 (EC: ISS); GO_0003700 (EC: TAS, PMID: 8816493); GO_0005634 (EC: IEA); GO_0006351 (EC: IEA); GO_0006357 (EC: TAS, PMID: 8816493); GO_0007399 (EC: TAS, PMID: 8816493); GO_0030182 (EC: IEA); GO_0031536 (EC: IEA); GO_0042472 (EC: IEA); GO_0043204 (EC: IEA); GO_0045165 (EC: IEA); GO_0045666 (EC: ISS); GO_0045944 (EC: ISS); GO_0046983 (EC: IEA); GO_0051091 (EC: ISS); GO_0070888 (EC: ISS)</obo:OGG_0000000029>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HGNC:7764</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPRD:03430</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIM:601726</oboInOwl:hasDbXref>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Math4C</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NEUROD3</obo:IAO_0000118>
+        <obo:OGG_0000000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NEUROG1</obo:OGG_0000000004>
+        <obo:OGG_0000000019 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official from a nomenclature committee</obo:OGG_0000000019>
+        <obo:OGG_0000000030 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 8816493; 9119405; 11239394; 11732772; 12477932; 12526089; 15489334; 17044100; 18053270; 18799289; 19086053; 19813087; 20102160; 20211142; 21326223; 21697133; 23034738; 23419067</obo:OGG_0000000030>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vega:OTTHUMG00000129138</oboInOwl:hasDbXref>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bHLHa6</obo:IAO_0000118>
+        <obo:OGG_0000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurogenin 1</obo:OGG_0000000005>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurogenin 1</dc:description>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngn1</obo:IAO_0000118>
+        <obo:OGG_0000000018 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</obo:OGG_0000000018>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000005460 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000005460">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POU5F1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060009606"/>
+        <obo:OGG_0000000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20140408</obo:OGG_0000000009>
+        <obo:OGG_0000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5460</obo:OGG_0000000006>
+        <obo:OGG_0000000017 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</obo:OGG_0000000017>
+        <obo:OGG_0000000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6p21.31</obo:OGG_0000000008>
+        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9606</obo:OGG_0000000015>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <obo:OGG_0000000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DADB-104B20.2</obo:OGG_0000000007>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensembl:ENSG00000204531</oboInOwl:hasDbXref>
+        <obo:OGG_0000000029 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_0000981 (EC: ISS); GO_0001714 (EC: IDA); GO_0001824 (EC: ISS); GO_0003130 (EC: IMP, PMID: 19736317); GO_0003677 (EC: IDA, PMID: 16153702); GO_0003700 (EC: IDA, PMID: 16153702); GO_0005515 (EC: IPI, PMID: 11099378); GO_0005634 (EC: IC, PMID: 16153702); GO_0005634 (EC: IDA, PMID: 18000303); GO_0005654 (EC: IDA); GO_0005667 (EC: IDA, PMID: 19736317); GO_0005737 (EC: IDA, PMID: 18281244); GO_0005829 (EC: IDA, PMID: 18000303); GO_0006355 (EC: IDA, PMID: 16153702); GO_0006366 (EC: ISS); GO_0008134 (EC: IPI, PMID: 19736317); GO_0009611 (EC: IEP, PMID: 17982423); GO_0009653 (EC: TAS, PMID: 9814708); GO_0009786 (EC: ISS); GO_0010468 (EC: IMP, PMID: 18388306); GO_0031625 (EC: IPI, PMID: 19274063); GO_0035019 (EC: IDA, PMID: 19409607); GO_0035019 (EC: IMP, PMID: 18388306); GO_0035198 (EC: IDA, PMID: 18710938); GO_0035413 (EC: IDA, PMID: 19736317); GO_0042789 (EC: ISS); GO_0043565 (EC: IDA); GO_0044212 (EC: IDA, PMID: 19736317); GO_0044822 (EC: IDA); GO_0045944 (EC: IDA, PMID: 19736317); GO_0060391 (EC: IDA, PMID: 19736317); GO_0060795 (EC: IMP, PMID: 19736317); GO_0060913 (EC: IDA, PMID: 19736317); GO_0060965 (EC: IMP, PMID: 19409607); GO_0090081 (EC: IMP, PMID: 19736317); GO_0090308 (EC: IDA, PMID: 19736317)</obo:OGG_0000000029>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HGNC:9221</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPRD:01252</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIM:164177</oboInOwl:hasDbXref>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OCT3</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OCT4</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTF-3</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTF3</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OTF4</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oct-3</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oct-4</obo:IAO_0000118>
+        <obo:OGG_0000000019 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official from a nomenclature committee</obo:OGG_0000000019>
+        <obo:OGG_0000000030 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 1408763; 1723621; 7908264; 8088794; 8500351; 8567814; 8889549; 9368058; 9814708; 10742100; 11096094; 11099378; 11689681; 11891324; 12477932; 12653732; 12727846; 12841847; 12923055; 15047715; 15105401; 15342930; 15467907; 15513931; 15615706; 15625129; 15695770; 15729702; 15749924; 15790780; 15917470; 16149048; 16153702; 16229821; 16421218; 16557044; 16582099; 16702430; 16892178; 16916925; 16951404; 17011492; 17013377; 17068183; 17093407; 17136117; 17205510; 17211834; 17226773; 17245123; 17273778; 17314032; 17314394; 17379765; 17390031; 17409736; 17413979; 17506876; 17525163; 17549357; 17554336; 17573914; 17682839; 17761754; 17923501; 17959850; 17982423; 18000303; 18029452; 18032701; 18088417; 18157115; 18191611; 18199879; 18231740; 18254969; 18269588; 18281244; 18295396; 18338169; 18339675; 18366076; 18388306; 18439155; 18440631; 18467432; 18593985; 18594515; 18612434; 18617685; 18676852; 18687992; 18710938; 18757296; 18765667; 18787205; 18806776; 18810488; 18818365; 18946985; 18957414; 18985733; 19023518; 19058139; 19060217; 19102659; 19103427; 19126554; 19170206; 19171782; 19203577; 19224167; 19224238; 19271143; 19274063; 19274762; 19327014; 19347886; 19350677; 19383152; 19394308; 19396148; 19409607; 19414369; 19438894; 19445899; 19458492; 19483629; 19489092; 19528230; 19536159; 19549847; 19559696; 19657699; 19696409; 19718018; 19736317; 19751112; 19777066; 19816951; 19851445; 19884257; 19898493; 19966271; 19968627; 19969351; 20027182; 20034424; 20038322; 20051954; 20054811; 20074550; 20101213; 20103622; 20123703; 20139178; 20171362; 20173672; 20203285; 20224565; 20224970; 20230781; 20333750; 20347080; 20356403; 20379614; 20404147; 20412569; 20412747; 20433421; 20458727; 20462980; 20477760; 20497257; 20505756; 20505821; 20508149; 20510497; 20526341; 20587610; 20594032; 20647538; 20662612; 20698766; 20721963; 20736927; 20805580; 20818602; 20824712; 20858707; 20879854; 20881960; 20937145; 20942235; 20953172; 20958186; 20981110; 21048921; 21107090; 21135096; 21151097; 21151833; 21159654; 21166886; 21227461; 21262915; 21273125; 21301344; 21365617; 21376027; 21394007; 21403679; 21419292; 21477851; 21479367; 21480394; 21496429; 21533858; 21547540; 21559451; 21602143; 21602158; 21631526; 21674242; 21684074; 21692598; 21725800; 21798248; 21801394; 21804543; 21844352; 21852325; 21868340; 21900452; 21912425; 21938739; 21946204; 21947321; 21951846; 21960344; 21962512; 21987575; 22014056; 22037460; 22160855; 22207173; 22247013; 22252524; 22286766; 22300949; 22301499; 22311737; 22340650; 22363145; 22378186; 22387393; 22392999; 22393366; 22396540; 22429998; 22446105; 22448662; 22474382; 22482508; 22506928; 22528324; 22576801; 22588915; 22613719; 22727933; 22743827; 22777760; 22795133; 22824146; 22832160; 22844522; 22847005; 22901285; 22903480; 22914767; 22922943; 22944295; 23000165; 23002208; 23024368; 23041284; 23052207; 23076549; 23088399; 23136034; 23185410; 23211052; 23213213; 23255053; 23276226; 23279472; 23290742; 23302226; 23307247; 23314702; 23340171; 23349823; 23391989; 23433354; 23438193; 23499384; 23525564; 23539445; 23541921; 23545524; 23549118; 23588367; 23594289; 23601300; 23609451; 23613252; 23613880; 23615404; 23636800; 23643069; 23670345; 23736381; 23828673; 23872274; 23928699; 23933063; 23955597; 23984394; 24182453; 24324071</obo:OGG_0000000030>
+        <obo:OGG_0000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POU class 5 homeobox 1</obo:OGG_0000000005>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POU class 5 homeobox 1</dc:description>
+        <obo:OGG_0000000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POU5F1</obo:OGG_0000000004>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vega:OTTHUMG00000031206</oboInOwl:hasDbXref>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
+        <obo:OGG_0000000018 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</obo:OGG_0000000018>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000005925 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000005925">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060009606"/>
+        <obo:OGG_0000000017 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13</obo:OGG_0000000017>
+        <obo:OGG_0000000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13q14.2</obo:OGG_0000000008>
+        <obo:OGG_0000000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20140408</obo:OGG_0000000009>
+        <obo:OGG_0000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5925</obo:OGG_0000000006>
+        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9606</obo:OGG_0000000015>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensembl:ENSG00000139687</oboInOwl:hasDbXref>
+        <obo:OGG_0000000029 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_0000075 (EC: TAS, PMID: 10825186); GO_0000082 (EC: TAS); GO_0000083 (EC: TAS, PMID: 19149898); GO_0000278 (EC: TAS); GO_0000785 (EC: TAS, PMID: 3657987); GO_0001047 (EC: IDA, PMID: 15735762); GO_0001102 (EC: IEA); GO_0003677 (EC: TAS, PMID: 3657987); GO_0003700 (EC: TAS, PMID: 3657987); GO_0003713 (EC: NAS, PMID: 15572661); GO_0005515 (EC: IPI, PMID: 10613832); GO_0005634 (EC: IDA, PMID: 17540172); GO_0005654 (EC: TAS); GO_0005819 (EC: IEA); GO_0006338 (EC: TAS, PMID: 19149898); GO_0006351 (EC: IEA); GO_0006469 (EC: IPI, PMID: 9858607); GO_0007050 (EC: TAS, PMID: 19149898); GO_0007070 (EC: TAS, PMID: 19149898); GO_0007093 (EC: TAS, PMID: 9529249); GO_0007265 (EC: IEP, PMID: 9054499); GO_0007346 (EC: IMP); GO_0008134 (EC: IPI, PMID: 16360038); GO_0016032 (EC: IEA); GO_0016514 (EC: TAS, PMID: 19149898); GO_0016605 (EC: IDA, PMID: 9448006); GO_0019900 (EC: IDA, PMID: 16286473); GO_0030521 (EC: NAS, PMID: 15572661); GO_0031134 (EC: IMP); GO_0031175 (EC: IEA); GO_0031625 (EC: IPI, PMID: 10944455); GO_0034088 (EC: IMP); GO_0034349 (EC: IEA); GO_0035189 (EC: TAS, PMID: 19149898); GO_0035914 (EC: IEA); GO_0042551 (EC: IEA); GO_0042802 (EC: IPI, PMID: 16360038); GO_0043353 (EC: IEA); GO_0043433 (EC: TAS, PMID: 9529249); GO_0043550 (EC: IDA, PMID: 16286473); GO_0045445 (EC: IMP, PMID: 15541338); GO_0045651 (EC: IEA); GO_0045842 (EC: IMP); GO_0045879 (EC: IEA); GO_0045892 (EC: IDA, PMID: 10783144); GO_0045892 (EC: TAS, PMID: 19149898); GO_0045893 (EC: NAS, PMID: 15572661); GO_0045944 (EC: IEA); GO_0048565 (EC: IEA); GO_0048667 (EC: IEA); GO_0050680 (EC: IEA); GO_0050681 (EC: NAS, PMID: 15572661); GO_0051146 (EC: IEA); GO_0051219 (EC: IPI, PMID: 16360038); GO_0051402 (EC: IEA); GO_0071459 (EC: IMP); GO_0071922 (EC: IMP); GO_0071930 (EC: IEA); GO_0090230 (EC: TAS); GO_0097284 (EC: IEA); GO_2000134 (EC: TAS, PMID: 19149898)</obo:OGG_0000000029>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HGNC:9884</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPRD:01574</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIM:614041</oboInOwl:hasDbXref>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OSRC</obo:IAO_0000118>
+        <obo:OGG_0000000019 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official from a nomenclature committee</obo:OGG_0000000019>
+        <obo:OGG_0000000030 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 1352398; 1352883; 1388726; 1532458; 1638634; 1641004; 1756735; 1857421; 2005966; 2594029; 2601691; 2701949; 2717184; 2839300; 3413073; 3480530; 3653883; 3657987; 3823889; 7287000; 7503932; 7525595; 7538672; 7542657; 7558034; 7592647; 7629134; 7664264; 7673249; 7704558; 7724524; 7732011; 7739537; 7756179; 7777526; 7791904; 7795591; 7818556; 7828850; 7838535; 7877691; 7881418; 7902321; 7923370; 7927327; 7935440; 7958924; 8058329; 8152792; 8170997; 8217609; 8230483; 8242749; 8246996; 8255752; 8278403; 8346196; 8346255; 8350924; 8381715; 8384581; 8434021; 8475068; 8490568; 8490963; 8493578; 8552662; 8560263; 8605116; 8626527; 8647086; 8651278; 8657117; 8662825; 8756624; 8756626; 8776589; 8816797; 8816798; 8832394; 8867812; 8870681; 8896460; 8946919; 9003781; 9010216; 9029153; 9053846; 9054499; 9071815; 9125176; 9128241; 9139732; 9140452; 9145110; 9169441; 9178770; 9178893; 9190208; 9199321; 9223517; 9242374; 9256431; 9258347; 9311732; 9312071; 9315635; 9315663; 9343168; 9380698; 9395244; 9400991; 9422723; 9448006; 9453249; 9464540; 9468139; 9468140; 9491888; 9495340; 9501179; 9525916; 9529249; 9545246; 9553123; 9559293; 9566894; 9566959; 9632747; 9632788; 9671498; 9675141; 9697699; 9710587; 9712901; 9721205; 9724731; 9813067; 9819434; 9858607; 9858615; 9885575; 9973307; 9988677; 10022926; 10026157; 10049762; 10078201; 10082561; 10196196; 10197586; 10198259; 10202152; 10207050; 10220405; 10228159; 10321733; 10330166; 10339564; 10353443; 10359315; 10359664; 10376528; 10393912; 10409732; 10446990; 10486249; 10490602; 10491434; 10499802; 10518542; 10523633; 10613832; 10615135; 10644764; 10647931; 10671068; 10702291; 10721693; 10734134; 10748174; 10778858; 10779342; 10779361; 10783144; 10825186; 10850422; 10866689; 10869426; 10888886; 10938106; 10938588; 10944455; 10958676; 11034201; 11042686; 11073989; 11073990; 11085541; 11090181; 11094070; 11113200; 11126356; 11158299; 11162467; 11254678; 11259609; 11268000; 11283269; 11285237; 11350943; 11358960; 11420704; 11433299; 11447271; 11470869; 11484059; 11500496; 11521194; 11524739; 11533237; 11566021; 11568901; 11571651; 11571652; 11583618; 11583987; 11593423; 11596110; 11668642; 11684023; 11748221; 11788883; 11805327; 11832063; 11839806; 11847125; 11896613; 11900540; 11909966; 11931757; 11940667; 11956626; 11960384; 11964378; 11971966; 11997511; 12016586; 12021356; 12032846; 12036888; 12037672; 12054658; 12065415; 12085226; 12096339; 12096344; 12140374; 12145697; 12153616; 12173465; 12190313; 12197776; 12200151; 12210730; 12241561; 12361598; 12362308; 12374284; 12377414; 12391156; 12391839; 12397079; 12401721; 12419581; 12434308; 12439743; 12450794; 12459729; 12461781; 12466551; 12466959; 12473678; 12475961; 12477932; 12479814; 12499093; 12502741; 12507935; 12508351; 12509456; 12519773; 12525503; 12528819; 12532331; 12532471; 12556968; 12569181; 12588990; 12594215; 12598654; 12621062; 12629508; 12676926; 12682072; 12711675; 12757710; 12761493; 12800980; 12809602; 12845674; 12860972; 12891711; 12944478; 12947005; 12949733; 12963846; 12963997; 12970441; 14506250; 14519639; 14527418; 14533007; 14534726; 14555653; 14585976; 14625809; 14627988; 14631100; 14645241; 14676836; 14681231; 14684825; 14693709; 14722923; 14729647; 14730602; 14732703; 14737116; 14871261; 14966529; 15003538; 15024056; 15044952; 15048095; 15057823; 15084261; 15093750; 15103018; 15105429; 15147269; 15161658; 15162822; 15169570; 15169919; 15173007; 15193257; 15199152; 15210709; 15221456; 15241418; 15264269; 15271987; 15306814; 15308640; 15367600; 15367658; 15381253; 15389561; 15389598; 15467457; 15469703; 15469821; 15479636; 15485814; 15485920; 15489334; 15489336; 15492985; 15502804; 15523694; 15538385; 15541338; 15542589; 15547691; 15564485; 15572661; 15577944; 15580311; 15583032; 15619620; 15640164; 15647383; 15647840; 15655836; 15670817; 15671551; 15674331; 15674338; 15677471; 15679863; 15684604; 15701640; 15709169; 15716956; 15731778; 15735701; 15735762; 15741232; 15750587; 15752352; 15763542; 15763650; 15767262; 15776430; 15803180; 15806172; 15809752; 15811853; 15827088; 15828833; 15837424; 15838894; 15878620; 15881662; 15884040; 15922743; 15927959; 15939381; 15949438; 15998794; 16007129; 16020958; 16042572; 16127685; 16186801; 16188218; 16205627; 16205633; 16212876; 16214886; 16249186; 16254459; 16269091; 16273238; 16286473; 16303160; 16306221; 16315642; 16326706; 16332962; 16337594; 16343421; 16352731; 16354195; 16360038; 16368535; 16374512; 16388084; 16397580; 16458891; 16464825; 16501607; 16510145; 16570290; 16581787; 16595082; 16600870; 16614728; 16616093; 16616919; 16619045; 16627785; 16645588; 16682076; 16682285; 16685266; 16698799; 16764854; 16766265; 16782892; 16816134; 16824683; 16880741; 16912045; 16912184; 16916716; 16935576; 16936805; 16948516; 16962592; 16964284; 16966377; 16984923; 16985050; 17008050; 17012228; 17015477; 17028578; 17031475; 17043357; 17045206; 17047088; 17053782; 17094467; 17131485; 17145812; 17160137; 17163992; 17182682; 17183714; 17187060; 17216555; 17242198; 17254966; 17274640; 17286450; 17287852; 17297463; 17299438; 17318405; 17332242; 17369289; 17369843; 17380128; 17390023; 17413032; 17428253; 17455244; 17461478; 17490733; 17495525; 17511743; 17517622; 17523078; 17540172; 17549378; 17557897; 17576813; 17597480; 17609271; 17616526; 17616676; 17640669; 17642181; 17652530; 17666433; 17671693; 17686574; 17695524; 17702869; 17704056; 17716930; 17804741; 17827154; 17877762; 17880527; 17900658; 17913706; 17913805; 17916908; 17960112; 17963824; 17972097; 17974914; 17977825; 17991896; 17996702; 18000883; 18048012; 18071317; 18073205; 18181215; 18196971; 18211953; 18216119; 18236071; 18239623; 18259216; 18262051; 18281541; 18294958; 18296270; 18305152; 18306932; 18321963; 18332869; 18348166; 18360108; 18381962; 18383208; 18386058; 18391203; 18431743; 18458534; 18459177; 18477220; 18483265; 18503160; 18546941; 18593909; 18624751; 18628207; 18632617; 18677112; 18677770; 18691182; 18694959; 18697743; 18702872; 18755268; 18766991; 18768921; 18779498; 18782450; 18794045; 18794899; 18801742; 18843795; 18948382; 18950845; 18976938; 19058005; 19081374; 19124506; 19130399; 19137728; 19140325; 19141402; 19144636; 19149898; 19152247; 19160091; 19212661; 19223331; 19225156; 19249677; 19258477; 19279001; 19280657; 19351817; 19383911; 19389926; 19390654; 19421149; 19430707; 19458004; 19465901; 19477924; 19497860; 19524571; 19556322; 19556892; 19588502; 19594747; 19597473; 19631451; 19633425; 19640284; 19648117; 19666944; 19723065; 19738611; 19789190; 19802012; 19817957; 19838216; 19863319; 19880526; 19883508; 19903334; 19919588; 19926638; 19950226; 20003272; 20037816; 20041224; 20059380; 20082263; 20090211; 20100483; 20140018; 20157766; 20195357; 20223825; 20226061; 20226085; 20237430; 20301625; 20336668; 20362553; 20372796; 20372802; 20379614; 20428774; 20435627; 20447117; 20453000; 20499310; 20503270; 20534814; 20551165; 20558744; 20565234; 20594292; 20596833; 20614030; 20627193; 20628002; 20668449; 20680651; 20680693; 20694007; 20705054; 20713352; 20864684; 20870719; 20871633; 20890425; 20924203; 20940255; 20948315; 20948316; 20948989; 20971808; 21042734; 21048031; 21055153; 21085491; 21099110; 21099295; 21119616; 21139044; 21139048; 21148318; 21203526; 21241471; 21253829; 21278246; 21325879; 21329664; 21387305; 21440621; 21447152; 21470325; 21478909; 21491492; 21493295; 21498571; 21518927; 21558273; 21567202; 21593597; 21602887; 21615945; 21654082; 21663659; 21665145; 21674866; 21689726; 21697511; 21725359; 21740549; 21752283; 21763628; 21809081; 21850486; 21855804; 21875955; 21880723; 21890473; 21900881; 21903422; 21906983; 21952639; 21956461; 21980403; 21988832; 21990374; 22078878; 22084214; 22094256; 22112645; 22157621; 22182413; 22184068; 22203219; 22205104; 22219649; 22262832; 22265791; 22299668; 22310660; 22322860; 22333593; 22366686; 22448711; 22493456; 22505724; 22569856; 22576742; 22586056; 22643222; 22644489; 22692183; 22696061; 22698402; 22701041; 22706203; 22730229; 22733537; 22744425; 22768064; 22787429; 22790852; 22802529; 22874878; 22895174; 22939629; 22955272; 22998184; 23000965; 23022380; 23041127; 23059827; 23108995; 23178825; 23232572; 23308053; 23315497; 23339186; 23359405; 23370776; 23408605; 23427156; 23429261; 23441118; 23449391; 23498719; 23532519; 23543736; 23595191; 23602568; 23618872; 23670186; 23707559; 23715307; 23752268; 23788249; 23832541; 23845465; 23853093; 23859194; 23892435; 23900870; 23900873; 23916291; 23936312; 23949216; 23967107; 23969248; 23981575; 24078560; 24103329; 24135281; 24189068; 24231354; 24323028; 24334458; 24335704; 24347427</obo:OGG_0000000030>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</obo:IAO_0000118>
+        <obo:OGG_0000000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB1</obo:OGG_0000000004>
+        <obo:OGG_0000000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RP11-174I10.1</obo:OGG_0000000007>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vega:OTTHUMG00000016900</oboInOwl:hasDbXref>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p105-Rb</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pRb</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pp110</obo:IAO_0000118>
+        <obo:OGG_0000000018 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</obo:OGG_0000000018>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retinoblastoma 1</dc:description>
+        <obo:OGG_0000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retinoblastoma 1</obo:OGG_0000000005>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000006272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000006272">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SORT1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060009606"/>
+        <obo:OGG_0000000017 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</obo:OGG_0000000017>
+        <obo:OGG_0000000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1p13.3|1p21.3-p13.1</obo:OGG_0000000008>
+        <obo:OGG_0000000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20140408</obo:OGG_0000000009>
+        <obo:OGG_0000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6272</obo:OGG_0000000006>
+        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9606</obo:OGG_0000000015>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensembl:ENSG00000134243</oboInOwl:hasDbXref>
+        <obo:OGG_0000000029 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_0001503 (EC: IEA); GO_0005515 (EC: IPI, PMID: 10085125); GO_0005765 (EC: IEA); GO_0005769 (EC: IDA, PMID: 11331584); GO_0005789 (EC: IEA); GO_0005794 (EC: IDA, PMID: 11331584); GO_0005886 (EC: IDA, PMID: 11331584); GO_0005886 (EC: NAS, PMID: 14985763); GO_0005905 (EC: IDA, PMID: 11331584); GO_0006895 (EC: IDA, PMID: 11331584); GO_0006897 (EC: IDA, PMID: 11331584); GO_0007186 (EC: IMP, PMID: 18258592); GO_0007218 (EC: IDA, PMID: 9756851); GO_0007275 (EC: IEA); GO_0008333 (EC: IDA, PMID: 11331584); GO_0008625 (EC: IDA, PMID: 14985763); GO_0009986 (EC: IDA, PMID: 10085125); GO_0010008 (EC: IEA); GO_0010465 (EC: IDA, PMID: 14985763); GO_0010468 (EC: IMP, PMID: 18258592); GO_0014902 (EC: IMP, PMID: 18258592); GO_0016021 (EC: IDA, PMID: 15992544); GO_0016023 (EC: IDA, PMID: 9756851); GO_0016050 (EC: IDA, PMID: 15992544); GO_0019899 (EC: IPI, PMID: 10085125); GO_0030136 (EC: IDA, PMID: 11331584); GO_0030140 (EC: IEA); GO_0030379 (EC: IDA, PMID: 9756851); GO_0031965 (EC: IEA); GO_0032509 (EC: IDA, PMID: 11331584); GO_0032580 (EC: IEA); GO_0032868 (EC: IMP, PMID: 15992544); GO_0038180 (EC: IDA, PMID: 14985763); GO_0046323 (EC: IMP, PMID: 15992544); GO_0048011 (EC: IMP, PMID: 14985763); GO_0048227 (EC: IDA, PMID: 11331584); GO_0048406 (EC: IPI, PMID: 14985763); GO_0048471 (EC: IDA, PMID: 11331584); GO_0051005 (EC: IDA, PMID: 10085125)</obo:OGG_0000000029>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gp95</obo:IAO_0000118>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HGNC:11186</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPRD:03910</oboInOwl:hasDbXref>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LDLCQ6</obo:IAO_0000118>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIM:602458</oboInOwl:hasDbXref>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NT3</obo:IAO_0000118>
+        <obo:OGG_0000000019 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official from a nomenclature committee</obo:OGG_0000000019>
+        <obo:OGG_0000000030 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 9013611; 9305862; 9657377; 9756851; 9927419; 10085125; 10390649; 11257441; 11331584; 11390366; 11499680; 11821067; 11859376; 12209882; 12360476; 12419319; 12477932; 12482870; 12598608; 14657016; 14702039; 14985763; 15313463; 15364913; 15489334; 15930396; 15987945; 15992544; 16087676; 16263699; 16344560; 16710414; 17220298; 17353931; 18029348; 18088323; 18191449; 18193043; 18193044; 18258592; 18603531; 18624930; 18713973; 19060906; 19060910; 19148283; 19198609; 19219422; 19299407; 19322201; 19487539; 19837406; 19875813; 20015111; 20031591; 20036257; 20048080; 20085800; 20159974; 20167577; 20339536; 20383146; 20570916; 20584990; 20613775; 20628624; 20679960; 20686565; 20686566; 20738937; 20816088; 20971364; 21087763; 21139048; 21245145; 21261755; 21378988; 21378990; 21466885; 21521695; 21730062; 21909109; 21963094; 21966426; 22128158; 22256600; 22297619; 22361451; 22418572; 22751103; 22768187; 22884962; 23102784; 23118302; 23236149; 23283322; 23318115; 23438231; 23485461; 23535823; 23660633; 23704887; 23895422; 24128306</obo:OGG_0000000030>
+        <obo:OGG_0000000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SORT1</obo:OGG_0000000004>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vega:OTTHUMG00000011999</oboInOwl:hasDbXref>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
+        <obo:OGG_0000000018 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</obo:OGG_0000000018>
+        <obo:OGG_0000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sortilin 1</obo:OGG_0000000005>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sortilin 1</dc:description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000006622 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000006622">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNCA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060009606"/>
+        <obo:OGG_0000000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20140408</obo:OGG_0000000009>
+        <obo:OGG_0000000017 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</obo:OGG_0000000017>
+        <obo:OGG_0000000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4q21</obo:OGG_0000000008>
+        <obo:OGG_0000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6622</obo:OGG_0000000006>
+        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9606</obo:OGG_0000000015>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensembl:ENSG00000145335</oboInOwl:hasDbXref>
+        <obo:OGG_0000000029 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_0000287 (EC: IDA, PMID: 11850416); GO_0001774 (EC: IEA); GO_0001921 (EC: IDA, PMID: 18980610); GO_0001933 (EC: IEA); GO_0001956 (EC: IEA); GO_0005504 (EC: IDA, Qualifier: NOT, PMID: 16687662); GO_0005507 (EC: IDA); GO_0005509 (EC: IDA, PMID: 11312271); GO_0005515 (EC: IPI, PMID: 11943812); GO_0005543 (EC: IEA); GO_0005576 (EC: TAS); GO_0005634 (EC: IDA, PMID: 12406186); GO_0005640 (EC: IEA); GO_0005737 (EC: IDA, PMID: 12406186); GO_0005739 (EC: IEA); GO_0005791 (EC: IEA); GO_0005794 (EC: IEA); GO_0005829 (EC: IDA, PMID: 8248242); GO_0005840 (EC: IEA); GO_0005886 (EC: IDA, PMID: 12958153); GO_0005938 (EC: IDA, PMID: 19157893); GO_0006631 (EC: IEA); GO_0006638 (EC: IEA); GO_0006644 (EC: IEA); GO_0006919 (EC: IDA); GO_0007006 (EC: IEA); GO_0007568 (EC: IEA); GO_0008017 (EC: IEA); GO_0008021 (EC: IEA); GO_0008198 (EC: IDA, PMID: 11850416); GO_0008270 (EC: IDA, PMID: 11850416); GO_0008344 (EC: IEA); GO_0010040 (EC: IDA, PMID: 11850416); GO_0010517 (EC: IDA, PMID: 15641770); GO_0010642 (EC: IDA, PMID: 12239163); GO_0014048 (EC: IEA); GO_0014059 (EC: TAS); GO_0015629 (EC: IDA, PMID: 17408955); GO_0016234 (EC: IDA); GO_0016491 (EC: IDA); GO_0019894 (EC: IPI, PMID: 16176937); GO_0019904 (EC: IEA); GO_0030054 (EC: IEA); GO_0030424 (EC: IDA, PMID: 12958153); GO_0030426 (EC: IDA, PMID: 12958153); GO_0030544 (EC: IPI, PMID: 18975920); GO_0031092 (EC: IDA, Qualifier: colocalizes_with, PMID: 12239163); GO_0031115 (EC: IDA); GO_0031623 (EC: IDA, PMID: 18980610); GO_0031648 (EC: IDA); GO_0032026 (EC: IDA, PMID: 11850416); GO_0032410 (EC: IDA, PMID: 16882008); GO_0032496 (EC: IDA, PMID: 12406186); GO_0032769 (EC: IDA, PMID: 11943812); GO_0033138 (EC: ISS); GO_0034341 (EC: IDA, PMID: 19157893); GO_0034599 (EC: IEA); GO_0035067 (EC: IDA, PMID: 16959795); GO_0040012 (EC: IEA); GO_0042393 (EC: IDA, PMID: 16959795); GO_0042416 (EC: TAS); GO_0042493 (EC: IEA); GO_0042775 (EC: IEA); GO_0042802 (EC: IPI, PMID: 16330551); GO_0043014 (EC: IPI, PMID: 11698390); GO_0043027 (EC: IDA, PMID: 10818098); GO_0043030 (EC: IEA); GO_0043066 (EC: IMP, PMID: 10818098); GO_0043154 (EC: IMP, PMID: 10818098); GO_0043195 (EC: IEA); GO_0043205 (EC: IDA, PMID: 18346205); GO_0043206 (EC: TAS); GO_0043274 (EC: IEA); GO_0043524 (EC: IEA); GO_0044344 (EC: IEA); GO_0045502 (EC: IPI, PMID: 16176937); GO_0045807 (EC: IDA, PMID: 18980610); GO_0045920 (EC: IMP, PMID: 12239163); GO_0045963 (EC: IEA); GO_0047485 (EC: IEA); GO_0048148 (EC: IEA); GO_0048156 (EC: IDA, PMID: 17408955); GO_0048169 (EC: IEA); GO_0048471 (EC: IDA); GO_0048487 (EC: IEA); GO_0048488 (EC: ISS); GO_0050808 (EC: IEA); GO_0050812 (EC: IEA); GO_0051219 (EC: IDA); GO_0051281 (EC: IDA, PMID: 15641770); GO_0051583 (EC: TAS); GO_0051585 (EC: IDA, PMID: 12958153); GO_0051612 (EC: IDA, PMID: 16882008); GO_0051622 (EC: IDA, PMID: 17156375); GO_0055074 (EC: IDA, Qualifier: NOT, PMID: 12239163); GO_0055114 (EC: IDA); GO_0060079 (EC: IEA); GO_0060291 (EC: IEA); GO_0060732 (EC: IDA, PMID: 15641770); GO_0060961 (EC: IDA, Qualifier: NOT, PMID: 19146388); GO_0070495 (EC: IDA, PMID: 12239163); GO_0070555 (EC: IDA, PMID: 12406186); GO_0071280 (EC: IDA); GO_0071872 (EC: TAS); GO_0071902 (EC: IDA)</obo:OGG_0000000029>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HGNC:11138</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPRD:01227</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIM:163890</oboInOwl:hasDbXref>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NACP</obo:IAO_0000118>
+        <obo:OGG_0000000019 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official from a nomenclature committee</obo:OGG_0000000019>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARK1</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARK4</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PD1</obo:IAO_0000118>
+        <obo:OGG_0000000030 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 7558013; 7568089; 7601450; 7601479; 7802671; 8248242; 8895469; 9163350; 9197268; 9462735; 9750188; 10092675; 10319874; 10407019; 10417297; 10464279; 10506125; 10617630; 10764738; 10818098; 10852916; 10973942; 11078745; 11156617; 11162638; 11173882; 11207390; 11227130; 11261505; 11279280; 11292651; 11312271; 11331421; 11357958; 11376188; 11425308; 11438481; 11447312; 11472875; 11487204; 11502187; 11532993; 11588587; 11603807; 11683992; 11687285; 11698390; 11701929; 11724769; 11742726; 11744621; 11748744; 11751692; 11790792; 11812148; 11812782; 11813001; 11814343; 11814405; 11821392; 11823645; 11850416; 11852183; 11889756; 11893734; 11900526; 11943812; 11956199; 12025860; 12042811; 12044636; 12059041; 12062445; 12070658; 12084935; 12096713; 12115139; 12121974; 12122208; 12124613; 12138709; 12145295; 12151787; 12217698; 12220378; 12239163; 12351642; 12352614; 12358748; 12367530; 12377775; 12406186; 12428717; 12428728; 12477932; 12493604; 12534279; 12534296; 12541013; 12551928; 12558071; 12576551; 12586824; 12598733; 12610000; 12661766; 12670421; 12672538; 12672549; 12684441; 12695511; 12714745; 12716427; 12716914; 12722828; 12727333; 12752402; 12783249; 12784265; 12807436; 12807439; 12815044; 12815663; 12819014; 12857790; 12859192; 12859200; 12867415; 12868067; 12868068; 12885775; 12893833; 12900507; 12923179; 12923682; 12928483; 12958153; 12963044; 12973692; 14506232; 14507911; 14550771; 14572463; 14583385; 14593171; 14596606; 14627698; 14645218; 14657499; 14657500; 14690528; 14692700; 14699135; 14711827; 14742448; 14755719; 14756560; 14987449; 14996933; 14997013; 15028717; 15033366; 15050722; 15064394; 15078109; 15096050; 15099020; 15103328; 15109581; 15132984; 15135042; 15155902; 15159488; 15180968; 15207266; 15234109; 15236975; 15247485; 15265037; 15280438; 15282274; 15289452; 15300629; 15304594; 15317865; 15333840; 15338643; 15364911; 15365127; 15451224; 15451225; 15455394; 15459341; 15465356; 15489334; 15496679; 15498564; 15502868; 15502874; 15522241; 15522881; 15541000; 15542733; 15544803; 15556002; 15576511; 15590652; 15590933; 15591046; 15596612; 15615715; 15615727; 15622440; 15628875; 15628878; 15632170; 15641770; 15670652; 15671022; 15671169; 15671870; 15672325; 15673432; 15684072; 15685368; 15717024; 15718234; 15731118; 15732111; 15755676; 15765523; 15767574; 15791003; 15817478; 15840579; 15845543; 15852347; 15854772; 15863497; 15894486; 15895422; 15896322; 15904919; 15911350; 15917102; 15935068; 15935070; 15939304; 15941712; 15944382; 15955578; 15976091; 15978696; 15981014; 16020543; 16020550; 16037493; 16051265; 16081040; 16096643; 16110277; 16166095; 16176937; 16216085; 16227205; 16239214; 16242637; 16250025; 16269331; 16291942; 16297908; 16330147; 16330551; 16338184; 16344560; 16358335; 16365047; 16399671; 16403519; 16406146; 16410343; 16455667; 16464864; 16500997; 16516382; 16520971; 16524375; 16543523; 16567160; 16595633; 16604306; 16606366; 16606927; 16609851; 16611810; 16618118; 16651889; 16678164; 16679556; 16679557; 16687662; 16714300; 16752390; 16762368; 16780837; 16794039; 16806952; 16824047; 16847063; 16882008; 16896109; 16896314; 16930553; 16934409; 16947080; 16953580; 16959772; 16959793; 16959795; 16981712; 16997873; 17005870; 17010992; 17012252; 17012257; 17017516; 17017543; 17049244; 17055279; 17077307; 17078049; 17156375; 17156376; 17166628; 17174013; 17176082; 17199224; 17200685; 17209557; 17209570; 17222106; 17254569; 17291816; 17292657; 17309880; 17325715; 17335904; 17373725; 17374032; 17374033; 17374364; 17376994; 17387688; 17408955; 17451452; 17465029; 17489854; 17530780; 17531291; 17531952; 17554782; 17558898; 17573347; 17576801; 17603039; 17625105; 17635667; 17653558; 17675576; 17681534; 17683088; 17692832; 17706644; 17708336; 17712623; 17714183; 17785456; 17853477; 17868672; 17872362; 17873367; 17893145; 17904099; 17918232; 17955272; 17963364; 17982729; 17985233; 18000672; 18005258; 18018485; 18018486; 18031063; 18036154; 18039462; 18055555; 18061619; 18065497; 18070888; 18162487; 18162536; 18178617; 18179253; 18182484; 18182779; 18195004; 18195271; 18210157; 18211709; 18221373; 18245082; 18258594; 18261456; 18261982; 18282005; 18291704; 18295208; 18314273; 18322262; 18322396; 18322646; 18329380; 18331289; 18335262; 18343814; 18346205; 18362284; 18369446; 18382667; 18390556; 18393229; 18404644; 18413475; 18417705; 18423664; 18436529; 18436957; 18440504; 18449945; 18451726; 18463503; 18463504; 18485051; 18491043; 18492487; 18494470; 18505736; 18539297; 18541113; 18541383; 18562315; 18566453; 18568448; 18571778; 18606870; 18614564; 18617532; 18622040; 18625222; 18634833; 18650345; 18661559; 18676060; 18692132; 18702517; 18702696; 18704197; 18704525; 18708765; 18751989; 18769546; 18775438; 18824390; 18843496; 18848547; 18852445; 18852892; 18951507; 18955133; 18973254; 18973346; 18975920; 18980610; 18985386; 19002552; 19004816; 19018246; 19022350; 19027885; 19032594; 19047559; 19049426; 19070597; 19071095; 19074459; 19101068; 19115126; 19126542; 19135032; 19139307; 19141614; 19146388; 19151622; 19152986; 19157893; 19164293; 19167501; 19182805; 19183551; 19196539; 19198857; 19203374; 19205068; 19219857; 19220042; 19224617; 19224863; 19248830; 19261853; 19289119; 19291219; 19295143; 19328209; 19345692; 19356597; 19361478; 19369384; 19404653; 19405094; 19410557; 19412953; 19429025; 19444607; 19460374; 19460457; 19470380; 19475667; 19476547; 19498036; 19501571; 19507712; 19526103; 19526281; 19535993; 19540308; 19548659; 19549071; 19553474; 19562770; 19576176; 19576220; 19580781; 19596443; 19609719; 19630439; 19632874; 19645749; 19646423; 19651612; 19651786; 19653131; 19655784; 19680561; 19722699; 19747490; 19759002; 19762560; 19771175; 19816809; 19826908; 19833127; 19833540; 19834617; 19837084; 19845160; 19847913; 19855133; 19875982; 19878656; 19889641; 19890971; 19891973; 19892735; 19895818; 19900407; 19915575; 19915576; 20026050; 20029978; 20036828; 20041693; 20043104; 20070850; 20071342; 20074453; 20074637; 20077428; 20089532; 20098416; 20106983; 20114052; 20121219; 20132485; 20140223; 20148295; 20152114; 20169066; 20197038; 20226185; 20301402; 20334438; 20334701; 20371330; 20379614; 20381070; 20383623; 20392839; 20403393; 20409326; 20423081; 20423294; 20437598; 20445049; 20445061; 20448034; 20463956; 20478361; 20489724; 20506312; 20513365; 20524960; 20533263; 20534649; 20540950; 20540987; 20550572; 20554859; 20599975; 20604806; 20615443; 20629174; 20634198; 20640532; 20648655; 20664293; 20664530; 20668263; 20669025; 20685363; 20693280; 20696318; 20697047; 20697102; 20711177; 20725866; 20798282; 20805224; 20828147; 20842103; 20847452; 20849899; 20854101; 20855506; 20876215; 20876472; 20887775; 20887871; 20919750; 20945981; 20947801; 20959456; 20969957; 20977677; 21044603; 21044948; 21046180; 21054681; 21056999; 21058943; 21060011; 21084426; 21085664; 21103359; 21103907; 21108951; 21116546; 21117662; 21124796; 21127069; 21159074; 21162130; 21166675; 21167933; 21179192; 21212878; 21215793; 21235576; 21236518; 21238487; 21245015; 21245577; 21248740; 21249223; 21255620; 21256122; 21271299; 21272100; 21280130; 21289072; 21292315; 21296890; 21300904; 21304957; 21309955; 21310263; 21317042; 21319811; 21330368; 21330369; 21331461; 21338582; 21342025; 21358815; 21391235; 21412942; 21425343; 21439320; 21443877; 21445308; 21453448; 21461961; 21462277; 21466165; 21474915; 21488084; 21489994; 21491910; 21524999; 21527634; 21541339; 21565333; 21570984; 21593311; 21600984; 21601954; 21611169; 21613474; 21641618; 21652707; 21653695; 21656370; 21656851; 21658409; 21658411; 21672073; 21683963; 21684335; 21689664; 21693148; 21693152; 21699177; 21700325; 21714002; 21718702; 21720016; 21721555; 21736378; 21738487; 21742527; 21746851; 21756873; 21757905; 21767644; 21779395; 21782946; 21795682; 21798243; 21798244; 21813214; 21816655; 21819966; 21832049; 21832061; 21838671; 21841800; 21846727; 21848810; 21849493; 21853288; 21858077; 21863007; 21865317; 21880335; 21883224; 21900206; 21905118; 21936000; 21953452; 21953697; 21953863; 21985244; 21990355; 21993592; 21994367; 22001247; 22003392; 22009045; 22009151; 22025277; 22029383; 22039514; 22042430; 22045699; 22065755; 22067166; 22076805; 22079575; 22082318; 22090514; 22104010; 22119730; 22147697; 22153624; 22155643; 22163275; 22165993; 22166424; 22167382; 22178859; 22182688; 22207004; 22227187; 22243833; 22248692; 22262231; 22267729; 22275250; 22286107; 22291217; 22302797; 22314685; 22315227; 22315428; 22319455; 22326202; 22334684; 22349157; 22350713; 22357653; 22361813; 22367999; 22392151; 22399752; 22399753; 22407793; 22411133; 22425546; 22426402; 22436655; 22438815; 22445250; 22451204; 22453917; 22475625; 22503729; 22508282; 22508489; 22513881; 22533435; 22537068; 22549133; 22550057; 22552968; 22558453; 22560502; 22570709; 22573613; 22581044; 22591216; 22610785; 22615757; 22617348; 22619171; 22622968; 22647715; 22669510; 22694188; 22695112; 22701661; 22705949; 22735540; 22737239; 22764233; 22767608; 22771474; 22771809; 22776201; 22814000; 22819391; 22821666; 22836259; 22843682; 22850485; 22860160; 22863883; 22880029; 22912757; 22914317; 22923346; 22923347; 22923367; 22936307; 22939629; 22940885; 22941029; 22944910; 22948283; 22961477; 22981881; 22983916; 22986484; 22988096; 23000061; 23011138; 23013868; 23022913; 23028833; 23038403; 23039195; 23077033; 23077527; 23098910; 23100443; 23123341; 23129765; 23149132; 23153578; 23175842; 23180276; 23182315; 23183827; 23200460; 23201181; 23225002; 23225009; 23225525; 23244416; 23250862; 23252394; 23283657; 23284971; 23300640; 23300799; 23308173; 23313024; 23319586; 23328951; 23333298; 23334595; 23344955; 23349712; 23360753; 23361255; 23362176; 23365056; 23374072; 23374074; 23383169; 23384371; 23389286; 23392688; 23413261; 23426727; 23437071; 23452040; 23454347; 23454680; 23457458; 23458258; 23463005; 23466394; 23492776; 23499431; 23505409; 23507417; 23509976; 23509978; 23532841; 23534813; 23553480; 23562552; 23576548; 23580063; 23583776; 23587141; 23603399; 23603979; 23607785; 23609437; 23626796; 23630590; 23656991; 23661100; 23667637; 23669636; 23674386; 23674458; 23674490; 23703938; 23705016; 23737253; 23739956; 23744071; 23744550; 23796501; 23817832; 23820587; 23827677; 23831067; 23891486; 23900411; 23936403; 24005725; 24026176; 24047453; 24066883; 24070323; 24113654; 24191706; 24218576; 24315858; 24374342; 24381286; 24501346</obo:OGG_0000000030>
+        <obo:OGG_0000000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNCA</obo:OGG_0000000004>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
+        <obo:OGG_0000000018 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</obo:OGG_0000000018>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synuclein, alpha (non A4 component of amyloid precursor)</dc:description>
+        <obo:OGG_0000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synuclein, alpha (non A4 component of amyloid precursor)</obo:OGG_0000000005>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000006653 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000006653">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SORL1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060009606"/>
+        <obo:OGG_0000000017 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</obo:OGG_0000000017>
+        <obo:OGG_0000000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11q23.2-q24.2</obo:OGG_0000000008>
+        <obo:OGG_0000000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20140408</obo:OGG_0000000009>
+        <obo:OGG_0000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6653</obo:OGG_0000000006>
+        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9606</obo:OGG_0000000015>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C11orf32</obo:IAO_0000118>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensembl:ENSG00000137642</oboInOwl:hasDbXref>
+        <obo:OGG_0000000029 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_0004888 (EC: TAS, PMID: 9157966); GO_0005515 (EC: IPI, PMID: 14764453); GO_0005615 (EC: IDA, PMID: 14764453); GO_0005768 (EC: IDA, PMID: 16174740); GO_0005771 (EC: IEA); GO_0005794 (EC: IDA, PMID: 16174740); GO_0005887 (EC: TAS, PMID: 9157966); GO_0006605 (EC: IMP, PMID: 16174740); GO_0006869 (EC: IEA); GO_0006898 (EC: TAS, PMID: 9157966); GO_0007165 (EC: TAS, PMID: 9157966); GO_0008203 (EC: IEA); GO_0008219 (EC: IEA); GO_0008283 (EC: IEA); GO_0014910 (EC: IDA, PMID: 14764453); GO_0016020 (EC: IDA, PMID: 14764453); GO_0016477 (EC: IEA); GO_0030169 (EC: IPI, PMID: 17326667); GO_0034362 (EC: IEA); GO_0043025 (EC: IEA); GO_0070062 (EC: IDA, PMID: 19056867)</obo:OGG_0000000029>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HGNC:11185</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPRD:03595</oboInOwl:hasDbXref>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LR11</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LRP9</obo:IAO_0000118>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIM:602005</oboInOwl:hasDbXref>
+        <obo:OGG_0000000019 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official from a nomenclature committee</obo:OGG_0000000019>
+        <obo:OGG_0000000030 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 8619474; 8940146; 9157966; 10375696; 11294867; 11557679; 11821067; 12477932; 12530537; 12970790; 14702039; 14764453; 15313836; 16174740; 16344560; 16407538; 16489755; 16531402; 16565469; 17110338; 17220890; 17326667; 17420311; 17589324; 17721864; 17826910; 17949987; 17975299; 17978276; 18063222; 18090307; 18093545; 18407551; 18541377; 18562096; 18603531; 18685254; 18713574; 18830724; 18938222; 19056867; 19064752; 19077115; 19364927; 19368828; 19539718; 19584446; 19653016; 19822782; 19889229; 19889475; 19913121; 20015111; 20047743; 20301340; 20379614; 20413850; 20534741; 20574532; 20625269; 20628086; 20634593; 20667857; 20689279; 20838585; 20880607; 20946940; 20970138; 21145461; 21147781; 21185108; 21206043; 21220680; 21385844; 21730226; 21989385; 21994944; 21997402; 22044026; 22127416; 22268729; 22279231; 22286501; 22297619; 22321011; 22472873; 22621900; 22750733; 22836009; 22927900; 22996644; 23127357; 23455993; 23463934; 23486467; 23525328; 23565137; 23602568; 23813966; 24001769</obo:OGG_0000000030>
+        <obo:OGG_0000000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SORL1</obo:OGG_0000000004>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SORLA</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SorLA-1</obo:IAO_0000118>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vega:OTTHUMG00000166057</oboInOwl:hasDbXref>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gp250</obo:IAO_0000118>
+        <obo:OGG_0000000018 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</obo:OGG_0000000018>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sortilin-related receptor, L(DLR class) A repeats containing</dc:description>
+        <obo:OGG_0000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sortilin-related receptor, L(DLR class) A repeats containing</obo:OGG_0000000005>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000006927 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000006927">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HNF1A</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060009606"/>
+        <obo:OGG_0000000017 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</obo:OGG_0000000017>
+        <obo:OGG_0000000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12q24.2</obo:OGG_0000000008>
+        <obo:OGG_0000000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20140408</obo:OGG_0000000009>
+        <obo:OGG_0000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6927</obo:OGG_0000000006>
+        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9606</obo:OGG_0000000015>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensembl:ENSG00000135100</oboInOwl:hasDbXref>
+        <obo:OGG_0000000029 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_0001077 (EC: ISS); GO_0003677 (EC: IDA, PMID: 10333057); GO_0003700 (EC: IDA, PMID: 11980910); GO_0005515 (EC: IPI, PMID: 11980910); GO_0005634 (EC: IDA); GO_0005730 (EC: IDA, Qualifier: NOT); GO_0005737 (EC: IDA, PMID: 12530534); GO_0006357 (EC: IDA, PMID: 10330009); GO_0030073 (EC: IMP, PMID: 10333057); GO_0035565 (EC: IMP, Qualifier: NOT, PMID: 15355349); GO_0035623 (EC: IMP, PMID: 11269503); GO_0042593 (EC: IMP, PMID: 11269503); GO_0042803 (EC: IPI, PMID: 1677179); GO_0043234 (EC: IDA, PMID: 11980910); GO_0043565 (EC: IEA); GO_0044212 (EC: IDA, PMID: 12453420); GO_0045893 (EC: IDA, PMID: 11980910); GO_0045944 (EC: ISS); GO_0046323 (EC: IMP, PMID: 11269503); GO_0046982 (EC: IDA, PMID: 12530534); GO_0046983 (EC: IPI, PMID: 12453420); GO_0060261 (EC: IGI, PMID: 15355349)</obo:OGG_0000000029>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HGNC:11621</oboInOwl:hasDbXref>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HNF-1A</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HNF1</obo:IAO_0000118>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HNF1 homeobox A</dc:description>
+        <obo:OGG_0000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HNF1 homeobox A</obo:OGG_0000000005>
+        <obo:OGG_0000000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HNF1A</obo:OGG_0000000004>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPRD:00800</oboInOwl:hasDbXref>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDDM20</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LFB1</obo:IAO_0000118>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIM:142410</oboInOwl:hasDbXref>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MODY3</obo:IAO_0000118>
+        <obo:OGG_0000000019 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official from a nomenclature committee</obo:OGG_0000000019>
+        <obo:OGG_0000000030 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 1535333; 1677179; 1707031; 2044952; 2263635; 2460858; 7795649; 7900999; 8288579; 8945470; 9032114; 9075818; 9075819; 9092652; 9097962; 9112026; 9133564; 9166684; 9287053; 9287055; 9313763; 9313764; 9392505; 9439666; 9604876; 9621514; 9626139; 9754819; 9792724; 9867222; 10078571; 10084598; 10102714; 10209158; 10330009; 10333057; 10482964; 10588527; 10649494; 10677375; 10777539; 10779377; 10944108; 11134330; 11162430; 11266540; 11269503; 11440371; 11522670; 11668618; 11772903; 11827432; 11938027; 11978637; 11980910; 12011060; 12012276; 12050210; 12107263; 12107757; 12235114; 12355088; 12378390; 12442280; 12453420; 12453961; 12453975; 12453976; 12477932; 12488960; 12488961; 12488962; 12530534; 12544512; 12547858; 12565907; 12574234; 12605834; 12627330; 12707037; 12712243; 12726923; 12730871; 12743700; 12762846; 12773136; 12788852; 12794133; 12860991; 12934344; 14500717; 14575719; 14583183; 14715527; 14728801; 14747304; 14988562; 15111528; 15194767; 15217781; 15270800; 15277395; 15300627; 15305805; 15326484; 15355349; 15489334; 15520459; 15522234; 15542842; 15569134; 15598887; 15616580; 15660195; 15660729; 15740590; 15830177; 15841481; 15847654; 15899904; 15928245; 15930087; 15961790; 15983230; 15983330; 16046299; 16046319; 16147992; 16186275; 16223942; 16241915; 16249556; 16254374; 16276364; 16297991; 16341674; 16367885; 16442529; 16443774; 16562587; 16632067; 16675441; 16712787; 16714285; 16752173; 16760222; 16781669; 16788384; 16793932; 16873704; 16893891; 16930618; 16963153; 17021248; 17033837; 17037983; 17049664; 17116178; 17130528; 17192490; 17194452; 17264800; 17327436; 17353931; 17407072; 17440016; 17440429; 17458140; 17475670; 17569132; 17573900; 17601994; 17638895; 17828387; 17932728; 17937063; 17965524; 18003757; 18080173; 18160415; 18172616; 18221440; 18332101; 18346225; 18391435; 18399756; 18433021; 18433912; 18439548; 18439552; 18440731; 18498634; 18513302; 18513305; 18586913; 18593771; 18671716; 18672310; 18720549; 18777455; 18811724; 18854284; 18940312; 19060906; 19119252; 19150152; 19169489; 19188435; 19198612; 19228875; 19264593; 19280766; 19289501; 19304666; 19336507; 19349540; 19351817; 19357985; 19388975; 19453261; 19490620; 19536331; 19564454; 19567438; 19578796; 19672314; 19687008; 19741195; 19749792; 19782160; 19794065; 19878569; 19913121; 19924231; 19933992; 20018894; 20028982; 20031592; 20069546; 20075150; 20096102; 20106981; 20113359; 20132997; 20133952; 20172480; 20195357; 20393147; 20394740; 20396999; 20416077; 20460578; 20546258; 20568120; 20571754; 20581827; 20628086; 20633866; 20634891; 20648472; 20679960; 20682687; 20686565; 20690076; 20705777; 20716378; 20727736; 20738937; 20829431; 20834067; 20863361; 20971364; 20980261; 21047120; 21062467; 21168233; 21170474; 21176092; 21182953; 21195701; 21196492; 21203500; 21208426; 21224407; 21300955; 21348892; 21353246; 21429061; 21437455; 21454713; 21498636; 21573907; 21647738; 21683639; 21747169; 21814873; 21909109; 21975049; 21988832; 22001757; 22010049; 22060211; 22160269; 22290433; 22340386; 22341299; 22357705; 22383952; 22395466; 22413961; 22432108; 22466651; 22474109; 22517943; 22569176; 22665711; 22671145; 22788528; 22798294; 22802087; 22849862; 22939635; 22993150; 23009393; 23052196; 23144326; 23183503; 23263486; 23274891; 23348805; 23430038; 23603156; 23607861; 23616187; 23679181; 23760703; 23803251; 23824729; 23844046; 23878349; 23922447; 24100303</obo:OGG_0000000030>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TCF-1</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TCF1</obo:IAO_0000118>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vega:OTTHUMG00000151015</oboInOwl:hasDbXref>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
+        <obo:OGG_0000000018 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</obo:OGG_0000000018>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000029110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000029110">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TBK1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060009606"/>
+        <obo:OGG_0000000017 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</obo:OGG_0000000017>
+        <obo:OGG_0000000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12q14.1</obo:OGG_0000000008>
+        <obo:OGG_0000000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20140408</obo:OGG_0000000009>
+        <obo:OGG_0000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29110</obo:OGG_0000000006>
+        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9606</obo:OGG_0000000015>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensembl:ENSG00000183735</oboInOwl:hasDbXref>
+        <obo:OGG_0000000029 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_0002224 (EC: TAS); GO_0002756 (EC: TAS); GO_0003676 (EC: IEA); GO_0004672 (EC: NAS, PMID: 10581243); GO_0004674 (EC: TAS); GO_0005515 (EC: IPI, PMID: 14743216); GO_0005524 (EC: IEA); GO_0005737 (EC: IDA); GO_0005829 (EC: TAS); GO_0006954 (EC: TAS); GO_0007249 (EC: TAS); GO_0009615 (EC: TAS); GO_0010008 (EC: TAS); GO_0010629 (EC: IEA); GO_0016032 (EC: IEA); GO_0032480 (EC: TAS); GO_0032481 (EC: TAS); GO_0032606 (EC: TAS); GO_0032727 (EC: IDA, PMID: 16127453); GO_0032728 (EC: IDA, PMID: 16127453); GO_0033138 (EC: NAS); GO_0034138 (EC: TAS); GO_0034142 (EC: TAS); GO_0035666 (EC: TAS); GO_0043123 (EC: IEP, PMID: 12761501); GO_0045087 (EC: TAS); GO_0045359 (EC: IEA); GO_0045944 (EC: IDA, PMID: 16127453); GO_0050830 (EC: IEA); GO_0051219 (EC: IPI, PMID: 14530355); GO_0051607 (EC: IEA)</obo:OGG_0000000029>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HGNC:11584</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPRD:05322</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIM:604834</oboInOwl:hasDbXref>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAK</obo:IAO_0000118>
+        <obo:OGG_0000000019 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official from a nomenclature committee</obo:OGG_0000000019>
+        <obo:OGG_0000000030 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 7706279; 8601309; 9721103; 10581243; 10783893; 10990461; 11839743; 12133833; 12477932; 12568715; 12692549; 12702806; 12761501; 14530355; 14560022; 14702039; 14743216; 15276183; 15367631; 15485837; 15489227; 15489334; 15556946; 15619605; 15661910; 15695821; 15841462; 16051665; 16127453; 16153868; 16155125; 16223731; 16281057; 16344560; 16380379; 16393995; 16394098; 16537515; 16887178; 16888014; 16914100; 16973572; 17018283; 17327220; 17526488; 17568778; 17599067; 17823124; 17991829; 18307994; 18353649; 18508731; 18583960; 18614628; 18636086; 18977754; 19017982; 19153231; 19160540; 19307177; 19380831; 19419966; 19615732; 19656901; 19820708; 19847166; 19953087; 19955181; 19958770; 20098747; 20174559; 20304918; 20331378; 20449947; 20462248; 20562859; 20588308; 20628368; 21048031; 21074459; 21139048; 21204785; 21270402; 21332394; 21364999; 21447600; 21464307; 21492457; 21617041; 21813773; 21832049; 21868362; 21885437; 21903422; 21906983; 21911421; 21931631; 21939555; 21963094; 21987572; 21988832; 22072751; 22079989; 22127978; 22261722; 22306015; 22330071; 22388039; 22394562; 22505724; 22610919; 22619329; 22745133; 22787218; 22792062; 22851595; 22851696; 22908223; 22939624; 22945920; 23007157; 23028469; 23096996; 23157677; 23209807; 23286385; 23308279; 23395611; 23395801; 23453972; 23542348; 23649622; 23675467; 23717208; 23836654; 23950712; 23962979; 24027431; 24056301; 24062311; 24250222; 24255178; 24449872</obo:OGG_0000000030>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T2K</obo:IAO_0000118>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TANK-binding kinase 1</dc:description>
+        <obo:OGG_0000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TANK-binding kinase 1</obo:OGG_0000000005>
+        <obo:OGG_0000000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TBK1</obo:OGG_0000000004>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vega:OTTHUMG00000168796</oboInOwl:hasDbXref>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
+        <obo:OGG_0000000018 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</obo:OGG_0000000018>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000054209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000054209">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TREM2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060009606"/>
+        <obo:OGG_0000000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20140408</obo:OGG_0000000009>
+        <obo:OGG_0000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">54209</obo:OGG_0000000006>
+        <obo:OGG_0000000017 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</obo:OGG_0000000017>
+        <obo:OGG_0000000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6p21.1</obo:OGG_0000000008>
+        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9606</obo:OGG_0000000015>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensembl:ENSG00000095970</oboInOwl:hasDbXref>
+        <obo:OGG_0000000029 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_0001530 (EC: IEA); GO_0004872 (EC: TAS, PMID: 10799849); GO_0005576 (EC: IEA); GO_0005886 (EC: TAS); GO_0006959 (EC: TAS, PMID: 10799849); GO_0007411 (EC: TAS); GO_0016021 (EC: IEA); GO_0045087 (EC: TAS)</obo:OGG_0000000029>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HGNC:17761</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPRD:05473</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIM:605086</oboInOwl:hasDbXref>
+        <obo:OGG_0000000019 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official from a nomenclature committee</obo:OGG_0000000019>
+        <obo:OGG_0000000030 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 10799849; 12080485; 12477932; 12645956; 12754369; 12913093; 12925681; 15489334; 15966270; 16505336; 16715077; 17530208; 18546367; 18551625; 19019460; 19079182; 19230638; 19457124; 19913121; 20301376; 20421649; 20628086; 20640189; 21834902; 22939635; 23150908; 23150934; 23380991; 23391427; 23407992; 23533697; 23582655; 23721075; 23759145; 23800361; 23855982; 23855984; 23870839; 24078628; 24131187</obo:OGG_0000000030>
+        <obo:OGG_0000000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RP1-238O23.2</obo:OGG_0000000007>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TREM-2</obo:IAO_0000118>
+        <obo:OGG_0000000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TREM2</obo:OGG_0000000004>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trem2a</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trem2b</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trem2c</obo:IAO_0000118>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vega:OTTHUMG00000014671</oboInOwl:hasDbXref>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
+        <obo:OGG_0000000018 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</obo:OGG_0000000018>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">triggering receptor expressed on myeloid cells 2</dc:description>
+        <obo:OGG_0000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">triggering receptor expressed on myeloid cells 2</obo:OGG_0000000005>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000120892 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000120892">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LRRK2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060009606"/>
+        <obo:OGG_0000000017 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</obo:OGG_0000000017>
+        <obo:OGG_0000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">120892</obo:OGG_0000000006>
+        <obo:OGG_0000000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12q12</obo:OGG_0000000008>
+        <obo:OGG_0000000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20140408</obo:OGG_0000000009>
+        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9606</obo:OGG_0000000015>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AURA17</obo:IAO_0000118>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DARDARIN</obo:IAO_0000118>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensembl:ENSG00000188906</oboInOwl:hasDbXref>
+        <obo:OGG_0000000029 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_0000165 (EC: IDA, PMID: 17200152); GO_0000186 (EC: IDA, PMID: 19302196); GO_0000187 (EC: IDA, PMID: 19302196); GO_0001934 (EC: IMP); GO_0003924 (EC: IDA); GO_0004672 (EC: IDA, PMID: 16269541); GO_0004674 (EC: IDA, PMID: 17200152); GO_0004708 (EC: IDA, PMID: 19302196); GO_0005096 (EC: IDA, PMID: 17442267); GO_0005515 (EC: IPI, PMID: 16321986); GO_0005524 (EC: IEA); GO_0005525 (EC: IDA, PMID: 16980962); GO_0005615 (EC: IDA); GO_0005737 (EC: IDA, PMID: 16321986); GO_0005739 (EC: IDA); GO_0005802 (EC: IEA); GO_0005829 (EC: IDA); GO_0005886 (EC: IEA); GO_0006184 (EC: IDA); GO_0006914 (EC: IEA); GO_0006979 (EC: IMP, PMID: 19692353); GO_0007264 (EC: IEA); GO_0007528 (EC: IMP); GO_0008021 (EC: IEA); GO_0008340 (EC: IMP, PMID: 19692353); GO_0010508 (EC: IMP); GO_0010508 (EC: ISS); GO_0014041 (EC: IMP); GO_0015631 (EC: IDA); GO_0016234 (EC: IMP); GO_0017048 (EC: IPI); GO_0018105 (EC: IDA, PMID: 19576176); GO_0018107 (EC: IDA); GO_0021772 (EC: IMP); GO_0022028 (EC: IMP); GO_0030424 (EC: IEA); GO_0031398 (EC: IDA, PMID: 16352719); GO_0031966 (EC: IDA); GO_0032436 (EC: ISS); GO_0032473 (EC: IDA, PMID: 16269541); GO_0032839 (EC: IDA); GO_0034211 (EC: IDA, PMID: 17260967); GO_0034211 (EC: IMP, PMID: 17200152); GO_0034260 (EC: IDA); GO_0035564 (EC: ISS); GO_0035640 (EC: IMP); GO_0040012 (EC: IMP, PMID: 19692353); GO_0042391 (EC: IMP); GO_0042802 (EC: IPI, PMID: 16321986); GO_0042803 (EC: IPI, PMID: 16321986); GO_0043005 (EC: IDA); GO_0043025 (EC: IDA); GO_0043068 (EC: IDA, PMID: 17200152); GO_0043547 (EC: IDA, PMID: 17442267); GO_0044325 (EC: IPI); GO_0045121 (EC: IEA); GO_0046777 (EC: IDA, PMID: 16269541); GO_0046777 (EC: IMP, PMID: 16980962); GO_0048312 (EC: IMP); GO_0051018 (EC: IPI); GO_0060161 (EC: IMP); GO_0061001 (EC: IMP); GO_0070062 (EC: IDA, PMID: 19056867); GO_0070997 (EC: IMP, PMID: 19692353); GO_0071407 (EC: IEA); GO_1902692 (EC: IMP); GO_2000172 (EC: IMP)</obo:OGG_0000000029>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HGNC:18618</oboInOwl:hasDbXref>
+        <obo:OGG_0000000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LRRK2</obo:OGG_0000000004>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIM:609007</oboInOwl:hasDbXref>
+        <obo:OGG_0000000019 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official from a nomenclature committee</obo:OGG_0000000019>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARK8</obo:IAO_0000118>
+        <obo:OGG_0000000030 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 11891824; 12213963; 12477932; 14691730; 14702039; 15146197; 15541308; 15541309; 15680455; 15680456; 15680457; 15726496; 15732108; 15811454; 15852371; 15880653; 15884041; 15925109; 15929036; 15955578; 15955629; 16001413; 16081470; 16087219; 16102903; 16102999; 16115731; 16145815; 16149095; 16157901; 16157908; 16157909; 16172858; 16240353; 16247070; 16250030; 16251215; 16254973; 16269443; 16269541; 16272164; 16272257; 16275903; 16298482; 16321986; 16333314; 16352719; 16436781; 16436782; 16437559; 16467219; 16511860; 16532471; 16533964; 16602113; 16614029; 16616379; 16622854; 16622859; 16632201; 16633828; 16643318; 16671078; 16728648; 16750377; 16750929; 16758483; 16781064; 16817197; 16822348; 16865326; 16928343; 16939701; 16966498; 16966501; 16966502; 16966681; 16980962; 16991141; 17017533; 17017534; 17019612; 17020475; 17044089; 17050822; 17052850; 17060595; 17078063; 17080443; 17082220; 17083102; 17095157; 17097110; 17115391; 17116211; 17149721; 17151837; 17160203; 17179858; 17187665; 17200152; 17215492; 17216639; 17222106; 17222580; 17225181; 17230458; 17235449; 17253937; 17260967; 17314670; 17324517; 17335904; 17341485; 17352347; 17353388; 17377919; 17385669; 17388990; 17394548; 17395370; 17400507; 17409193; 17419834; 17427941; 17433753; 17440812; 17442267; 17447891; 17469194; 17470139; 17482357; 17512502; 17523199; 17540608; 17584768; 17596714; 17611037; 17614198; 17622782; 17625107; 17639429; 17659642; 17706965; 17720280; 17803032; 17803033; 17804834; 17846883; 17868389; 17880562; 17914064; 17938369; 17960808; 17971075; 17978862; 17999435; 18045479; 18097165; 18097693; 18098275; 18182054; 18197194; 18201193; 18201824; 18211709; 18213618; 18214993; 18230735; 18265005; 18272292; 18316234; 18322385; 18322396; 18337586; 18338801; 18353371; 18367605; 18378882; 18379513; 18397888; 18412265; 18434642; 18435766; 18445495; 18450497; 18464276; 18484993; 18486522; 18523722; 18523869; 18539534; 18539535; 18541113; 18544747; 18556235; 18587394; 18602856; 18617409; 18621566; 18634852; 18644660; 18665323; 18666856; 18675914; 18701920; 18704525; 18716801; 18718805; 18752982; 18781329; 18804399; 18805725; 18809839; 18848304; 18923807; 18927607; 18936941; 18952485; 18973254; 18973807; 18980856; 18981379; 18986508; 19001729; 19006185; 19020907; 19021752; 19025767; 19029519; 19041274; 19056867; 19065525; 19076219; 19172321; 19176810; 19196961; 19204172; 19205068; 19224617; 19283415; 19302196; 19308469; 19330201; 19343804; 19353692; 19357115; 19397894; 19405094; 19412725; 19458969; 19472409; 19473361; 19489756; 19513331; 19527940; 19535993; 19536328; 19538213; 19545277; 19559761; 19570025; 19576176; 19625296; 19625511; 19640773; 19640926; 19672984; 19680143; 19692353; 19699188; 19712061; 19714762; 19726410; 19733152; 19735093; 19741132; 19756366; 19760754; 19769964; 19770575; 19800393; 19804413; 19822953; 19824698; 19826009; 19833102; 19847307; 19854095; 19878656; 19879329; 19890007; 19912990; 19915575; 19915576; 19945904; 20001906; 20004703; 20008657; 20018409; 20018961; 20041156; 20067578; 20074637; 20090955; 20096956; 20108944; 20173330; 20182943; 20186690; 20197411; 20197701; 20232069; 20301387; 20301402; 20379614; 20382224; 20386743; 20413974; 20443975; 20473834; 20483373; 20506312; 20515039; 20544233; 20571044; 20595391; 20626563; 20629711; 20642453; 20659558; 20669299; 20669305; 20671708; 20673920; 20697102; 20711177; 20720502; 20721910; 20721913; 20721916; 20722494; 20727385; 20729864; 20818610; 20818658; 20850369; 20876399; 20881132; 20921534; 20933457; 20939082; 20949042; 20969957; 21048939; 21060682; 21072187; 21073465; 21088684; 21102463; 21115957; 21159540; 21159966; 21167764; 21168496; 21220347; 21221623; 21234781; 21238487; 21280089; 21292315; 21307259; 21312285; 21353620; 21362567; 21406209; 21449009; 21454543; 21483109; 21494637; 21538529; 21552986; 21611978; 21611983; 21632271; 21641266; 21641848; 21658387; 21661047; 21676337; 21679126; 21696411; 21698001; 21699405; 21714003; 21720016; 21738487; 21738687; 21749573; 21753159; 21753163; 21796139; 21799870; 21806997; 21816655; 21842440; 21850687; 21857923; 21858031; 21885347; 21898123; 21922152; 21924942; 21954089; 21961647; 21972245; 21983832; 21989859; 22004453; 22038903; 22047502; 22056842; 22077787; 22080837; 22162019; 22166428; 22204929; 22228096; 22243833; 22251894; 22253261; 22302802; 22303461; 22315971; 22323743; 22342962; 22357653; 22363216; 22393539; 22415848; 22418733; 22423108; 22433811; 22436655; 22438815; 22441981; 22445250; 22486164; 22488887; 22503729; 22525366; 22528366; 22534020; 22567899; 22575062; 22575234; 22594666; 22607035; 22612223; 22639965; 22652643; 22658533; 22669510; 22684232; 22689969; 22703868; 22736029; 22773119; 22807999; 22842796; 22899650; 22914360; 22914834; 22952686; 22952710; 22956510; 22981185; 22988861; 22988862; 22988863; 22988865; 22988866; 22988867; 22988868; 22988870; 22988872; 22988873; 22988874; 22988875; 22988877; 22988878; 22988879; 22988880; 22988882; 22998870; 23055502; 23074843; 23075850; 23082216; 23115130; 23125283; 23128233; 23182315; 23183827; 23220480; 23227859; 23241358; 23241745; 23250886; 23251661; 23268655; 23300640; 23318930; 23325906; 23379419; 23389884; 23421816; 23455607; 23472874; 23507417; 23531835; 23588498; 23628791; 23664753; 23771111; 23820587; 23824357; 23842774; 23916833; 23924436; 23937259; 24015287; 24018986; 24211199; 24326068; 24351927; 24403142</obo:OGG_0000000030>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RIPK7</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROCO2</obo:IAO_0000118>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vega:OTTHUMG00000059742</oboInOwl:hasDbXref>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leucine-rich repeat kinase 2</dc:description>
+        <obo:OGG_0000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leucine-rich repeat kinase 2</obo:OGG_0000000005>
+        <obo:OGG_0000000018 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</obo:OGG_0000000018>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

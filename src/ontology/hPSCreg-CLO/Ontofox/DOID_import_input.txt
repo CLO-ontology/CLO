@@ -1,0 +1,77 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/clo/hPSCreg_CLO/DOID_imports.owl
+
+[Source ontology]
+DOID
+
+[Low level source term URIs]
+
+http://purl.obolibrary.org/obo/DOID_0050431
+http://purl.obolibrary.org/obo/DOID_0050437
+http://purl.obolibrary.org/obo/DOID_0050439
+http://purl.obolibrary.org/obo/DOID_0050451
+http://purl.obolibrary.org/obo/DOID_0050777
+http://purl.obolibrary.org/obo/DOID_0060145
+http://purl.obolibrary.org/obo/DOID_0060473
+http://purl.obolibrary.org/obo/DOID_0060674
+http://purl.obolibrary.org/obo/DOID_0060768
+http://purl.obolibrary.org/obo/DOID_0080092
+http://purl.obolibrary.org/obo/DOID_0080422
+http://purl.obolibrary.org/obo/DOID_0110640
+http://purl.obolibrary.org/obo/DOID_0110644
+http://purl.obolibrary.org/obo/DOID_0110731
+http://purl.obolibrary.org/obo/DOID_0110944
+http://purl.obolibrary.org/obo/DOID_10584
+http://purl.obolibrary.org/obo/DOID_10652
+http://purl.obolibrary.org/obo/DOID_10871
+http://purl.obolibrary.org/obo/DOID_10933
+http://purl.obolibrary.org/obo/DOID_10983
+http://purl.obolibrary.org/obo/DOID_11722
+http://purl.obolibrary.org/obo/DOID_11723
+http://purl.obolibrary.org/obo/DOID_11724
+http://purl.obolibrary.org/obo/DOID_11984
+http://purl.obolibrary.org/obo/DOID_12449
+http://purl.obolibrary.org/obo/DOID_12849
+http://purl.obolibrary.org/obo/DOID_12858
+http://purl.obolibrary.org/obo/DOID_1312
+http://purl.obolibrary.org/obo/DOID_13636
+http://purl.obolibrary.org/obo/DOID_13945
+http://purl.obolibrary.org/obo/DOID_14250
+http://purl.obolibrary.org/obo/DOID_14261
+http://purl.obolibrary.org/obo/DOID_14323
+http://purl.obolibrary.org/obo/DOID_14330
+http://purl.obolibrary.org/obo/DOID_1440
+http://purl.obolibrary.org/obo/DOID_1485
+http://purl.obolibrary.org/obo/DOID_1595
+http://purl.obolibrary.org/obo/DOID_1926
+http://purl.obolibrary.org/obo/DOID_1933
+http://purl.obolibrary.org/obo/DOID_1935
+http://purl.obolibrary.org/obo/DOID_2355
+http://purl.obolibrary.org/obo/DOID_2377
+http://purl.obolibrary.org/obo/DOID_2526
+http://purl.obolibrary.org/obo/DOID_2914
+http://purl.obolibrary.org/obo/DOID_3210
+http://purl.obolibrary.org/obo/DOID_3310
+http://purl.obolibrary.org/obo/DOID_3312
+http://purl.obolibrary.org/obo/DOID_332
+http://purl.obolibrary.org/obo/DOID_3320
+http://purl.obolibrary.org/obo/DOID_4644
+http://purl.obolibrary.org/obo/DOID_5419
+http://purl.obolibrary.org/obo/DOID_6364
+http://purl.obolibrary.org/obo/DOID_768
+http://purl.obolibrary.org/obo/DOID_870
+http://purl.obolibrary.org/obo/DOID_898
+http://purl.obolibrary.org/obo/DOID_9240
+http://purl.obolibrary.org/obo/DOID_9255
+http://purl.obolibrary.org/obo/DOID_9351
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/DOID_4 #disease
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

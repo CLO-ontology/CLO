@@ -1,0 +1,85 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/clo/hPSCreg_CLO/CLO_imports.owl
+
+[Source ontology]
+CLO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CLO_0037280
+http://purl.obolibrary.org/obo/CLO_0032961
+http://purl.obolibrary.org/obo/CLO_0037281
+http://purl.obolibrary.org/obo/CLO_0037308
+http://purl.obolibrary.org/obo/CLO_0037313
+http://purl.obolibrary.org/obo/CLO_0037337
+http://purl.obolibrary.org/obo/CLO_0037340
+http://purl.obolibrary.org/obo/CLO_0037342
+http://purl.obolibrary.org/obo/CLO_100235
+http://purl.obolibrary.org/obo/CLO_100270
+
+http://purl.obolibrary.org/obo/NCIT_C12431
+http://purl.obolibrary.org/obo/NCIT_C12434
+http://purl.obolibrary.org/obo/NCIT_C12470
+http://purl.obolibrary.org/obo/NCIT_C12482
+http://purl.obolibrary.org/obo/NCIT_C12589
+http://purl.obolibrary.org/obo/NCIT_C12954
+http://purl.obolibrary.org/obo/NCIT_C138972
+http://purl.obolibrary.org/obo/NCIT_C16802
+http://purl.obolibrary.org/obo/NCIT_C51692
+
+http://purl.obolibrary.org/obo/PR_000009054
+http://purl.obolibrary.org/obo/UniProt_P02649
+http://purl.obolibrary.org/obo/UniProt_P20138
+http://purl.obolibrary.org/obo/UniProt_P28906 
+http://purl.obolibrary.org/obo/PATO_0000384
+http://purl.obolibrary.org/obo/OMIM_107741
+http://purl.obolibrary.org/obo/OMIT_0006558
+http://purl.obolibrary.org/obo/OMIT_0008790
+http://purl.obolibrary.org/obo/OMIT_0025206
+http://purl.obolibrary.org/obo/Orphanet_2143
+http://purl.obolibrary.org/obo/Orphanet_355
+http://purl.obolibrary.org/obo/Orphanet_552
+http://purl.obolibrary.org/obo/Orphanet_790
+
+http://purl.obolibrary.org/obo/UBERON_0000178
+http://purl.obolibrary.org/obo/UBERON_0001037
+http://purl.obolibrary.org/obo/UBERON_0001068
+http://purl.obolibrary.org/obo/UBERON_0001088
+http://purl.obolibrary.org/obo/UBERON_0001300
+http://purl.obolibrary.org/obo/UBERON_0001416
+http://purl.obolibrary.org/obo/UBERON_0001499
+http://purl.obolibrary.org/obo/UBERON_0001511
+http://purl.obolibrary.org/obo/UBERON_0001997
+http://purl.obolibrary.org/obo/UBERON_0002331
+http://purl.obolibrary.org/obo/UBERON_0002367
+http://purl.obolibrary.org/obo/UBERON_0002371
+http://purl.obolibrary.org/obo/UBERON_0012168
+
+http://purl.obolibrary.org/obo/FMA_11346
+http://purl.obolibrary.org/obo/FMA_37370
+http://purl.obolibrary.org/obo/FMA_37721
+http://purl.obolibrary.org/obo/FMA_66786 
+
+http://purl.obolibrary.org/obo/EFO_0000249
+http://purl.obolibrary.org/obo/EFO_0000612
+http://www.ebi.ac.uk/efo/EFO_0000673
+http://www.ebi.ac.uk/efo/EFO_0001196
+http://purl.obolibrary.org/obo/EFO_0002508
+http://www.ebi.ac.uk/efo/EFO_0004905
+http://www.ebi.ac.uk/efo/EFO_0005023
+http://www.ebi.ac.uk/efo/EFO_0005292
+http://purl.obolibrary.org/obo/EHDAA2_0002112 
+
+http://purl.obolibrary.org/obo/BTO_0000878
+http://purl.obolibrary.org/obo/BTO_0001255
+http://purl.obolibrary.org/obo/BTO_0004419
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 #entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]
