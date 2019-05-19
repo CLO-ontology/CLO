@@ -16,6 +16,15 @@ http://purl.obolibrary.org/obo/CLO_0037342
 http://purl.obolibrary.org/obo/CLO_100235
 http://purl.obolibrary.org/obo/CLO_100270
 
+#relations:
+http://purl.obolibrary.org/obo/CLO_0000167
+http://purl.obolibrary.org/obo/CLO_0000179
+http://purl.obolibrary.org/obo/CLO_0037375
+http://purl.obolibrary.org/obo/CLO_0037376
+http://purl.obolibrary.org/obo/CLO_0037377
+http://purl.obolibrary.org/obo/CLO_0037378 
+http://purl.obolibrary.org/obo/RO_0000086
+
 http://purl.obolibrary.org/obo/NCIT_C12431
 http://purl.obolibrary.org/obo/NCIT_C12434
 http://purl.obolibrary.org/obo/NCIT_C12470
