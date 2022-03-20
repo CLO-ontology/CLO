@@ -232,6 +232,30 @@ http://purl.obolibrary.org/obo/UBERON_0012069 #epithelium-associated lymphoid ti
 http://purl.obolibrary.org/obo/UBERON_0004905 # articulation
 http://purl.obolibrary.org/obo/UBERON_0035820 # peritoneal sac
 
+http://purl.obolibrary.org/obo/UBERON_0000004
+http://purl.obolibrary.org/obo/UBERON_0000173
+http://purl.obolibrary.org/obo/UBERON_0000974
+http://purl.obolibrary.org/obo/UBERON_0000978
+http://purl.obolibrary.org/obo/UBERON_0001191
+http://purl.obolibrary.org/obo/UBERON_0001274
+http://purl.obolibrary.org/obo/UBERON_0001460
+http://purl.obolibrary.org/obo/UBERON_0001464
+http://purl.obolibrary.org/obo/UBERON_0001467
+http://purl.obolibrary.org/obo/UBERON_0001690
+http://purl.obolibrary.org/obo/UBERON_0002407
+http://purl.obolibrary.org/obo/UBERON_0002544
+http://purl.obolibrary.org/obo/UBERON_0003690
+http://purl.obolibrary.org/obo/UBERON_0003701
+http://purl.obolibrary.org/obo/UBERON_0003823
+http://purl.obolibrary.org/obo/UBERON_0005396
+http://purl.obolibrary.org/obo/UBERON_0006643
+http://purl.obolibrary.org/obo/UBERON_0006680
+http://purl.obolibrary.org/obo/UBERON_0007118
+http://purl.obolibrary.org/obo/UBERON_0008337
+http://purl.obolibrary.org/obo/UBERON_0009472
+http://purl.obolibrary.org/obo/UBERON_0013691
+http://purl.obolibrary.org/obo/UBERON_0014437
+
 http://purl.obolibrary.org/obo/RO_0002489 #existence starts with
 
 # http://purl.obolibrary.org/obo/UBERON_0000322 #cerebral lobe - does not exist any more. 
@@ -243,8 +267,6 @@ subClassOf http://purl.obolibrary.org/obo/BFO_0000015
 
 http://purl.obolibrary.org/obo/UBERON_0001062 #anatomical entity
 subClassOf  http://purl.obolibrary.org/obo/BFO_0000004 #independent entity
-
-
 
 [Source term retrieval setting]
 includeComputedIntermediates

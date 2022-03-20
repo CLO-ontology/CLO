@@ -18,18 +18,30 @@ http://purl.obolibrary.org/obo/RO_0002222 #temporally related to
 http://purl.obolibrary.org/obo/RO_0002086 #ends after
 http://purl.obolibrary.org/obo/RO_0002323 #mereotopologically related to
 
+http://purl.obolibrary.org/obo/RO_0002171
+http://purl.obolibrary.org/obo/RO_0002422
+http://purl.obolibrary.org/obo/RO_0002575
+http://purl.obolibrary.org/obo/RO_0002604
+http://purl.obolibrary.org/obo/RO_0004036
+http://purl.obolibrary.org/obo/RO_0004049
+http://purl.obolibrary.org/obo/RO_0004050
+http://purl.obolibrary.org/obo/RO_0040042
+
+http://purl.obolibrary.org/obo/RO_0015007
+http://purl.obolibrary.org/obo/RO_0015008
+http://purl.obolibrary.org/obo/RO_0015010
+http://purl.obolibrary.org/obo/RO_0015011
 
 [Top level source term URIs and target direct superclass URIs]
 http://www.w3.org/2002/07/owl#topObjectProperty
 
 [Source term retrieval setting]
-includeNoIntermediates
+includeAllIntermediates
 
 [Branch extractions from source term URIs and target direct superclass URIs]
 
-
 [Source annotation URIs]
-includeAllAxioms
+includeAllAxiomsRecursively
 
 # This file has not been implemented since the relations are there probably from another ontology like IAO.
 # implemented by Asiyah Yu Lin on 7/25/2017

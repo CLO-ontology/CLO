@@ -85,6 +85,7 @@ http://purl.obolibrary.org/obo/CL_0000214 #synovial cell
 http://purl.obolibrary.org/obo/CL_0000746 #cardiac muscle cell; cardiomyocyte
 http://purl.obolibrary.org/obo/CL_0000136 #fat cell; adipocyte; adipose cell
 http://purl.obolibrary.org/obo/CL_0002087 
+http://purl.obolibrary.org/obo/CL_0000786
 
 http://purl.obolibrary.org/obo/PR_000018263 #amino acid chain
 http://purl.obolibrary.org/obo/GO_0005575 #cellular_component
