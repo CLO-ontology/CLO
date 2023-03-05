@@ -1,6 +1,6 @@
 The Cell Line Ontology (CLO) is a community-based ontology of cell lines. The CLO is developed to unify publicly available cell line entry data from multiple sources to a standardized logically defined format based on a consensus design pattern.
 
-The website for CLO ontology is here: [https://obofoundry.org/ontology/oae.html] (https://obofoundry.org/ontology/oae.html). 
+The website for CLO ontology is [here](https://obofoundry.org/ontology/oae.html). 
 
 Reference:
 
