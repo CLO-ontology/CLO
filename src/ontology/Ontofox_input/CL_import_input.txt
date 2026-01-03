@@ -6,7 +6,7 @@ CL
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/CL_0000115 #endothelial cell
-http://purl.obolibrary.org/obo/CL_0000000 #cell
+http://purl.obolibrary.org/obo/CL_0000001 #primary cultured cell
 http://purl.obolibrary.org/obo/CL_0000066 #epithelial cell
 http://purl.obolibrary.org/obo/CL_0000398 #polygonal cell
 http://purl.obolibrary.org/obo/CL_0000057 #fibroblast
@@ -86,47 +86,31 @@ http://purl.obolibrary.org/obo/CL_0000746 #cardiac muscle cell; cardiomyocyte
 http://purl.obolibrary.org/obo/CL_0000136 #fat cell; adipocyte; adipose cell
 http://purl.obolibrary.org/obo/CL_0002087 
 http://purl.obolibrary.org/obo/CL_0000786
-
-http://purl.obolibrary.org/obo/PR_000018263 #amino acid chain
-http://purl.obolibrary.org/obo/GO_0005575 #cellular_component
-
 http://purl.obolibrary.org/obo/CL_2000001 #peripheral blood mononuclear cell (PBMC)	
 http://purl.obolibrary.org/obo/CL_0000784 #plasmacytoid dendritic cell	
 http://purl.obolibrary.org/obo/CL_0000782 #myeloid dendritic cell
 http://purl.obolibrary.org/obo/CL_0000840 #immature conventional dendritic cell
-
 http://purl.obolibrary.org/obo/CL_1001608 #foreskin fibroblast
 http://purl.obolibrary.org/obo/CL_0000653 #glomerular visceral epithelial cell, synonym: podocyte
-
-# http://purl.obolibrary.org/obo/CL_0000220 #cell by lineage  obsolete
-# http://purl.obolibrary.org/obo/CL_0000363 #axial cell obsolete
-# http://purl.obolibrary.org/obo/CL_0000254 #egg cell obsolete
-# http://purl.obolibrary.org/obo/CL_0000668 # parenchymal cell obsolete
+http://purl.obolibrary.org/obo/CL_0000680
+http://purl.obolibrary.org/obo/CL_0000048
+http://purl.obolibrary.org/obo/CL_0000055
+http://purl.obolibrary.org/obo/CL_0000075
+http://purl.obolibrary.org/obo/CL_0000213
+http://purl.obolibrary.org/obo/CL_0000215
+http://purl.obolibrary.org/obo/CL_0000349
+http://purl.obolibrary.org/obo/CL_0000548
+http://purl.obolibrary.org/obo/CL_0000723
+http://purl.obolibrary.org/obo/CL_0002092
+http://purl.obolibrary.org/obo/CL_0002371
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/CL_0000000 #cell type
-subClassOf http://purl.obolibrary.org/obo/BFO_0000040
-
-http://purl.obolibrary.org/obo/GO_0005575 #cellular_component
-subClassOf http://purl.obolibrary.org/obo/BFO_0000040 
-
-http://purl.obolibrary.org/obo/PR_000018263 
-subClassOf http://purl.obolibrary.org/obo/BFO_0000040 
+http://purl.obolibrary.org/obo/CL_0000000 #cell
 
 [Source term retrieval setting]
-includeAllIntermediates
-
-[Branch extractions from source term URIs and target direct superclass URIs]
-
+includeComputedIntermediates
 
 [Source annotation URIs]
-includeAllAxiomsRecursively
-
-[Source annotation URIs to be excluded]
-
-
-#http://purl.obolibrary.org/obo/PATO_0000001 #quality
-#http://purl.obolibrary.org/obo/NCBITaxon_1 #root
-#http://purl.obolibrary.org/obo/NCBITaxon_131567 #cellular organisms
+includeAllAnnotationProperties
 
 
