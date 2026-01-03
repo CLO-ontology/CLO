@@ -9,5 +9,6 @@
     <uri name="http://purl.obolibrary.org/obo/clo/PATO_import.owl" uri="imports/PATO_import.owl"/>
     <uri name="http://purl.obolibrary.org/obo/clo/RO_import.owl" uri="imports/RO_import.owl"/>
     <uri name="http://purl.obolibrary.org/obo/clo/UBERON_import.owl" uri="imports/UBERON_import.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/clo/externalByHand.owl" uri="imports/externalByHand.owl"/>
     <uri name="http://purl.obolibrary.org/obo/clo/celllines_byDiseases.owl" uri="modules/celllines_byDiseases.owl"/>
 </catalog>
