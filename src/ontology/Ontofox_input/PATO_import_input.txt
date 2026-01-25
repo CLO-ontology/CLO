@@ -15,11 +15,12 @@ http://purl.obolibrary.org/obo/PATO_0001399 #totipotent
 http://purl.obolibrary.org/obo/PATO_0001402 #multipotent
 http://purl.obolibrary.org/obo/PATO_0002100 #undifferentiated
 http://purl.obolibrary.org/obo/PATO_0001397 #cellular potency
+http://purl.obolibrary.org/obo/PATO_0001396 #cellular quality
 
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PATO_0001241 #physical object quality
-subClassOf http://purl.obolibrary.org/obo/BFO_0000019
+subClassOf http://purl.obolibrary.org/obo/COB_0000502
 
 
 [Source term retrieval setting]
