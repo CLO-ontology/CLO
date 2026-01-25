@@ -255,18 +255,28 @@ http://purl.obolibrary.org/obo/UBERON_0008337
 http://purl.obolibrary.org/obo/UBERON_0009472
 http://purl.obolibrary.org/obo/UBERON_0013691
 http://purl.obolibrary.org/obo/UBERON_0014437
+http://purl.obolibrary.org/obo/UBERON_0000915
+http://purl.obolibrary.org/obo/UBERON_0001021
+http://purl.obolibrary.org/obo/UBERON_0001134
+http://purl.obolibrary.org/obo/UBERON_0002048
+http://purl.obolibrary.org/obo/UBERON_0002097
+http://purl.obolibrary.org/obo/UBERON_0002120
+http://purl.obolibrary.org/obo/UBERON_0002465
+http://purl.obolibrary.org/obo/UBERON_0002481
+http://purl.obolibrary.org/obo/UBERON_0003101
+http://purl.obolibrary.org/obo/UBERON_0003684
+http://purl.obolibrary.org/obo/UBERON_0004176
 
-http://purl.obolibrary.org/obo/RO_0002489 #existence starts with
 
-# http://purl.obolibrary.org/obo/UBERON_0000322 #cerebral lobe - does not exist any more. 
-# http://purl.obolibrary.org/obo/UBERON_0004191 #glomus - does not exist any more.
+
+#http://www.ebi.ac.uk/efo/EFO_0000635 #organism part
+#replace with http://purl.obolibrary.org/obo/COB_0000021 gross anatomical part
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/UBERON_0000105 #life cycle stage
 subClassOf http://purl.obolibrary.org/obo/BFO_0000015
 
 http://purl.obolibrary.org/obo/UBERON_0001062 #anatomical entity
-subClassOf  http://purl.obolibrary.org/obo/BFO_0000004 #independent entity
 
 [Source term retrieval setting]
 includeComputedIntermediates
