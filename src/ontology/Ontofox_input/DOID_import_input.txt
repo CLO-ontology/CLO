@@ -5,210 +5,596 @@ http://purl.obolibrary.org/obo/clo/DOID_import.owl
 DOID
 
 [Low level source term URIs]
-
-http://purl.obolibrary.org/obo/DOID_345
-http://purl.obolibrary.org/obo/DOID_0080000
-http://purl.obolibrary.org/obo/DOID_10854
-http://purl.obolibrary.org/obo/DOID_0060118
-
-
-http://purl.obolibrary.org/obo/DOID_162 #cancer
-
-http://purl.obolibrary.org/obo/DOID_0050686 #organ systm cancer
-
-http://purl.obolibrary.org/obo/DOID_4007 #bladder carcinoma
-http://purl.obolibrary.org/obo/DOID_11054 #urinary bladder cancer
-
-http://purl.obolibrary.org/obo/DOID_4905 #pancreatic carcinoma
-http://purl.obolibrary.org/obo/DOID_4074 #pancreas adenocarcinoma
-http://purl.obolibrary.org/obo/DOID_1793 #pancreative cancer, pancreative neoplasm
-
-http://purl.obolibrary.org/obo/DOID_4450 #renal cell carcinoma
-http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma, kidney carcinoma
-http://purl.obolibrary.org/obo/DOID_263 #kidney cancer
-http://purl.obolibrary.org/obo/DOID_5974 #renal pelvis transitional cell carcinoma
-
-
-http://purl.obolibrary.org/obo/DOID_4515 #thyroid sarcoma 
-http://purl.obolibrary.org/obo/DOID_1781  #thyroid cancer
-
-http://purl.obolibrary.org/obo/DOID_1324 #lung cancer
-http://purl.obolibrary.org/obo/DOID_4556  #lung large cell carinoma
-http://purl.obolibrary.org/obo/DOID_5409 #lung small cell carcinoma
-http://purl.obolibrary.org/obo/DOID_3908 #non-small cell lung carcinoma
-http://purl.obolibrary.org/obo/DOID_5583 #lung giant cell carcinoma
-
-http://purl.obolibrary.org/obo/DOID_4897 #bile duct carcinoma
-http://purl.obolibrary.org/obo/DOID_4607 #biliary tract cancer
-
-http://purl.obolibrary.org/obo/DOID_5041 #esophageal cancer
-http://purl.obolibrary.org/obo/DOID_4914 #esophagus adenocarcinoma
-
-http://purl.obolibrary.org/obo/DOID_5076 #mixed glioma
-
-http://purl.obolibrary.org/obo/DOID_5303 #cervical clear cell adenocarcinoma
-http://purl.obolibrary.org/obo/DOID_2893 #cervical carcinoma
-
-http://purl.obolibrary.org/obo/DOID_5557 #testicular germ cell cancer
-
-http://purl.obolibrary.org/obo/DOID_5517 #stomach carcinoma, gastric carcinoma
-http://purl.obolibrary.org/obo/DOID_3717 #gastric adenocarcinoma
-http://purl.obolibrary.org/obo/DOID_5635 # gastric adenosquamous carcinoma
-
-http://purl.obolibrary.org/obo/DOID_0060083 #immune system cancer
-http://purl.obolibrary.org/obo/DOID_5603 #acute T cell leukemia
-http://purl.obolibrary.org/obo/DOID_715 #T cell leukemia
-http://purl.obolibrary.org/obo/DOID_10747 #lymphoid leukemia 
-http://purl.obolibrary.org/obo/DOID_707 #B-cell lymphoma, B-cell lymphocytic neoplasm
-http://purl.obolibrary.org/obo/DOID_0060061 #cutaneous T cell lymphoma
-http://purl.obolibrary.org/obo/DOID_5823 #pediatric lymphoma
-
-http://purl.obolibrary.org/obo/DOID_684 #hepatocellular carcinoma
-http://purl.obolibrary.org/obo/DOID_3571 #liver cancer
-
-http://purl.obolibrary.org/obo/DOID_769 #neuroblastoma
-http://purl.obolibrary.org/obo/DOID_3093 #nervous system cancer
-
-http://purl.obolibrary.org/obo/DOID_8602 #gum cancer
-http://purl.obolibrary.org/obo/DOID_8618 #oral cavity cancer
-
-http://purl.obolibrary.org/obo/DOID_3119 #gastrointestinal system cancer (note: this is in CLO already but appears in old hierarchy)
-
-http://purl.obolibrary.org/obo/DOID_0060060 # non-Hodgkin lymphoma
-http://purl.obolibrary.org/obo/DOID_8567 #Hodgkin lymphoma	
-
-# http://purl.obolibrary.org/obo/DOID_305 #carcinoma, already in CLO
-http://purl.obolibrary.org/obo/DOID_193 #reproductive system cancer
-http://purl.obolibrary.org/obo/DOID_1037 #lymphoblastic leukemia
-http://purl.obolibrary.org/obo/DOID_9952 #acute lymphocytic leukemia
-http://purl.obolibrary.org/obo/DOID_3748 #esophagus squamous cell carcinoma
-http://purl.obolibrary.org/obo/DOID_9119 #acute myeloid leukemia
-http://purl.obolibrary.org/obo/DOID_8864 #acute monocytic leukemia
-http://purl.obolibrary.org/obo/DOID_10286 #prostate carcinoma
-http://purl.obolibrary.org/obo/DOID_1520 #colon carcinoma
-http://purl.obolibrary.org/obo/DOID_234 #colon adenocarcinoma
-http://purl.obolibrary.org/obo/DOID_1749 #squamous Carcinoma
-http://purl.obolibrary.org/obo/DOID_1909 #malignant melanoma
-http://purl.obolibrary.org/obo/DOID_3007 #breast ductal carcinoma
-
-http://purl.obolibrary.org/obo/DOID_3959 #adrenal cortical adenocarcinoma
-http://purl.obolibrary.org/obo/DOID_3069 #astrocytoma
-http://purl.obolibrary.org/obo/DOID_4006 #urinary bladder urothelial carcinoma
-http://purl.obolibrary.org/obo/DOID_3742 #bladder squamous cell carcinoma
-http://purl.obolibrary.org/obo/DOID_3369 #Ewing sarcoma
-http://purl.obolibrary.org/obo/DOID_3458 #breast adenocarinoma
-http://purl.obolibrary.org/obo/DOID_3459 #breast carcinoma
-http://purl.obolibrary.org/obo/DOID_4680 #breast metaplastic carcinoma
-http://purl.obolibrary.org/obo/DOID_3744 #cervical squamous cell carcinoma
-
-http://purl.obolibrary.org/obo/DOID_3702 #cervical adenocarcinoma
-http://purl.obolibrary.org/obo/DOID_3371 #chondrosarcoma
-http://purl.obolibrary.org/obo/DOID_3594 #choriocarcinoma
-http://purl.obolibrary.org/obo/DOID_2871 #endometrial carcinoma
-http://purl.obolibrary.org/obo/DOID_4226 #endometrial stromal sarcoma
-http://purl.obolibrary.org/obo/DOID_3355 #fibrosarcoma
-http://purl.obolibrary.org/obo/DOID_3962 #follicular thyroid carcinoma
-http://purl.obolibrary.org/obo/DOID_9173 #submandibular gland cancer
-http://purl.obolibrary.org/obo/DOID_3068 #glioblastoma multiforme
-http://purl.obolibrary.org/obo/DOID_5176 #renal Wilms' tumor
-http://purl.obolibrary.org/obo/DOID_3910 #lung adenocarcinoma
-http://purl.obolibrary.org/obo/DOID_3907 #lung squamous cell carcinoma
-http://purl.obolibrary.org/obo/DOID_3181 #oligodendroglioma
-http://purl.obolibrary.org/obo/DOID_3347 #osteosarcoma
-http://purl.obolibrary.org/obo/DOID_4001 #ovarian carcinoma
-http://purl.obolibrary.org/obo/DOID_3713 #ovary adenocarcinoma
-http://purl.obolibrary.org/obo/DOID_3247 #rhabdomyosarcoma
-http://purl.obolibrary.org/obo/DOID_3151 #skin squamous cell carcinoma
-http://purl.obolibrary.org/obo/DOID_3963 #thyroid carcinoma
-http://purl.obolibrary.org/obo/DOID_363 #uterine cancer
-
-http://purl.obolibrary.org/obo/DOID_1040 #chronic lymphocytic leukemia	
-http://purl.obolibrary.org/obo/DOID_8675 #malignant lymphoma	
-http://purl.obolibrary.org/obo/DOID_1612 #breast cancer	
-http://purl.obolibrary.org/obo/DOID_5675 #ductal carcinoma
-
+http://purl.obolibrary.org/obo/DOID_0050144 #Kartagener syndrome
+http://purl.obolibrary.org/obo/DOID_0050424 #familial adenomatous polyposis
+http://purl.obolibrary.org/obo/DOID_0050427 #xeroderma pigmentosum
+http://purl.obolibrary.org/obo/DOID_0050436 #Mulibrey nanism
+http://purl.obolibrary.org/obo/DOID_0050439 #Usher syndrome
+http://purl.obolibrary.org/obo/DOID_0050441 #multiple sulfatase deficiency disease
+http://purl.obolibrary.org/obo/DOID_0050444 #infantile refsum disease
+http://purl.obolibrary.org/obo/DOID_0050445 #hypophosphatemic rickets X-linked dominant
+http://purl.obolibrary.org/obo/DOID_0050452 #mevalonic aciduria
+http://purl.obolibrary.org/obo/DOID_0050461 #aspartylglucosaminuria
+http://purl.obolibrary.org/obo/DOID_0050463 #campomelic dysplasia
+http://purl.obolibrary.org/obo/DOID_0050464 #Farber lipogranulomatosis
+http://purl.obolibrary.org/obo/DOID_0050470 #Donohue Syndrome
 http://purl.obolibrary.org/obo/DOID_0050608 #Askin's tumor
-http://purl.obolibrary.org/obo/DOID_0050747 #lymphoplasmacytic lymphoma
+http://purl.obolibrary.org/obo/DOID_0050622 #reproductive organ benign neoplasm
+http://purl.obolibrary.org/obo/DOID_0050686 #organ systm cancer
+http://purl.obolibrary.org/obo/DOID_0050861 #colorectal adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_0060021 #DNA ligase IV deficiency
+http://purl.obolibrary.org/obo/DOID_0060023 #CD40 deficiency
+http://purl.obolibrary.org/obo/DOID_0060060 # non-Hodgkin lymphoma
+http://purl.obolibrary.org/obo/DOID_0060061 #cutaneous T cell lymphoma
+http://purl.obolibrary.org/obo/DOID_0060072 #benign neoplasm
+http://purl.obolibrary.org/obo/DOID_0060082 #breast benigh neoplasm
+http://purl.obolibrary.org/obo/DOID_0060083 #immune system cancer
+http://purl.obolibrary.org/obo/DOID_0060085 #organ system benign neoplasm
+http://purl.obolibrary.org/obo/DOID_0060087 #male reproductive organ benign neoplasm, with BPH-1
+http://purl.obolibrary.org/obo/DOID_0060108
+http://purl.obolibrary.org/obo/DOID_0060118
+http://purl.obolibrary.org/obo/DOID_0070004 #myeloma
+http://purl.obolibrary.org/obo/DOID_0080000
+http://purl.obolibrary.org/obo/DOID_10016 #multiple endocrine neoplasia type 2b
+http://purl.obolibrary.org/obo/DOID_10017 #multiple endocrine neoplasia type 1
+http://purl.obolibrary.org/obo/DOID_10286 #prostate carcinoma
+http://purl.obolibrary.org/obo/DOID_10354 #breast fibrocystic disease, with MCF 10A
+http://purl.obolibrary.org/obo/DOID_1037 #lymphoblastic leukemia
+http://purl.obolibrary.org/obo/DOID_1040 #chronic lymphocytic leukemia
+http://purl.obolibrary.org/obo/DOID_10426 #Klippel-Feil syndrome
 http://purl.obolibrary.org/obo/DOID_10534 #stomach cancer
 http://purl.obolibrary.org/obo/DOID_10540 #gastric lymphoma
+http://purl.obolibrary.org/obo/DOID_1056 #oculocerebrorenal syndrome
+http://purl.obolibrary.org/obo/DOID_10581 #metachromatic leukodystrophy
+http://purl.obolibrary.org/obo/DOID_10582 #Refsum disease
+http://purl.obolibrary.org/obo/DOID_10584 #retinitis pigmentosa
+http://purl.obolibrary.org/obo/DOID_10587 #globoid cell leukodystrophy
+http://purl.obolibrary.org/obo/DOID_10588 #adrenoleukodystrophy
+http://purl.obolibrary.org/obo/DOID_10595 #Charcot-Marie-Tooth disease
+http://purl.obolibrary.org/obo/DOID_1060 #Hartnup disease
+http://purl.obolibrary.org/obo/DOID_1062 #Fanconi syndrome
+http://purl.obolibrary.org/obo/DOID_10632 #Wolfram syndrome
+http://purl.obolibrary.org/obo/DOID_1064 #cystinosis 
 http://purl.obolibrary.org/obo/DOID_10816
+http://purl.obolibrary.org/obo/DOID_10854
+http://purl.obolibrary.org/obo/DOID_1089 #spinal dysraphism
+http://purl.obolibrary.org/obo/DOID_10915 #Wernicke-Korsakoff syndrome
+http://purl.obolibrary.org/obo/DOID_10941 #intracranial aneurysm
+http://purl.obolibrary.org/obo/DOID_1099 #alpha thalassemia
+http://purl.obolibrary.org/obo/DOID_11054 #urinary bladder cancer
+http://purl.obolibrary.org/obo/DOID_11119 #Gilles de la Tourette syndrome
+http://purl.obolibrary.org/obo/DOID_11198 #DiGeorge syndrome
+http://purl.obolibrary.org/obo/DOID_11589 #familial dysautonomia
+http://purl.obolibrary.org/obo/DOID_11714 #gestational diabetes
+http://purl.obolibrary.org/obo/DOID_11721 #glycogen storage disease type VII
+http://purl.obolibrary.org/obo/DOID_11722 #myotonic dystrophy
+http://purl.obolibrary.org/obo/DOID_11725 #Bruck-de Lange syndrome
+http://purl.obolibrary.org/obo/DOID_1184 #nephrotic syndrome
+http://purl.obolibrary.org/obo/DOID_11870 #Pick's disease
+http://purl.obolibrary.org/obo/DOID_11983 #Prader-Willi syndrome
+http://purl.obolibrary.org/obo/DOID_12217 #Lewy body disease
+http://purl.obolibrary.org/obo/DOID_12259 #hemophilia B
+http://purl.obolibrary.org/obo/DOID_12271 #aniridia
+http://purl.obolibrary.org/obo/DOID_12305 #Bloch Sulzberger syndrome
+http://purl.obolibrary.org/obo/DOID_12306 #vitiligo
+http://purl.obolibrary.org/obo/DOID_12347 #osteogenesis imperfecta
+http://purl.obolibrary.org/obo/DOID_12449 #aplastic anemia
+http://purl.obolibrary.org/obo/DOID_12580 #Cri-Du-Chat syndrome
+http://purl.obolibrary.org/obo/DOID_12583 #Shprintzen syndrome
 http://purl.obolibrary.org/obo/DOID_12603
+http://purl.obolibrary.org/obo/DOID_1270 #hereditary hemorrhagic telangiectasia
+http://purl.obolibrary.org/obo/DOID_12704 #ataxia telangiectasia
+http://purl.obolibrary.org/obo/DOID_12705 #Friedreich ataxia
+http://purl.obolibrary.org/obo/DOID_12714 #Ellis-Van Creveld syndrome
+http://purl.obolibrary.org/obo/DOID_12798 #mucopolysaccharidosis
+http://purl.obolibrary.org/obo/DOID_12799 #mucopolysaccharidosis II
+http://purl.obolibrary.org/obo/DOID_12800 #mucopolysaccharidosis VI
+http://purl.obolibrary.org/obo/DOID_12801 #mucopolysaccharidosis type IIIA
+http://purl.obolibrary.org/obo/DOID_12802 #mucopolysaccharidosis I
+http://purl.obolibrary.org/obo/DOID_12803 #mucopolysaccharidosis VII
+http://purl.obolibrary.org/obo/DOID_12804 #mucopolysaccharidosis IV
+http://purl.obolibrary.org/obo/DOID_12849 #autistic disorder
 http://purl.obolibrary.org/obo/DOID_1294
+http://purl.obolibrary.org/obo/DOID_12971 #hereditary spherocytosis
+http://purl.obolibrary.org/obo/DOID_13137 #hereditary motor neuropathy proximal type I
+http://purl.obolibrary.org/obo/DOID_13189 #gout
+http://purl.obolibrary.org/obo/DOID_1324 #lung cancer
+http://purl.obolibrary.org/obo/DOID_13269 #hereditary coproporphyria
+http://purl.obolibrary.org/obo/DOID_13270 #erythropoietic protoporphyria
+http://purl.obolibrary.org/obo/DOID_13271 #erythropoietic porphyria
+http://purl.obolibrary.org/obo/DOID_13359 #Ehlers-Danlos syndrome
+http://purl.obolibrary.org/obo/DOID_13374 #fibrodysplasia ossificans progressiva
+http://purl.obolibrary.org/obo/DOID_13481 #thanatophoric dysplasia
+http://purl.obolibrary.org/obo/DOID_13482 #Proteus syndrome
+http://purl.obolibrary.org/obo/DOID_13501
+http://purl.obolibrary.org/obo/DOID_13515 #tuberous sclerosis
+http://purl.obolibrary.org/obo/DOID_13533 #Albers-Schonberg disease
+http://purl.obolibrary.org/obo/DOID_13636 #Fanconi's anemia
+http://purl.obolibrary.org/obo/DOID_13777 #epidermodysplasia verruciformis
+http://purl.obolibrary.org/obo/DOID_13810 #familial hypercholesterolemia
+http://purl.obolibrary.org/obo/DOID_1386 #abetalipoproteinemia
+http://purl.obolibrary.org/obo/DOID_13884 #sick sinus syndrome
+http://purl.obolibrary.org/obo/DOID_13911 #achromatopsia
+http://purl.obolibrary.org/obo/DOID_13994 #cleidocranial dysplasia
+http://purl.obolibrary.org/obo/DOID_14118 #familial lipoprotein lipase deficiency
+http://purl.obolibrary.org/obo/DOID_1415 #Gyrate atrophy
+http://purl.obolibrary.org/obo/DOID_14175 #von Hippel-Lindau disease
+http://purl.obolibrary.org/obo/DOID_14213 #hypophosphatasia
+http://purl.obolibrary.org/obo/DOID_14291 #LEOPARD syndrome
+http://purl.obolibrary.org/obo/DOID_14323 #marfan syndrome
+http://purl.obolibrary.org/obo/DOID_1440 #Machado-Joseph disease
+http://purl.obolibrary.org/obo/DOID_14448 #46 XY gonadal dysgenesis
+http://purl.obolibrary.org/obo/DOID_14450 #46 XX gonadal dysgenesis
+http://purl.obolibrary.org/obo/DOID_14497 #Wolman disease
+http://purl.obolibrary.org/obo/DOID_14498 #lipoidproteinosis
+http://purl.obolibrary.org/obo/DOID_14499 #Fabry disease
+http://purl.obolibrary.org/obo/DOID_14500 #fucosidosis
+http://purl.obolibrary.org/obo/DOID_14501 #Sjogren-Larsson syndrome
+http://purl.obolibrary.org/obo/DOID_14503 #neuronal ceroid-lipofuscinosis
+http://purl.obolibrary.org/obo/DOID_14695 #galactokinase deficiency
+http://purl.obolibrary.org/obo/DOID_14701 #propionic acidemia
+http://purl.obolibrary.org/obo/DOID_14717 #centronuclear myopathy
+http://purl.obolibrary.org/obo/DOID_14720 #type I Ehlers-Danlos syndrome
+http://purl.obolibrary.org/obo/DOID_14731 #Weaver syndrome
+http://purl.obolibrary.org/obo/DOID_14748 #cerebral gigantism
+http://purl.obolibrary.org/obo/DOID_14749 #methylmalonic aciduria cblA type
+http://purl.obolibrary.org/obo/DOID_14753 #isovalericacidemia
+http://purl.obolibrary.org/obo/DOID_14755 #argininosuccinicaciduria
+http://purl.obolibrary.org/obo/DOID_14756 #autosomal dominant type IV Ehlers-Danlos syndrome
+http://purl.obolibrary.org/obo/DOID_14757 #type III Ehlers-Danlos syndrome
+http://purl.obolibrary.org/obo/DOID_14766 #hereditary urogenital adysplasia
+http://purl.obolibrary.org/obo/DOID_14773 #cartilage-hair hypoplasia
+http://purl.obolibrary.org/obo/DOID_14775 #type VI Ehlers-Danlos syndrome
+http://purl.obolibrary.org/obo/DOID_14787 #FRYNS SYNDROME
+http://purl.obolibrary.org/obo/DOID_14793 #hypohidrotic ectodermal dysplasia
+http://purl.obolibrary.org/obo/DOID_14796 #Dubowitz Syndrome
+http://purl.obolibrary.org/obo/DOID_1485
+http://purl.obolibrary.org/obo/DOID_1520 #colon carcinoma
+http://purl.obolibrary.org/obo/DOID_1588 #thrombocytopenia
+http://purl.obolibrary.org/obo/DOID_1612 #breast cancer
+http://purl.obolibrary.org/obo/DOID_162 #cancer
+http://purl.obolibrary.org/obo/DOID_1700 #X-linked ichthyosis
+http://purl.obolibrary.org/obo/DOID_1749 #squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_1781  #thyroid cancer
 http://purl.obolibrary.org/obo/DOID_1790
+http://purl.obolibrary.org/obo/DOID_1793 #pancreative cancer, pancreative neoplasm
+http://purl.obolibrary.org/obo/DOID_1825 #absence epilepsy
+http://purl.obolibrary.org/obo/DOID_1827 #generalized epilepsy
+http://purl.obolibrary.org/obo/DOID_1838 #Menkes kinky hair syndrome
+http://purl.obolibrary.org/obo/DOID_1852 #intrahepatic cholestasis
+http://purl.obolibrary.org/obo/DOID_1856 #cherubism
+http://purl.obolibrary.org/obo/DOID_1909 #malignant melanoma
+http://purl.obolibrary.org/obo/DOID_1919 #Lesch-Nyhan syndrome
+http://purl.obolibrary.org/obo/DOID_1926 #Gaucher's disease
+http://purl.obolibrary.org/obo/DOID_1929 #supravalvular aortic stenosis
+http://purl.obolibrary.org/obo/DOID_193 #reproductive system cancer
+http://purl.obolibrary.org/obo/DOID_1932 #Angelman syndrome
+http://purl.obolibrary.org/obo/DOID_1933 #Rubinstein-Taybi syndrome
+http://purl.obolibrary.org/obo/DOID_1935 #Bardet-Biedl syndrome
 http://purl.obolibrary.org/obo/DOID_1996
-http://purl.obolibrary.org/obo/DOID_2101
+http://purl.obolibrary.org/obo/DOID_206 #hereditary multiple exostoses
+http://purl.obolibrary.org/obo/DOID_2101 #vulva squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_2121 #ectodermal dysplasia
+http://purl.obolibrary.org/obo/DOID_2215 #factor VII deficiency
+http://purl.obolibrary.org/obo/DOID_2216 #factor V deficiency
+http://purl.obolibrary.org/obo/DOID_2217 #Bernard-Soulier syndrome
+http://purl.obolibrary.org/obo/DOID_2222 #factor X deficiency
+http://purl.obolibrary.org/obo/DOID_2223 #platelet storage pool deficiency
+http://purl.obolibrary.org/obo/DOID_2234 #partial epilepsy
+http://purl.obolibrary.org/obo/DOID_2235 #hypoprothrombinemia
+http://purl.obolibrary.org/obo/DOID_2339 #Crouzon syndrome
+http://purl.obolibrary.org/obo/DOID_234 #colon adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_2352 #hemochromatosis
+http://purl.obolibrary.org/obo/DOID_2355 #anemia
+http://purl.obolibrary.org/obo/DOID_2367 #neuroaxonal dystrophy
+http://purl.obolibrary.org/obo/DOID_2377 #multiple sclerosis
+http://purl.obolibrary.org/obo/DOID_2431 #glomus tumor
+http://purl.obolibrary.org/obo/DOID_2512 #nevoid basal cell carcinoma syndrome
+http://purl.obolibrary.org/obo/DOID_2513 #basal cell carcinoma
 http://purl.obolibrary.org/obo/DOID_2526
+http://purl.obolibrary.org/obo/DOID_2565 #macular corneal dystrophy
+http://purl.obolibrary.org/obo/DOID_2580 #rhizomelic chondrodysplasia punctata
+http://purl.obolibrary.org/obo/DOID_263 #kidney cancer
+http://purl.obolibrary.org/obo/DOID_2717 #bloom syndrome
+http://purl.obolibrary.org/obo/DOID_2729 #dyskeratosis congenita
+http://purl.obolibrary.org/obo/DOID_2730 #epidermolysis bullosa
+http://purl.obolibrary.org/obo/DOID_2732 #Rothmund-Thomson syndrome
+http://purl.obolibrary.org/obo/DOID_2738 #pseudoxanthoma elasticum
+http://purl.obolibrary.org/obo/DOID_2746 #glycogen storage disease type V
+http://purl.obolibrary.org/obo/DOID_2747 #glycogen storage disease
+http://purl.obolibrary.org/obo/DOID_2748 #glycogen storage disease type III
+http://purl.obolibrary.org/obo/DOID_2749 #glycogen storage disease type I
+http://purl.obolibrary.org/obo/DOID_2750 #glycogen storage disease type IV
+http://purl.obolibrary.org/obo/DOID_2751 #glycogen storage disease type VIII
+http://purl.obolibrary.org/obo/DOID_2752 #glycogen storage disease type II
+http://purl.obolibrary.org/obo/DOID_2754 #glycogen storage disease type VI
+http://purl.obolibrary.org/obo/DOID_2871 #endometrial carcinoma
+http://purl.obolibrary.org/obo/DOID_2893 #cervical carcinoma
+http://purl.obolibrary.org/obo/DOID_2935 #Chediak-Higashi syndrome
+http://purl.obolibrary.org/obo/DOID_2960 #IBIDS syndrome
+http://purl.obolibrary.org/obo/DOID_2987 #familial Mediterranean fever
+http://purl.obolibrary.org/obo/DOID_3007 #breast ductal carcinoma
+http://purl.obolibrary.org/obo/DOID_3008 #invasive ductal carcinoma
 http://purl.obolibrary.org/obo/DOID_3039
+http://purl.obolibrary.org/obo/DOID_305 #carcinoma
+http://purl.obolibrary.org/obo/DOID_3068 #glioblastoma multiforme
+http://purl.obolibrary.org/obo/DOID_3069 #astrocytoma
+http://purl.obolibrary.org/obo/DOID_3093 #nervous system cancer
 http://purl.obolibrary.org/obo/DOID_3098
+http://purl.obolibrary.org/obo/DOID_310 #MERRF syndrome
+http://purl.obolibrary.org/obo/DOID_3119 #gastrointestinal system cancer 
+http://purl.obolibrary.org/obo/DOID_3144 #cutis laxa
+http://purl.obolibrary.org/obo/DOID_3145 #hyperlipoproteinemia type III
+http://purl.obolibrary.org/obo/DOID_3151 #skin squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_3181 #oligodendroglioma
+http://purl.obolibrary.org/obo/DOID_3191 #nemaline myopathy
+http://purl.obolibrary.org/obo/DOID_3210 #Pelizaeus-Merzbacher disease
+http://purl.obolibrary.org/obo/DOID_3247 #rhabdomyosarcoma
+http://purl.obolibrary.org/obo/DOID_3263 #piebaldism
+http://purl.obolibrary.org/obo/DOID_3308 # embryonal carcinoma
+http://purl.obolibrary.org/obo/DOID_332
+http://purl.obolibrary.org/obo/DOID_3320 #Tay-Sachs disease
+http://purl.obolibrary.org/obo/DOID_3322 #gangliosidosis GM1
+http://purl.obolibrary.org/obo/DOID_3323 #Sandhoff disease
+http://purl.obolibrary.org/obo/DOID_3343 #mucolipidosis
+http://purl.obolibrary.org/obo/DOID_3347 #osteosarcoma
+http://purl.obolibrary.org/obo/DOID_3355 #fibrosarcoma
 http://purl.obolibrary.org/obo/DOID_3368
+http://purl.obolibrary.org/obo/DOID_3369 #Ewing sarcoma
+http://purl.obolibrary.org/obo/DOID_3371 #chondrosarcoma
 http://purl.obolibrary.org/obo/DOID_3382
+http://purl.obolibrary.org/obo/DOID_3405 #histiocytosis
+http://purl.obolibrary.org/obo/DOID_3413 #alpha-mannosidase deficiency
+http://purl.obolibrary.org/obo/DOID_345
+http://purl.obolibrary.org/obo/DOID_3458 #breast adenocarinoma
+http://purl.obolibrary.org/obo/DOID_3459 #breast carcinoma
 http://purl.obolibrary.org/obo/DOID_3516
+http://purl.obolibrary.org/obo/DOID_3529 #central Core Myopathy
+http://purl.obolibrary.org/obo/DOID_3534 #Lafora disease
+http://purl.obolibrary.org/obo/DOID_3571 #liver cancer
+http://purl.obolibrary.org/obo/DOID_3590 #Gestational trophoblastic neoplasm
+http://purl.obolibrary.org/obo/DOID_3594 #choriocarcinoma
 http://purl.obolibrary.org/obo/DOID_3603
-# http://purl.obolibrary.org/obo/DOID_3858 - not available
+http://purl.obolibrary.org/obo/DOID_3613 #Canavan disease
+http://purl.obolibrary.org/obo/DOID_363 #uterine cancer
+http://purl.obolibrary.org/obo/DOID_3650 #lactic acidosis
+http://purl.obolibrary.org/obo/DOID_3651 #pyruvate carboxylase deficiency disease
+http://purl.obolibrary.org/obo/DOID_3652 #Leigh disease
+http://purl.obolibrary.org/obo/DOID_3659 #sialuria
+http://purl.obolibrary.org/obo/DOID_3664 # mast cell neoplasm
+http://purl.obolibrary.org/obo/DOID_3702 #cervical adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_3713 #ovary adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_3717 #gastric adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_3721 #plasmacytoma
+http://purl.obolibrary.org/obo/DOID_3742 #bladder squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_3744 #cervical squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_3748 #esophagus squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_3764 #Denys-Drash syndrome
+http://purl.obolibrary.org/obo/DOID_3783 #Coffin-Lowry syndrome
+http://purl.obolibrary.org/obo/DOID_3803 #Crigler-Najjar syndrome
+http://purl.obolibrary.org/obo/DOID_3890 #acute intermittent porphyria
+http://purl.obolibrary.org/obo/DOID_3907 #lung squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_3908 #non-small cell lung carcinoma
+http://purl.obolibrary.org/obo/DOID_3910 #lung adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_3959 #adrenal cortical adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_3962 #follicular thyroid carcinoma
+http://purl.obolibrary.org/obo/DOID_3963 #thyroid carcinoma
 http://purl.obolibrary.org/obo/DOID_3969
+http://purl.obolibrary.org/obo/DOID_3981 #Hallervorden-Spatz syndrome
+http://purl.obolibrary.org/obo/DOID_4 #disease
+http://purl.obolibrary.org/obo/DOID_4001 #ovarian carcinoma
+http://purl.obolibrary.org/obo/DOID_4006 #urinary bladder urothelial carcinoma
+http://purl.obolibrary.org/obo/DOID_4007 #bladder carcinoma
+http://purl.obolibrary.org/obo/DOID_4074 #pancreas adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_4184 #pseudohypoparathyroidism
+http://purl.obolibrary.org/obo/DOID_4226 #endometrial stromal sarcoma
+http://purl.obolibrary.org/obo/DOID_4249 #Gerstmann-Straussler-Scheinker disease
+http://purl.obolibrary.org/obo/DOID_4252 #Alexander disease
+http://purl.obolibrary.org/obo/DOID_4346 #variegate porphyria
+http://purl.obolibrary.org/obo/DOID_437 #myasthenia gravis
+http://purl.obolibrary.org/obo/DOID_4423 #sea-blue histiocyte syndrome
 http://purl.obolibrary.org/obo/DOID_4430
+http://purl.obolibrary.org/obo/DOID_4450 #renal cell carcinoma
+http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma, kidney carcinoma
 http://purl.obolibrary.org/obo/DOID_4467
+http://purl.obolibrary.org/obo/DOID_4480 #achondroplasia
+http://purl.obolibrary.org/obo/DOID_4501 #orofaciodigital syndrome
+http://purl.obolibrary.org/obo/DOID_4515 #thyroid sarcoma 
+http://purl.obolibrary.org/obo/DOID_4556  #lung large cell carinoma
+http://purl.obolibrary.org/obo/DOID_4607 #biliary tract cancer
+http://purl.obolibrary.org/obo/DOID_4621 #holoprosencephaly
+http://purl.obolibrary.org/obo/DOID_4647 #trilateral retinoblastoma
+http://purl.obolibrary.org/obo/DOID_4680 #breast metaplastic carcinoma
+http://purl.obolibrary.org/obo/DOID_4795 #Tay-Sachs disease AB variant
+http://purl.obolibrary.org/obo/DOID_4890 #juvenile myoclonic epilepsy
+http://purl.obolibrary.org/obo/DOID_4897 #bile duct carcinoma
+http://purl.obolibrary.org/obo/DOID_4905 #pancreatic carcinoma
+http://purl.obolibrary.org/obo/DOID_4914 #esophagus adenocarcinoma
 http://purl.obolibrary.org/obo/DOID_4948
+http://purl.obolibrary.org/obo/DOID_4998 #Langer-Giedion syndrome
+http://purl.obolibrary.org/obo/DOID_5041 #esophageal cancer
+http://purl.obolibrary.org/obo/DOID_5076 #mixed glioma
 http://purl.obolibrary.org/obo/DOID_5165
+http://purl.obolibrary.org/obo/DOID_5176 #renal Wilms' tumor
+http://purl.obolibrary.org/obo/DOID_5204 #fructose-1,6-diphosphatase deficiency
+http://purl.obolibrary.org/obo/DOID_5212 #carbohydrate-deficient glycoprotein syndrome
+http://purl.obolibrary.org/obo/DOID_5230 #hepatoerythropoietic porphyria
 http://purl.obolibrary.org/obo/DOID_5263
+http://purl.obolibrary.org/obo/DOID_5303 #cervical clear cell adenocarcinoma
 http://purl.obolibrary.org/obo/DOID_5304
+http://purl.obolibrary.org/obo/DOID_5325 #Roberts-SC phocomelia syndrome
+http://purl.obolibrary.org/obo/DOID_5409 #lung small cell carcinoma
 http://purl.obolibrary.org/obo/DOID_5411
+http://purl.obolibrary.org/obo/DOID_5418 #schizoaffective disorder
 http://purl.obolibrary.org/obo/DOID_5485
+http://purl.obolibrary.org/obo/DOID_5517 #stomach carcinoma, gastric carcinoma
+http://purl.obolibrary.org/obo/DOID_5557 #testicular germ cell cancer
 http://purl.obolibrary.org/obo/DOID_5568
+http://purl.obolibrary.org/obo/DOID_5572 #Beckwith-Wiedemann syndrome
+http://purl.obolibrary.org/obo/DOID_5583 #lung giant cell carcinoma
+http://purl.obolibrary.org/obo/DOID_5603 #acute T cell leukemia
 http://purl.obolibrary.org/obo/DOID_5604
+http://purl.obolibrary.org/obo/DOID_5635 # gastric adenosquamous carcinoma
+http://purl.obolibrary.org/obo/DOID_5675 #ductal carcinoma
+http://purl.obolibrary.org/obo/DOID_5688 #Werner syndrome
 http://purl.obolibrary.org/obo/DOID_5718
+http://purl.obolibrary.org/obo/DOID_5723 #optic atrophy
+http://purl.obolibrary.org/obo/DOID_5744 # ovary serous adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_5810 #adenosine deaminase deficiency
+http://purl.obolibrary.org/obo/DOID_5823 #pediatric lymphoma
+http://purl.obolibrary.org/obo/DOID_5974 #renal pelvis transitional cell carcinoma
+http://purl.obolibrary.org/obo/DOID_6419 #tetralogy of Fallot
+http://purl.obolibrary.org/obo/DOID_6457 #Lhermitte-Duclos disease
 http://purl.obolibrary.org/obo/DOID_6595
+http://purl.obolibrary.org/obo/DOID_674 #cleft palate
+http://purl.obolibrary.org/obo/DOID_684 #hepatocellular carcinoma
+http://purl.obolibrary.org/obo/DOID_699 #mitochondrial myopathy
+http://purl.obolibrary.org/obo/DOID_701 #dentin dysplasia
+http://purl.obolibrary.org/obo/DOID_705 #leber hereditary optic atrophy
+http://purl.obolibrary.org/obo/DOID_707 #B-cell lymphoma, B-cell lymphocytic neoplasm
+http://purl.obolibrary.org/obo/DOID_7400 #Seemanova syndrome II
+http://purl.obolibrary.org/obo/DOID_768 #retinoblastoma
+http://purl.obolibrary.org/obo/DOID_7757 # childhood leukemia
 http://purl.obolibrary.org/obo/DOID_8025
 http://purl.obolibrary.org/obo/DOID_8411
 http://purl.obolibrary.org/obo/DOID_8552
-http://purl.obolibrary.org/obo/DOID_8584
-http://purl.obolibrary.org/obo/DOID_8649 #tongue cancer
-
-http://purl.obolibrary.org/obo/DOID_10354 #breast fibrocystic disease, with MCF 10A
-http://purl.obolibrary.org/obo/DOID_0060082 #breast benigh neoplasm
-http://purl.obolibrary.org/obo/DOID_0060072 #benign neoplasm
-
-http://purl.obolibrary.org/obo/DOID_0060087 #male reproductive organ benign neoplasm, with BPH-1
-http://purl.obolibrary.org/obo/DOID_0050622 #reproductive organ benign neoplasm
-http://purl.obolibrary.org/obo/DOID_0060085 #organ system benign neoplasm
-
-# http://purl.obolibrary.org/obo/DOID_3116 #kidney benign neoplasm
-
-http://purl.obolibrary.org/obo/DOID_3308 # embryonal carcinoma
-
-#for IEDB
-http://purl.obolibrary.org/obo/DOID_3008 # invasive ductal carcinoma
-http://purl.obolibrary.org/obo/DOID_7757 # childhood leukemia
-http://purl.obolibrary.org/obo/DOID_3008 # invasive ductal carcinoma
-http://purl.obolibrary.org/obo/DOID_3664 # mast cell neoplasm
-http://purl.obolibrary.org/obo/DOID_9538 # multiple myeloma
-http://purl.obolibrary.org/obo/DOID_5744 # ovary serous adenocarcinoma
-
-http://purl.obolibrary.org/obo/DOID_0050861 #colorectal adenocarcinoma
-
-http://purl.obolibrary.org/obo/DOID_1749 #squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_856 #biotinidase deficiency
 http://purl.obolibrary.org/obo/DOID_8567 #Hodgkin's lymphoma
+http://purl.obolibrary.org/obo/DOID_8584
+http://purl.obolibrary.org/obo/DOID_859 #holocarboxylase synthetase deficiency
+http://purl.obolibrary.org/obo/DOID_8602 #gum cancer
+http://purl.obolibrary.org/obo/DOID_8618 #oral cavity cancer
+http://purl.obolibrary.org/obo/DOID_8649 #tongue cancer
+http://purl.obolibrary.org/obo/DOID_8864 #acute monocytic leukemia
+http://purl.obolibrary.org/obo/DOID_893 #hepatolenticular degeneration
+http://purl.obolibrary.org/obo/DOID_8955 #sideroblastic anemia
+http://purl.obolibrary.org/obo/DOID_905 #Zellweger syndrome
+http://purl.obolibrary.org/obo/DOID_9119 #acute myeloid leukemia
+http://purl.obolibrary.org/obo/DOID_9169 #Wiskott-Aldrich syndrome
+http://purl.obolibrary.org/obo/DOID_9173 #submandibular gland cancer
+http://purl.obolibrary.org/obo/DOID_9245 #Alagille syndrome
+http://purl.obolibrary.org/obo/DOID_9263 #homocystinuria
+http://purl.obolibrary.org/obo/DOID_9266 #cystinuria
+http://purl.obolibrary.org/obo/DOID_9269 #maple syrup urine disease
+http://purl.obolibrary.org/obo/DOID_9270 #alkaptonuria
+http://purl.obolibrary.org/obo/DOID_9271 #ornithine carbamoyltransferase deficiency
+http://purl.obolibrary.org/obo/DOID_9273 #citrullinemia
+http://purl.obolibrary.org/obo/DOID_9274 #hyperlysinemia
+http://purl.obolibrary.org/obo/DOID_9275 #tyrosinemia
+http://purl.obolibrary.org/obo/DOID_9278 #hyperargininemia
+http://purl.obolibrary.org/obo/DOID_9280 #carbamoyl-phosphate synthase I deficiency disease
+http://purl.obolibrary.org/obo/DOID_9296 #cleft lip
+http://purl.obolibrary.org/obo/DOID_9538 # multiple myeloma
+http://purl.obolibrary.org/obo/DOID_9821 #choroideremia
+http://purl.obolibrary.org/obo/DOID_9870 #galactosemia
+http://purl.obolibrary.org/obo/DOID_9952 #acute lymphocytic leukemia
+http://purl.obolibrary.org/obo/DOID_9955 #hypoplastic left heart syndrome
 
-http://purl.obolibrary.org/obo/DOID_0060108
-http://purl.obolibrary.org/obo/DOID_1485
-http://purl.obolibrary.org/obo/DOID_332
+# ID updates
+http://purl.obolibrary.org/obo/DOID_0070111 #Niemann-Pick disease type A
+#http://purl.obolibrary.org/obo/DOID_0050442 #Niemann-Pick disease type A
+http://purl.obolibrary.org/obo/DOID_0070112 #Niemann-Pick disease type B
+#http://purl.obolibrary.org/obo/DOID_0050443 #Niemann-Pick disease type B
+http://purl.obolibrary.org/obo/DOID_0050563 #nonsyndromic deafness
+#http://purl.obolibrary.org/obo/DOID_10005 #deafness
+http://purl.obolibrary.org/obo/DOID_9255 #frontotemporal dementia
+#http://purl.obolibrary.org/obo/DOID_10216 #frontotemporal dementia
+http://purl.obolibrary.org/obo/DOID_0060889 #Prune Belly syndrome
+#http://purl.obolibrary.org/obo/DOID_11185 #Prune Belly syndrome
+http://purl.obolibrary.org/obo/DOID_0111148 #isolated ectopia lentis
+#http://purl.obolibrary.org/obo/DOID_11363 #Ectopia Lentis
+http://purl.obolibrary.org/obo/DOID_0060730 #torsion dystonia 1
+#http://purl.obolibrary.org/obo/DOID_11910 #dystonia musculorum deformans
+http://purl.obolibrary.org/obo/DOID_0060688 #arteriovenous malformations of the brain
+#http://purl.obolibrary.org/obo/DOID_12429 #Arteriovenous Malformations, Cerebral
+http://purl.obolibrary.org/obo/DOID_0060847 #Leri-Weill dyschondrosteosis
+#http://purl.obolibrary.org/obo/DOID_12681 #Carpus curvus (wrong mapping to disease 'DYSCHONDROSTEOSIS')
+http://purl.obolibrary.org/obo/DOID_9281 #phenylketonuria
+#http://purl.obolibrary.org/obo/DOID_14455 #maternal phenylketonuria
+http://purl.obolibrary.org/obo/DOID_0110731 #neuronal ceroid lipofuscinosis 3
+#http://purl.obolibrary.org/obo/DOID_14678 #AMAUROTIC FAMILY IDIOCY, JUVENILE type (wrong mapping to disease 'CEROID LIPOFUSCINOSIS, NEURONAL 3, JUVENILE; CLN3')
+http://purl.obolibrary.org/obo/DOID_0112038 #non-syndromic X-linked intellectual disability 1
+#http://purl.obolibrary.org/obo/DOID_14697 #X-linked mental retardation 1
+http://purl.obolibrary.org/obo/DOID_0110334 #osteogenesis imperfecta type 1
+#http://purl.obolibrary.org/obo/DOID_14708 #osteogenesis imperfecta type I
+http://purl.obolibrary.org/obo/DOID_0080041 #hypochondroplasia
+#http://purl.obolibrary.org/obo/DOID_14714 #HYPOCHONDROPLASIA
+http://purl.obolibrary.org/obo/DOID_0060782 #EEC syndrome
+#http://purl.obolibrary.org/obo/DOID_14719 #EEC SYNDROME
+http://purl.obolibrary.org/obo/DOID_0111254 #glutaric acidemia I
+#http://purl.obolibrary.org/obo/DOID_14722 #GLUTARICACIDEMIA I
+http://purl.obolibrary.org/obo/DOID_0111394 #mucopolysaccharidosis type IIIB
+#http://purl.obolibrary.org/obo/DOID_14729 #mucopolysaccharidosis type IIIB
+http://purl.obolibrary.org/obo/DOID_0112365 #spondylocostal dysostosis 1
+#http://purl.obolibrary.org/obo/DOID_14751 #VERTEBRAL ANOMALIES (updated mapping based on OMIM:277300)
+http://purl.obolibrary.org/obo/DOID_14213 #hypophosphatasia
+#http://purl.obolibrary.org/obo/DOID_14763 #hypophospatasia, childhood
+http://purl.obolibrary.org/obo/DOID_0070113 #Niemann-Pick disease type C1
+#http://purl.obolibrary.org/obo/DOID_14770 #Niemann-Pick disease type C
+http://purl.obolibrary.org/obo/DOID_0080153 #medium chain acyl-CoA dehydrogenase deficiency
+#http://purl.obolibrary.org/obo/DOID_14781 #ACYL-CoA DEHYDROGENASE, MEDIUM-CHAIN, deficiency OF
+http://purl.obolibrary.org/obo/DOID_0060743 #methylmalonic acidemia cblB type
+#http://purl.obolibrary.org/obo/DOID_14782 #methylmalonic aciduria cblB type
+http://purl.obolibrary.org/obo/DOID_10908 #hydrocephalus
+#http://purl.obolibrary.org/obo/DOID_14792 #HYDROCEPHALUS, AGYRIA, AND RETINAL DYSPLASIA
+http://purl.obolibrary.org/obo/DOID_10588 #adrenoleukodystrophy
+#http://purl.obolibrary.org/obo/DOID_14795 #ADRENOLEUKODYSTROPHY, AUTOSOMAL NEONATAL FORM
+http://purl.obolibrary.org/obo/DOID_0080155 #very long chain acyl-CoA dehydrogenase deficiency
+#http://purl.obolibrary.org/obo/DOID_14797 #ACYL-CoA DEHYDROGENASE, long-CHAIN, deficiency OF
+http://purl.obolibrary.org/obo/DOID_0080047 #pseudoachondroplasia
+#http://purl.obolibrary.org/obo/DOID_14800 #pseudoachondroplastic dysplasia
+http://purl.obolibrary.org/obo/DOID_0080614 #oculocutaneous albinism type VI
+#http://purl.obolibrary.org/obo/DOID_14801 #ALBINISM I
+http://purl.obolibrary.org/obo/DOID_0060740 #methylmalonic aciduria due to methylmalonyl-CoA mutase deficiency
+#http://purl.obolibrary.org/obo/DOID_14802 #methylmalonic aciduria mut type
+http://purl.obolibrary.org/obo/DOID_14365 #systemic primary carnitine deficiency disease
+#http://purl.obolibrary.org/obo/DOID_1668 #carnitine uptake defect
+http://purl.obolibrary.org/obo/DOID_2571 #Langerhans-cell histiocytosis
+#http://purl.obolibrary.org/obo/DOID_2554 #Letterer-Siwe disease
+http://purl.obolibrary.org/obo/DOID_0050644 #arterial calcification of infancy
+#http://purl.obolibrary.org/obo/DOID_2869 #arteriopathy
+http://purl.obolibrary.org/obo/DOID_0111418 #familial apolipoprotein C-II deficiency
+#http://purl.obolibrary.org/obo/DOID_3147 #hyperlipoproteinemia
+http://purl.obolibrary.org/obo/DOID_1612 #breast cancer
+#http://purl.obolibrary.org/obo/DOID_4241 #malignant neoplasm of breast
+http://purl.obolibrary.org/obo/DOID_14692 #Smith-Lemli-Opitz syndrome
+#http://purl.obolibrary.org/obo/DOID_4366 #Smith-Lemli-Opitz syndrome
+http://purl.obolibrary.org/obo/DOID_0050651 #atrioventricular septal defect
+#http://purl.obolibrary.org/obo/DOID_4519 #Endocardial Cushion Defects
+http://purl.obolibrary.org/obo/DOID_0090005 #Schwartz-Jampel syndrome 1
+#http://purl.obolibrary.org/obo/DOID_5617 #Schwartz-Jampel syndrome
 
+
+http://purl.obolibrary.org/obo/DOID_0050657 #Cowden syndrome 1
+#http://purl.obolibrary.org/obo/DOID_5682 #Macrocephaly with Multiple Lipomas and hemangiomas
+http://purl.obolibrary.org/obo/DOID_0060013 #X-linked severe combined immunodeficiency
+#http://purl.obolibrary.org/obo/DOID_5811 #thymic epithelial hypoplasia
+http://purl.obolibrary.org/obo/DOID_0050120 #hemophagocytic lymphohistiocytosis
+#http://purl.obolibrary.org/obo/DOID_6453 #hemophagocytic lymphohistiocytosis
+http://purl.obolibrary.org/obo/DOID_0080910 #cerebrooculofacioskeletal syndrome
+#http://purl.obolibrary.org/obo/DOID_6685 #COFS syndrome
+http://purl.obolibrary.org/obo/DOID_0050561 #Lennox-Gastaut syndrome
+#http://purl.obolibrary.org/obo/DOID_8510 #encephalopathy
+http://purl.obolibrary.org/obo/DOID_0111253 #neurofibromatosis 1
+#http://purl.obolibrary.org/obo/DOID_8711 #neurofibromatosis type 1
+http://purl.obolibrary.org/obo/DOID_0111252 #vestibular schwannomatosis (mapping based on OMIM:101000 that associated with cell lines)
+#http://purl.obolibrary.org/obo/DOID_9137 #neurofibromatosis type 2
+http://purl.obolibrary.org/obo/DOID_14761 #Greig cephalopolysyndactyly syndrome
+#http://purl.obolibrary.org/obo/DOID_9251 #Greig cephalopolysyndactyly syndrome
+http://purl.obolibrary.org/obo/DOID_0070338 #cerebellar hypoplasia
+#http://purl.obolibrary.org/obo/DOID_9262 #Congenital cerebellar hypoplasia
+
+http://purl.obolibrary.org/obo/DOID_0050811 #congenital adrenal hyperplasia
+#http://purl.obolibrary.org/obo/DOID_4967 #adrenal hyperplasia
+http://purl.obolibrary.org/obo/DOID_898 #autosomal dominant polycystic kidney disease
+#http://purl.obolibrary.org/obo/DOID_5937 #autosomal dominant polycystic kidney
+http://purl.obolibrary.org/obo/DOID_0110861 #autosomal recessive polycystic kidney disease
+#http://purl.obolibrary.org/obo/DOID_5928 #autosomal recessive polycystic kidney
+http://purl.obolibrary.org/obo/DOID_0050811 #congenital adrenal hyperplasia
+#http://purl.obolibrary.org/obo/DOID_12255 #congenital adrenal hyperplasia
+http://purl.obolibrary.org/obo/DOID_0060655 #autosomal recessive congenital ichthyosis
+#http://purl.obolibrary.org/obo/DOID_1699 #congenital ichthyosiform erythroderma
+http://purl.obolibrary.org/obo/DOID_0090105 #autosomal recessive hypercholesterolemia
+#http://purl.obolibrary.org/obo/DOID_2487 #hypercholesterolemia
+http://purl.obolibrary.org/obo/DOID_0060901 #lymphoplasmacytic lymphoma
+#http://purl.obolibrary.org/obo/DOID_0050747 #lymphoplasmacytic lymphoma
+http://purl.obolibrary.org/obo/DOID_0110092 #short-rib thoracic dysplasia 6 with or without polydactyly
+#http://purl.obolibrary.org/obo/DOID_2255 #short rib-polydactyly syndrome
+http://purl.obolibrary.org/obo/DOID_5603 #T-cell acute lymphoblastic leukemia
+#http://purl.obolibrary.org/obo/DOID_715 #T cell leukemia
+http://purl.obolibrary.org/obo/DOID_0090028 #familial isolated deficiency of vitamin E
+#http://purl.obolibrary.org/obo/DOID_4026 #vitamin E deficiency
+http://purl.obolibrary.org/obo/DOID_285 #hairy cell leukemia
+#http://purl.obolibrary.org/obo/DOID_8675 #ymphosarcoma
+http://purl.obolibrary.org/obo/DOID_2154 #nephroblastoma
+#http://www.ebi.ac.uk/efo/EFO_0000212 #nephroblastoma
+http://purl.obolibrary.org/obo/DOID_10652 #Alzheimer's disease
+#http://www.ebi.ac.uk/efo/EFO_0000249 #Alzheimer's disease
+http://purl.obolibrary.org/obo/DOID_332 #amyotrophic lateral sclerosis
+#http://www.ebi.ac.uk/efo/EFO_0000253 #amyotrophic lateral sclerosis
+http://purl.obolibrary.org/obo/DOID_14227 #azoospermia
+#http://www.ebi.ac.uk/efo/EFO_0000279 #azoospermia
+http://purl.obolibrary.org/obo/DOID_3459 #breast carcinoma
+#http://www.ebi.ac.uk/efo/EFO_0000305 #breast carcinoma
+http://purl.obolibrary.org/obo/DOID_8584 #Burkitt lymphoma
+#http://www.ebi.ac.uk/efo/EFO_0000309 #Burkitt's lymphoma
+http://purl.obolibrary.org/obo/DOID_11724 #limb-girdle muscular dystrophy
+#http://www.ebi.ac.uk/efo/EFO_0000310 #limb-girdle muscular dystrophy
+http://purl.obolibrary.org/obo/DOID_2962 #Cockayne syndrome
+#http://www.ebi.ac.uk/efo/EFO_0000359 #Cockayne syndrome
+http://purl.obolibrary.org/obo/DOID_12177 #common variable immunodeficiency
+#http://www.ebi.ac.uk/efo/EFO_0000367 #common variable immunodeficiency
+http://purl.obolibrary.org/obo/DOID_8923 #skin melanoma
+#http://www.ebi.ac.uk/efo/EFO_0000389 #skin melanoma
+http://purl.obolibrary.org/obo/DOID_1485 #cystic fibrosis
+#http://www.ebi.ac.uk/efo/EFO_0000390 #cystic fibrosis
+http://purl.obolibrary.org/obo/DOID_9351 #diabetes mellitus
+#http://www.ebi.ac.uk/efo/EFO_0000400 #diabetes mellitus
+http://purl.obolibrary.org/obo/DOID_11723 #Duchenne muscular dystrophy
+#http://www.ebi.ac.uk/efo/EFO_0000429 #Duchenne muscular dystrophy
+http://purl.obolibrary.org/obo/DOID_11726 #Emery-Dreifuss muscular dystrophy
+#http://www.ebi.ac.uk/efo/EFO_0000463 #Emery-Dreifuss muscular dystrophy
+http://purl.obolibrary.org/obo/DOID_11727 #facioscapulohumeral muscular dystrophy
+#http://www.ebi.ac.uk/efo/EFO_0000491 #facioscapulohumeral muscular dystrophy
+http://purl.obolibrary.org/obo/DOID_13809 #familial combined hyperlipidemia
+#http://www.ebi.ac.uk/efo/EFO_0000492 #familial combined hyperlipidemia
+http://purl.obolibrary.org/obo/DOID_12858 #Huntington's disease
+#http://www.ebi.ac.uk/efo/EFO_0000533 #Huntington's disease
+http://purl.obolibrary.org/obo/DOID_769 #neuroblastoma
+#http://www.ebi.ac.uk/efo/EFO_0000621 #neuroblastoma
+http://purl.obolibrary.org/obo/DOID_3347 #osteosarcoma
+#http://www.ebi.ac.uk/efo/EFO_0000637 #osteosarcoma
+http://purl.obolibrary.org/obo/DOID_3911 #progeria
+#http://www.ebi.ac.uk/efo/EFO_0000671 #progeria
+http://purl.obolibrary.org/obo/DOID_10526 #conjunctival pterygium
+#http://www.ebi.ac.uk/efo/EFO_0000678 #conjunctival pterygium
+http://purl.obolibrary.org/obo/DOID_10923 #sickle cell anemia
+#http://www.ebi.ac.uk/efo/EFO_0000697 #sickle cell anemia
+http://purl.obolibrary.org/obo/DOID_8577 #ulcerative colitis
+#http://www.ebi.ac.uk/efo/EFO_0000729 #ulcerative colitis
+http://purl.obolibrary.org/obo/DOID_14250 #Down syndrome
+#http://www.ebi.ac.uk/efo/EFO_0001064 #Down's syndrome
+http://purl.obolibrary.org/obo/DOID_9970 #obesity
+#http://www.ebi.ac.uk/efo/EFO_0001073 #obesity
+http://purl.obolibrary.org/obo/DOID_1206 #Rett syndrome
+#http://www.ebi.ac.uk/efo/EFO_0001079 #Rett syndrome
+http://purl.obolibrary.org/obo/DOID_9744 #type 1 diabetes mellitus
+#http://www.ebi.ac.uk/efo/EFO_0001359 #insulin-dependent diabetes mellitus
+http://purl.obolibrary.org/obo/DOID_9538 #multiple myeloma
+#http://www.ebi.ac.uk/efo/EFO_0001378 #multiple myeloma
+http://purl.obolibrary.org/obo/DOID_14330 #Parkinson's disease
+#http://www.ebi.ac.uk/efo/EFO_0002508 #Parkinson's disease
+http://purl.obolibrary.org/obo/DOID_678 #progressive supranuclear palsy
+#http://www.ebi.ac.uk/efo/EFO_0002512 #progressive supranuclear palsy
+http://purl.obolibrary.org/obo/DOID_9080 #macroglobulinemia
+#http://www.ebi.ac.uk/efo/EFO_0002616 #macroglobulinemia
+http://purl.obolibrary.org/obo/DOID_1441 #autosomal dominant cerebellar ataxia
+#http://www.ebi.ac.uk/efo/EFO_0002624 #spinocerebellar ataxia
+http://purl.obolibrary.org/obo/DOID_423 #myopathy
+#http://www.ebi.ac.uk/efo/EFO_0002970 #myopathy
+http://purl.obolibrary.org/obo/DOID_6713 #cerebrovascular disease
+#http://www.ebi.ac.uk/efo/EFO_0000712 #cerebrovascular accident
+
+##################
+# http://purl.obolibrary.org/obo/MONDO_0009253 #Fryns syndrome, will import manually
+# http://purl.obolibrary.org/obo/DOID_14787 #obsolete Fryns syndrome
+#Submit NTR
+#Angelman syndrome and Fryns syndrome differ in their genetic causes, inheritance patterns, and hallmark symptoms. While both affect #development, Angelman syndrome leads to neurological and behavioral symptoms, whereas Fryns syndrome presents with severe physical congenital #anomalies.
+#http://purl.obolibrary.org/obo/MONDO_0006316 #neuroblastic tumor
+#http://purl.obolibrary.org/obo/DOID_2622 #neuroblastic tumor (parent of 'neuroblastic tumor')
+# - currently replace with http://purl.obolibrary.org/obo/DOID_769 neuroblastoma, it seems more accurate for most cell line cells than neuroblastic tumor
+#Submit NTR?
+##################
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/DOID_4 #disease
 subClassOf http://purl.obolibrary.org/obo/BFO_0000016 #disposition
 
-
-#http://purl.obolibrary.org/obo/DOID_4905 #pancreatic carcinoma
-#subClassOf http://purl.obolibrary.org/obo/DOID_3588 #pancreative neoplasm, which is already in CLO but unavailable any more.
-
-http://purl.obolibrary.org/obo/DOID_5076 #mixed glioma
-subClassOf http://purl.obolibrary.org/obo/DOID_3070 #malignant glioma
-
+#http://purl.obolibrary.org/obo/DOID_5076 #mixed glioma
+#subClassOf http://purl.obolibrary.org/obo/DOID_3070 #malignant glioma
 
 [Source term retrieval setting]
 includeComputedIntermediates
-
 
 [Source annotation URIs]
 includeAllAnnotationProperties
