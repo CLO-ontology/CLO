@@ -166,7 +166,6 @@ http://purl.obolibrary.org/obo/UBERON_0001042 #pharynx
 http://purl.obolibrary.org/obo/UBERON_0001987 #placenta
 http://purl.obolibrary.org/obo/UBERON_0000977 #pleura
 http://purl.obolibrary.org/obo/UBERON_0002239 #floating rib
-http://purl.obolibrary.org/obo/UBERON_0000470 #cell part
 http://purl.obolibrary.org/obo/UBERON_0004198 #comma-shaped body
 http://purl.obolibrary.org/obo/UBERON_0000379 #tracheal mucosa
 http://purl.obolibrary.org/obo/UBERON_0002367 #prostate gland

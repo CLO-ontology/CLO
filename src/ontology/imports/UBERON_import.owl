@@ -274,12 +274,6 @@
     
 
 
-    <!-- http://www.geneontology.org/formats/oboInOwl#consider -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#consider"/>
-    
-
-
     <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
@@ -3009,34 +3003,6 @@
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#upper_level"/>
         <rdfs:label>multicellular organism</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000470 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000470">
-        <obo:IAO_0000115>Anatomical structure that is a direct part of the cell.</obo:IAO_0000115>
-        <obo:IAO_0000116>TODO - move metadata to GO and obsolete this class once homes have been found for existing children. Note the inconsistency between the usage of the label &apos;cell component&apos; in GO and CARO</obo:IAO_0000116>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <oboInOwl:consider rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/AAO_0010271"/>
-        <oboInOwl:consider rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/BILA_0000014"/>
-        <oboInOwl:consider rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/CARO_0000014"/>
-        <oboInOwl:consider rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/FBbt_00007012"/>
-        <oboInOwl:consider rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/FMA_86454"/>
-        <oboInOwl:consider rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/GO_0044464"/>
-        <oboInOwl:consider rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/HAO_0000014"/>
-        <oboInOwl:consider rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C34070"/>
-        <oboInOwl:consider rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NIF_Subcellular_sao-1337158144"/>
-        <oboInOwl:consider rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/OpenCyc_Mx4rwQwkcZwpEbGdrcN5Y29ycA"/>
-        <oboInOwl:consider rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/TGMA_0001834"/>
-        <oboInOwl:consider rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/UMLS_C1178969"/>
-        <oboInOwl:hasRelatedSynonym>cell component</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id>UBERON:0000470</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#upper_level"/>
-        <rdfs:label>obsolete cell part</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/obophenotype/uberon/issues/489</rdfs:seeAlso>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
