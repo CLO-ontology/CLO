@@ -106,6 +106,14 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0009253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0009253">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_225"/>
+        <rdfs:label>Fryns syndrome</rdfs:label>
+        <obo:IAO_0000115>Fryns syndrome (FS) is a multiple congenital anomaly syndrome characterized by dysmorphic facial features, congenital diaphragmatic hernia, pulmonary hypoplasia, and distal limb hypoplasia, in addition to variable expression of additional malformations.</obo:IAO_0000115>
+    </owl:Class>
     
 </rdf:RDF>
 

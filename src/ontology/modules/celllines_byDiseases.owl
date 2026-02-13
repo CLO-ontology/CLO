@@ -184224,7 +184224,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_14787"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0009253"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
@@ -357146,9 +357146,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_14787 -->
+    <!-- http://purl.obolibrary.org/obo/MONDO_0009253 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_14787"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0009253"/>
     
 
 

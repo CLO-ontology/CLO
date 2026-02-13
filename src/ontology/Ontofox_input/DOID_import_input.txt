@@ -145,7 +145,6 @@ http://purl.obolibrary.org/obo/DOID_14757 #type III Ehlers-Danlos syndrome
 http://purl.obolibrary.org/obo/DOID_14766 #hereditary urogenital adysplasia
 http://purl.obolibrary.org/obo/DOID_14773 #cartilage-hair hypoplasia
 http://purl.obolibrary.org/obo/DOID_14775 #type VI Ehlers-Danlos syndrome
-http://purl.obolibrary.org/obo/DOID_14787 #FRYNS SYNDROME
 http://purl.obolibrary.org/obo/DOID_14793 #hypohidrotic ectodermal dysplasia
 http://purl.obolibrary.org/obo/DOID_14796 #Dubowitz Syndrome
 http://purl.obolibrary.org/obo/DOID_1485
@@ -578,12 +577,12 @@ http://purl.obolibrary.org/obo/DOID_6713 #cerebrovascular disease
 ##################
 # http://purl.obolibrary.org/obo/MONDO_0009253 #Fryns syndrome, will import manually
 # http://purl.obolibrary.org/obo/DOID_14787 #obsolete Fryns syndrome
-#Submit NTR
-#Angelman syndrome and Fryns syndrome differ in their genetic causes, inheritance patterns, and hallmark symptoms. While both affect #development, Angelman syndrome leads to neurological and behavioral symptoms, whereas Fryns syndrome presents with severe physical congenital #anomalies.
-#http://purl.obolibrary.org/obo/MONDO_0006316 #neuroblastic tumor
-#http://purl.obolibrary.org/obo/DOID_2622 #neuroblastic tumor (parent of 'neuroblastic tumor')
+# disease associated with GM10879 cell (CLO_0024119), with OMIM: 229850, mapped to MONDO_0009253, manually imported under DOID_225
+# Submit NTR?
+# http://purl.obolibrary.org/obo/MONDO_0006316 #neuroblastic tumor
+# http://purl.obolibrary.org/obo/DOID_2622 #neuroblastic tumor (parent of 'neuroblastic tumor')
 # - currently replace with http://purl.obolibrary.org/obo/DOID_769 neuroblastoma, it seems more accurate for most cell line cells than neuroblastic tumor
-#Submit NTR?
+# Submit NTR?
 ##################
 
 [Top level source term URIs and target direct superclass URIs]

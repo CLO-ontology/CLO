@@ -7162,19 +7162,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_14787 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_14787">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>DOID:14787</oboInOwl:id>
-        <rdfs:comment xml:lang="en">OMIM mapping confirmed by DO. [SN].</rdfs:comment>
-        <rdfs:label xml:lang="en">obsolete Fryns syndrome</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_14793 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_14793">
