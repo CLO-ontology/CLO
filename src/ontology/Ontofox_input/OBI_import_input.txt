@@ -1,0 +1,39 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/clo/OBI_import.owl
+
+[Source ontology]
+OBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OBI_0000245 #organization
+http://purl.obolibrary.org/obo/OBI_0100060 #cell culture
+http://purl.obolibrary.org/obo/OBI_0000295 #is_specified_input_of
+http://purl.obolibrary.org/obo/OBI_0000293 #has_specified_input
+http://purl.obolibrary.org/obo/OBI_0000293 #has_specified_input
+http://purl.obolibrary.org/obo/OBI_0000299 #has_specified_output
+http://purl.obolibrary.org/obo/OBI_0000867 #establishing a cancer cell line
+http://purl.obolibrary.org/obo/OBI_0000877 #cell line immortanlization
+http://purl.obolibrary.org/obo/OBI_0001869 #immortal cell line culture
+http://purl.obolibrary.org/obo/OBI_0600024 #maintaining cell culture
+http://purl.obolibrary.org/obo/OBI_0000643 #has grain
+http://purl.obolibrary.org/obo/OBI_0000094
+http://purl.obolibrary.org/obo/OBI_0100026
+http://purl.obolibrary.org/obo/OBI_9991118 #IEDB alternative term
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/COB_0000035 #planned process
+
+http://purl.obolibrary.org/obo/OBI_0000245 #organization
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+
+http://purl.obolibrary.org/obo/COB_0000026 #processed material entity
+
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Branch extractions from source term URIs and target direct superclass URIs]
+
+
+[Source annotation URIs]
+includeAllAxiomsRecursively

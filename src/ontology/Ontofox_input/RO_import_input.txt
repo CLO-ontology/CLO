@@ -1,0 +1,40 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/clo/RO_import.owl
+
+[Source ontology]
+RO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/BFO_0000062 #preceded by
+http://purl.obolibrary.org/obo/BFO_0000063 #precedes
+http://purl.obolibrary.org/obo/RO_0002091 #starts during
+http://purl.obolibrary.org/obo/RO_0002092 #happens during
+http://purl.obolibrary.org/obo/RO_0002093 #ends during
+http://purl.obolibrary.org/obo/RO_0002222 #temporally related to
+http://purl.obolibrary.org/obo/RO_0002086 #ends after
+http://purl.obolibrary.org/obo/RO_0002488
+http://purl.obolibrary.org/obo/RO_0002222
+http://purl.obolibrary.org/obo/RO_0002171
+http://purl.obolibrary.org/obo/RO_0002422
+http://purl.obolibrary.org/obo/RO_0002575
+http://purl.obolibrary.org/obo/RO_0002604
+http://purl.obolibrary.org/obo/RO_0004036
+http://purl.obolibrary.org/obo/RO_0004049
+http://purl.obolibrary.org/obo/RO_0004050
+http://purl.obolibrary.org/obo/RO_0040042
+http://purl.obolibrary.org/obo/RO_0002161
+http://purl.obolibrary.org/obo/RO_0002174
+http://purl.obolibrary.org/obo/RO_0002175
+http://purl.obolibrary.org/obo/RO_0002489 #existence starts with
+
+[Top level source term URIs and target direct superclass URIs]
+http://www.w3.org/2002/07/owl#topObjectProperty
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+# This file has not been implemented since the relations are there probably from another ontology like IAO.
+# implemented by Asiyah Yu Lin on 7/25/2017

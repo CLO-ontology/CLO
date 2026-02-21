@@ -1,0 +1,34 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/clo/CARO_import.owl
+
+[Source ontology]
+CARO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CARO_0000000 
+http://purl.obolibrary.org/obo/CARO_0000003
+http://purl.obolibrary.org/obo/CARO_0000006
+http://purl.obolibrary.org/obo/CARO_0001001
+http://purl.obolibrary.org/obo/CARO_0001010
+http://purl.obolibrary.org/obo/CARO_0010000
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CARO_0000000 #anatomical entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Branch extractions from source term URIs and target direct superclass URIs]
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+
+
+#http://purl.obolibrary.org/obo/PATO_0000001 #quality
+#http://purl.obolibrary.org/obo/NCBITaxon_1 #root
+#http://purl.obolibrary.org/obo/NCBITaxon_131567 #cellular organisms
+
+
