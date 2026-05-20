@@ -33,27 +33,15 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
+    <!-- http://purl.obolibrary.org/obo/RO_0002161 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002161"/>
     
 
 
@@ -78,12 +66,6 @@
     <!-- http://purl.org/dc/terms/description -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#consider -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#consider"/>
     
 
 
@@ -273,6 +255,7 @@ Despite their genetic stability, primary cultured cells have a finite lifespan a
     <!-- http://purl.obolibrary.org/obo/CL_0000031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000255"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
         <obo:IAO_0000115>A cell that will develop into a neuron often after a migration phase.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -292,7 +275,6 @@ Despite their genetic stability, primary cultured cells have a finite lifespan a
     <!-- http://purl.obolibrary.org/obo/CL_0000034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000034">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000255"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011115"/>
         <obo:IAO_0000115>A relatively undifferentiated cell that retains the ability to divide and proliferate throughout life to provide progenitor cells that can differentiate into specialized cells.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -305,13 +287,12 @@ Stem cells have numerous potential applications in medicine, including the treat
         <oboInOwl:hasDbXref>CALOHA:TS-2086</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:63368</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ZFA:0005957</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>animal stem cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>animal stem cell</oboInOwl:hasNarrowSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#human_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
-        <rdfs:comment>This term applies to metazoan. For plant stem cells, consider using PO:0004011 ‘initial cell’ or its parent PO:0004010 ‘meristematic cell’.</rdfs:comment>
         <rdfs:label>stem cell</rdfs:label>
         <rdfs:seeAlso>https://cellxgene.cziscience.com/cellguide/CL_0000034</rdfs:seeAlso>
         <skos:prefLabel>stem cell</skos:prefLabel>
@@ -322,6 +303,7 @@ Stem cells have numerous potential applications in medicine, including the treat
     <!-- http://purl.obolibrary.org/obo/CL_0000036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000255"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000723"/>
         <obo:IAO_0000115>A somatic stem cell that is committed to an epithelial fate, possessing the capacity for self-renewal and the ability to differentiate into one or more distinct mature cell types of the epithelial lineage. This cell is crucial for the development, homeostasis, repair, and regeneration of epithelial tissues.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -417,24 +399,6 @@ Megakaryocyte-erythroid progenitor cells play a crucial role in the homeostasis 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CL_0000055 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000055">
-        <obo:IAO_0000115>OBSOLETE. A precursor cell with a limited number of potential fates.</obo:IAO_0000115>
-        <obo:IAO_0000233>https://github.com/obophenotype/cell-ontology/issues/2922</obo:IAO_0000233>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
-        <oboInOwl:consider rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/CL_0011026"/>
-        <oboInOwl:hasDbXref>BTO:0000125</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>FMA:84782</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>blast cell</oboInOwl:hasExactSynonym>
-        <rdfs:comment>Redundant grouping term</rdfs:comment>
-        <rdfs:comment>define using PATO mulit-potent or oligopotent?</rdfs:comment>
-        <rdfs:label>obsolete non-terminally differentiated cell</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CL_0000056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000056">
@@ -487,6 +451,7 @@ Megakaryocyte-erythroid progenitor cells play a crucial role in the homeostasis 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002320"/>
         <obo:IAO_0000115>Skeletogenic cell that secretes osteoid, is capable of producing mineralized (hydroxyapatite) matrix, is located adjacent to or within osteoid tissue, and arises from the transformation of a preosteoblast cell.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <terms:description>Osteoblasts are a type of bone cell primarily responsible for bone formation. Osteoblasts are derived from mesenchymal stem cells, which differentiate into osteoblasts under the influence of various growth factors, including bone morphogenetic proteins (BMPs). These multipotent cells play a critical role in the bone formation process known as ossification.
 The primary function of osteoblasts is to synthesize and deposit bone matrix, a mixture of organic substances and inorganic materials. This included producing a mix of collagen and non-collagenous proteins, which they secrete to create the organic portion of the extracellular bone matrix. The osteoblasts also initiate the mineralization process by depositing calcium and phosphate ions onto this organic matrix, generating a material that is incredibly strong and resilient, which we recognize as bone. 
 Furthermore, osteoblasts are intricately involved in bone remodeling. They communicate with other specialized bone cells, like osteoclasts (involved in bone resorption) and osteocytes (derived from osteoblasts and important for bone maintenance), helping to maintain skeletal health and homeostasis. Dysregulation of osteoblast function can lead to various bone diseases, illustrating the importance of these cells in skeletal health and development.
@@ -499,6 +464,7 @@ Furthermore, osteoblasts are intricately involved in bone remodeling. They commu
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#human_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#mouse_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
         <rdfs:comment>non-encoded relationships from VSAO - capable_of_producing VSAO:0000020</rdfs:comment>
         <rdfs:label>osteoblast</rdfs:label>
         <rdfs:seeAlso>https://cellxgene.cziscience.com/cellguide/CL_0000062</rdfs:seeAlso>
@@ -576,7 +542,9 @@ As a result of their specialized function, any impairment in the function of duc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000076">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000066"/>
+        <obo:IAO_0000115>An epithelial cell that has a flattened morphology.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T15:56:39Z</terms:date>
         <oboInOwl:hasDbXref>CALOHA:TS-1249</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ZFA:0009039</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
@@ -787,22 +755,6 @@ The morphology of bipolar neurons with their single dendrite and axon also subtl
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CL_0000111 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000111">
-        <obo:IAO_0000115>OBSOLETE A neuron that is part of nerve found outside the central nervous system.</obo:IAO_0000115>
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
-        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/cell-ontology/issues/1069"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CL_2000032"/>
-        <oboInOwl:hasDbXref>FMA:84664</oboInOwl:hasDbXref>
-        <rdfs:comment>Merging into CL:2000032.</rdfs:comment>
-        <rdfs:label>obsolete peripheral neuron</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CL_0000113 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000113">
@@ -975,6 +927,7 @@ While their protective role generally benefits the brain, their over-activation 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002320"/>
         <obo:IAO_0000115>A connective tissue cell that normally gives rise to other cells that are organized as three-dimensional masses. In humans, this cell type is CD73-positive, CD90-positive, CD105-positive, CD45-negative, CD34-negative, and MHCII-negative. They may further differentiate into osteoblasts, adipocytes, myocytes, neurons, or chondroblasts in vitro. Originally described as residing in the bone marrow, this cell type is now known to reside in many, if not all, adult organs.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <terms:description>Mesenchymal stem cells (MSCs) are multipotent stromal cells that can differentiate into a variety of cell types, including osteoblasts, chondrocytes, myocytes, and adipocytes. These cells originate mainly from the mesoderm of the embryo, which forms connective tissues, muscle, and the circulatory and urinary systems. However, in adults, MSCs are found in multiple tissues, including bone marrow, adipose tissue, the umbilical cord, and dental tissues. 
 The primary function of MSCs is to maintain and repair the tissues in which they are found. When damage occurs, the MSCs are able to migrate to the site of injury, where they aid in regenerating the damaged tissue by differentiating into the required cell type and by secreting growth factors that enhance tissue repair and reduce inflammation. Furthermore, MSCs can also act as immunomodulators, suppressing immune reactions and reducing inflammation, both locally and systemically.
 Apart from their role in tissue maintenance and repair, MSCs are integral to the field of regenerative medicine and are being investigated for their therapeutic potential in various clinical settings. Owing to their multipotent nature, immunomodulatory activity, and the relative ease of isolation, these cells can be engineered and translated into therapies to treat a variety of diseases, including bone and cartilage defects, liver diseases, heart disorders, and autoimmune diseases, amongst others. They have also been used as vectors for anticancer agents and in cell and gene therapy applications.
@@ -999,6 +952,7 @@ Apart from their role in tissue maintenance and repair, MSCs are integral to the
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#human_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#mouse_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Many but not all mesenchymal cells derive from the mesoderm. MSCs are reportedly CD3-negative, CD4-negative, CD5-negative, CD8-negative, CD11a-negative, CD11b-negative, CD14-negative, CD19-negative, CD29-positive, CD31-negative, CD34-negative, CD38-negative, CD40-negative, CD44-positive, CD45-negative, CD49-positive, CD54-positive, CD66b-negative, CD79a-negative, CD80-negative, CD102-positive, CD106-positive, CD117-positive, CD121a-positive, CD121b-positive, CD123-positive, CD124-positive, CD133-negative, CD146-positive, CD166-positive, CD271-positive, B220-negative, Gr1-negative, MHCI-positive, MHCII-negative, SSEA4-negative, sca1-positive, Ter119-negative, and glycophorin A-negative. Cultured MSCs are capable of producing stem cell factor, IL7, IL8, IL11, TGF-beta, cofilin, galectin-1, laminin-receptor 1, cyclophilin A, and MMP-2.</rdfs:comment>
         <rdfs:label>mesenchymal stem cell</rdfs:label>
         <rdfs:seeAlso>https://cellxgene.cziscience.com/cellguide/CL_0000134</rdfs:seeAlso>
@@ -1323,6 +1277,7 @@ However, while myofibroblasts play a critical role in normal wound healing, thei
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000393"/>
         <obo:IAO_0000115>A mature contractile cell, commonly known as a myocyte. This cell has as part of its cytoplasm myofibrils organized in various patterns.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>BTO:0000888</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>BTO:0000902</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-2032</oboInOwl:hasDbXref>
@@ -1336,6 +1291,7 @@ However, while myofibroblasts play a critical role in normal wound healing, thei
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#human_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#mouse_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
         <rdfs:label>muscle cell</rdfs:label>
         <skos:prefLabel>muscle cell</skos:prefLabel>
         <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.swissbiopics.org/api/image/Muscle_cells.svg</foaf:depiction>
@@ -1417,20 +1373,6 @@ On a cellular level, smooth muscle cells possess a single, centrally located nuc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CL_0000213 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000213">
-        <obo:IAO_0000115>OBSOLETE. A cell within an epithelial cell sheet whose main function is to act as an internal or external covering for a tissue or an organism.</obo:IAO_0000115>
-        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/cell-ontology/issues/3014"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
-        <oboInOwl:hasExactSynonym>boundary cell</oboInOwl:hasExactSynonym>
-        <rdfs:comment>Obsoleted term because redundant</rdfs:comment>
-        <rdfs:label>obsolete lining cell</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CL_0000214 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000214">
@@ -1443,19 +1385,6 @@ On a cellular level, smooth muscle cells possess a single, centrally located nuc
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#human_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#mouse_subset"/>
         <rdfs:label>synovial cell</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CL_0000215 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000215">
-        <obo:IAO_0000115>OBSOLETE. A cell whose primary function is to prevent the transport of stuff across compartments.</obo:IAO_0000115>
-        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/cell-ontology/issues/3012"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
-        <rdfs:comment>Not needed term</rdfs:comment>
-        <rdfs:label>obsolete barrier cell</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1640,7 +1569,7 @@ Tissue-resident macrophages are diverse and heterogenous, likely as a result of 
     <!-- http://purl.obolibrary.org/obo/CL_0000237 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000237">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000240"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000079"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000325"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002077"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -1687,28 +1616,6 @@ In addition to forming a protective barrier, stratified squamous epithelial cell
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#mouse_subset"/>
         <rdfs:label>eukaryotic cell</rdfs:label>
         <skos:prefLabel>eukaryotic cell</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CL_0000259 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000259">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000403"/>
-        <rdfs:label>obsolete aggregate cell</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CL_0000265 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000265">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000404"/>
-        <rdfs:label>obsolete anterior like cell</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1812,6 +1719,19 @@ One notable characteristic of epidermal cells is their continuous cycle of renew
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0000385 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000385">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0008001"/>
+        <obo:IAO_0000115>A precursor of mature hemocytes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33511"/>
+        <oboInOwl:hasDbXref>FBbt:00005062</oboInOwl:hasDbXref>
+        <rdfs:label>prohemocyte (sensu Nematoda and Protostomia)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0000393 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000393">
@@ -1823,19 +1743,6 @@ One notable characteristic of epidermal cells is their continuous cycle of renew
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#mouse_subset"/>
         <rdfs:label>electrically responsive cell</rdfs:label>
         <skos:prefLabel>electrically responsive cell</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CL_0000398 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000398">
-        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/cell-ontology/issues/1949"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CL_0000385"/>
-        <rdfs:comment>Obsoleted as this is actually the same thing as prohemocytes.</rdfs:comment>
-        <rdfs:label>obsolete polygonal cell</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -2019,22 +1926,6 @@ Clinically and in research, stromal cells often draw attention due to their inte
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CL_0000548 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000548">
-        <obo:IAO_0000115>OBSOLETE. A native cell that is part of some Metazoa.</obo:IAO_0000115>
-        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/cell-ontology/issues/2124"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
-        <oboInOwl:hasExactSynonym>metazoan cell</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/ubprop#_upper_level"/>
-        <rdfs:label>obsolete animal cell</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.swissbiopics.org/api/image/Animal_cells.svg</foaf:depiction>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CL_0000576 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000576">
@@ -2192,20 +2083,6 @@ Beyond their role in fighting infections, monocytes play an important role in th
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CL_0000651 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000651">
-        <obo:IAO_0000115>OBSOLETE. A mucus-secreting cell, with numerous apical secretory vesicles containing mucins; nucleus are basally displaced; numerous at the neck of mucus secreting glands</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CL_0002181"/>
-        <oboInOwl:hasBroadSynonym>neck cell</oboInOwl:hasBroadSynonym>
-        <rdfs:comment>duplicate term</rdfs:comment>
-        <rdfs:label>obsolete mucous neck cell</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CL_0000653 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000653">
@@ -2264,6 +2141,7 @@ The importance of podocytes is further emphasized by the effects of their damage
     <!-- http://purl.obolibrary.org/obo/CL_0000680 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000680">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000255"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
         <obo:IAO_0000115>A non-terminally differentiated cell that is capable of developing into a muscle cell.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -2354,6 +2232,7 @@ Somatic stem cells respond to environmental signals that regulate their quiescen
         <oboInOwl:hasDbXref>MESH:D007962</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCIT:C12529</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ZFA:0009309</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>WBC</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>leucocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>white blood cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>immune cell</oboInOwl:hasRelatedSynonym>
@@ -2425,6 +2304,7 @@ At the functional level, retinal bipolar neurons can be categorized into ON and 
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
         <rdfs:label>retinal bipolar neuron</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://celltype.info/project/544/dataset/1157"/>
         <rdfs:seeAlso>https://cellxgene.cziscience.com/cellguide/CL_0000748</rdfs:seeAlso>
     </owl:Class>
     
@@ -2710,6 +2590,11 @@ Besides their crucial role in preventing autoimmunity, CD4-positive, CD25-positi
         <obo:IAO_0000115>A thymocyte expressing the alpha-beta T cell receptor complex as well as both the CD4 and CD8 coreceptors.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>Double-positive (DP), alpha-beta thymocytes are a developmental stage in the production of mature alpha-beta T cells. These DP cells are found in the thymus. They are named &apos;double-positive&apos; due to their expression of both CD4 and CD8 co-receptors on their surface, a characteristic that distinguishes them from other types of thymocytes. ‘Alpha-beta&apos; refers to the type of T cell receptor (TCR) they express, differentiating them from gamma-delta T cells.
+In the preceding double negative (DN) phase, cells undergo an important developmental checkpoint called β-selection in which the β-chain of the TCR is rearranged and only cells expressing functional β-chains, combined with a surrogate α chain forming the pre-TCR, move forward in development. In the DP phase, cells downregulate expression of the surrogate α chain which is replaced by the α chain, which also undergoes gene rearrangements. 
+This developmental stage is characterized by thymic selection processes that ultimately shape the T cell repertoire. Cells with nonfunctional TCRs undergo death by neglect, while cells expressing TCRs that bind strongly to self-peptides presented in the context of major histocompatibility complex (MHC) molecules are removed by negative selection, and cells that express TCRs that weakly interact with self-MHC are kept via positive selection. This ensures that the resulting mature T cells are able to recognize self-MHC without responding too strongly, which could result in autoimmune reactions. The CD4 and CD8 coreceptors play an important role in the selection processes, and the class of self-MHC that was recognized by the cell will dictate whether CD4 or CD8 expression remains on the cell while the other is downregulated. CD4 corresponds to the recognition of MHC class II while CD8 corresponds to MHC class I. The cell will then proceed into the single-positive (SP) phase and ultimately produce mature alpha-beta T cells.
+
+(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)</terms:description>
         <oboInOwl:hasBroadSynonym>late cortical thymocyte</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym>DP cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>DP thymocyte</oboInOwl:hasExactSynonym>
@@ -2720,6 +2605,7 @@ Besides their crucial role in preventing autoimmunity, CD4-positive, CD25-positi
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Thymocytes of this stage are undergoing positive and negative selection.</rdfs:comment>
         <rdfs:label>double-positive, alpha-beta thymocyte</rdfs:label>
+        <rdfs:seeAlso>https://cellxgene.cziscience.com/cellguide/CL_0000809</rdfs:seeAlso>
         <foaf:depiction>https://cdn.humanatlas.io/digital-objects/2d-ftu/thymus-thymus-lobule/v1.3/assets/2d-ftu-thymus-thymus-lobule.png</foaf:depiction>
     </owl:Class>
     
@@ -2732,6 +2618,11 @@ Besides their crucial role in preventing autoimmunity, CD4-positive, CD25-positi
         <obo:IAO_0000115>A precursor B cell is a B cell with the phenotype CD10-positive.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>Precursor B cells, often abbreviated as pre-B cells, represent an intermediary stage in the development of B cells, the white blood cells that play a crucial role in the body’s adaptive immunity system. They arise from early lymphoid progenitors in the bone marrow, representing a critical point in B cell development between a pro-B cell and an immature B cell. They differ from mature B cells as they still populate the bone marrow and have yet to fully develop the distinctive B cell receptor complex.
+The primary function of precursor B cells is to undergo proliferation and rearrange their immunoglobulin light chain gene regions which ultimately forms part of the B cell receptor (BCR), an event crucial to B lymphocyte development. This process is closely monitored by the body&apos;s quality control mechanisms, ensuring all newly produced B cells have functional (and not self-reactive) receptors. This receptor editing and checking system helps to prevent autoimmune diseases, triggered when immune cells mistakenly attack the body&apos;s own cells.
+Critical mutations required for the maturation of the BCR happen in stages while the cell is a pre-B cell. Pre-B cells are initially characterized as stage called &quot;large pre-B cells,&quot; during which proliferation occurs. Additionally, heavy chain recombination is completed and the cell undergoes a checkpoint in which only cells with a functional heavy chain continue to develop. Afterwards, they transition into a &quot;small pre-B cell&quot; phase, where heavy chain rearrangement ends, and light-chain rearrangement begins. Once the B cell receptor is fully formed following heavy and light chain rearrangement, the cell is considered an immature B cell and leaves the bone marrow.
+
+(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)</terms:description>
         <oboInOwl:hasDbXref>BTO:0001133</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-0819</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ZFA:0009344</oboInOwl:hasDbXref>
@@ -2741,6 +2632,7 @@ Besides their crucial role in preventing autoimmunity, CD4-positive, CD25-positi
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
         <rdfs:label>precursor B cell</rdfs:label>
+        <rdfs:seeAlso>https://cellxgene.cziscience.com/cellguide/CL_0000817</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -2961,6 +2853,7 @@ CNS macrophages are also involved in the initiation and progression of many neur
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002419"/>
         <obo:IAO_0000115>A effector T cell that provides help in the form of secreted cytokines to other immune cells.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>BTO:0002417</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D006377</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>T-helper cell</oboInOwl:hasExactSynonym>
@@ -2970,6 +2863,7 @@ CNS macrophages are also involved in the initiation and progression of many neur
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#human_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#mouse_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
         <rdfs:label>helper T cell</rdfs:label>
     </owl:Class>
     
@@ -3220,6 +3114,66 @@ In addition to their role in antigen presentation, cDCs have other important fun
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0002178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002178">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002076"/>
+        <obo:IAO_0000115>An epithelial cell found in the lining of the stomach.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-08-25T03:22:08Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>FMA:62948</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#mouse_subset"/>
+        <rdfs:label>epithelial cell of stomach</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002180">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000151"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002178"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1100001"/>
+        <obo:IAO_0000115>An epithelial cell of the stomach. This cell produces mucous.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-08-25T03:38:51Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>FMA:63464</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#mouse_subset"/>
+        <rdfs:label>mucous cell of stomach</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000075"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000152"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002180"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002659"/>
+        <obo:IAO_0000115>A columnar epithelial mucous secreting cell located in the neck of the gastric glands. These cells have numerous apical secretory vesicles containing mucins and a basally displaced nucleus. The mucous they secrete is distinct histochemically from that of the surface mucous cells of stomach.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0005-7919-4905"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-21T11:14:30Z</terms:date>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-08-25T03:41:30Z</oboInOwl:creation_date>
+        <oboInOwl:hasBroadSynonym>neck cell</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>FMA:62954</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>mucous neck cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#mouse_subset"/>
+        <rdfs:label>mucous neck cell of gastric gland</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0002242 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002242">
@@ -3275,32 +3229,6 @@ In addition to their role in antigen presentation, cDCs have other important fun
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#mouse_subset"/>
         <rdfs:label>connective tissue cell</rdfs:label>
         <skos:prefLabel>connective tissue cell</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CL_0002371 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002371">
-        <obo:IAO_0000115>OBSOLETE. A cell of an organism that does not pass on its genetic material to the organism&apos;s offspring (i.e. a non-germ line cell).</obo:IAO_0000115>
-        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/cell-ontology/issues/1150"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
-        <terms:description>Somatic cells represent the majority of the cell types in the human body. They are fundamental building blocks of organs, tissues, and other bodily structures, with every organ being composed of distinct subpopulations of these cells. 
-The primary function of somatic cells is to maintain the function and survival of an organism. They carry significant information in the form of DNA, and through the process of mitosis, contribute to the repair and regeneration of body tissues.
-Further, some types of somatic cells work in a collaborative manner to form complex functional structures such as the skin and lining of the gut, demonstrating a higher level of organization. However, it&apos;s important to note that somatic cells are distinct from germ cells, which are responsible for sexual reproduction by forming sperm or eggs. Any alterations in the DNA of somatic cells, due to mutations, will not affect the offspring as they aren&apos;t involved in transmission of genetic information to the next generation. 
-While most somatic cells contain two copies of each chromosome (diploid), a certain subset may possess a single set of chromosomes (haploid), specifically found in male ants, bees, and other hymenopterans. Hence, diversity is a defining characteristic of somatic cells, reflecting in their structures, roles, and genetic makeup.
-
-(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)</terms:description>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-09-24T09:44:42Z</oboInOwl:creation_date>
-        <oboInOwl:hasDbXref>BTO:0001268</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>FMA:72300</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>WBbt:0008378</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/ubprop#_upper_level"/>
-        <rdfs:label>obsolete somatic cell</rdfs:label>
-        <rdfs:seeAlso>https://cellxgene.cziscience.com/cellguide/CL_0002371</rdfs:seeAlso>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3414,7 +3342,7 @@ While most somatic cells contain two copies of each chromosome (diploid), a cert
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002659">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000150"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002076"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002178"/>
         <obo:IAO_0000115>A glandular epithelial cell that is part of the stomach.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
@@ -3448,15 +3376,20 @@ While most somatic cells contain two copies of each chromosome (diploid), a cert
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0011026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000255"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011115"/>
         <obo:IAO_0000115>A precursor cell that has a tendency to differentiate into a specific type of cell. They are descendants of stem cells, only they are more constrained in their differentiation potential or capacity for self-renewal, and are often more limited in both senses.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-5208-3432"/>
+        <terms:description>Progenitor cells are a specialized type of biological cell that can differentiate into specific cell types. While akin to stem cells in their differentiation capacity, progenitor cells are more limited in divisions and are already somewhat specialized. They can divide a restricted number of times and differentiate into a few closely related cell types, unlike stem cells with broader differentiation potential.
+Primarily, progenitor cells play key roles in repairing and maintaining body tissues. During embryonic development, they significantly contribute to organogenesis, forming major organs. In adults, progenitor cells function as a repair system, replenishing lost cells in tissues like skin, blood, or the gut lining. Various types of progenitor cells have distinct roles; for instance, neuronal progenitor cells specialize into different brain cells, while myeloid progenitor cells develop into red and white blood cells and platelets.
+Disruptions to progenitor cells can lead to diseases, emphasizing their vital role in tissue homeostasis. Their unique properties also make them valuable in therapeutic approaches like tissue engineering and regenerative medicine. Researchers are exploring methods to direct these cells towards specific types to replace cells lost or damaged in conditions like spinal cord injuries, diabetes, and heart disease.
+
+(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)</terms:description>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#human_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#mouse_subset"/>
         <rdfs:label>progenitor cell</rdfs:label>
+        <rdfs:seeAlso>https://cellxgene.cziscience.com/cellguide/CL_0011026</rdfs:seeAlso>
         <skos:prefLabel>progenitor cell</skos:prefLabel>
     </owl:Class>
     
@@ -3468,11 +3401,17 @@ While most somatic cells contain two copies of each chromosome (diploid), a cert
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
         <obo:IAO_0000115>A cell that, by division or terminal differentiation, can give rise to other cell types.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <terms:description>Precursor cells represent an intermediate stage between an undifferentiated stem cell and a fully specialized cell. 
+Possessing the ability to differentiate into one or multiple specialized cell types, precursor cells exhibit partial stem cell characteristics. This differentiation is vital for various aspects of biological development and maintenance. Neural precursor cells, for example, can give rise to neurons, astrocytes, and oligodendrocytes, while hematopoietic precursor cells can transform into different blood cell types. This orchestrated process aligns with the body&apos;s metabolic activities, ensuring the production of the right cell types in response to physiological needs.
+Moreover, the study of precursor cells has become a promising field in regenerative medicine and cellular therapies. However, it&apos;s essential to note that precursor cells have a more limited self-renewal capacity compared to stem cells, and once they start differentiating along a specific cell lineage, the process is often irreversible.
+
+(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)</terms:description>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#human_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#mouse_subset"/>
         <rdfs:comment>Work is needed on GO &apos;cell differentiation&apos; before it is clear whether the equivalent class definition &apos;native cell&apos; that capable_of some &apos;cell differentiation&apos; works. Also, may want to consider merging this with non-terminally differentiated cell.</rdfs:comment>
         <rdfs:label>precursor cell</rdfs:label>
+        <rdfs:seeAlso>https://cellxgene.cziscience.com/cellguide/CL_0011115</rdfs:seeAlso>
         <skos:prefLabel>precursor cell</skos:prefLabel>
     </owl:Class>
     
@@ -3501,11 +3440,17 @@ While most somatic cells contain two copies of each chromosome (diploid), a cert
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002584"/>
         <obo:IAO_0000115>Any renal cortical epithelial cell that is part of some renal corpuscle.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <terms:description>The kidney corpuscle cell, also known as a renal corpuscle cell, is a crucial component of the renal corpuscle, a structure within the kidney responsible for initiating the blood filtration process to produce urine. Comprising the glomerulus and Bowman&apos;s capsule, the renal corpuscle relies on these cells to play a central role in the kidney&apos;s filtration system.
+During blood filtration, kidney corpuscle cells create an interface between blood and filtrate, allowing the removal of waste while retaining essential components in the bloodstream. The cells perform this through a combination of physical and specialized properties that are critical to an accurate filtering process. Some of these cells, such as endothelial cells in the glomerulus, are characterized by their fenestrations that help facilitate the filtration of plasma from the blood. These cells are specialized to permit the passage of fluid, while blocking the passage of blood cells and large proteins. Another type of corpuscle cell, the podocyte in Bowman&apos;s capsule, contributes with tentacle-like protrusions and slit diaphragms for further plasma filtration.
+Moreover, kidney corpuscle cells are implicated in disease states. Damage or pathology affecting these cells can reduce the kidney&apos;s filtering capacity, leading to kidney disease. For example, podocyte damage may cause protein leakage into urine (proteinuria), an early sign of kidney issues. Beyond routine filtration, renal corpuscle cells are vital for overall kidney health, serving as a crucial indicator for potential kidney-related problems.
+
+(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)</terms:description>
         <oboInOwl:hasDbXref>KUPO:0001021</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#human_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#kidney_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#mouse_subset"/>
         <rdfs:label>kidney corpuscule cell</rdfs:label>
+        <rdfs:seeAlso>https://cellxgene.cziscience.com/cellguide/CL_1000612</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -3551,6 +3496,7 @@ While most somatic cells contain two copies of each chromosome (diploid), a cert
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <terms:contributor rdf:resource="http://www.wikidata.org/entity/Q35563349"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T17:29:04Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>PBMC</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CL:2000001</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#human_subset"/>
@@ -3576,6 +3522,28 @@ While most somatic cells contain two copies of each chromosome (diploid), a cert
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
         <rdfs:label>central nervous system neuron</rdfs:label>
         <skos:prefLabel>central nervous system neuron</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_2000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_2000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <obo:IAO_0000115>A neuron that is part of a peripheral nervous system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:contributor rdf:resource="http://www.wikidata.org/entity/Q35563349"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-25T02:28:17Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>FMA:84664</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>PNS neuron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>peripheral neuron</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>CL:2000032</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#mouse_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
+        <rdfs:label>peripheral nervous system neuron</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
