@@ -76,6 +76,287 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CLO_0003510 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003510">
+        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
+        <rdfs:comment> ANEUPLOID CHROMOSOME NUMBER - TRISOMY 8 ANEUPLOID CHROMOSOME NUMBER - TRISOMY</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003511 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003511">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_5810"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
+        <rdfs:comment> SEVERE COMBINED IMMUNODEFICIENCY, AUTOSOMAL RECESSIVE, T CELL-NEGATIVE, B CELL-NEGATIVE, NK CELL-NEGATIVE, DUE TO ADENOSINE DEAMINASE DEFICIENCY</rdfs:comment>
+        <rdfs:seeAlso>OMIM: 102700</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003512 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003512">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_13810"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
+        <rdfs:comment> HYPERCHOLESTEROLEMIA, FAMILIAL; FHC</rdfs:comment>
+        <rdfs:seeAlso>OMIM: 143890</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003515 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003515">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9870"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
+        <rdfs:comment> GALACTOSEMIA</rdfs:comment>
+        <rdfs:seeAlso>OMIM: 230400</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003517 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003517">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_14497"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
+        <rdfs:comment> WOLMAN DISEASE</rdfs:comment>
+        <rdfs:seeAlso>OMIM: 278000</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003518 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003518">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_14499"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
+        <rdfs:comment> FABRY DISEASE</rdfs:comment>
+        <rdfs:seeAlso>OMIM: 301500</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003519 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003519">
+        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
+        <rdfs:comment> TRANSLOCATED CHROMOSOME</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003521 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003521">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1926"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
+        <rdfs:comment> GAUCHER DISEASE, TYPE I GLUCOSIDASE, ACID BETA; GBA</rdfs:comment>
+        <rdfs:seeAlso>OMIM: 230800</rdfs:seeAlso>
+        <rdfs:seeAlso>OMIM: 606463</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003522 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003522">
+        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
+        <rdfs:comment> APPARENTLY HEALTHY NON-FETAL TISSUE</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003523 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003523">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1919"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
+        <rdfs:comment> LESCH-NYHAN SYNDROME; LNS</rdfs:comment>
+        <rdfs:seeAlso>OMIM: 300322</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003524 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003524">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1919"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
+        <rdfs:comment> LESCH-NYHAN SYNDROME; LNS</rdfs:comment>
+        <rdfs:seeAlso>OMIM: 300322</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003526 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003526">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_5810"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
+        <rdfs:comment> ADENOSINE DEAMINASE; ADA SEVERE COMBINED IMMUNODEFICIENCY, AUTOSOMAL RECESSIVE, T CELL-NEGATIVE, B CELL-NEGATIVE, NK CELL-NEGATIVE, DUE TO ADENOSINE DEAMINASE DEFICIENCY</rdfs:comment>
+        <rdfs:seeAlso>OMIM: 102700</rdfs:seeAlso>
+        <rdfs:seeAlso>OMIM: 608958</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003527 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003527">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_5810"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
+        <rdfs:comment> SEVERE COMBINED IMMUNODEFICIENCY, AUTOSOMAL RECESSIVE, T CELL-NEGATIVE, B CELL-NEGATIVE, NK CELL-NEGATIVE, DUE TO ADENOSINE DEAMINASE DEFICIENCY ADENOSINE DEAMINASE; ADA</rdfs:comment>
+        <rdfs:seeAlso>OMIM: 102700</rdfs:seeAlso>
+        <rdfs:seeAlso>OMIM: 608958</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003528 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003528">
+        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
+        <rdfs:comment> DUPLICATED CHROMOSOME</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003529 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003529">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0070113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
+        <rdfs:comment> NPC1 GENE; NPC1 NIEMANN-PICK DISEASE, TYPE C1; NPC1</rdfs:comment>
+        <rdfs:seeAlso>OMIM: 257220</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003530 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003530">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0070111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
+        <rdfs:comment> SPHINGOMYELIN PHOSPHODIESTERASE 1, ACID LYSOSOMAL; SMPD1 NIEMANN-PICK DISEASE, TYPE B</rdfs:comment>
+        <rdfs:seeAlso>OMIM: 607608</rdfs:seeAlso>
+        <rdfs:seeAlso>OMIM: 607616</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003531 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003531">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050464"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
+        <rdfs:comment> FARBER LIPOGRANULOMATOSIS</rdfs:comment>
+        <rdfs:seeAlso>OMIM: 228000</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003532 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003532">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0080153"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
+        <rdfs:comment> ACYL-COA DEHYDROGENASE, MEDIUM-CHAIN; ACADM ACYL-CoA DEHYDROGENASE, MEDIUM-CHAIN, DEFICIENCY OF</rdfs:comment>
+        <rdfs:seeAlso>OMIM: 201450</rdfs:seeAlso>
+        <rdfs:seeAlso>OMIM: 607008</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003533 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003533">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0080155"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
+        <rdfs:comment> ACYL-CoA DEHYDROGENASE, LONG-CHAIN, DEFICIENCY OF</rdfs:comment>
+        <rdfs:seeAlso>OMIM: 201460</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CLO_0010001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0010001">
@@ -36511,25 +36792,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CLO_0012748 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0012748">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_5810"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
-        <obo:IAO_0000118>GM02824</obo:IAO_0000118>
-        <rdfs:comment> SEVERE COMBINED IMMUNODEFICIENCY, AUTOSOMAL RECESSIVE, T CELL-NEGATIVE, B CELL-NEGATIVE, NK CELL-NEGATIVE, DUE TO ADENOSINE DEAMINASE DEFICIENCY ADENOSINE DEAMINASE; ADA</rdfs:comment>
-        <rdfs:label>GM02824 cell</rdfs:label>
-        <rdfs:seeAlso>OMIM: 102700</rdfs:seeAlso>
-        <rdfs:seeAlso>OMIM: 608958</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CLO_0012749 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0012749">
@@ -36755,17 +37017,6 @@
         <rdfs:comment> HURLER-SCHEIE SYNDROME</rdfs:comment>
         <rdfs:label>GM02847 cell</rdfs:label>
         <rdfs:seeAlso>OMIM: 607015</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0012765 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0012765">
-        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
-        <obo:IAO_0000118>GM02848</obo:IAO_0000118>
-        <rdfs:comment> DUPLICATED CHROMOSOME</rdfs:comment>
-        <rdfs:label>GM02848 cell</rdfs:label>
     </owl:Class>
     
 
@@ -47935,24 +48186,6 @@
         <obo:IAO_0000118>GM03124</obo:IAO_0000118>
         <rdfs:comment> NIEMANN-PICK DISEASE, TYPE C1; NPC1 NPC1 GENE; NPC1</rdfs:comment>
         <rdfs:label>GM03124 cell</rdfs:label>
-        <rdfs:seeAlso>OMIM: 257220</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0013588 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0013588">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0070113"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
-        <obo:IAO_0000118>GM03123</obo:IAO_0000118>
-        <rdfs:comment> NPC1 GENE; NPC1 NIEMANN-PICK DISEASE, TYPE C1; NPC1</rdfs:comment>
-        <rdfs:label>GM03123 cell</rdfs:label>
         <rdfs:seeAlso>OMIM: 257220</rdfs:seeAlso>
     </owl:Class>
     
@@ -72366,7 +72599,6 @@
         <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
         <obo:IAO_0000118>GM03814</obo:IAO_0000118>
         <rdfs:comment> SPINAL MUSCULAR ATROPHY I; SMA1</rdfs:comment>
-        <rdfs:label>GM03814 cell</rdfs:label>
         <rdfs:seeAlso>OMIM: 253300</rdfs:seeAlso>
     </owl:Class>
     
@@ -87306,25 +87538,6 @@
         <obo:IAO_0000118>ND01570</obo:IAO_0000118>
         <rdfs:comment> POPULATION/CONVENIENCE CONTROL NEUROLOGICALLY NORMAL CAUCASIAN CONTROL PANEL</rdfs:comment>
         <rdfs:label>ND01570 cell</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0016698 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0016698">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0070111"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
-        <obo:IAO_0000118>GM03252</obo:IAO_0000118>
-        <rdfs:comment> SPHINGOMYELIN PHOSPHODIESTERASE 1, ACID LYSOSOMAL; SMPD1 NIEMANN-PICK DISEASE, TYPE B</rdfs:comment>
-        <rdfs:label>GM03252 cell</rdfs:label>
-        <rdfs:seeAlso>OMIM: 607608</rdfs:seeAlso>
-        <rdfs:seeAlso>OMIM: 607616</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -178931,24 +179144,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CLO_0023661 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0023661">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0080155"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
-        <obo:IAO_0000118>GM06127</obo:IAO_0000118>
-        <rdfs:comment> ACYL-CoA DEHYDROGENASE, LONG-CHAIN, DEFICIENCY OF</rdfs:comment>
-        <rdfs:label>GM06127 cell</rdfs:label>
-        <rdfs:seeAlso>OMIM: 201460</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CLO_0023662 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0023662">
@@ -185562,25 +185757,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CLO_0024232 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0024232">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0080153"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
-        <obo:IAO_0000118>GM05870</obo:IAO_0000118>
-        <rdfs:comment> ACYL-COA DEHYDROGENASE, MEDIUM-CHAIN; ACADM ACYL-CoA DEHYDROGENASE, MEDIUM-CHAIN, DEFICIENCY OF</rdfs:comment>
-        <rdfs:label>GM05870 cell</rdfs:label>
-        <rdfs:seeAlso>OMIM: 201450</rdfs:seeAlso>
-        <rdfs:seeAlso>OMIM: 607008</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CLO_0024233 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0024233">
@@ -190035,7 +190211,6 @@
         <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
         <obo:IAO_0000118>GM10684</obo:IAO_0000118>
         <rdfs:comment> SPINAL MUSCULAR ATROPHY I; SMA1</rdfs:comment>
-        <rdfs:label>GM10684 cell</rdfs:label>
         <rdfs:seeAlso>OMIM: 253300</rdfs:seeAlso>
     </owl:Class>
     
@@ -190432,24 +190607,6 @@
         <rdfs:comment> HUNTINGTON DISEASE; HD</rdfs:comment>
         <rdfs:label>GM05740 cell</rdfs:label>
         <rdfs:seeAlso>OMIM: 143100</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0024641 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0024641">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050464"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
-        <obo:IAO_0000118>GM05752</obo:IAO_0000118>
-        <rdfs:comment> FARBER LIPOGRANULOMATOSIS</rdfs:comment>
-        <rdfs:label>GM05752 cell</rdfs:label>
-        <rdfs:seeAlso>OMIM: 228000</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -192653,8 +192810,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0024821">
         <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
         <obo:IAO_0000118>GM05400</obo:IAO_0000118>
-        <rdfs:comment> APPARENTLY HEALTHY NON-FETAL TISSUE</rdfs:comment>
-        <rdfs:label>GM05400 cell</rdfs:label>
+        <rdfs:comment>human dermal fibroblast</rdfs:comment>
     </owl:Class>
     
 
@@ -206941,24 +207097,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CLO_0025954 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0025954">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_13810"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
-        <obo:IAO_0000118>GM00483</obo:IAO_0000118>
-        <rdfs:comment> HYPERCHOLESTEROLEMIA, FAMILIAL; FHC</rdfs:comment>
-        <rdfs:label>GM00483 cell</rdfs:label>
-        <rdfs:seeAlso>OMIM: 143890</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CLO_0025955 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0025955">
@@ -207268,24 +207406,6 @@
         <rdfs:comment> ATAXIA-TELANGIECTASIA; AT</rdfs:comment>
         <rdfs:label>GM11261 cell</rdfs:label>
         <rdfs:seeAlso>OMIM: 208900</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0025974 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0025974">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_5810"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
-        <obo:IAO_0000118>GM00469</obo:IAO_0000118>
-        <rdfs:comment> SEVERE COMBINED IMMUNODEFICIENCY, AUTOSOMAL RECESSIVE, T CELL-NEGATIVE, B CELL-NEGATIVE, NK CELL-NEGATIVE, DUE TO ADENOSINE DEAMINASE DEFICIENCY</rdfs:comment>
-        <rdfs:label>GM00469 cell</rdfs:label>
-        <rdfs:seeAlso>OMIM: 102700</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -209298,17 +209418,6 @@
         <obo:IAO_0000118>GM00451</obo:IAO_0000118>
         <rdfs:comment> INVERTED CHROMOSOME</rdfs:comment>
         <rdfs:label>GM00451 cell</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0026109 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0026109">
-        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
-        <obo:IAO_0000118>GM00425</obo:IAO_0000118>
-        <rdfs:comment> ANEUPLOID CHROMOSOME NUMBER - TRISOMY 8 ANEUPLOID CHROMOSOME NUMBER - TRISOMY</rdfs:comment>
-        <rdfs:label>GM00425 cell</rdfs:label>
     </owl:Class>
     
 
@@ -214844,7 +214953,6 @@
         <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
         <obo:IAO_0000118>GM09677</obo:IAO_0000118>
         <rdfs:comment> SPINAL MUSCULAR ATROPHY I; SMA1</rdfs:comment>
-        <rdfs:label>GM09677 cell</rdfs:label>
         <rdfs:seeAlso>OMIM: 253300</rdfs:seeAlso>
     </owl:Class>
     
@@ -246166,24 +246274,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CLO_0028878 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0028878">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9870"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
-        <obo:IAO_0000118>GM00638</obo:IAO_0000118>
-        <rdfs:comment> GALACTOSEMIA</rdfs:comment>
-        <rdfs:label>GM00638 cell</rdfs:label>
-        <rdfs:seeAlso>OMIM: 230400</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CLO_0028879 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0028879">
@@ -256064,24 +256154,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CLO_0029624 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0029624">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_14499"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
-        <obo:IAO_0000118>GM00881</obo:IAO_0000118>
-        <rdfs:comment> FABRY DISEASE</rdfs:comment>
-        <rdfs:label>GM00881 cell</rdfs:label>
-        <rdfs:seeAlso>OMIM: 301500</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CLO_0029625 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0029625">
@@ -256177,24 +256249,6 @@
         <rdfs:label>GM00852 cell</rdfs:label>
         <rdfs:seeAlso>OMIM: 231000</rdfs:seeAlso>
         <rdfs:seeAlso>OMIM: 606463</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0029632 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0029632">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_14497"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
-        <obo:IAO_0000118>GM00863</obo:IAO_0000118>
-        <rdfs:comment> WOLMAN DISEASE</rdfs:comment>
-        <rdfs:label>GM00863 cell</rdfs:label>
-        <rdfs:seeAlso>OMIM: 278000</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -264866,17 +264920,6 @@
         <rdfs:comment> MENTAL RETARDATION, X-LINKED NONSPECIFIC, TYPE 1; MRX1</rdfs:comment>
         <rdfs:label>GM01228 cell</rdfs:label>
         <rdfs:seeAlso>OMIM: 309530</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0030283 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0030283">
-        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
-        <obo:IAO_0000118>GM01229</obo:IAO_0000118>
-        <rdfs:comment> TRANSLOCATED CHROMOSOME</rdfs:comment>
-        <rdfs:label>GM01229 cell</rdfs:label>
     </owl:Class>
     
 
@@ -282563,25 +282606,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CLO_0031565 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0031565">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1926"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
-        <obo:IAO_0000118>GM01607</obo:IAO_0000118>
-        <rdfs:comment> GAUCHER DISEASE, TYPE I GLUCOSIDASE, ACID BETA; GBA</rdfs:comment>
-        <rdfs:label>GM01607 cell</rdfs:label>
-        <rdfs:seeAlso>OMIM: 230800</rdfs:seeAlso>
-        <rdfs:seeAlso>OMIM: 606463</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CLO_0031566 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0031566">
@@ -285788,17 +285812,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CLO_0031786 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0031786">
-        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
-        <obo:IAO_0000118>GM02185</obo:IAO_0000118>
-        <rdfs:comment> APPARENTLY HEALTHY NON-FETAL TISSUE</rdfs:comment>
-        <rdfs:label>GM02185 cell</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CLO_0031787 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0031787">
@@ -285817,7 +285830,6 @@
         <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
         <obo:IAO_0000118>GM02183</obo:IAO_0000118>
         <rdfs:comment> HUNTINGTON DISEASE; HD</rdfs:comment>
-        <rdfs:label>GM02183 cell</rdfs:label>
         <rdfs:seeAlso>OMIM: 143100</rdfs:seeAlso>
     </owl:Class>
     
@@ -290758,42 +290770,6 @@
         <rdfs:label>GM02274 cell</rdfs:label>
         <rdfs:seeAlso>OMIM: 252500</rdfs:seeAlso>
         <rdfs:seeAlso>OMIM: 607840</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0032129 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0032129">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1919"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
-        <obo:IAO_0000118>GM02290</obo:IAO_0000118>
-        <rdfs:comment> LESCH-NYHAN SYNDROME; LNS</rdfs:comment>
-        <rdfs:label>GM02290 cell</rdfs:label>
-        <rdfs:seeAlso>OMIM: 300322</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0032130 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0032130">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1919"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
-        <obo:IAO_0000118>GM02291</obo:IAO_0000118>
-        <rdfs:comment> LESCH-NYHAN SYNDROME; LNS</rdfs:comment>
-        <rdfs:label>GM02291 cell</rdfs:label>
-        <rdfs:seeAlso>OMIM: 300322</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -299007,25 +298983,6 @@
         <obo:IAO_0000118>GM02606</obo:IAO_0000118>
         <rdfs:comment> SEVERE COMBINED IMMUNODEFICIENCY, AUTOSOMAL RECESSIVE, T CELL-NEGATIVE, B CELL-NEGATIVE, NK CELL-NEGATIVE, DUE TO ADENOSINE DEAMINASE DEFICIENCY ADENOSINE DEAMINASE; ADA</rdfs:comment>
         <rdfs:label>GM02606 cell</rdfs:label>
-        <rdfs:seeAlso>OMIM: 102700</rdfs:seeAlso>
-        <rdfs:seeAlso>OMIM: 608958</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0032688 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0032688">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_5810"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
-        <obo:IAO_0000118>GM02605</obo:IAO_0000118>
-        <rdfs:comment> ADENOSINE DEAMINASE; ADA SEVERE COMBINED IMMUNODEFICIENCY, AUTOSOMAL RECESSIVE, T CELL-NEGATIVE, B CELL-NEGATIVE, NK CELL-NEGATIVE, DUE TO ADENOSINE DEAMINASE DEFICIENCY</rdfs:comment>
-        <rdfs:label>GM02605 cell</rdfs:label>
         <rdfs:seeAlso>OMIM: 102700</rdfs:seeAlso>
         <rdfs:seeAlso>OMIM: 608958</rdfs:seeAlso>
     </owl:Class>
@@ -355247,7 +355204,7 @@
     <!-- http://purl.obolibrary.org/obo/CLO_0036932 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0036932">
-        <rdfs:label>obsolete Hybridoma</rdfs:label>
+        <rdfs:label>Hybridoma</rdfs:label>
     </owl:Class>
     
 
