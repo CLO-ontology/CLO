@@ -355204,7 +355204,7 @@
     <!-- http://purl.obolibrary.org/obo/CLO_0036932 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0036932">
-        <rdfs:label>Hybridoma</rdfs:label>
+        <rdfs:label>obsolete Hybridoma</rdfs:label>
     </owl:Class>
     
 
