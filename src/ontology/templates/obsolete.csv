@@ -1,0 +1,44 @@
+ontology ID,entity type,label,alternative term,definition,definition source,term editor,editor note,comment,seeAlso,term tracker item,obsolete,obsolescence reason,replacement term
+ID,TYPE,LABEL,A alternative label SPLIT=|,A http://purl.obolibrary.org/obo/IAO_0000115,A definition source SPLIT=|,"A term editor SPLIT=,",A editor note SPLIT=|,A rdfs:comment SPLIT=|,A rdfs:seeAlsoSPLIT=|,AI term tracker item SPLIT=|,AT deprecated^^xsd:boolean,AI has obsolescence reason,AI term replaced by
+CLO:0000511,class,obsolete immortal human cell line cell,,An immortal cell line cell that derives from human.,,"Yue Liu, Yongqun He",,,,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0000020
+CLO:0037448,class,obsolete CC-2561 cell,,,,"Daniel Cooper, Yongqun He",,Cell center: Broad|Cell provider: Lonza; Cell provider catalog number: Lonza,,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0037447
+CLO:0007188,class,obsolete L368 cell,L368,,,,,,,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0007187
+CLO:0008957,Class,obsolete SC-1 cell,SC-1,,,,,,ATCC: CRL-1404,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0008956
+CLO:0008958,Class,obsolete SC-1 cell,SC-1,,,,,,ATCC: CRL-6450|CRL-8756,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0008956
+CLO:0025974,Class,obsolete GM00469 cell,GM00469,,,Chao Pang,," SEVERE COMBINED IMMUNODEFICIENCY, AUTOSOMAL RECESSIVE, T CELL-NEGATIVE, B CELL-NEGATIVE, NK CELL-NEGATIVE, DUE TO ADENOSINE DEAMINASE DEFICIENCY",OMIM: 102700,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0003511
+CLO:0025954,Class,obsolete GM00483 cell,GM00483,,,Chao Pang,," HYPERCHOLESTEROLEMIA, FAMILIAL; FHC",OMIM: 143890,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0003512
+CLO:0028878,Class,obsolete GM00638 cell,GM00638,,,Chao Pang,, GALACTOSEMIA,OMIM: 230400,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0003515
+CLO:0029632,Class,obsolete GM00863 cell,GM00863,,,Chao Pang,, WOLMAN DISEASE,OMIM: 278000,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0003517
+CLO:0029624,Class,obsolete GM00881 cell,GM00881,,,Chao Pang,, FABRY DISEASE,OMIM: 301500,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0003518
+CLO:0031565,Class,obsolete GM01607 cell,GM01607,,,Chao Pang,," GAUCHER DISEASE, TYPE I GLUCOSIDASE, ACID BETA; GBA",OMIM: 230800|OMIM: 606463,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0003521
+CLO:0032688,Class,obsolete GM02605 cell,GM02605,,,Chao Pang,," ADENOSINE DEAMINASE; ADA SEVERE COMBINED IMMUNODEFICIENCY, AUTOSOMAL RECESSIVE, T CELL-NEGATIVE, B CELL-NEGATIVE, NK CELL-NEGATIVE, DUE TO ADENOSINE DEAMINASE DEFICIENCY",OMIM: 102700|OMIM: 608958,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0003526
+CLO:0012748,Class,obsolete GM02824 cell,GM02824,,,Chao Pang,," SEVERE COMBINED IMMUNODEFICIENCY, AUTOSOMAL RECESSIVE, T CELL-NEGATIVE, B CELL-NEGATIVE, NK CELL-NEGATIVE, DUE TO ADENOSINE DEAMINASE DEFICIENCY ADENOSINE DEAMINASE; ADA",OMIM: 102700|OMIM: 608958,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0003527
+CLO:0013588,Class,obsolete GM03123 cell,GM03123,,,Chao Pang,," NPC1 GENE; NPC1 NIEMANN-PICK DISEASE, TYPE C1; NPC1",OMIM: 257220,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0003529
+CLO:0016698,Class,obsolete GM03252 cell,GM03252,,,Chao Pang,," SPHINGOMYELIN PHOSPHODIESTERASE 1, ACID LYSOSOMAL; SMPD1 NIEMANN-PICK DISEASE, TYPE B",OMIM: 607608|OMIM: 607616,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0003530
+CLO:0024641,Class,obsolete GM05752 cell,GM05752,,,Chao Pang,, FARBER LIPOGRANULOMATOSIS,OMIM: 228000,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0003531
+CLO:0024232,Class,obsolete GM05870 cell,GM05870,,,Chao Pang,," ACYL-COA DEHYDROGENASE, MEDIUM-CHAIN; ACADM ACYL-CoA DEHYDROGENASE, MEDIUM-CHAIN, DEFICIENCY OF",OMIM: 201450|OMIM: 607008,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0003532
+CLO:0023661,Class,obsolete GM06127 cell,GM06127,,,Chao Pang,," ACYL-CoA DEHYDROGENASE, LONG-CHAIN, DEFICIENCY OF",OMIM: 201460,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0003533
+CLO:0008255,Class,obsolete OKT 5 cell,OKT 5,,,,,,ATCC: CRL-8016,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0008254
+CLO:0009115,Class,obsolete Sp2/0-Ag14 cell,Sp2/0-Ag14,,,,,,ATCC: CRL-8287,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0009114
+CLO:0000167,Object property,obsolete has disease,,A disease disposition has been realized by a bearer.,,"Jie Zheng, Yongqun He, Yu Lin, Allen Xiang",,"This is a shortcut relation. It is equivalent to:
+participates_in some 'disease couse' and realizes some disease",,,true,http://purl.obolibrary.org/obo/IAO_0000227,http://purl.obolibrary.org/obo/RO_0016002
+CLO:0009739,Class,obsolete Psi2 BAG alpha cell,immortal cell line cell,,,,,,ATCC: CRL-9560,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0008507
+CLO:0001602,Class,obsolete A6 cell,A6,,,,,,,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0001603
+CLO:0002463,Class,obsolete CHO-K1 cell,CHO-K1,,,,,,ATCC: CRL-9618,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0002462
+CLO:0002665,Class,obsolete D17 cell,D17,,,,,,ATCC: CRL-8468,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0002664
+CLO:0002950,Class,obsolete ES-D3 cell,ES-D3,,,,,,ATCC: CRL-1934,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0002949
+CLO:0026109,Class,obsolete GM00425 cell,GM00425,,,Chao Pang,, ANEUPLOID CHROMOSOME NUMBER - TRISOMY 8 ANEUPLOID CHROMOSOME NUMBER - TRISOMY,,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0003510
+CLO:0037414,Class,obsolete GM02183 cell,,,,"Daniel Cooper, Oliver He",,Cell center: NeuroLINCS|Cell provider: Coriell Cell Repository; Cell provider catalog number: Coriell Cell Repository,,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0031788
+CLO:0030283,Class,obsolete GM01229 cell,GM01229,,,Chao Pang,, TRANSLOCATED CHROMOSOME,,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0003519
+CLO:0031786,Class,obsolete GM02185 cell,GM02185,,,Chao Pang,, APPARENTLY HEALTHY NON-FETAL TISSUE,,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0003522
+CLO:0032129,Class,obsolete GM02290 cell,GM02290,,,Chao Pang,, LESCH-NYHAN SYNDROME; LNS,OMIM: 300322,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0003523
+CLO:0032130,Class,obsolete GM02291 cell,GM02291,,,Chao Pang,, LESCH-NYHAN SYNDROME; LNS,OMIM: 300322,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0003524
+CLO:0012765,Class,obsolete GM02848 cell,GM02848,,,Chao Pang,, DUPLICATED CHROMOSOME,,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0003528
+CLO:0037413,Class,obsolete GM03814 cell,,,,"Daniel Cooper, Oliver He",,Cell center: NeuroLINCS|Cell provider: Coriell Cell Repository; Cell provider catalog number: Coriell Cell Repository,,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0015534
+CLO:0037443,Class,obsolete GM05400 cell,,,,"Daniel Cooper, Oliver He",,Cell center: NeuroLINCS|Cell provider: Coriell Cell Repository; Cell provider catalog number: Coriell Cell Repository,,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0024821
+CLO:0037422,Class,obsolete GM09677 cell,,,,"Daniel Cooper, Oliver He",,Cell center: NeuroLINCS|Cell provider: Coriell Cell Repository; Cell provider catalog number: Coriell Cell Repository,,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0026536
+CLO:0037445,Class,obsolete GM10684 cell,,,,"Daniel Cooper, Oliver He",,Cell center: NeuroLINCS|Cell provider: Coriell Cell Repository; Cell provider catalog number: Coriell Cell Repository,,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0024611
+CLO:0007094,Class,obsolete KG-1 cell,KG-1,,,,,,ATCC: CCL-246|ATCC: CRL-8031,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0007093
+CLO:0008315,Class,obsolete P3 88 D1 cell,,,,,,,HyperCLDB: cl3834,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0008327
+CLO:0008326,Class,obsolete P388D subscript(1) cell,,,P388D1,,,,ATCC: CCL-46,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0008327
+CLO:0008325,Class,obsolete P388D subscript(1) cell,,,P388D1 (IL-1),,,disease: monocyte; lymphoma,ATCC: TIB-63,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0008328
