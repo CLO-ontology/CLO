@@ -26,6 +26,7 @@ http://purl.obolibrary.org/obo/RO_0002161
 http://purl.obolibrary.org/obo/RO_0002174
 http://purl.obolibrary.org/obo/RO_0002175
 http://purl.obolibrary.org/obo/RO_0002489 #existence starts with
+http://purl.obolibrary.org/obo/RO_0016002 #has disease
 
 [Top level source term URIs and target direct superclass URIs]
 http://www.w3.org/2002/07/owl#topObjectProperty

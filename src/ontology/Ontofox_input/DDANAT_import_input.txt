@@ -1,0 +1,21 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/clo/DDANAT_import.owl
+
+[Source ontology]
+DDANAT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/DDANAT_0000404 #anterior like cell
+http://purl.obolibrary.org/obo/DDANAT_0000403 #aggregate cell
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/DDANAT_0000404 #anterior like cell
+subClassOf http://purl.obolibrary.org/obo/CL_0000000
+http://purl.obolibrary.org/obo/DDANAT_0000403 #aggregate cell
+subClassOf http://purl.obolibrary.org/obo/CL_0000000
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties

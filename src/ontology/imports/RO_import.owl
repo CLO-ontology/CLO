@@ -887,6 +887,33 @@ Where we have an annotation assertion
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0016001 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0016001">
+        <obo:IAO_0000232>Do not use this relation directly. It is intended as a grouping for a set of relations regarding presentation of phenotypes and disease.</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7463-6306"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-05T17:30:14Z</terms:date>
+        <rdfs:label>has phenotype or disease</rdfs:label>
+        <rdfs:seeAlso>https://github.com/oborel/obo-relations/issues/478</rdfs:seeAlso>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0016002 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0016002">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0016001"/>
+        <obo:IAO_0000115>A relationship that holds between an organism and a disease. Here a disease is construed broadly as a disposition to undergo pathological processes that exists in an organism because of one or more disorders in that organism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7463-6306"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-05T17:30:44Z</terms:date>
+        <rdfs:label>has disease</rdfs:label>
+        <rdfs:seeAlso>https://github.com/oborel/obo-relations/issues/478</rdfs:seeAlso>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0020105 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0020105">

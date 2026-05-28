@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri name="http://purl.obolibrary.org/obo/clo/CL_import.owl" uri="imports/CL_import.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/clo/DDANAT_import.owl" uri="imports/DDANAT_import.owl"/>
     <uri name="http://purl.obolibrary.org/obo/clo/DOID_import.owl" uri="imports/DOID_import.owl"/>
     <uri name="http://purl.obolibrary.org/obo/clo/GO_import.owl" uri="imports/GO_import.owl"/>
     <uri name="http://purl.obolibrary.org/obo/clo/IAO_import.owl" uri="imports/IAO_import.owl"/>
@@ -11,4 +12,5 @@
     <uri name="http://purl.obolibrary.org/obo/clo/UBERON_import.owl" uri="imports/UBERON_import.owl"/>
     <uri name="http://purl.obolibrary.org/obo/clo/externalByHand.owl" uri="imports/externalByHand.owl"/>
     <uri name="http://purl.obolibrary.org/obo/clo/celllines_byDiseases.owl" uri="modules/celllines_byDiseases.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/clo/obsolete.owl" uri="modules/obsolete.owl"/>
 </catalog>

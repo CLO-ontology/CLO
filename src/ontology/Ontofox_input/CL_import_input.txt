@@ -8,11 +8,9 @@ CL
 http://purl.obolibrary.org/obo/CL_0000115 #endothelial cell
 http://purl.obolibrary.org/obo/CL_0000001 #primary cultured cell
 http://purl.obolibrary.org/obo/CL_0000066 #epithelial cell
-http://purl.obolibrary.org/obo/CL_0000398 #polygonal cell
 http://purl.obolibrary.org/obo/CL_0000057 #fibroblast
 http://purl.obolibrary.org/obo/CL_0000192 #smooth muscle cell
 http://purl.obolibrary.org/obo/CL_0000103 #bipolar neuron
-http://purl.obolibrary.org/obo/CL_0000265 #anterior like cell
 http://purl.obolibrary.org/obo/CL_0000236 #B cell
 http://purl.obolibrary.org/obo/CL_0000542 #lymphocyte
 http://purl.obolibrary.org/obo/CL_0000081 #blood cell
@@ -52,11 +50,9 @@ http://purl.obolibrary.org/obo/CL_0000312 #keratinocyte
 http://purl.obolibrary.org/obo/CL_0000749 #ON-bipolar cell
 http://purl.obolibrary.org/obo/CL_0000068 #duct epithelial cell
 http://purl.obolibrary.org/obo/CL_0000186 #myofibroblast cell
-http://purl.obolibrary.org/obo/CL_0000111 #peripheral neuron
 http://purl.obolibrary.org/obo/CL_0000738 #leukocyte
 http://purl.obolibrary.org/obo/CL_0000082 #epithelial cell of lung
 http://purl.obolibrary.org/obo/CL_0000122 #stellate cell
-http://purl.obolibrary.org/obo/CL_0000651 #neck cell
 http://purl.obolibrary.org/obo/CL_0000187 #muscle cell
 http://purl.obolibrary.org/obo/CL_0000623 #natural killer cell
 http://purl.obolibrary.org/obo/CL_0000134 #mesenchymal cell
@@ -67,7 +63,6 @@ http://purl.obolibrary.org/obo/CL_0000113 #mononuclear phagocyte
 http://purl.obolibrary.org/obo/CL_0000829 #basophilic myeloblast
 http://purl.obolibrary.org/obo/CL_0000826 #pro-B cell
 http://purl.obolibrary.org/obo/CL_0000581 #peritoneal macrophage
-http://purl.obolibrary.org/obo/CL_0000259 #aggregate cell
 http://purl.obolibrary.org/obo/CL_0000228 #multinucleate cell
 http://purl.obolibrary.org/obo/CL_0000817 #precursor B cell
 http://purl.obolibrary.org/obo/CL_0000218 #Schwann cell
@@ -94,15 +89,18 @@ http://purl.obolibrary.org/obo/CL_1001608 #foreskin fibroblast
 http://purl.obolibrary.org/obo/CL_0000653 #glomerular visceral epithelial cell, synonym: podocyte
 http://purl.obolibrary.org/obo/CL_0000680
 http://purl.obolibrary.org/obo/CL_0000048
-http://purl.obolibrary.org/obo/CL_0000055
 http://purl.obolibrary.org/obo/CL_0000075
-http://purl.obolibrary.org/obo/CL_0000213
-http://purl.obolibrary.org/obo/CL_0000215
 http://purl.obolibrary.org/obo/CL_0000349
-http://purl.obolibrary.org/obo/CL_0000548
 http://purl.obolibrary.org/obo/CL_0000723
 http://purl.obolibrary.org/obo/CL_0002092
-http://purl.obolibrary.org/obo/CL_0002371
+http://purl.obolibrary.org/obo/CL_2000032
+http://purl.obolibrary.org/obo/CL_0011026
+http://purl.obolibrary.org/obo/CL_0000385
+http://purl.obolibrary.org/obo/CL_0000076
+http://purl.obolibrary.org/obo/CL_0000240
+http://purl.obolibrary.org/obo/CL_0002181
+http://purl.obolibrary.org/obo/CL_0000255 #eukaryotic cell
+http://purl.obolibrary.org/obo/CL_0011026
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CL_0000000 #cell
