@@ -42,3 +42,5 @@ CLO:0007094,Class,obsolete KG-1 cell,KG-1,,,,,,ATCC: CCL-246|ATCC: CRL-8031,,tru
 CLO:0008315,Class,obsolete P3 88 D1 cell,,,,,,,HyperCLDB: cl3834,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0008327
 CLO:0008326,Class,obsolete P388D subscript(1) cell,,,P388D1,,,,ATCC: CCL-46,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0008327
 CLO:0008325,Class,obsolete P388D subscript(1) cell,,,P388D1 (IL-1),,,disease: monocyte; lymphoma,ATCC: TIB-63,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0008328
+CLO:0006982,Class,obsolete J 774A.1,,,,,,,HyperCLDB: cl2925,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0007005
+CLO:0000021,Class,obsolete immortal cat cell line cell,,An immortal skin-derived cell line cell that derives from cat.,,Yongqun He,,,,,true,http://purl.obolibrary.org/obo/IAO_0000227,CLO:0000457
