@@ -7765,18 +7765,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CLO_0010594 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0010594">
-        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
-        <obo:IAO_0000118>GM08600</obo:IAO_0000118>
-        <rdfs:comment> HLA HISTOCOMPATIBILITY TYPE: 142800 THROUGH 142860 &amp; 142880</rdfs:comment>
-        <rdfs:label>GM08600 cell</rdfs:label>
-        <rdfs:seeAlso>OMIM: 142800</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CLO_0010595 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0010595">

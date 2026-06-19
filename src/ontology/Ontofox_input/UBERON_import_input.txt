@@ -265,8 +265,7 @@ http://purl.obolibrary.org/obo/UBERON_0002481
 http://purl.obolibrary.org/obo/UBERON_0003101
 http://purl.obolibrary.org/obo/UBERON_0003684
 http://purl.obolibrary.org/obo/UBERON_0004176
-
-
+http://purl.obolibrary.org/obo/UBERON_0007795 #ascitic fluid
 
 #http://www.ebi.ac.uk/efo/EFO_0000635 #organism part
 #replace with http://purl.obolibrary.org/obo/COB_0000021 gross anatomical part

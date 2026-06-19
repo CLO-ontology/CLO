@@ -369,6 +369,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+        <obo:IAO_0000115>Anatomical structure that is part of a multicellular organism and is at the gross anatomical level, e.g. above the level of a cell.  Included are portions of organism substances such as blood, multi-cell-part structures such as axon tracts, acellular anatomical structures such as hair, and organism subdivisions such as head. Excluded is the whole organism and more granular parts of the organism, such as atoms, molecules, macromolecular complexes and cells.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
+        <oboInOwl:hasDbXref>CARO:0001008</oboInOwl:hasDbXref>
+        <oboInOwl:id>UBERON:0000001</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#mouse_subset"/>
+        <rdfs:label>gross anatomical part</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000002">
@@ -1413,8 +1429,6 @@
         <oboInOwl:hasExactSynonym>embryonic stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>embryogenesis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>UBERON:0000068</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#mouse_subset"/>
         <rdfs:label>embryo stage</rdfs:label>
     </owl:Class>
     
@@ -1698,8 +1712,6 @@
         <oboInOwl:id>UBERON:0000105</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#common_anatomy"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#upper_level"/>
         <rdfs:label>life cycle stage</rdfs:label>
     </owl:Class>
@@ -2109,7 +2121,7 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0000175 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000175">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007779"/>
         <obo:IAO_0000115>Pleural effusion is a bodily fluid that is produced in exess and accumulates in the pleural cavity, the fluid-filled space that surrounds the lungs. Excessive amounts of such fluid can impair breathing by limiting the expansion of the lungs during inhalation.</obo:IAO_0000115>
         <obo:IAO_0000116>cede to MPATH? Note the ncit class is under finding.</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -2750,7 +2762,7 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0000463 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000463">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000001"/>
         <obo:IAO_0000115>Material anatomical entity in a gaseous, liquid, semisolid or solid state; produced by anatomical structures or derived from inhaled and ingested substances that have been modified by anatomical structures as they pass through the body.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
@@ -6089,6 +6101,31 @@
         <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cdn.humanatlas.io/digital-objects/ref-organ/pancreas-female/v1.3/assets/3d-vh-f-pancreas.glb</foaf:depiction>
         <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cdn.humanatlas.io/digital-objects/ref-organ/pancreas-male/v1.3/assets/3d-vh-m-pancreas.glb</foaf:depiction>
         <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://upload.wikimedia.org/wikipedia/commons/7/7e/Blausen_0699_PancreasAnatomy2.png</foaf:depiction>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007779"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007794"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0036217"/>
+        <obo:IAO_0000115>Transudate contained in the peritoneal cavity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasDbXref>BTO:0001031</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:35683</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:16515</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0002531</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D001202</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Peritoneal_fluid</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ncithesaurus:Peritoneal_Fluid</oboInOwl:hasDbXref>
+        <oboInOwl:id>UBERON:0001268</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#mouse_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <rdfs:label>peritoneal fluid</rdfs:label>
     </owl:Class>
     
 
@@ -10507,8 +10544,8 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0002409 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002409">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006314"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007794"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0036217"/>
         <obo:IAO_0000115>Transudate contained in the pericardial cavity.[FMA].</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <oboInOwl:hasDbXref>BTO:0001016</oboInOwl:hasDbXref>
@@ -13239,7 +13276,7 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0005423 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005423">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000001"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33208"/>
@@ -13852,6 +13889,27 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0007779 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007779">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006314"/>
+        <obo:IAO_0000115>Any bodily fluid that has passed through a membrane such as the capillary wall, as a result of unbalanced hydrostatic and osmotic forces.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:UBPROP_0000007>transudative</obo:UBPROP_0000007>
+        <obo:UBPROP_0000010>characteristically low in protein and cellular content (unless there has been secondary concentration)</obo:UBPROP_0000010>
+        <oboInOwl:hasDbXref>FMA:12276</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:1195</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D005122</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ncithesaurus:Transudate</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>plasma ultrafiltrate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0007779</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#mouse_subset"/>
+        <rdfs:label>transudate</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0007794 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007794">
@@ -13867,6 +13925,26 @@
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#mouse_subset"/>
         <rdfs:label>secretion of serous gland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0007795 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007795">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001268"/>
+        <obo:IAO_0000115>The serous fluid which accumulates in the peritoneal cavity in ascites.</obo:IAO_0000115>
+        <obo:IAO_0000116>TODO - move to pathological anatomical entity ontology</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasDbXref>BTO:0000091</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:1175</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D001202</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>ascites</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>ascites fluid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0007795</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#mouse_subset"/>
+        <rdfs:label>ascitic fluid</rdfs:label>
     </owl:Class>
     
 
@@ -15076,6 +15154,22 @@
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#mouse_subset"/>
         <rdfs:label>peritoneal sac</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0036217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0036217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006314"/>
+        <obo:IAO_0000115>A bodily fluid that is located in the coelom.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:UBPROP_0000009>he coelomic fluid serves several functions; it acts as a hydroskeleton, it allows free movement and growth of internal organs, it serves for transport of gases, nutrients and waste products between different parts of the body, it allows storage of sperm and eggs during maturation and it acts as a reservoir for waste [Wikipedia:Coelom#Coelomic_fluid]</obo:UBPROP_0000009>
+        <oboInOwl:hasDbXref>BTO:0001708</oboInOwl:hasDbXref>
+        <oboInOwl:id>UBERON:0036217</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#mouse_subset"/>
+        <rdfs:label>coelomic fluid</rdfs:label>
     </owl:Class>
     
 

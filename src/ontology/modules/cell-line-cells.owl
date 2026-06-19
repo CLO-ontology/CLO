@@ -1,0 +1,976 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/clo/cell-line-cells.owl#"
+     xml:base="http://purl.obolibrary.org/obo/clo/cell-line-cells.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/clo/cell-line-cells.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0000178 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/CLO_0000178"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0000015 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLO_0000015"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0000179 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLO_0000179"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037207 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLO_0037207"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037208 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLO_0037208"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037209 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLO_0037209"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000295 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000295"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000002"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0000374 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000374"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0000652 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0000685 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000685"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002708 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002708">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8584"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000295"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:CLO_0000178>LCL-2018</obo:CLO_0000178>
+        <obo:IAO_0000115>An immortal human B cell line cell originating from the blood of a male human with Burkitt lymphoma.</obo:IAO_0000115>
+        <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
+        <obo:IAO_0000118>DAUDI</obo:IAO_0000118>
+        <obo:IAO_0000118>Daudi</obo:IAO_0000118>
+        <obo:IAO_0000118>GM03190</obo:IAO_0000118>
+        <obo:IAO_0000118>GM03190A</obo:IAO_0000118>
+        <obo:IAO_0000118>GM17346</obo:IAO_0000118>
+        <obo:IAO_0000118>GM3190</obo:IAO_0000118>
+        <obo:IAO_0000118>N</obo:IAO_0000118>
+        <obo:IAO_0000118>NK 10a</obo:IAO_0000118>
+        <obo:IAO_0000118>NK-10A</obo:IAO_0000118>
+        <obo:IAO_0000118>NK-10a</obo:IAO_0000118>
+        <obo:IAO_0000118>NK10a</obo:IAO_0000118>
+        <obo:IAO_0000233 rdf:resource="https://github.com/CLO-ontology/CLO/issues/114"/>
+        <rdfs:label>Daudi cell</rdfs:label>
+        <rdfs:seeAlso>ATCC:CCL-213</rdfs:seeAlso>
+        <rdfs:seeAlso>CHEMBL:CHEMBL3307579</rdfs:seeAlso>
+        <rdfs:seeAlso>EFO:EFO_0002169</rdfs:seeAlso>
+        <rdfs:seeAlso>HyperCLDB:cl995</rdfs:seeAlso>
+        <rdfs:seeAlso>RRID:CVCL_0008</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002805 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002805">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050745"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000175"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An immortal human B cell line cell originating from the pleural effusion of a Caucasian male with diffuse large B-cell lymphoma.</obo:IAO_0000115>
+        <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
+        <obo:IAO_0000118>DOHH-2</obo:IAO_0000118>
+        <obo:IAO_0000118>DOHH2</obo:IAO_0000118>
+        <obo:IAO_0000118>DoHH-2</obo:IAO_0000118>
+        <obo:IAO_0000233 rdf:resource="https://github.com/CLO-ontology/CLO/issues/114"/>
+        <rdfs:label>DOHH2 cell</rdfs:label>
+        <rdfs:seeAlso>HyperCLDB:cl1086</rdfs:seeAlso>
+        <rdfs:seeAlso>HyperCLDB:cl4974</rdfs:seeAlso>
+        <rdfs:seeAlso>RRID:CVCL_1179</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003787 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003787">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000295"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An immortal human B cell line cell that derives from some B cell from a human blood sample.</obo:IAO_0000115>
+        <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
+        <obo:IAO_0000118>C1R</obo:IAO_0000118>
+        <obo:IAO_0000118>HMy2.CIR</obo:IAO_0000118>
+        <obo:IAO_0000118>Hmy.2 CIR</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.cellosaurus.org/CVCL_3714</obo:IAO_0000119>
+        <obo:IAO_0000233 rdf:resource="https://github.com/CLO-ontology/CLO/issues/114"/>
+        <rdfs:label>HMy2.CIR cell</rdfs:label>
+        <rdfs:seeAlso>ATCC:CRL-1993</rdfs:seeAlso>
+        <rdfs:seeAlso>RRID:CVCL_3714</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8552"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002371"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An immortal human B cell line cell originating from the bone marrow of humans with chronic myeloid leukemia.</obo:IAO_0000115>
+        <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
+        <obo:IAO_0000118>GM05372</obo:IAO_0000118>
+        <obo:IAO_0000118>GM05372E</obo:IAO_0000118>
+        <obo:IAO_0000118>K 562</obo:IAO_0000118>
+        <obo:IAO_0000118>K-562</obo:IAO_0000118>
+        <obo:IAO_0000118>K.562</obo:IAO_0000118>
+        <obo:IAO_0000118>K562</obo:IAO_0000118>
+        <obo:IAO_0000118>KO</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.cellosaurus.org/CVCL_0004</obo:IAO_0000119>
+        <obo:IAO_0000233 rdf:resource="https://github.com/CLO-ontology/CLO/issues/114"/>
+        <rdfs:label>K 562 cell</rdfs:label>
+        <rdfs:seeAlso>HyperCLDB:cl2969</rdfs:seeAlso>
+        <rdfs:seeAlso>RRID:CVCL_0004</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007830 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007830">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3721"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000295"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An immortal mouse B cell line cell originating from mice with plasmacytoma.</obo:IAO_0000115>
+        <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
+        <obo:IAO_0000118>MOPC 315</obo:IAO_0000118>
+        <obo:IAO_0000118>MOPC315</obo:IAO_0000118>
+        <obo:IAO_0000233 rdf:resource="https://github.com/CLO-ontology/CLO/issues/114"/>
+        <rdfs:label>MOPC 315 cell</rdfs:label>
+        <rdfs:seeAlso>ATCC:TIB-23</rdfs:seeAlso>
+        <rdfs:seeAlso>RRID:CVCL_2616</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007939 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007939">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8584"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000295"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:CLO_0000178>LCL-2022</obo:CLO_0000178>
+        <obo:IAO_0000115>An immortal human B cell line cell originating from the blood of a female human with Burkitt lymphoma.</obo:IAO_0000115>
+        <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
+        <obo:IAO_0000118>NAMALVA</obo:IAO_0000118>
+        <obo:IAO_0000118>NAMALWA</obo:IAO_0000118>
+        <obo:IAO_0000118>NK62a</obo:IAO_0000118>
+        <obo:IAO_0000118>NWA</obo:IAO_0000118>
+        <obo:IAO_0000118>Namalva</obo:IAO_0000118>
+        <obo:IAO_0000118>Namalwa IV</obo:IAO_0000118>
+        <obo:IAO_0000233 rdf:resource="https://github.com/CLO-ontology/CLO/issues/114"/>
+        <rdfs:label>NAMALWA cell</rdfs:label>
+        <rdfs:seeAlso>ATCC:CRL-1432</rdfs:seeAlso>
+        <rdfs:seeAlso>HyperCLDB:cl3633</rdfs:seeAlso>
+        <rdfs:seeAlso>RRID:CVCL_0067</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007947 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007947">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060318"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1240"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002371"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:CLO_0000178>LCL-1084</obo:CLO_0000178>
+        <obo:IAO_0000115>An immortal human B cell line cell originating from the bone marrow of humans with acute promyelocytic leukemia.</obo:IAO_0000115>
+        <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
+        <obo:IAO_0000118>NB-4</obo:IAO_0000118>
+        <obo:IAO_0000118>NB.4</obo:IAO_0000118>
+        <obo:IAO_0000118>NB4</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.cellosaurus.org/CVCL_0005</obo:IAO_0000119>
+        <obo:IAO_0000233 rdf:resource="https://github.com/CLO-ontology/CLO/issues/114"/>
+        <rdfs:label>NB-4 cell</rdfs:label>
+        <rdfs:seeAlso>ACC 207</rdfs:seeAlso>
+        <rdfs:seeAlso>CHEMBL:CHEMBL3308423</rdfs:seeAlso>
+        <rdfs:seeAlso>EFO:EFO_0002798</rdfs:seeAlso>
+        <rdfs:seeAlso>HyperCLDB:cl3643</rdfs:seeAlso>
+        <rdfs:seeAlso>RRID:CVCL_0005</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008873 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008873">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9538"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000295"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:CLO_0000178>LCL-2049</obo:CLO_0000178>
+        <obo:IAO_0000115>An immortal human B cell line cell originating from humans with multiple myeloma.</obo:IAO_0000115>
+        <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
+        <obo:IAO_0000118>8226</obo:IAO_0000118>
+        <obo:IAO_0000118>8226/S</obo:IAO_0000118>
+        <obo:IAO_0000118>GM 2132</obo:IAO_0000118>
+        <obo:IAO_0000118>GM02132</obo:IAO_0000118>
+        <obo:IAO_0000118>GM02132C</obo:IAO_0000118>
+        <obo:IAO_0000118>GM2132</obo:IAO_0000118>
+        <obo:IAO_0000118>RPMI #8226</obo:IAO_0000118>
+        <obo:IAO_0000118>RPMI 8226</obo:IAO_0000118>
+        <obo:IAO_0000118>RPMI 8226/S</obo:IAO_0000118>
+        <obo:IAO_0000118>RPMI no 8226</obo:IAO_0000118>
+        <obo:IAO_0000118>RPMI no. 8226</obo:IAO_0000118>
+        <obo:IAO_0000118>RPMI-8226S</obo:IAO_0000118>
+        <obo:IAO_0000118>RPMI.8226</obo:IAO_0000118>
+        <obo:IAO_0000118>RPMI8226</obo:IAO_0000118>
+        <obo:IAO_0000118>RPMI8226/S</obo:IAO_0000118>
+        <obo:IAO_0000118>Roswell Park Memorial Institute 8226</obo:IAO_0000118>
+        <obo:IAO_0000118>Simpson</obo:IAO_0000118>
+        <obo:IAO_0000233 rdf:resource="https://github.com/CLO-ontology/CLO/issues/114"/>
+        <rdfs:label>RPMI 8226 cell</rdfs:label>
+        <rdfs:seeAlso>ATCC:CCL-155</rdfs:seeAlso>
+        <rdfs:seeAlso>HyperCLDB:cl5355</rdfs:seeAlso>
+        <rdfs:seeAlso>RRID:CVCL_0014</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009462 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009462">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000685"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060060"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060058"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002372"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:CLO_0000178>LCL-1008</obo:CLO_0000178>
+        <obo:IAO_0000115>An immortal human tonsil-derived B cell line cell originating from the tonsil of humans with non-Hodgkin lymphoma.</obo:IAO_0000115>
+        <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
+        <obo:IAO_0000118>U-698</obo:IAO_0000118>
+        <obo:IAO_0000118>U-698 M</obo:IAO_0000118>
+        <obo:IAO_0000118>U-698-M</obo:IAO_0000118>
+        <obo:IAO_0000118>U-698M</obo:IAO_0000118>
+        <obo:IAO_0000118>U698</obo:IAO_0000118>
+        <obo:IAO_0000118>U698-M</obo:IAO_0000118>
+        <obo:IAO_0000118>U698M</obo:IAO_0000118>
+        <obo:IAO_0000233 rdf:resource="https://github.com/CLO-ontology/CLO/issues/114"/>
+        <rdfs:label>U-698-M cell</rdfs:label>
+        <rdfs:seeAlso>ACC 4</rdfs:seeAlso>
+        <rdfs:seeAlso>CHEMBL:CHEMBL3308280</rdfs:seeAlso>
+        <rdfs:seeAlso>HyperCLDB:cl4591</rdfs:seeAlso>
+        <rdfs:seeAlso>RRID:CVCL_0017</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0010594 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0010594">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000374"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An immortal human peripheral vein-derived B cell line cell originating from the blood of humans and tranformed with Epstein-Barr virus (EBV).</obo:IAO_0000115>
+        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
+        <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
+        <obo:IAO_0000118>31227 ABO</obo:IAO_0000118>
+        <obo:IAO_0000118>ABU</obo:IAO_0000118>
+        <obo:IAO_0000118>ABUC</obo:IAO_0000118>
+        <obo:IAO_0000118>GM08600</obo:IAO_0000118>
+        <obo:IAO_0000118>WT9</obo:IAO_0000118>
+        <obo:IAO_0000233 rdf:resource="https://github.com/CLO-ontology/CLO/issues/114"/>
+        <rdfs:comment> HLA HISTOCOMPATIBILITY TYPE: 142800 THROUGH 142860 &amp; 142880</rdfs:comment>
+        <rdfs:label>GM08600 cell</rdfs:label>
+        <rdfs:seeAlso>OMIM:142800</rdfs:seeAlso>
+        <rdfs:seeAlso>RRID:CVCL_E443</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050745"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000179"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060060"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007795"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:CLO_0000178>LCL-1136</obo:CLO_0000178>
+        <obo:IAO_0000115>An immortal human B cell line cell originating from the ascitic fluid of humans with diffuse large B-cell lymphoma.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jiangan Xie</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000118>DHL-4</obo:IAO_0000118>
+        <obo:IAO_0000118>DHL4</obo:IAO_0000118>
+        <obo:IAO_0000118>SU-DHL-4</obo:IAO_0000118>
+        <obo:IAO_0000118>SU4</obo:IAO_0000118>
+        <obo:IAO_0000118>SUD-4</obo:IAO_0000118>
+        <obo:IAO_0000118>SUD4</obo:IAO_0000118>
+        <obo:IAO_0000118>SUDHL-4</obo:IAO_0000118>
+        <obo:IAO_0000118>SUDHL4</obo:IAO_0000118>
+        <obo:IAO_0000118>Stanford University-Diffuse Histiocytic Lymphoma-4</obo:IAO_0000118>
+        <obo:IAO_0000118>SuDHL 4</obo:IAO_0000118>
+        <obo:IAO_0000118>Sudhl-4</obo:IAO_0000118>
+        <obo:IAO_0000118>Sudhl4</obo:IAO_0000118>
+        <obo:IAO_0000233 rdf:resource="https://github.com/CLO-ontology/CLO/issues/114"/>
+        <rdfs:label>SU-DHL-4 cell</rdfs:label>
+        <rdfs:seeAlso>DSMZ:ACC 495</rdfs:seeAlso>
+        <rdfs:seeAlso>RRID:CVCL_0539</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An immortal human B cell line cell originating from the blood of humans.</obo:IAO_0000115>
+        <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cellosaurus.org/CVCL_0108</obo:IAO_0000119>
+        <obo:IAO_0000233 rdf:resource="https://github.com/CLO-ontology/CLO/issues/114"/>
+        <rdfs:label>JY cell</rdfs:label>
+        <rdfs:seeAlso>RRID:CVCL_0108</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037203">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An immortal human B cell line cell originating from the blood of humans with multiple myeloma.</obo:IAO_0000115>
+        <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000118>MM-1S</obo:IAO_0000118>
+        <obo:IAO_0000118>MM.1S</obo:IAO_0000118>
+        <obo:IAO_0000118>MM1-S</obo:IAO_0000118>
+        <obo:IAO_0000118>MM1S</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.cellosaurus.org/CVCL_8792</obo:IAO_0000119>
+        <obo:IAO_0000233 rdf:resource="https://github.com/CLO-ontology/CLO/issues/114"/>
+        <rdfs:label>MM.1S cell</rdfs:label>
+        <rdfs:seeAlso>RRID:CVCL_8792</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037256">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050745"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000175"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An immortal human B cell line cell originating from the pleural effusion of a Japanese male with diffuse large B-cell lymphoma.</obo:IAO_0000115>
+        <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000118>HBL1</obo:IAO_0000118>
+        <obo:IAO_0000119>http://purl.obolibrary.org/obo/BTO_0002522</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.cellosaurus.org/CVCL_4213</obo:IAO_0000119>
+        <obo:IAO_0000233 rdf:resource="https://github.com/CLO-ontology/CLO/issues/114"/>
+        <rdfs:label>HBL-1 cell</rdfs:label>
+        <rdfs:seeAlso>BTO:BTO_0002522</rdfs:seeAlso>
+        <rdfs:seeAlso>RRID:CVCL_4213</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037272">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050745"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002371"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An immortal human B cell line cell originating from the bone marrow of humans with diffuse large B-cell lymphoma.</obo:IAO_0000115>
+        <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000118>TMD-8</obo:IAO_0000118>
+        <obo:IAO_0000118>Tokyo Medical and Dental university 8</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.cellosaurus.org/CVCL_A442</obo:IAO_0000119>
+        <obo:IAO_0000233 rdf:resource="https://github.com/CLO-ontology/CLO/issues/114"/>
+        <rdfs:label>TMD8 cell</rdfs:label>
+        <rdfs:seeAlso>RRID:CVCL_A442</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0051333 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0051333">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An immortal human B cell line cell that has the characteristics: Human B lymphocytes transformed by Epstein-Barr Virus. This B cell lines derived from Mongoloid Minority Groups in South America.</obo:IAO_0000115>
+        <obo:IAO_0000117>RIKEN Cell bank Team</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000118>COLO205</obo:IAO_0000118>
+        <obo:IAO_0000118>HSC0107</obo:IAO_0000118>
+        <obo:IAO_0000233 rdf:resource="https://github.com/CLO-ontology/CLO/issues/114"/>
+        <rdfs:comment>Register: Danjoh, Inaho</rdfs:comment>
+        <rdfs:label>HSC0107 cell</rdfs:label>
+        <rdfs:seeAlso>RRID:CVCL_F402</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000236 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000236"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050745 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050745"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060058"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060060"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060318"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1240"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3721 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3721"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_8552 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8552"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_8584 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8584"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_9538 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9538"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000175"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002371"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002372"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0007795 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007795"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+
