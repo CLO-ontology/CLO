@@ -71,18 +71,18 @@ imports: $(IMPORT_FILES)
 
 ### Templates
 #
-#src/modules/%.owl: src/ontology/templates/%.csv | build/robot.jar
-#	echo '' > $@
-#	$(ROBOT) merge \
-#	--input src/ontology/clo-edit.owl \
-#	template \
-#	--template $< \
-#	--prefix "CLO: http://purl.obolibrary.org/obo/CLO_" \
-#	--ontology-iri "http://purl.obolibrary.org/obo/clo/$(notdir $@)" \
-#	--output $@
-#
+src/ontology/modules/%.owl: src/ontology/templates/%.csv | build/robot.jar
+	echo '' > $@
+	$(ROBOT) merge \
+	--input src/ontology/clo-edit.owl \
+	template \
+	--template $< \
+	--prefix "CLO: http://purl.obolibrary.org/obo/CLO_" \
+	--ontology-iri "http://purl.obolibrary.org/obo/clo/$(notdir $@)" \
+	--output $@
+
 # Update all modules
-#MODULE_NAMES := cellline_categories\
+MODULE_NAMES := obsolete #\
 # cellline_ATCC\
 # individuals\
 # clo_annotationProp\
@@ -90,10 +90,10 @@ imports: $(IMPORT_FILES)
 # clo_ATCC\
 # obsolete
 
-# MODULE_FILES := $(foreach x,$(MODULE_NAMES),src/modules/$(x).owl)
+MODULE_FILES := $(foreach x,$(MODULE_NAMES),src/ontology/modules/$(x).owl)
 
-#.PHONY: modules
-#modules: $(MODULE_FILES)
+.PHONY: modules
+modules: $(MODULE_FILES)
 
 ### Build
 #
