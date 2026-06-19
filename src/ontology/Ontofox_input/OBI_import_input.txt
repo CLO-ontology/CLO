@@ -7,6 +7,7 @@ OBI
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/OBI_0000245 #organization
 http://purl.obolibrary.org/obo/OBI_0100060 #cell culture
+http://purl.obolibrary.org/obo/OBI_0001866 #secondary cultured cell
 http://purl.obolibrary.org/obo/OBI_0000295 #is_specified_input_of
 http://purl.obolibrary.org/obo/OBI_0000293 #has_specified_input
 http://purl.obolibrary.org/obo/OBI_0000293 #has_specified_input

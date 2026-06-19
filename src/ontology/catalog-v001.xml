@@ -13,4 +13,5 @@
     <uri name="http://purl.obolibrary.org/obo/clo/externalByHand.owl" uri="imports/externalByHand.owl"/>
     <uri name="http://purl.obolibrary.org/obo/clo/celllines_byDiseases.owl" uri="modules/celllines_byDiseases.owl"/>
     <uri name="http://purl.obolibrary.org/obo/clo/obsolete.owl" uri="modules/obsolete.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/clo/cell-line-cells.owl" uri="modules/cell-line-cells.owl"/>
 </catalog>

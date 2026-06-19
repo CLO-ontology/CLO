@@ -388,6 +388,8 @@ http://purl.obolibrary.org/obo/DOID_9821 #choroideremia
 http://purl.obolibrary.org/obo/DOID_9870 #galactosemia
 http://purl.obolibrary.org/obo/DOID_9952 #acute lymphocytic leukemia
 http://purl.obolibrary.org/obo/DOID_9955 #hypoplastic left heart syndrome
+http://purl.obolibrary.org/obo/DOID_0050745 #diffuse large B-cell lymphoma
+http://purl.obolibrary.org/obo/DOID_0060318 #acute promyelocytic leukemia
 
 # ID updates
 http://purl.obolibrary.org/obo/DOID_0070111 #Niemann-Pick disease type A

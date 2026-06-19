@@ -82,7 +82,8 @@ src/ontology/modules/%.owl: src/ontology/templates/%.csv | build/robot.jar
 	--output $@
 
 # Update all modules
-MODULE_NAMES := obsolete #\
+MODULE_NAMES := cell-line-cells \
+	obsolete
 # cellline_ATCC\
 # individuals\
 # clo_annotationProp\
