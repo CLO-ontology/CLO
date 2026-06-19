@@ -2398,6 +2398,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_0080780 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080780">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_9119"/>
+        <obo:IAO_0000115 xml:lang="en">An acute myeloid leukemia that is characterized by a predominant immature erythroid population.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>ICDO:9840/3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C8923</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0080780</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <rdfs:label xml:lang="en">acute erythroid leukemia</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_0080910 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080910">

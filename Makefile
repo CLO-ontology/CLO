@@ -109,7 +109,7 @@ build/clo_merged.owl: src/ontology/clo-edit.owl | build/robot.jar build
 	--ontology-iri "$(OBO)/clo/clo_merged.owl" \
 	--version-iri "$(OBO)/clo/releases/$(TODAY)/clo_merged.owl" \
 	--annotation owl:versionInfo "$(TODAY)" \
-	--output build/clo-merged.tmp.owl
+	--output build/clo_merged.tmp.owl
 	sed '/<owl:imports/d' build/clo_merged.tmp.owl > $@
 	rm build/clo_merged.tmp.owl
 
