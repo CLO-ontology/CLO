@@ -109,7 +109,7 @@ build/clo_merged.owl: src/ontology/clo-edit.owl | build/robot.jar build
 	--ontology-iri "$(OBO)/clo/clo_merged.owl" \
 	--version-iri "$(OBO)/clo/releases/$(TODAY)/clo_merged.owl" \
 	--annotation owl:versionInfo "$(TODAY)" \
-	--output build/clo-merged.tmp.owl
+	--output build/clo_merged.tmp.owl
 	sed '/<owl:imports/d' build/clo_merged.tmp.owl > $@
 	rm build/clo_merged.tmp.owl
 
@@ -123,17 +123,29 @@ clo.owl: build/clo_merged.owl
 	--annotation owl:versionInfo "$(TODAY)" \
 	--output $@
 
-robot_report.tsv: build/clo_merged.owl
+clo-base.owl: clo.owl | build/robot.jar
+	$(ROBOT) remove \
+	--input $< \
+	--base-iri "http://purl.obolibrary.org/obo/CLO_" \
+	--axioms external \
+	--preserve-structure false \
+	--trim false \
+	annotate \
+	--ontology-iri "$(OBO)/clo/clo-base.owl" \
+	--version-iri "$(OBO)/clo/releases/$(TODAY)/clo-base.owl" \
+	--output $@
+
+robot_report.tsv: clo-base.owl
 	$(ROBOT) report \
 	--input $< \
-        --fail-on none \
+	--fail-on none \
 	--output $@
 
 ### 
 #
 # Full build
 .PHONY: all
-all: clo.owl robot_report.tsv
+all: clo.owl clo-base.owl robot_report.tsv
 
 # Remove generated files
 .PHONY: clean
